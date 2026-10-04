@@ -1,0 +1,10 @@
+{
+  "analysis_date": "2026-09-26",
+  "campaigns": {
+    "Mac": "campagna_mac_replica_2026-09-26",
+    "RTX": "campagna_rtx_2026-09-21",
+    "Confronto": "confronto_rtx_2026-09-21"
+  },
+  "original_mac_missing": "campagna_2026-09-20",
+  "original_analysis": "valutazione_mac_rtx_2026-09-22"
+}

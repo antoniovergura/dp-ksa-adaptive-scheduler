@@ -1,0 +1,190 @@
+{
+  "started_at": 1790017872.4754739,
+  "order_seed": 20260919,
+  "status": "complete",
+  "git_commit": "eb8a1b9c49ea0e4d6a5d49e3c19b19a11bae589b",
+  "source_hashes": {
+    "campaign_measurements.py": "e9d8224c65ea6910058ddb22623d1db20785ed76cc04c3bca71da57c183dafa7",
+    "core/__init__.py": "71cac84d0515ab127f0c51137c3f912e58055e7a0d5e986ab53bf2f74c7e637d",
+    "core/calibration.py": "fa19cfc00d0cea1c2e6b0569b82e0db711eb8aa558caf0dd8cffaf3f693c9719",
+    "core/cloud.py": "254ffd22c0a469f4bee304c24563968eed98b3170137e8d6b768a3501da5f47b",
+    "core/dataset.py": "2828cbea850276e56a219f217c4c1fdbc8386a3616c06632ff4b293085d388d4",
+    "core/documents.py": "92cb5b43db4eeb1242a7c8f455cc91ca288e68665570d9c9e1ac8c6ac6114ca0",
+    "core/engine.py": "737f91332f369205310259ecf8185709aab6fd4bfdfbfb181ff1716d1a7ff9fb",
+    "core/etichette.py": "d715e2c394baf16b952259a9ff6849ec74da56b8c2d95606b1d045b87374a404",
+    "core/model_config.py": "e530b28bd99a1dd604dceb90c2e2d3259b84eff02c6083ffb62d34cc6d423fc2",
+    "core/pipeline.py": "4246ad55c31c4cc19ad9bf889f75962b1e5393972c27fa087368a33331a0fdf4",
+    "core/privacy.py": "6486afb7c675d08e27a38cd353c62adbb773e0c20734762e263b28d85cdb4de9",
+    "core/scheduler.py": "0eb05126998ca3e6a4ef7462338b26e006537da87af7541161add42bb6755050",
+    "core/telemetry.py": "a3803bd050db1b515ead97ae305196cd5c4a4608da10d9e4e9cc51b63e426196",
+    "core/telemetry_hw.py": "dfb127d56538d2b505bd2794cd9672d344b1859a09bfbbe9c050261146646908"
+  },
+  "platform": "Linux-6.8.0-139-generic-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "python": "3.12.3",
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "model_config": {
+    "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "n_ctx": 4096,
+    "n_gpu_layers": -1,
+    "verbose": false,
+    "max_tokens": 30,
+    "temperature": 0.2,
+    "stop": [
+      "<|im_end|>",
+      "\n\n"
+    ],
+    "prefill_generation_ratio": 4.0,
+    "system_prompt": "You are a precise and concise factual extractor. Answer using ONLY facts from the provided context in under 10 words."
+  },
+  "corpus_counts": {
+    "ticket": 80,
+    "salary": 80,
+    "squad": 100
+  },
+  "corpus_hashes": {
+    "ticket": "3800c92c7c3bd5a3d4b9718b29a29c17b08c3112b552e7c0e43283a73678830a",
+    "salary": "b851e84305c9bd21b4753728a4324a6094cd92f7f5297d5e774b29a397680b9c",
+    "squad": "7f8ed1b9fba5855d87dfa243638c4c0e2a7086d01742481e3e7f54e3438d2102"
+  },
+  "packages": {
+    "llama-cpp-python": "0.3.35",
+    "numpy": "2.5.3",
+    "openai": "3.14.1",
+    "langfuse": "4.15.4"
+  },
+  "scope": "Public/synthetic diagnostic experiment; reports and hardware traces are NOT DP",
+  "cloud_quality_offline": null,
+  "hardware_period_ms": 5000,
+  "calibration_note": "Current calibration separates prefill using the fixed heuristic",
+  "network_note": "Text byte counts are not actual network bytes; cloud TTFT unavailable",
+  "model_setup_ms": 1084.9315939994995,
+  "calibration": {
+    "prefill_tps": 5580.17549119467,
+    "generation_tps": 1395.0438727986668,
+    "calibration_ms": 292.31672099558637,
+    "prove_eseguite": 3,
+    "dettagli": [
+      {
+        "target_tokens": 256,
+        "prompt_tokens": 190,
+        "completion_tokens": 3,
+        "prefill_tps": 1221.5141169172566,
+        "generation_tps": 305.3785292293134,
+        "durata_ms": 165.36853500292636
+      },
+      {
+        "target_tokens": 512,
+        "prompt_tokens": 337,
+        "completion_tokens": 3,
+        "prefill_tps": 7282.597763361855,
+        "generation_tps": 1820.6494408404576,
+        "durata_ms": 47.9224599985173
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens": 629,
+        "completion_tokens": 5,
+        "prefill_tps": 8236.414593304897,
+        "generation_tps": 2059.10364832623,
+        "durata_ms": 78.79642199259251
+      }
+    ]
+  },
+  "calibration_outputs": [
+    {
+      "testo": "calibration probe",
+      "prompt_tokens": 190,
+      "completion_tokens": 3,
+      "durata_totale_sec": 0.16536853500292636,
+      "tempo_prefill_stimato_sec": 0.15554466163641587,
+      "tempo_prefill_reale_sec": 0.13281305400596466,
+      "token_al_secondo": 18.14129876609787,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "calibration probe",
+      "prompt_tokens": 337,
+      "completion_tokens": 3,
+      "durata_totale_sec": 0.0479224599985173,
+      "tempo_prefill_stimato_sec": 0.046274696330946496,
+      "tempo_prefill_reale_sec": 0.027851225007907487,
+      "token_al_secondo": 62.60112690568929,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "The calibration probe measures local",
+      "prompt_tokens": 629,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.07879642199259251,
+      "tempo_prefill_stimato_sec": 0.076368180945055,
+      "tempo_prefill_reale_sec": 0.05025638799997978,
+      "token_al_secondo": 63.45465788370492,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "provider": {
+    "model": "xiaomi/mimo-v2.5",
+    "host": "api.commandcode.ai",
+    "timeout_s": 60,
+    "max_retries": 0
+  },
+  "probe": {
+    "e2e_cloud_ms": 1919.9758760078112,
+    "ttft_cloud_ms": null,
+    "simulato": false,
+    "cloud_probe_skipped": false,
+    "errore": null
+  },
+  "cloud_probe_ms": 1919.9988760083215,
+  "langfuse_active": true,
+  "langfuse_capture_sensitive": false,
+  "sweep_threshold": {
+    "minimum_plan_ms": 2923.5285436320846,
+    "sla_ms": 2539.5333684305224,
+    "deficit_ratio": 0.2
+  },
+  "completed_runs": 280,
+  "planned_runs": 280,
+  "provider_consecutive_failures": 0,
+  "accounts": {
+    "('ticket', 4, 0.0001)": {
+      "invocations": 125,
+      "epsilon_limit": 580,
+      "delta_limit": 0.0146,
+      "epsilon_consumed": 268.069520822776,
+      "delta_consumed": 0.0126
+    },
+    "('salary', 4, 0.0001)": {
+      "invocations": 75,
+      "epsilon_limit": 300,
+      "delta_limit": 0.0076,
+      "epsilon_consumed": 164.52584864245605,
+      "delta_consumed": 0.007600000000000001
+    },
+    "('ticket', 8, 0.01)": {
+      "invocations": 50,
+      "epsilon_limit": 400,
+      "delta_limit": 0.51,
+      "epsilon_consumed": 260.672130069831,
+      "delta_consumed": 0.51
+    },
+    "('squad', 8.0, 0.01)": {
+      "invocations": 5,
+      "epsilon_limit": 40.0,
+      "delta_limit": 0.06,
+      "epsilon_consumed": 30.211866174372382,
+      "delta_consumed": 0.060000000000000005
+    },
+    "('squad', 1.0, 0.0001)": {
+      "invocations": 5,
+      "epsilon_limit": 5.0,
+      "delta_limit": 0.0006000000000000001,
+      "epsilon_consumed": 3.5195912221130152,
+      "delta_consumed": 0.0006000000000000001
+    }
+  },
+  "ended_at": 1790019791.2516007,
+  "campaign_elapsed_s": 1918.7761273384094
+}

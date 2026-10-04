@@ -1,0 +1,7892 @@
+[
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "direct_refresh",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 29.8,
+    "request_s": {
+      "count": 5,
+      "mean": 14.42827046799648,
+      "median": 12.754396284988616,
+      "min": 9.168256675999146,
+      "max": 19.677435747988056,
+      "sd": 4.527933394843164
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 3.8261135161999844,
+      "median": 3.7477771670091897,
+      "min": 3.668973460997222,
+      "max": 3.9962702990014805,
+      "sd": 0.15181170881688566
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.593773247799254,
+      "median": 8.749761254992336,
+      "min": 5.423677323007723,
+      "max": 16.00031917200249,
+      "sd": 4.6049481468168105
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 11.775466307678531,
+      "median": 11.778654764513096,
+      "min": 11.770683622426683,
+      "max": 11.778654764513096,
+      "sd": 0.004365974329807332
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.886600327750784,
+      "median": 14.907233062796877,
+      "min": 14.855651225181646,
+      "max": 14.907233062796877,
+      "sd": 0.028252536019430532
+    },
+    "mae_s": 3.69696339572353,
+    "signed_error_s": 2.65280416031795,
+    "planning_mae_s": 3.855384725512704,
+    "planning_underestimates": 2,
+    "violations": 2,
+    "max_overrun_s": 4.677435747988056,
+    "release_count": 3,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 3,
+    "e42_strict": 0,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "C_extra": 2,
+      "C_generic": 1,
+      "A": 2
+    },
+    "violation_wilson95_exploratory": [
+      0.11762077423264783,
+      0.769275718723987
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "direct_refresh",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 12.259186439603218,
+      "median": 12.076580353997997,
+      "min": 10.782789253004012,
+      "max": 15.042216618006933,
+      "sd": 1.6662059364546395
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.241633893401013,
+      "median": 5.2070730780105805,
+      "min": 5.124918546993285,
+      "max": 5.405860229002428,
+      "sd": 0.11972144088789037
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.004831377998926,
+      "median": 6.780770329001825,
+      "min": 5.4510668919974705,
+      "max": 9.909086350002326,
+      "sd": 1.7299251918512366
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 13.981815392321247,
+      "median": 13.736409040454115,
+      "min": 13.736409040454115,
+      "max": 14.349924920121945,
+      "sd": 0.33603648668169545
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 17.423467324028024,
+      "median": 17.117672444233904,
+      "min": 17.117672444233904,
+      "max": 17.882159643719206,
+      "sd": 0.4187268840820517
+    },
+    "mae_s": 2.244951983739156,
+    "signed_error_s": -1.7226289527180287,
+    "planning_mae_s": 5.164280884424807,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 3,
+    "review_codes": {
+      "C_generic": 3,
+      "C_extra": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "direct_static",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 31,
+    "request_s": {
+      "count": 5,
+      "mean": 12.309776496596168,
+      "median": 12.61584420100553,
+      "min": 10.10142634800286,
+      "max": 13.292001111985883,
+      "sd": 1.2852893592009162
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 3.995195830799639,
+      "median": 4.014738916011993,
+      "min": 3.867126114986604,
+      "max": 4.109086954005761,
+      "sd": 0.09545811645726071
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 8.305844016402261,
+      "median": 8.498479827001574,
+      "min": 6.0403034949995345,
+      "max": 9.269025180008612,
+      "sd": 1.3240490567314995
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 11.770683622426683,
+      "median": 11.770683622426683,
+      "min": 11.770683622426683,
+      "max": 11.770683622426683,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.855651225181646,
+      "median": 14.855651225181646,
+      "min": 14.855651225181646,
+      "max": 14.855651225181646,
+      "sd": 0.0
+    },
+    "mae_s": 1.206795783939015,
+    "signed_error_s": 0.539092874169486,
+    "planning_mae_s": 2.545874728585477,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 2,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "C_extra": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "direct_static",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 11.930282499000896,
+      "median": 11.915194973989855,
+      "min": 10.427239370997995,
+      "max": 13.469126005002181,
+      "sd": 1.1793517298277199
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.160915357802878,
+      "median": 5.1633369350020075,
+      "min": 5.072359354002401,
+      "max": 5.303026966998004,
+      "sd": 0.09079701940551821
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 6.760959776400705,
+      "median": 6.8348610020038905,
+      "min": 5.115583278995473,
+      "max": 8.287070247999509,
+      "sd": 1.2326598354128364
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 13.736409040454115,
+      "median": 13.736409040454115,
+      "min": 13.736409040454115,
+      "max": 13.736409040454115,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 17.117672444233904,
+      "median": 17.117672444233904,
+      "min": 17.117672444233904,
+      "max": 17.117672444233904,
+      "sd": 0.0
+    },
+    "mae_s": 1.806126541453219,
+    "signed_error_s": -1.806126541453219,
+    "planning_mae_s": 5.187389945233008,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 4,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 3,
+    "e42_strict": 1,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "C_extra": 2,
+      "A": 1,
+      "P": 1,
+      "C": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 11.788386976002949,
+      "median": 10.992412690000492,
+      "min": 10.469717487998423,
+      "max": 15.196464124004706,
+      "sd": 1.9552452800896118
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.5500844510039316,
+      "median": 2.5384412959974725,
+      "min": 2.4778534659999423,
+      "max": 2.6181578620016808,
+      "sd": 0.052163803083101264
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.226796833996195,
+      "median": 8.406746663997183,
+      "min": 7.9709767080057645,
+      "max": 12.567346899988479,
+      "sd": 1.9156288706631484
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.368130333726487,
+      "median": 9.368130333726487,
+      "min": 9.368130333726487,
+      "max": 9.368130333726487,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 12.090958624117775,
+      "median": 12.090958624117775,
+      "min": 12.090958624117775,
+      "max": 12.090958624117775,
+      "sd": 0.0
+    },
+    "mae_s": 2.420256642276461,
+    "signed_error_s": 2.420256642276461,
+    "planning_mae_s": 1.544773848069599,
+    "planning_underestimates": 1,
+    "violations": 1,
+    "max_overrun_s": 0.1964641240047058,
+    "release_count": 1,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "P": 1,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 13.056978399600485,
+      "median": 13.221623300007195,
+      "min": 7.8860863510053605,
+      "max": 18.784889143993496,
+      "sd": 4.384000846806733
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.613084035803331,
+      "median": 2.638263522996567,
+      "min": 2.478402785010985,
+      "max": 2.703999838005984,
+      "sd": 0.08462463492592984
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.43241727160057,
+      "median": 10.562694765001652,
+      "min": 5.2812366069993,
+      "max": 16.298469643996214,
+      "sd": 4.417693389247688
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.368130333726487,
+      "median": 9.368130333726487,
+      "min": 9.368130333726487,
+      "max": 9.368130333726487,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 12.090958624117775,
+      "median": 12.090958624117775,
+      "min": 12.090958624117775,
+      "max": 12.090958624117775,
+      "sd": 0.0
+    },
+    "mae_s": 4.2816656589624476,
+    "signed_error_s": 3.688848065873997,
+    "planning_mae_s": 3.5735667531756916,
+    "planning_underestimates": 3,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 2,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "C_extra": 2,
+      "A": 3
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "legacy",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 12.357248821400571,
+      "median": 11.738734223006759,
+      "min": 10.820459137001308,
+      "max": 15.048755894997157,
+      "sd": 1.628763657185404
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.147602098996868,
+      "median": 5.101062718007597,
+      "min": 5.0369208679912845,
+      "max": 5.314503230998525,
+      "sd": 0.11510770011368449
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.198467276000883,
+      "median": 6.521648242007359,
+      "min": 5.583940551005071,
+      "max": 9.939501350992941,
+      "sd": 1.680942942724556
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 10.191142457174715,
+      "median": 10.191142457174715,
+      "min": 10.191142457174715,
+      "max": 10.191142457174715,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 10.191142457174715,
+      "median": 10.191142457174715,
+      "min": 10.191142457174715,
+      "max": 10.191142457174715,
+      "sd": 0.0
+    },
+    "mae_s": 2.1661063642258567,
+    "signed_error_s": 2.1661063642258567,
+    "planning_mae_s": 2.1661063642258567,
+    "planning_underestimates": 5,
+    "violations": 1,
+    "max_overrun_s": 0.048755894997157156,
+    "release_count": 4,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 3,
+    "e42_strict": 1,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "A": 1,
+      "C_generic": 1,
+      "C_extra": 1,
+      "C": 1,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Confronto",
+    "phase": "confronto",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "legacy",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 11.988429549196734,
+      "median": 11.998263336005039,
+      "min": 9.079055750000407,
+      "max": 14.906021602000692,
+      "sd": 2.06794671466114
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.156879862595815,
+      "median": 5.14960241499648,
+      "min": 5.031837003989494,
+      "max": 5.267132995999418,
+      "sd": 0.08553217384583708
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 6.820835526002338,
+      "median": 6.797567229004926,
+      "min": 4.039120026005548,
+      "max": 9.736006168997847,
+      "sd": 2.0196753020827405
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 10.191142457174715,
+      "median": 10.191142457174715,
+      "min": 10.191142457174715,
+      "max": 10.191142457174715,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 10.191142457174715,
+      "median": 10.191142457174715,
+      "min": 10.191142457174715,
+      "max": 10.191142457174715,
+      "sd": 0.0
+    },
+    "mae_s": 2.2421217748917432,
+    "signed_error_s": 1.7972870920220199,
+    "planning_mae_s": 2.2421217748917432,
+    "planning_underestimates": 4,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 3,
+    "e42_strict": 1,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "C_extra": 2,
+      "P": 2,
+      "C": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.380280017080655,
+    "runs": 10,
+    "n_mean": 0,
+    "request_s": {
+      "count": 10,
+      "mean": 11.161530366599981,
+      "median": 10.81358860399996,
+      "min": 8.370296790999419,
+      "max": 18.87380179200045,
+      "sd": 2.9535485892655675
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 11.16110110010086,
+      "median": 10.813183375501467,
+      "min": 8.369880832997296,
+      "max": 18.87338699999964,
+      "sd": 2.9535404235558715
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 2.335703500000818,
+      "median": 2.335703500000818,
+      "min": 2.335703500000818,
+      "max": 2.335703500000818,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 2.335703500000818,
+      "median": 2.335703500000818,
+      "min": 2.335703500000818,
+      "max": 2.335703500000818,
+      "sd": 0.0
+    },
+    "mae_s": 8.825826866599163,
+    "signed_error_s": 8.825826866599163,
+    "planning_mae_s": 8.825826866599163,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 13.493521774919795,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 9,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.1",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.380280017080655,
+    "runs": 10,
+    "n_mean": 0,
+    "request_s": {
+      "count": 10,
+      "mean": 12.817892795800436,
+      "median": 10.764007707999554,
+      "min": 7.182812791998003,
+      "max": 32.992183166999894,
+      "sd": 7.718908342402371
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 12.817402416500409,
+      "median": 10.763262687500173,
+      "min": 7.182347250000021,
+      "max": 32.99179991600249,
+      "sd": 7.718955249699638
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 2.335703500000818,
+      "median": 2.335703500000818,
+      "min": 2.335703500000818,
+      "max": 2.335703500000818,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 2.335703500000818,
+      "median": 2.335703500000818,
+      "min": 2.335703500000818,
+      "max": 2.335703500000818,
+      "sd": 0.0
+    },
+    "mae_s": 10.482189295799618,
+    "signed_error_s": 10.482189295799618,
+    "planning_mae_s": 10.482189295799618,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 27.61190314991924,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 8,
+      "G": 2
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.25",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.380280017080655,
+    "runs": 10,
+    "n_mean": 5,
+    "request_s": {
+      "count": 10,
+      "mean": 12.76040363750035,
+      "median": 12.74352527100018,
+      "min": 11.798411083000246,
+      "max": 14.151014082999609,
+      "sd": 0.7898985750017734
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 3.221559733400136,
+      "median": 3.262721146000331,
+      "min": 2.7609511250011565,
+      "max": 3.7003115830011666,
+      "sd": 0.2751771136467377
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 9.534583912499874,
+      "median": 9.484313875000225,
+      "min": 8.722849916997802,
+      "max": 11.253363833002368,
+      "sd": 0.7699642660919362
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 5.847420717080818,
+      "median": 5.847420717080818,
+      "min": 5.847420717080818,
+      "max": 5.847420717080818,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 5.847420717080818,
+      "median": 5.847420717080818,
+      "min": 5.847420717080818,
+      "max": 5.847420717080818,
+      "sd": 0.0
+    },
+    "mae_s": 6.91298292041953,
+    "signed_error_s": 6.91298292041953,
+    "planning_mae_s": 6.91298292041953,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 8.770734065918955,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "G": 2,
+      "A": 8
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.380280017080655,
+    "runs": 10,
+    "n_mean": 5,
+    "request_s": {
+      "count": 10,
+      "mean": 14.242074645699905,
+      "median": 11.927514562501528,
+      "min": 10.781735582997499,
+      "max": 24.505084958000225,
+      "sd": 4.385069934567842
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 3.587404675200014,
+      "median": 3.495011083499776,
+      "min": 3.0911539170010656,
+      "max": 4.4340840420009044,
+      "sd": 0.4373298874869525
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 10.64921860420036,
+      "median": 8.399867708500096,
+      "min": 7.302078083001106,
+      "max": 21.331428583998786,
+      "sd": 4.574708358838331
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 5.847420717080818,
+      "median": 5.847420717080818,
+      "min": 5.847420717080818,
+      "max": 5.847420717080818,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 5.847420717080818,
+      "median": 5.847420717080818,
+      "min": 5.847420717080818,
+      "max": 5.847420717080818,
+      "sd": 0.0
+    },
+    "mae_s": 8.394653928619086,
+    "signed_error_s": 8.394653928619086,
+    "planning_mae_s": 8.394653928619086,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 19.12480494091957,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 9,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C1_cloud",
+    "corpus": "squad",
+    "case": "super_bowl",
+    "variant": "adaptive",
+    "epsilon": 1.0,
+    "delta_ptr": 0.0001,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 34.09202052480104,
+      "median": 33.08567508300257,
+      "min": 30.977918417000183,
+      "max": 37.107291542000894,
+      "sd": 2.6966978781789566
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 30.811954483600857,
+      "median": 30.165747042003204,
+      "min": 28.4794319169996,
+      "max": 33.71664450000026,
+      "sd": 2.082367791842653
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 3.2736767081987637,
+      "median": 2.9406332499966084,
+      "min": 2.491361500000494,
+      "max": 4.638074040998617,
+      "sd": 0.8256736287577926
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 3.662579288160223,
+    "signed_error_s": 3.662579288160223,
+    "planning_mae_s": 3.662579288160223,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "target_correct": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C1_cloud",
+    "corpus": "squad",
+    "case": "super_bowl",
+    "variant": "adaptive",
+    "epsilon": 8.0,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 38.72347840840011,
+      "median": 36.297769583001354,
+      "min": 33.396506583998416,
+      "max": 49.48486283300008,
+      "sd": 6.431649180397348
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 30.696061624800496,
+      "median": 30.069533541001874,
+      "min": 27.26872637500128,
+      "max": 33.66151033300048,
+      "sd": 2.594235681595954
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 8.021209949997864,
+      "median": 5.883704791998753,
+      "min": 3.791799374997936,
+      "max": 16.596364040997287,
+      "sd": 5.179101999448805
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 8.294037171759292,
+    "signed_error_s": 8.294037171759292,
+    "planning_mae_s": 8.294037171759292,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 4,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "target_correct": 4,
+      "target_wrong": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C1_cloud",
+    "corpus": "ticket",
+    "case": "dettaglio_unico",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 46.56659134959991,
+      "median": 48.02403704099925,
+      "min": 36.28826654099976,
+      "max": 53.65216737499941,
+      "sd": 7.4206422976134325
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 39.59137496680123,
+      "median": 41.181778209000186,
+      "min": 32.09674045800057,
+      "max": 45.1690712080017,
+      "sd": 5.353490120503173
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 6.970552008400409,
+      "median": 6.836792042002344,
+      "min": 4.186973332998605,
+      "max": 9.669530625000334,
+      "sd": 2.1783424616995797
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 16.137150112959088,
+    "signed_error_s": 16.137150112959088,
+    "planning_mae_s": 16.137150112959088,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "unique_abstention": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C1_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 67.6857134163998,
+      "median": 64.33364312499907,
+      "min": 59.92412900000272,
+      "max": 80.03968874999919,
+      "sd": 7.873133549203216
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 59.85695085819971,
+      "median": 59.59138758299741,
+      "min": 52.598927040999115,
+      "max": 67.94244224999784,
+      "sd": 5.808615683441384
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.8231482166003845,
+      "median": 7.319425458001206,
+      "min": 4.736724083002628,
+      "max": 12.092479999999341,
+      "sd": 2.6812338581945845
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 37.25627217975899,
+    "signed_error_s": 37.25627217975899,
+    "planning_mae_s": 37.25627217975899,
+    "planning_underestimates": 5,
+    "violations": 4,
+    "max_overrun_s": 20.039688749999186,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 1,
+    "e42_strict": 0,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_generic": 2,
+      "C_extra": 3
+    },
+    "violation_wilson95_exploratory": [
+      0.37553462976252533,
+      0.9637758913675698
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 18,
+    "request_s": {
+      "count": 5,
+      "mean": 40.18476046680007,
+      "median": 39.224789166000846,
+      "min": 32.26203891700061,
+      "max": 48.55114599999797,
+      "sd": 6.043635291558715
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 27.6990916085997,
+      "median": 27.47866341700137,
+      "min": 20.799860750001244,
+      "max": 35.431694208997214,
+      "sd": 5.192224046103141
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 12.481047108400526,
+      "median": 11.504862792000495,
+      "min": 10.889412667002034,
+      "max": 15.437230124996859,
+      "sd": 1.848905293003265
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.97788548148882,
+      "median": 14.97788548148882,
+      "min": 14.97788548148882,
+      "max": 14.97788548148882,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.97788548148882,
+      "median": 14.97788548148882,
+      "min": 14.97788548148882,
+      "max": 14.97788548148882,
+      "sd": 0.0
+    },
+    "mae_s": 25.206874985311252,
+    "signed_error_s": 25.206874985311252,
+    "planning_mae_s": 25.206874985311252,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 33.55114599999797,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "G": 2
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 39,
+    "request_s": {
+      "count": 5,
+      "mean": 75.79831079960059,
+      "median": 74.23863345800055,
+      "min": 68.90977666600156,
+      "max": 85.25515070799884,
+      "sd": 6.574101321995911
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 63.4894261502006,
+      "median": 63.66202683400115,
+      "min": 59.545442875001754,
+      "max": 68.14557945900015,
+      "sd": 3.6703236546586058
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 12.30399764160029,
+      "median": 11.208499000000302,
+      "min": 8.706875374999072,
+      "max": 19.354705458001263,
+      "sd": 4.100129556954814
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 29.727097793224825,
+      "median": 29.727097793224825,
+      "min": 29.727097793224825,
+      "max": 29.727097793224825,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 29.727097793224825,
+      "median": 29.727097793224825,
+      "min": 29.727097793224825,
+      "max": 29.727097793224825,
+      "sd": 0.0
+    },
+    "mae_s": 46.07121300637576,
+    "signed_error_s": 46.07121300637576,
+    "planning_mae_s": 46.07121300637576,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 55.25515070799884,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "G": 2
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 41.21976871640072,
+      "median": 43.74181912499989,
+      "min": 30.139800291002757,
+      "max": 50.27826199999981,
+      "sd": 7.6304154707098535
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 29.71887017500121,
+      "median": 32.75957812500201,
+      "min": 18.77338358400084,
+      "max": 34.07076225000128,
+      "sd": 6.410970981246744
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 11.495980108201184,
+      "median": 10.179708125000616,
+      "min": 8.431044583001494,
+      "max": 17.51456049999979,
+      "sd": 3.5221660179597083
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "mae_s": 24.837196348079903,
+    "signed_error_s": 24.837196348079903,
+    "planning_mae_s": 24.837196348079903,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 35.27826199999981,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 5
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 42.9995983082008,
+      "median": 41.380535374999454,
+      "min": 39.01782470800026,
+      "max": 48.54403245800131,
+      "sd": 3.885202273295004
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 32.79259822519889,
+      "median": 32.40907695900023,
+      "min": 30.54276374999972,
+      "max": 36.49873016699712,
+      "sd": 2.277092733813914
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.202483733400005,
+      "median": 10.118390499999805,
+      "min": 6.604225832998054,
+      "max": 12.348393250002118,
+      "sd": 2.29294769747816
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "mae_s": 26.617025939879984,
+    "signed_error_s": 26.617025939879984,
+    "planning_mae_s": 26.617025939879984,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 18.54403245800131,
+    "release_count": 1,
+    "evaluable": 5,
+    "success": 1,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 4,
+      "C_extra": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 69.41319659979926,
+      "median": 71.8784309579969,
+      "min": 58.47990345799917,
+      "max": 77.84367366700099,
+      "sd": 9.194919113725517
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 60.1309941169995,
+      "median": 58.657401208998635,
+      "min": 51.68080912500227,
+      "max": 69.34026566699686,
+      "sd": 8.012597550371865
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.27739611680081,
+      "median": 9.334883667001122,
+      "min": 4.99147983399962,
+      "max": 13.217422749999969,
+      "sd": 2.9850686856765436
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 38.983755363158444,
+    "signed_error_s": 38.983755363158444,
+    "planning_mae_s": 38.983755363158444,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 62.843673667000985,
+    "release_count": 2,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_generic": 2,
+      "A": 3
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 77.39746998359915,
+      "median": 78.85997720899832,
+      "min": 67.37786091700036,
+      "max": 83.9013823330024,
+      "sd": 6.116585674730666
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 65.32184874180021,
+      "median": 67.95230604199969,
+      "min": 58.900653832999524,
+      "max": 69.58643624999968,
+      "sd": 4.9162793924532115
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 12.070363641600853,
+      "median": 11.631093958003476,
+      "min": 8.471959624999727,
+      "max": 16.057391042002564,
+      "sd": 3.354991060082581
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 46.968028746958325,
+    "signed_error_s": 46.968028746958325,
+    "planning_mae_s": 46.968028746958325,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 53.9013823330024,
+    "release_count": 1,
+    "evaluable": 5,
+    "success": 1,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 4,
+      "C_extra": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 18,
+    "request_s": {
+      "count": 5,
+      "mean": 33.89543944199977,
+      "median": 31.49099204199956,
+      "min": 27.667247666999174,
+      "max": 41.182028084000194,
+      "sd": 6.661860663282541
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 24.87538287520001,
+      "median": 22.803793833998498,
+      "min": 19.076985791998595,
+      "max": 31.75200416699954,
+      "sd": 6.048933296408586
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.015179066598648,
+      "median": 9.20215929099868,
+      "min": 7.797516291997454,
+      "max": 9.967388375000155,
+      "sd": 0.8220644457294631
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.97788548148882,
+      "median": 14.97788548148882,
+      "min": 14.97788548148882,
+      "max": 14.97788548148882,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.97788548148882,
+      "median": 14.97788548148882,
+      "min": 14.97788548148882,
+      "max": 14.97788548148882,
+      "sd": 0.0
+    },
+    "mae_s": 18.91755396051095,
+    "signed_error_s": 18.91755396051095,
+    "planning_mae_s": 18.91755396051095,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 26.182028084000194,
+    "release_count": 4,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "A": 1,
+      "C_extra": 3,
+      "C_generic": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 39,
+    "request_s": {
+      "count": 5,
+      "mean": 84.30697270819947,
+      "median": 81.72822304199872,
+      "min": 80.70138187499833,
+      "max": 90.94181629100058,
+      "sd": 4.411850209534789
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 75.17867846659938,
+      "median": 72.93311724999876,
+      "min": 72.71383525000056,
+      "max": 80.87684129199988,
+      "sd": 3.5973144244222617
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.12317279140043,
+      "median": 8.78976854099892,
+      "min": 7.971826749999309,
+      "max": 10.085471333000896,
+      "sd": 0.9237921995756295
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 29.727097793224825,
+      "median": 29.727097793224825,
+      "min": 29.727097793224825,
+      "max": 29.727097793224825,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 29.727097793224825,
+      "median": 29.727097793224825,
+      "min": 29.727097793224825,
+      "max": 29.727097793224825,
+      "sd": 0.0
+    },
+    "mae_s": 54.57987491497464,
+    "signed_error_s": 54.57987491497464,
+    "planning_mae_s": 54.57987491497464,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 60.94181629100058,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "C_extra": 4,
+      "C_generic": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 41.67034313340118,
+      "median": 42.00836699999854,
+      "min": 32.993089416002476,
+      "max": 47.416526459001034,
+      "sd": 5.387396792175501
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 33.60131479160045,
+      "median": 34.74588354200023,
+      "min": 25.789236083001015,
+      "max": 39.5974915830011,
+      "sd": 5.082507031194449
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 8.064083433400082,
+      "median": 7.814708458998211,
+      "min": 6.749259625001287,
+      "max": 9.616670874998817,
+      "sd": 1.1962192166501229
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "mae_s": 25.287770765080364,
+    "signed_error_s": 25.287770765080364,
+    "planning_mae_s": 25.287770765080364,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 32.416526459001034,
+    "release_count": 4,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 3,
+    "review_codes": {
+      "C_generic": 3,
+      "G": 1,
+      "C_extra": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 43.435124975200594,
+      "median": 44.86875200000213,
+      "min": 35.44257679200018,
+      "max": 47.42962954199902,
+      "sd": 4.646769231198869
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 34.6070034252014,
+      "median": 35.1037777920028,
+      "min": 29.63033904200347,
+      "max": 37.666191791999154,
+      "sd": 3.0200032572837596
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 8.823522558200784,
+      "median": 9.36584991700147,
+      "min": 5.8068551660035155,
+      "max": 10.38018266599829,
+      "sd": 1.781341138921793
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 16.38257236832082,
+      "median": 16.38257236832082,
+      "min": 16.38257236832082,
+      "max": 16.38257236832082,
+      "sd": 0.0
+    },
+    "mae_s": 27.05255260687978,
+    "signed_error_s": 27.05255260687978,
+    "planning_mae_s": 27.05255260687978,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 17.42962954199902,
+    "release_count": 3,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 2,
+      "C_extra": 3
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 78.66218253339976,
+      "median": 80.90319533399816,
+      "min": 67.35733445799997,
+      "max": 87.40295779200096,
+      "sd": 8.671503576555166
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 71.29577771699914,
+      "median": 74.4194312499967,
+      "min": 59.935445916999015,
+      "max": 80.0097760839999,
+      "sd": 8.453618915180055
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.361014966999937,
+      "median": 7.388270834002469,
+      "min": 6.4780621669997345,
+      "max": 8.567593541996757,
+      "sd": 0.7751442020427275
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 48.23274129675893,
+    "signed_error_s": 48.23274129675893,
+    "planning_mae_s": 48.23274129675893,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 72.40295779200096,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 3,
+    "review_codes": {
+      "C_generic": 3,
+      "C_extra": 1,
+      "P": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 83.04676756659902,
+      "median": 83.98107824999897,
+      "min": 70.21709433299839,
+      "max": 97.80554220799968,
+      "sd": 11.099285299304086
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 72.06437235839985,
+      "median": 72.28924499999994,
+      "min": 63.18544174999988,
+      "max": 79.54600404099983,
+      "sd": 6.441395331318714
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.977873525000906,
+      "median": 7.4260089170020365,
+      "min": 5.60021104200132,
+      "max": 25.511877332999575,
+      "sd": 8.232744325796705
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 52.61732632995818,
+    "signed_error_s": 52.61732632995818,
+    "planning_mae_s": 52.61732632995818,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 67.80554220799968,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_extra": 2,
+      "C_generic": 2,
+      "P": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 6,
+    "request_s": {
+      "count": 5,
+      "mean": 2.966818016600155,
+      "median": 3.0880682909992174,
+      "min": 2.503794915999606,
+      "max": 3.3504590000011376,
+      "sd": 0.36796295676928426
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.9613893583999014,
+      "median": 3.082360708998749,
+      "min": 2.4981301250008983,
+      "max": 3.3454905830003554,
+      "sd": 0.3683290822683261
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.414060660496001,
+      "median": 4.414060660496001,
+      "min": 4.414060660496001,
+      "max": 4.414060660496001,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.414060660496001,
+      "median": 4.414060660496001,
+      "min": 4.414060660496001,
+      "max": 4.414060660496001,
+      "sd": 0.0
+    },
+    "mae_s": 1.4472426438958463,
+    "signed_error_s": -1.4472426438958463,
+    "planning_mae_s": 1.4472426438958463,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 21,
+    "request_s": {
+      "count": 5,
+      "mean": 13.620911141799297,
+      "median": 12.79807483300101,
+      "min": 8.608126874998561,
+      "max": 19.008822916999634,
+      "sd": 4.379669242536403
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 13.615493933399557,
+      "median": 12.792835082997044,
+      "min": 8.601699874998303,
+      "max": 19.003834667000774,
+      "sd": 4.380302358059448
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.949212311736002,
+      "median": 14.949212311736002,
+      "min": 14.949212311736002,
+      "max": 14.949212311736002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.949212311736002,
+      "median": 14.949212311736002,
+      "min": 14.949212311736002,
+      "max": 14.949212311736002,
+      "sd": 0.0
+    },
+    "mae_s": 3.830703937347766,
+    "signed_error_s": -1.3283011699367044,
+    "planning_mae_s": 3.830703937347766,
+    "planning_underestimates": 2,
+    "violations": 2,
+    "max_overrun_s": 4.008822916999634,
+    "release_count": 4,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.11762077423264783,
+      0.769275718723987
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 24.412446216600074,
+      "median": 24.9315205410021,
+      "min": 16.787203957999736,
+      "max": 34.50467195799865,
+      "sd": 6.603423610418808
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 24.407107341599477,
+      "median": 24.92647583299913,
+      "min": 16.781225457998517,
+      "max": 34.50054579100106,
+      "sd": 6.604141768380429
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 6.36566520858339,
+    "signed_error_s": -3.8812915200399303,
+    "planning_mae_s": 6.36566520858339,
+    "planning_underestimates": 1,
+    "violations": 1,
+    "max_overrun_s": 4.504671957998653,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 7.3529734415998975,
+      "median": 7.253430749999097,
+      "min": 4.582941249998839,
+      "max": 9.51261704100034,
+      "sd": 1.9505758253456251
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 7.348258166600135,
+      "median": 7.248546874998283,
+      "min": 4.577362167001411,
+      "max": 9.508249333001004,
+      "sd": 1.9510231164069323
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 1.44974970476897,
+    "signed_error_s": 0.12953900743989682,
+    "planning_mae_s": 1.44974970476897,
+    "planning_underestimates": 3,
+    "violations": 4,
+    "max_overrun_s": 4.51261704100034,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.37553462976252533,
+      0.9637758913675698
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 6.251660874801746,
+      "median": 5.648576250001497,
+      "min": 3.978022792001866,
+      "max": 8.287196875000518,
+      "sd": 1.7873802204391862
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 6.246871616601129,
+      "median": 5.643136958002287,
+      "min": 3.974117458001274,
+      "max": 8.28216537499975,
+      "sd": 1.7872231249690844
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 1.6457257784314554,
+    "signed_error_s": -0.9717735593582544,
+    "planning_mae_s": 1.6457257784314554,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 6.439628649999213,
+      "median": 6.032272041997203,
+      "min": 4.585244999998395,
+      "max": 8.52779287500016,
+      "sd": 1.9566391357959687
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 6.434588716400322,
+      "median": 6.026444833001733,
+      "min": 4.579504375000397,
+      "max": 8.523441916000593,
+      "sd": 1.956896786960739
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 1.7926963368337003,
+    "signed_error_s": -0.7838057841607876,
+    "planning_mae_s": 1.7926963368337003,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 10.109662075000234,
+      "median": 10.914013084002363,
+      "min": 7.998493582999799,
+      "max": 11.26471995799875,
+      "sd": 1.420571953059096
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 10.10433190039912,
+      "median": 10.908820499997091,
+      "min": 7.99218645899964,
+      "max": 11.259001583999634,
+      "sd": 1.42114695369434
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 4.137206793319769,
+    "signed_error_s": -4.137206793319769,
+    "planning_mae_s": 4.137206793319769,
+    "planning_underestimates": 0,
+    "violations": 5,
+    "max_overrun_s": 6.26471995799875,
+    "release_count": 3,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 11.275208633600414,
+      "median": 10.745099332998507,
+      "min": 7.09032204200048,
+      "max": 16.074294792000728,
+      "sd": 3.8992066871303344
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 11.270367783399706,
+      "median": 10.740692499999568,
+      "min": 7.085290709001129,
+      "max": 16.07018041700212,
+      "sd": 3.8995485282352638
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 3.7616229236638437,
+    "signed_error_s": -2.9716602347195877,
+    "planning_mae_s": 3.7616229236638437,
+    "planning_underestimates": 2,
+    "violations": 1,
+    "max_overrun_s": 1.0742947920007282,
+    "release_count": 3,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 12.304386725200311,
+      "median": 13.833887500000856,
+      "min": 7.468554041999596,
+      "max": 16.726381291999132,
+      "sd": 3.9170672727819085
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 12.298721274999844,
+      "median": 13.828962125000544,
+      "min": 7.461686624999857,
+      "max": 16.721896999999444,
+      "sd": 3.917762808477286
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 3.0467308652634064,
+    "signed_error_s": -1.9424821431196908,
+    "planning_mae_s": 3.0467308652634064,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 25.093159932999697,
+      "median": 26.568373916001292,
+      "min": 15.426948083000752,
+      "max": 34.98389716699967,
+      "sd": 8.941250668876677
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 25.088142241599417,
+      "median": 26.563333917001728,
+      "min": 15.421401207997405,
+      "max": 34.98022800000035,
+      "sd": 8.942537504450044
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 7.417484014327108,
+    "signed_error_s": -3.200577803640307,
+    "planning_mae_s": 7.417484014327108,
+    "planning_underestimates": 2,
+    "violations": 5,
+    "max_overrun_s": 29.983897166999668,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 22.695547558600083,
+      "median": 20.02236645800076,
+      "min": 16.09630783299872,
+      "max": 31.998617583998566,
+      "sd": 6.579168874183192
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 22.690766966599767,
+      "median": 20.016184208001505,
+      "min": 16.091735458001494,
+      "max": 31.993871375001618,
+      "sd": 6.57901297788476
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 7.080142116983346,
+    "signed_error_s": -5.598190178039921,
+    "planning_mae_s": 7.080142116983346,
+    "planning_underestimates": 1,
+    "violations": 5,
+    "max_overrun_s": 16.998617583998566,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 24.958239341599256,
+      "median": 22.929076874999737,
+      "min": 16.459886124997865,
+      "max": 33.43503525000051,
+      "sd": 6.929101680297864
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 24.95312049159984,
+      "median": 22.923561166997388,
+      "min": 16.45279945800212,
+      "max": 33.430409875003534,
+      "sd": 6.93013020178751
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 6.295561472127936,
+    "signed_error_s": -3.335498395040749,
+    "planning_mae_s": 6.295561472127936,
+    "planning_underestimates": 2,
+    "violations": 2,
+    "max_overrun_s": 3.43503525000051,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.11762077423264783,
+      0.769275718723987
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 2.948830924800859,
+      "median": 3.084059917000559,
+      "min": 1.494143083000381,
+      "max": 4.712774540999817,
+      "sd": 1.3967699465915457
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.9439136333989153,
+      "median": 3.0787974579980073,
+      "min": 1.489172541998414,
+      "max": 4.708325458999752,
+      "sd": 1.396978676538604
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 1.2128053682157471,
+    "signed_error_s": -0.7628862922791413,
+    "planning_mae_s": 1.2128053682157471,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 3.14796795039947,
+      "median": 3.8307249579993368,
+      "min": 1.7628669590012578,
+      "max": 4.201533708997886,
+      "sd": 1.1406982099342544
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 3.1423614914005156,
+      "median": 3.8253075830034504,
+      "min": 1.7556688750009926,
+      "max": 4.196164207998663,
+      "sd": 1.1414548398024091
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 0.8746798897831767,
+    "signed_error_s": -0.56374926668053,
+    "planning_mae_s": 0.8746798897831767,
+    "planning_underestimates": 3,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 2.385947066600056,
+      "median": 2.0567901249996794,
+      "min": 1.4900083329994231,
+      "max": 3.998624875002861,
+      "sd": 1.0186584706738222
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.3800340999987384,
+      "median": 2.052349375000631,
+      "min": 1.4820768749996205,
+      "max": 3.9936968329966476,
+      "sd": 1.0192997038691738
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 1.4405332136490885,
+    "signed_error_s": -1.3257701504799442,
+    "planning_mae_s": 1.4405332136490885,
+    "planning_underestimates": 1,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 6,
+    "request_s": {
+      "count": 5,
+      "mean": 6.408700275199953,
+      "median": 5.663612625001406,
+      "min": 3.9494508339994354,
+      "max": 9.68281658399792,
+      "sd": 2.6901837896894207
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 6.404225466799835,
+      "median": 5.657799791999423,
+      "min": 3.9453660840008524,
+      "max": 9.679414292000729,
+      "sd": 2.6906720023605124
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.414060660496001,
+      "median": 4.414060660496001,
+      "min": 4.414060660496001,
+      "max": 4.414060660496001,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.414060660496001,
+      "median": 4.414060660496001,
+      "min": 4.414060660496001,
+      "max": 4.414060660496001,
+      "sd": 0.0
+    },
+    "mae_s": 2.360866476300732,
+    "signed_error_s": 1.9946396147039525,
+    "planning_mae_s": 2.360866476300732,
+    "planning_underestimates": 3,
+    "violations": 3,
+    "max_overrun_s": 4.682816583997919,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 21,
+    "request_s": {
+      "count": 5,
+      "mean": 22.309071025001323,
+      "median": 18.608284625002852,
+      "min": 13.588720708001347,
+      "max": 35.362844625000434,
+      "sd": 9.01566683626048
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 22.304370958001527,
+      "median": 18.603399416002503,
+      "min": 13.583246625003085,
+      "max": 35.35872025000208,
+      "sd": 9.016009458428702
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.949212311736002,
+      "median": 14.949212311736002,
+      "min": 14.949212311736002,
+      "max": 14.949212311736002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.949212311736002,
+      "median": 14.949212311736002,
+      "min": 14.949212311736002,
+      "max": 14.949212311736002,
+      "sd": 0.0
+    },
+    "mae_s": 7.904055354759182,
+    "signed_error_s": 7.35985871326532,
+    "planning_mae_s": 7.904055354759182,
+    "planning_underestimates": 4,
+    "violations": 4,
+    "max_overrun_s": 20.362844625000434,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.37553462976252533,
+      0.9637758913675698
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 37.92610028320123,
+      "median": 34.87598320800316,
+      "min": 25.80327029199907,
+      "max": 53.89625412500027,
+      "sd": 11.649767706799274
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 37.92096057500021,
+      "median": 34.87082120800187,
+      "min": 25.798350249999203,
+      "max": 53.890692000000854,
+      "sd": 11.649756214055914
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 10.6285495244176,
+    "signed_error_s": 9.632362546561227,
+    "planning_mae_s": 10.6285495244176,
+    "planning_underestimates": 4,
+    "violations": 3,
+    "max_overrun_s": 23.89625412500027,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 11.440999266799917,
+      "median": 13.048251625001285,
+      "min": 7.414979375000257,
+      "max": 14.365452999998524,
+      "sd": 3.2548134864947094
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 11.436438849999103,
+      "median": 13.044139333000203,
+      "min": 7.409628749999683,
+      "max": 14.361074417000054,
+      "sd": 3.255296663254771
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 4.217564832639917,
+    "signed_error_s": 4.217564832639917,
+    "planning_mae_s": 4.217564832639917,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 9.365452999998524,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 9.1636580665996,
+      "median": 7.06776549999995,
+      "min": 5.919331332999718,
+      "max": 15.546167332999175,
+      "sd": 4.067650943304808
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 9.158570516599138,
+      "median": 7.062460458997521,
+      "min": 5.913898208000319,
+      "max": 15.541828541998257,
+      "sd": 4.06818879368608
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 2.850261870231856,
+    "signed_error_s": 1.9402236324396,
+    "planning_mae_s": 2.850261870231856,
+    "planning_underestimates": 2,
+    "violations": 1,
+    "max_overrun_s": 0.5461673329991754,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 9.645719208399532,
+      "median": 6.569461292001506,
+      "min": 5.858899915998336,
+      "max": 14.953851957998268,
+      "sd": 4.691653752926214
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 9.640784541799075,
+      "median": 6.563255416996981,
+      "min": 5.854558375001943,
+      "max": 14.949090750000323,
+      "sd": 4.692455282842144
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 7.2234344341600005,
+      "median": 7.2234344341600005,
+      "min": 7.2234344341600005,
+      "max": 7.2234344341600005,
+      "sd": 0.0
+    },
+    "mae_s": 3.619704728431765,
+    "signed_error_s": 2.422284774239532,
+    "planning_mae_s": 3.619704728431765,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 21.017964191600186,
+      "median": 21.02778920900164,
+      "min": 13.20801208299963,
+      "max": 29.450365166001575,
+      "sd": 7.3007018024787085
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 21.010930633199315,
+      "median": 21.021650582999428,
+      "min": 13.195794082999782,
+      "max": 29.445348124998418,
+      "sd": 7.30280635585165
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 7.186638037408333,
+    "signed_error_s": 6.771095323280184,
+    "planning_mae_s": 7.186638037408333,
+    "planning_underestimates": 4,
+    "violations": 5,
+    "max_overrun_s": 24.450365166001575,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 19.529560166800366,
+      "median": 14.032818417003,
+      "min": 13.0465366669996,
+      "max": 28.81549874999837,
+      "sd": 8.188069499520136
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 19.5249206415996,
+      "median": 14.027422999999544,
+      "min": 13.041317749997688,
+      "max": 28.812154582999938,
+      "sd": 8.188905062207464
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 6.109706123663954,
+    "signed_error_s": 5.282691298480364,
+    "planning_mae_s": 6.109706123663954,
+    "planning_underestimates": 2,
+    "violations": 2,
+    "max_overrun_s": 13.815498749998369,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.11762077423264783,
+      0.769275718723987
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 19.19515579180006,
+      "median": 20.466703958001744,
+      "min": 13.351507749997836,
+      "max": 23.865921333999722,
+      "sd": 4.953246308244871
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 19.189540691800357,
+      "median": 20.46108079100304,
+      "min": 13.345181042001059,
+      "max": 23.861697874999663,
+      "sd": 4.953985946716437
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 14.246868868320002,
+      "median": 14.246868868320002,
+      "min": 14.246868868320002,
+      "max": 14.246868868320002,
+      "sd": 0.0
+    },
+    "mae_s": 5.306431370808927,
+    "signed_error_s": 4.94828692348006,
+    "planning_mae_s": 5.306431370808927,
+    "planning_underestimates": 4,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 32.754517758199654,
+      "median": 27.533770333000575,
+      "min": 22.0978877919988,
+      "max": 56.619406375000835,
+      "sd": 13.687058400567983
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 32.74836554180074,
+      "median": 27.527979417001916,
+      "min": 22.09121262500048,
+      "max": 56.61443045800115,
+      "sd": 13.687755926982618
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 7.809383022328309,
+    "signed_error_s": 4.46078002155965,
+    "planning_mae_s": 7.809383022328309,
+    "planning_underestimates": 2,
+    "violations": 5,
+    "max_overrun_s": 51.619406375000835,
+    "release_count": 3,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 36.96947689180088,
+      "median": 33.78208425000048,
+      "min": 26.12371333400006,
+      "max": 57.292731542002,
+      "sd": 12.446327481389147
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 36.96183335820096,
+      "median": 33.77732745800313,
+      "min": 26.117468750002445,
+      "max": 57.28871495800195,
+      "sd": 12.44908485573654
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 9.543748916216853,
+    "signed_error_s": 8.675739155160873,
+    "planning_mae_s": 9.543748916216853,
+    "planning_underestimates": 4,
+    "violations": 5,
+    "max_overrun_s": 42.292731542002,
+    "release_count": 3,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 47.7177078497989,
+      "median": 47.25092866699924,
+      "min": 36.296346540999366,
+      "max": 58.58078349999778,
+      "sd": 8.128593761193484
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 47.71273866660049,
+      "median": 47.24532566600101,
+      "min": 36.29169974999968,
+      "max": 58.576008708998415,
+      "sd": 8.128592392516799
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 28.293737736640004,
+      "median": 28.293737736640004,
+      "min": 28.293737736640004,
+      "max": 28.293737736640004,
+      "sd": 0.0
+    },
+    "mae_s": 19.423970113158894,
+    "signed_error_s": 19.423970113158894,
+    "planning_mae_s": 19.423970113158894,
+    "planning_underestimates": 5,
+    "violations": 5,
+    "max_overrun_s": 28.58078349999778,
+    "release_count": 3,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 6.02150548339996,
+      "median": 7.15271974999996,
+      "min": 3.4364480410004035,
+      "max": 7.9252207089994045,
+      "sd": 2.080630147211123
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 6.016824183400604,
+      "median": 7.148179333998996,
+      "min": 3.4313736250005604,
+      "max": 7.920551833001809,
+      "sd": 2.0811944515551204
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 2.4198959367517987,
+    "signed_error_s": 2.30978826631996,
+    "planning_mae_s": 2.4198959367517987,
+    "planning_underestimates": 4,
+    "violations": 3,
+    "max_overrun_s": 2.9252207089994045,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 4.86124229959969,
+      "median": 4.43268850000095,
+      "min": 2.913681958001689,
+      "max": 7.211265915997501,
+      "sd": 1.9515796826795495
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 4.85635750000074,
+      "median": 4.427540667002177,
+      "min": 2.907442333002109,
+      "max": 7.206742582999141,
+      "sd": 1.9523486866197
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 1.68106188978348,
+    "signed_error_s": 1.149525082519689,
+    "planning_mae_s": 1.68106188978348,
+    "planning_underestimates": 3,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 4.39046949179974,
+      "median": 4.133099582999421,
+      "min": 2.9206283339990478,
+      "max": 7.528796082999179,
+      "sd": 1.8411233400866294
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 4.385817650399986,
+      "median": 4.129586792001646,
+      "min": 2.9152456669980893,
+      "max": 7.525175583999953,
+      "sd": 1.8417586383761082
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 3.7117172170800004,
+      "median": 3.7117172170800004,
+      "min": 3.7117172170800004,
+      "max": 3.7117172170800004,
+      "sd": 0.0
+    },
+    "mae_s": 1.20340453118409,
+    "signed_error_s": 0.67875227471974,
+    "planning_mae_s": 1.20340453118409,
+    "planning_underestimates": 3,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "D_cloud",
+    "corpus": "ticket",
+    "case": "dettaglio_condiviso",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 37.17000834199935,
+      "median": 30.02490895899973,
+      "min": 21.88513945899831,
+      "max": 60.670234041001095,
+      "sd": 16.482872431124576
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 27.57003974140025,
+      "median": 26.64613745799943,
+      "min": 17.292709375000413,
+      "max": 36.57714916600162,
+      "sd": 8.599660710292175
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.59581632479967,
+      "median": 4.58831900000223,
+      "min": 3.3741274579988385,
+      "max": 24.08869458299887,
+      "sd": 8.795084282841927
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 12.30314508852918,
+    "signed_error_s": 6.740567105358523,
+    "planning_mae_s": 12.30314508852918,
+    "planning_underestimates": 2,
+    "violations": 1,
+    "max_overrun_s": 0.6702340410010947,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 4,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "identifier_correct": 5
+    },
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "Mac",
+    "phase": "D_cloud",
+    "corpus": "ticket",
+    "case": "errore_assente",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 62.74198044140212,
+      "median": 73.49720483300189,
+      "min": 36.71708804100126,
+      "max": 76.00057033300254,
+      "sd": 17.710414828086773
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 55.999354258200036,
+      "median": 66.04257679199873,
+      "min": 30.066526624999824,
+      "max": 68.8102193750019,
+      "sd": 16.674068086907322
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 6.73806707499898,
+      "median": 6.845615874997748,
+      "min": 3.5067842079988623,
+      "max": 9.24194870899737,
+      "sd": 2.0758648931602637
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 30.429441236640823,
+      "median": 30.429441236640823,
+      "min": 30.429441236640823,
+      "max": 30.429441236640823,
+      "sd": 0.0
+    },
+    "mae_s": 32.31253920476129,
+    "signed_error_s": 32.31253920476129,
+    "planning_mae_s": 32.31253920476129,
+    "planning_underestimates": 5,
+    "violations": 3,
+    "max_overrun_s": 16.000570333002543,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 1,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "negative_unsupported": 3,
+      "negative_correct": 2
+    },
+    "violation_wilson95_exploratory": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 2.5395333684305226,
+    "runs": 10,
+    "n_mean": 0,
+    "request_s": {
+      "count": 10,
+      "mean": 10.991323473898229,
+      "median": 10.946215307994862,
+      "min": 9.122397144004935,
+      "max": 13.718992191003053,
+      "sd": 1.3772561896662456
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 10.99000502669951,
+      "median": 10.944730139002786,
+      "min": 9.121570329996757,
+      "max": 13.716930763999699,
+      "sd": 1.3769333783153317
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 1.9199758760078112,
+      "median": 1.9199758760078112,
+      "min": 1.9199758760078112,
+      "max": 1.9199758760078112,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 1.9199758760078112,
+      "median": 1.9199758760078112,
+      "min": 1.9199758760078112,
+      "max": 1.9199758760078112,
+      "sd": 0.0
+    },
+    "mae_s": 9.071347597890417,
+    "signed_error_s": 9.071347597890417,
+    "planning_mae_s": 9.071347597890417,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 11.179458822572531,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 6,
+      "G": 4
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.1",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 2.5395333684305226,
+    "runs": 10,
+    "n_mean": 0,
+    "request_s": {
+      "count": 10,
+      "mean": 9.492188666800212,
+      "median": 9.46794217099523,
+      "min": 7.283010094994097,
+      "max": 11.73807967499306,
+      "sd": 1.5896452193804391
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 9.49105820160039,
+      "median": 9.466544653005258,
+      "min": 7.282186084994464,
+      "max": 11.73703456200019,
+      "sd": 1.5894755838493195
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 1.9199758760078112,
+      "median": 1.9199758760078112,
+      "min": 1.9199758760078112,
+      "max": 1.9199758760078112,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 1.9199758760078112,
+      "median": 1.9199758760078112,
+      "min": 1.9199758760078112,
+      "max": 1.9199758760078112,
+      "sd": 0.0
+    },
+    "mae_s": 7.572212790792401,
+    "signed_error_s": 7.572212790792401,
+    "planning_mae_s": 7.572212790792401,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 9.198546306562537,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 9,
+      "X": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.25",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 2.5395333684305226,
+    "runs": 10,
+    "n_mean": 5,
+    "request_s": {
+      "count": 10,
+      "mean": 11.607696865999605,
+      "median": 10.855668446500204,
+      "min": 8.094717348998529,
+      "max": 21.760527951002587,
+      "sd": 3.9185781944269444
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.6687330100990948,
+      "median": 0.6713955099985469,
+      "min": 0.611585615988588,
+      "max": 0.7445424860052299,
+      "sd": 0.040607827942362146
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 10.927612693801347,
+      "median": 10.156608267498086,
+      "min": 7.416932862004614,
+      "max": 21.068237138999393,
+      "sd": 3.9034580931913725
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 2.923528543632085,
+      "median": 2.923528543632085,
+      "min": 2.923528543632085,
+      "max": 2.923528543632085,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 2.923528543632085,
+      "median": 2.923528543632085,
+      "min": 2.923528543632085,
+      "max": 2.923528543632085,
+      "sd": 0.0
+    },
+    "mae_s": 8.68416832236752,
+    "signed_error_s": 8.68416832236752,
+    "planning_mae_s": 8.68416832236752,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 19.220994582572065,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 10
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "B_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "k_0.5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 2.5395333684305226,
+    "runs": 10,
+    "n_mean": 5,
+    "request_s": {
+      "count": 10,
+      "mean": 11.52513055139716,
+      "median": 11.564411879000545,
+      "min": 9.106402364996029,
+      "max": 13.235926149995066,
+      "sd": 1.3672603359588904
+    },
+    "edge_s": {
+      "count": 10,
+      "mean": 0.7300375588019961,
+      "median": 0.7312238134982181,
+      "min": 0.6637079530046321,
+      "max": 0.8007469889998902,
+      "sd": 0.04381596302963812
+    },
+    "cloud_s": {
+      "count": 10,
+      "mean": 10.783737309598655,
+      "median": 10.823308590501256,
+      "min": 8.311947644004249,
+      "max": 12.469635989997187,
+      "sd": 1.3660015383519415
+    },
+    "expected_s": {
+      "count": 10,
+      "mean": 2.923528543632085,
+      "median": 2.923528543632085,
+      "min": 2.923528543632085,
+      "max": 2.923528543632085,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 10,
+      "mean": 2.923528543632085,
+      "median": 2.923528543632085,
+      "min": 2.923528543632085,
+      "max": 2.923528543632085,
+      "sd": 0.0
+    },
+    "mae_s": 8.601602007765075,
+    "signed_error_s": 8.601602007765075,
+    "planning_mae_s": 8.601602007765075,
+    "planning_underestimates": 10,
+    "violations": 10,
+    "max_overrun_s": 10.696392781564544,
+    "release_count": 0,
+    "evaluable": 10,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 9,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.7224672001371107,
+      0.9999999999999999
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C1_cloud",
+    "corpus": "squad",
+    "case": "super_bowl",
+    "variant": "adaptive",
+    "epsilon": 1.0,
+    "delta_ptr": 0.0001,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.2172540696017675,
+      "median": 4.712286762005533,
+      "min": 4.670381104006083,
+      "max": 6.270887500999379,
+      "sd": 0.7478834258657818
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.798277062404668,
+      "median": 2.8139393029996427,
+      "min": 2.7262503410020145,
+      "max": 2.8470518640097,
+      "sd": 0.05104984965017343
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 2.4051016579993303,
+      "median": 1.9751029870094499,
+      "min": 1.8099105400033295,
+      "max": 3.421311351994518,
+      "sd": 0.7432248833850765
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 4.731143147400229,
+    "signed_error_s": -4.731143147400229,
+    "planning_mae_s": 4.731143147400229,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "target_correct": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C1_cloud",
+    "corpus": "squad",
+    "case": "super_bowl",
+    "variant": "adaptive",
+    "epsilon": 8.0,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 10.399151150998659,
+      "median": 9.106919947997085,
+      "min": 6.426143026998034,
+      "max": 15.093071909999708,
+      "sd": 4.308552994531284
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.791671750799287,
+      "median": 2.760100416999194,
+      "min": 2.7260632370016538,
+      "max": 2.8699837449967163,
+      "sd": 0.06366608699183283
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.591334042398375,
+      "median": 6.246752351988107,
+      "min": 3.680311749005341,
+      "max": 12.322095461000572,
+      "sd": 4.275914041502737
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 3.565502519999444,
+    "signed_error_s": 0.4507539339966627,
+    "planning_mae_s": 3.565502519999444,
+    "planning_underestimates": 2,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 2,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "target_wrong": 1,
+      "contradictory": 2,
+      "target_correct": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C1_cloud",
+    "corpus": "ticket",
+    "case": "dettaglio_unico",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 8.41587944299972,
+      "median": 7.901857826000196,
+      "min": 6.465176325000357,
+      "max": 12.018526971005485,
+      "sd": 2.143157658774336
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.744416634598747,
+      "median": 2.743188159991405,
+      "min": 2.7158073500031605,
+      "max": 2.787422567998874,
+      "sd": 0.02774155681149087
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 5.653623130603227,
+      "median": 5.157358866999857,
+      "min": 3.69060685900331,
+      "max": 9.289747763003106,
+      "sd": 2.1578196717725193
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 2.3605696756036707,
+    "signed_error_s": -1.5325177740022753,
+    "planning_mae_s": 2.3605696756036707,
+    "planning_underestimates": 1,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "unique_abstention": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C1_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 13.112598879195867,
+      "median": 13.619979819006403,
+      "min": 9.800493671995355,
+      "max": 16.879636829995434,
+      "sd": 2.6890430005989603
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.134088199798134,
+      "median": 5.117146151998895,
+      "min": 5.031024570998852,
+      "max": 5.285780955004157,
+      "sd": 0.10050720062773526
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.963201313195168,
+      "median": 8.532946543986327,
+      "min": 4.759246976012946,
+      "max": 11.583984854994924,
+      "sd": 2.61441587538574
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 3.2233630801965263,
+    "signed_error_s": 3.1642016621938693,
+    "planning_mae_s": 3.2233630801965263,
+    "planning_underestimates": 4,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_extra": 3,
+      "C_generic": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 16.43743835799978,
+      "median": 15.326804541997262,
+      "min": 13.330842046998441,
+      "max": 22.553035693999846,
+      "sd": 3.8390923531479486
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.16334499839868,
+      "median": 5.171990492002806,
+      "min": 5.08063286000106,
+      "max": 5.275378805003129,
+      "sd": 0.08103597309405512
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 11.261671825195663,
+      "median": 10.117102377000265,
+      "min": 8.149072533997241,
+      "max": 17.267887065987452,
+      "sd": 3.789856310846399
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 6.489041140997784,
+    "signed_error_s": 6.489041140997784,
+    "planning_mae_s": 6.489041140997784,
+    "planning_underestimates": 5,
+    "violations": 3,
+    "max_overrun_s": 7.5530356939998455,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 4,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.2307242812760128,
+      0.882379225767352
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 16.926972290003324,
+      "median": 16.524174438003683,
+      "min": 14.91587516599975,
+      "max": 20.836570781000773,
+      "sd": 2.314555362013627
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.243935001999489,
+      "median": 5.205846689990722,
+      "min": 5.0779889120021835,
+      "max": 5.4817894630105,
+      "sd": 0.1556875343220709
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 11.672955603402807,
+      "median": 11.360983132006368,
+      "min": 9.605143478998798,
+      "max": 15.344836396005121,
+      "sd": 2.2181714126277905
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 6.978575073001326,
+    "signed_error_s": 6.978575073001326,
+    "planning_mae_s": 6.978575073001326,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 15.40849713619682,
+      "median": 14.4407379040058,
+      "min": 11.902555705004488,
+      "max": 23.20554390999314,
+      "sd": 4.494707032975403
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.6427865452016706,
+      "median": 2.6558960980037227,
+      "min": 2.4815094270015834,
+      "max": 2.7614451090048533,
+      "sd": 0.1103592500384978
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 12.750367701402865,
+      "median": 11.86314291000599,
+      "min": 9.171052559002419,
+      "max": 20.601850313003524,
+      "sd": 4.541841601974429
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "mae_s": 9.474310589691916,
+    "signed_error_s": 9.474310589691916,
+    "planning_mae_s": 9.474310589691916,
+    "planning_underestimates": 5,
+    "violations": 1,
+    "max_overrun_s": 8.205543909993139,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "A_extra": 1,
+      "G": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 11.824261110802762,
+      "median": 11.873046351000085,
+      "min": 11.01214419300959,
+      "max": 12.38893727499817,
+      "sd": 0.5117322349503414
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.58223490860255,
+      "median": 2.5577943860116648,
+      "min": 2.5319636319909478,
+      "max": 2.7134829230053583,
+      "sd": 0.07483105644627959
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.23194933719642,
+      "median": 9.305070938993595,
+      "min": 8.470610440999735,
+      "max": 9.840478265992715,
+      "sd": 0.5149056451412265
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "mae_s": 5.890074564297859,
+    "signed_error_s": 5.890074564297859,
+    "planning_mae_s": 5.890074564297859,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 3,
+      "G": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 14.593138120797812,
+      "median": 13.967500537008164,
+      "min": 13.223676772991894,
+      "max": 17.284340138998232,
+      "sd": 1.6000962905776073
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.188625259601395,
+      "median": 5.192209749002359,
+      "min": 5.039890842992463,
+      "max": 5.456720332003897,
+      "sd": 0.16836398414999834
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 9.39419457379845,
+      "median": 8.753514067997457,
+      "min": 8.163040016996092,
+      "max": 11.816003264000756,
+      "sd": 1.4658124436559399
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 4.644740903795816,
+    "signed_error_s": 4.644740903795816,
+    "planning_mae_s": 4.644740903795816,
+    "planning_underestimates": 5,
+    "violations": 1,
+    "max_overrun_s": 2.284340138998232,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 5
+    },
+    "violation_wilson95_exploratory": [
+      0.03622410863243014,
+      0.6244653702374747
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 16.88116158140183,
+      "median": 17.116779702002532,
+      "min": 12.902959387007286,
+      "max": 22.7424478239991,
+      "sd": 3.768618160140146
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.09041326920269,
+      "median": 5.126257171999896,
+      "min": 4.869064320009784,
+      "max": 5.3055094169976655,
+      "sd": 0.16513604231131737
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 11.780691247800132,
+      "median": 12.238070562001667,
+      "min": 7.766707891001715,
+      "max": 17.426023970998358,
+      "sd": 3.7138767090573417
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 6.932764364399833,
+    "signed_error_s": 6.932764364399833,
+    "planning_mae_s": 6.932764364399833,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 5,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 5
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 15.379423030998442,
+      "median": 12.94565911400423,
+      "min": 10.454884338992997,
+      "max": 24.719012236004346,
+      "sd": 5.676881314734544
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.126648292603204,
+      "median": 5.137278435009648,
+      "min": 4.925094157006242,
+      "max": 5.235119361997931,
+      "sd": 0.12132483739170018
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.242839013598859,
+      "median": 7.729351475005387,
+      "min": 5.2098139519948745,
+      "max": 19.57988011999987,
+      "sd": 5.680456927268142
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 5.4310258139964445,
+    "signed_error_s": 5.4310258139964445,
+    "planning_mae_s": 5.4310258139964445,
+    "planning_underestimates": 5,
+    "violations": 2,
+    "max_overrun_s": 9.719012236004346,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 2,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "C_extra": 4,
+      "P": 1
+    },
+    "violation_wilson95_exploratory": [
+      0.11762077423264783,
+      0.769275718723987
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 12.952917911604164,
+      "median": 13.147623169003054,
+      "min": 10.288920127000893,
+      "max": 15.481896976998542,
+      "sd": 2.0121514328917485
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.143762915799743,
+      "median": 5.110452162000001,
+      "min": 5.046158514000126,
+      "max": 5.236640407005325,
+      "sd": 0.08433471704989826
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.796520877198782,
+      "median": 8.027280582988169,
+      "min": 5.181357927998761,
+      "max": 10.233353818999603,
+      "sd": 1.9409506942129833
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 3.0045206946021663,
+    "signed_error_s": 3.0045206946021663,
+    "planning_mae_s": 3.0045206946021663,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 4,
+    "review_codes": {
+      "C_generic": 4,
+      "C_extra": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 12.656915764999576,
+      "median": 12.35584321701026,
+      "min": 9.900505237994366,
+      "max": 14.593744138997863,
+      "sd": 1.9226695197712507
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.622356459996081,
+      "median": 2.6443752359919017,
+      "min": 2.435257431003265,
+      "max": 2.780090411994024,
+      "sd": 0.14773160333515595
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 10.018182179404539,
+      "median": 9.899862127000233,
+      "min": 7.110026595008094,
+      "max": 11.939691481005866,
+      "sd": 1.9353381349680088
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "mae_s": 6.722729218494672,
+    "signed_error_s": 6.722729218494672,
+    "planning_mae_s": 6.722729218494672,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 1,
+    "evaluable": 5,
+    "success": 1,
+    "success_within_sla": 1,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "A": 4,
+      "C_extra": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 15.247197355801472,
+      "median": 11.126984375005122,
+      "min": 9.3248060909973,
+      "max": 28.393147880997276,
+      "sd": 7.997207161781091
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.586437678799848,
+      "median": 2.5809909270028584,
+      "min": 2.5233285750000505,
+      "max": 2.6258523559954483,
+      "sd": 0.041460244612628434
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 12.648802467397763,
+      "median": 8.536582330998499,
+      "min": 6.791987696997239,
+      "max": 25.749996867991285,
+      "sd": 7.961956745689226
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 5.934186546504904,
+      "median": 5.934186546504904,
+      "min": 5.934186546504904,
+      "max": 5.934186546504904,
+      "sd": 0.0
+    },
+    "mae_s": 9.313010809296568,
+    "signed_error_s": 9.313010809296568,
+    "planning_mae_s": 9.313010809296568,
+    "planning_underestimates": 5,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 5,
+    "success": 2,
+    "success_within_sla": 2,
+    "e42_strict": 1,
+    "e42_no_material_extra": 1,
+    "review_codes": {
+      "C_extra": 1,
+      "A": 3,
+      "C": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 12.621082125403337,
+      "median": 13.027144494000822,
+      "min": 9.867280371006927,
+      "max": 14.33215222400031,
+      "sd": 1.6871091593706216
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.1727696542016925,
+      "median": 5.198987106006825,
+      "min": 5.030282505002106,
+      "max": 5.291331360000186,
+      "sd": 0.11342212988462028
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 7.438122703402769,
+      "median": 7.986873861998902,
+      "min": 4.657685033002053,
+      "max": 9.030533135010046,
+      "sd": 1.693925458046936
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 2.705131646799367,
+    "signed_error_s": 2.6726849084013393,
+    "planning_mae_s": 2.705131646799367,
+    "planning_underestimates": 4,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 0,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_extra": 3,
+      "C_generic": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_high_cloud",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 12.157153449201724,
+      "median": 12.660984609014122,
+      "min": 9.204928271996323,
+      "max": 14.0105313249951,
+      "sd": 1.780820992075695
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.1809484686004,
+      "median": 5.179524621999008,
+      "min": 5.072971452013007,
+      "max": 5.358608081995044,
+      "sd": 0.11414475308281936
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 6.96353778160119,
+      "median": 7.481218083004933,
+      "min": 3.9901896869996563,
+      "max": 8.641524612001376,
+      "sd": 1.754578217802479
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 2.5061438102019964,
+    "signed_error_s": 2.2087562321997267,
+    "planning_mae_s": 2.5061438102019964,
+    "planning_underestimates": 4,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 5,
+    "success_within_sla": 5,
+    "e42_strict": 1,
+    "e42_no_material_extra": 2,
+    "review_codes": {
+      "C_extra": 3,
+      "C_generic": 1,
+      "C": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 23,
+    "request_s": {
+      "count": 5,
+      "mean": 1.326031507604057,
+      "median": 1.3247899970010621,
+      "min": 1.3172947870043572,
+      "max": 1.333780316010234,
+      "sd": 0.007031819775942116
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.3172950434003723,
+      "median": 1.3163931969902478,
+      "min": 1.3086815849965205,
+      "max": 1.3249639090063283,
+      "sd": 0.006751437100691459
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.816342271071656,
+      "median": 4.816342271071656,
+      "min": 4.816342271071656,
+      "max": 4.816342271071656,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.816342271071656,
+      "median": 4.816342271071656,
+      "min": 4.816342271071656,
+      "max": 4.816342271071656,
+      "sd": 0.0
+    },
+    "mae_s": 3.4903107634675994,
+    "signed_error_s": -3.4903107634675994,
+    "planning_mae_s": 3.4903107634675994,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 2.298679841199191,
+      "median": 2.297987985992222,
+      "min": 2.291489208000712,
+      "max": 2.3099269939993974,
+      "sd": 0.006993939995921117
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.2897856140043586,
+      "median": 2.289714284997899,
+      "min": 2.282116495000082,
+      "max": 2.301040186008322,
+      "sd": 0.0071291462821544
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 5.9297414997949955,
+    "signed_error_s": -5.9297414997949955,
+    "planning_mae_s": 5.9297414997949955,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 2.299924470600672,
+      "median": 2.2991108179994626,
+      "min": 2.2856998710049083,
+      "max": 2.319283851989894,
+      "sd": 0.013210604791679811
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.2909398428018903,
+      "median": 2.289735505997669,
+      "min": 2.276223257998936,
+      "max": 2.3104980460047955,
+      "sd": 0.01340264372543148
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 5.928496870393515,
+    "signed_error_s": -5.928496870393515,
+    "planning_mae_s": 5.928496870393515,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 0.5818167190009262,
+      "median": 0.5820087030006107,
+      "min": 0.5790698850032641,
+      "max": 0.5864572110003792,
+      "sd": 0.0029934880241490832
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.5731294145982246,
+      "median": 0.5733563669928117,
+      "min": 0.5707302189985057,
+      "max": 0.5772453990066424,
+      "sd": 0.002653234242768557
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 1.6252886162476203,
+    "signed_error_s": -1.6252886162476203,
+    "planning_mae_s": 1.6252886162476203,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 0.5793162768037291,
+      "median": 0.5796786959981546,
+      "min": 0.5778020620055031,
+      "max": 0.5805477210087702,
+      "sd": 0.0012950486538222856
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.570645892599714,
+      "median": 0.5711300929979188,
+      "min": 0.5693165609991411,
+      "max": 0.571815698989667,
+      "sd": 0.0011144735774088479
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 1.6277890584448174,
+    "signed_error_s": -1.6277890584448174,
+    "planning_mae_s": 1.6277890584448174,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 0.5802930746023776,
+      "median": 0.5798606600001222,
+      "min": 0.5782968769926811,
+      "max": 0.5843002660112688,
+      "sd": 0.0023342163188110115
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.5715043688018341,
+      "median": 0.5712030560098356,
+      "min": 0.5695305720000761,
+      "max": 0.5751603559911018,
+      "sd": 0.0021607424499194405
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 1.626812260646169,
+    "signed_error_s": -1.626812260646169,
+    "planning_mae_s": 1.626812260646169,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 1.1498190138023348,
+      "median": 1.1514277320093242,
+      "min": 1.142946491992916,
+      "max": 1.154426452005282,
+      "sd": 0.0048650663766105304
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.1407391451997682,
+      "median": 1.1410206069995183,
+      "min": 1.133540880997316,
+      "max": 1.1458646499959286,
+      "sd": 0.00508793388712079
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 3.064391656694758,
+    "signed_error_s": -3.064391656694758,
+    "planning_mae_s": 3.064391656694758,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 4,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 1.1536130148015218,
+      "median": 1.153239400999155,
+      "min": 1.146940803999314,
+      "max": 1.1623010420007631,
+      "sd": 0.005656612305093601
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.1449229513964383,
+      "median": 1.1446536979929078,
+      "min": 1.1383772029948886,
+      "max": 1.1538658429926727,
+      "sd": 0.0058093469240332995
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 3.060597655695571,
+    "signed_error_s": -3.060597655695571,
+    "planning_mae_s": 3.060597655695571,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 1.154358148999745,
+      "median": 1.1555704609927488,
+      "min": 1.1461119010054972,
+      "max": 1.1612832419923507,
+      "sd": 0.005683089673237046
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.1456319045973942,
+      "median": 1.1469010569999227,
+      "min": 1.1374431979929795,
+      "max": 1.1522684349911287,
+      "sd": 0.005576071105525602
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 3.0598525214973478,
+    "signed_error_s": -3.0598525214973478,
+    "planning_mae_s": 3.0598525214973478,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 2,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 2.3017961845966055,
+      "median": 2.3074471219879342,
+      "min": 2.275723516999278,
+      "max": 2.3159928870009026,
+      "sd": 0.015972988559382673
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.2928170974046225,
+      "median": 2.2983782130031614,
+      "min": 2.2663737069960916,
+      "max": 2.3068717760033906,
+      "sd": 0.016099306143091758
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 5.926625156397581,
+    "signed_error_s": -5.926625156397581,
+    "planning_mae_s": 5.926625156397581,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 2.3041698496002936,
+      "median": 2.30225851299474,
+      "min": 2.2989187100029085,
+      "max": 2.314970447012456,
+      "sd": 0.0066063691264588885
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.295459485799074,
+      "median": 2.29340380699432,
+      "min": 2.2900574049999705,
+      "max": 2.306454545003362,
+      "sd": 0.006757248664572743
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 5.924251491393893,
+    "signed_error_s": -5.924251491393893,
+    "planning_mae_s": 5.924251491393893,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 2.293884255600278,
+      "median": 2.295822750995285,
+      "min": 2.281041679001646,
+      "max": 2.3042650220013456,
+      "sd": 0.009902149807230249
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.2848217471997487,
+      "median": 2.2871287479938474,
+      "min": 2.2724688760063145,
+      "max": 2.2953867159958463,
+      "sd": 0.009708592995971974
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 5.934537085393909,
+    "signed_error_s": -5.934537085393909,
+    "planning_mae_s": 5.934537085393909,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.29596189520671035,
+      "median": 0.29332095000427216,
+      "min": 0.29024950800521765,
+      "max": 0.3114026469993405,
+      "sd": 0.008739672535602296
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.2874875541980145,
+      "median": 0.28485824799281545,
+      "min": 0.28167400699749123,
+      "max": 0.3029481450066669,
+      "sd": 0.008756739332079155
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.9075907724175628,
+    "signed_error_s": -0.9075907724175628,
+    "planning_mae_s": 0.9075907724175628,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.29437860819743944,
+      "median": 0.29447555099613965,
+      "min": 0.29263525900023524,
+      "max": 0.29613478599640075,
+      "sd": 0.0016288147848503049
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.2857626850018278,
+      "median": 0.2859275480004726,
+      "min": 0.28388885500316974,
+      "max": 0.2873666800005594,
+      "sd": 0.0015700377499851018
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.9091740594268337,
+    "signed_error_s": -0.9091740594268337,
+    "planning_mae_s": 0.9091740594268337,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "salary",
+    "case": "base_t",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.29311468540108765,
+      "median": 0.2927078890061239,
+      "min": 0.2910578169976361,
+      "max": 0.29633687699970324,
+      "sd": 0.0021662662065863765
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.2841178184025921,
+      "median": 0.28360438100935426,
+      "min": 0.28200701100286096,
+      "max": 0.2864980580052361,
+      "sd": 0.0018071346124525342
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.9104379822231855,
+    "signed_error_s": -0.9104379822231855,
+    "planning_mae_s": 0.9104379822231855,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 23,
+    "request_s": {
+      "count": 5,
+      "mean": 2.93994499759865,
+      "median": 2.92665420701087,
+      "min": 2.8711642489943188,
+      "max": 3.0155602550075855,
+      "sd": 0.06513878803481184
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.9315976984013106,
+      "median": 2.9179730030009523,
+      "min": 2.8630005500017432,
+      "max": 3.007213857010356,
+      "sd": 0.06512902749509676
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.816342271071656,
+      "median": 4.816342271071656,
+      "min": 4.816342271071656,
+      "max": 4.816342271071656,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.816342271071656,
+      "median": 4.816342271071656,
+      "min": 4.816342271071656,
+      "max": 4.816342271071656,
+      "sd": 0.0
+    },
+    "mae_s": 1.8763972734730063,
+    "signed_error_s": -1.8763972734730063,
+    "planning_mae_s": 1.8763972734730063,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.1794949542003454,
+      "median": 5.18251525600499,
+      "min": 5.093921998995938,
+      "max": 5.244596744989394,
+      "sd": 0.06226143258139116
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.1706849087990125,
+      "median": 5.173594248000882,
+      "min": 5.085460796995903,
+      "max": 5.23554463799519,
+      "sd": 0.062032431938651975
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 3.0489263867938416,
+    "signed_error_s": -3.0489263867938416,
+    "planning_mae_s": 3.0489263867938416,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 1,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "adaptive",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.15054426540446,
+      "median": 5.205190463995677,
+      "min": 4.955669064001995,
+      "max": 5.248855169003946,
+      "sd": 0.11892284200926721
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.141762741003186,
+      "median": 5.196512860013172,
+      "min": 4.946905860007973,
+      "max": 5.240156166997622,
+      "sd": 0.11895639524799183
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 3.0778770755897265,
+    "signed_error_s": -3.0778770755897265,
+    "planning_mae_s": 3.0778770755897265,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 1.257557546996395,
+      "median": 1.2691199739929289,
+      "min": 1.195009051996749,
+      "max": 1.295879042998422,
+      "sd": 0.0394961981893385
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.2493460087978747,
+      "median": 1.261233977988013,
+      "min": 1.186616352002602,
+      "max": 1.2878325459896587,
+      "sd": 0.039644007361472396
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 0.9495477882521515,
+    "signed_error_s": -0.9495477882521515,
+    "planning_mae_s": 0.9495477882521515,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 1.2663657624041662,
+      "median": 1.2622353460028535,
+      "min": 1.0967343970114598,
+      "max": 1.3577961200062418,
+      "sd": 0.10637158185397272
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.2581654048000928,
+      "median": 1.2543307529995218,
+      "min": 1.0888002010033233,
+      "max": 1.3497769249952398,
+      "sd": 0.10626780173475903
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 0.9407395728443804,
+    "signed_error_s": -0.9407395728443804,
+    "planning_mae_s": 0.9407395728443804,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_10",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 10,
+    "request_s": {
+      "count": 5,
+      "mean": 1.2789078249974408,
+      "median": 1.2769561919994885,
+      "min": 1.227541928004939,
+      "max": 1.339714482994168,
+      "sd": 0.04002366600917522
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 1.271023891196819,
+      "median": 1.2691990000021178,
+      "min": 1.2197820359870093,
+      "max": 1.3316841860068962,
+      "sd": 0.039926044101067905
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 2.2071053352485466,
+      "median": 2.2071053352485466,
+      "min": 2.2071053352485466,
+      "max": 2.2071053352485466,
+      "sd": 0.0
+    },
+    "mae_s": 0.9281975102511056,
+    "signed_error_s": -0.9281975102511056,
+    "planning_mae_s": 0.9281975102511056,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 2.589840451796772,
+      "median": 2.5908478919882327,
+      "min": 2.4396762440010207,
+      "max": 2.734968474993366,
+      "sd": 0.1108894008978321
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.5811520677962108,
+      "median": 2.582593793995329,
+      "min": 2.430552734993398,
+      "max": 2.7266902749979636,
+      "sd": 0.1112501399619554
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 1.624370218700321,
+    "signed_error_s": -1.624370218700321,
+    "planning_mae_s": 1.624370218700321,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 2.548611614404945,
+      "median": 2.540111303998856,
+      "min": 2.45236768599716,
+      "max": 2.627932198010967,
+      "sd": 0.06507797724719627
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.540127193200169,
+      "median": 2.5307585730042774,
+      "min": 2.4441299889876973,
+      "max": 2.6197869010065915,
+      "sd": 0.065163223298195
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 1.6655990560921483,
+    "signed_error_s": -1.6655990560921483,
+    "planning_mae_s": 1.6655990560921483,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_20",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 20,
+    "request_s": {
+      "count": 5,
+      "mean": 2.5364986625994788,
+      "median": 2.561568694000016,
+      "min": 2.4012157389952336,
+      "max": 2.6816622610058403,
+      "sd": 0.12382562603253179
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.5277922188019146,
+      "median": 2.5517705759993987,
+      "min": 2.393174444005126,
+      "max": 2.6732334600092145,
+      "sd": 0.12375078522060842
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 4.214210670497093,
+      "median": 4.214210670497093,
+      "min": 4.214210670497093,
+      "max": 4.214210670497093,
+      "sd": 0.0
+    },
+    "mae_s": 1.6777120078976142,
+    "signed_error_s": -1.6777120078976142,
+    "planning_mae_s": 1.6777120078976142,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.0991545982076785,
+      "median": 5.083819522013073,
+      "min": 5.023190902007627,
+      "max": 5.256360541010508,
+      "sd": 0.09442603490467927
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.090298133000033,
+      "median": 5.075312622997444,
+      "min": 5.014459098005318,
+      "max": 5.247518233998562,
+      "sd": 0.0945353233328473
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 3.129266742786508,
+    "signed_error_s": -3.129266742786508,
+    "planning_mae_s": 3.129266742786508,
+    "planning_underestimates": 0,
+    "violations": 5,
+    "max_overrun_s": 0.2563605410105083,
+    "release_count": 1,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0.5655175352168251,
+      1
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.1199669547961095,
+      "median": 5.134371198990266,
+      "min": 5.058425556999282,
+      "max": 5.170696287997998,
+      "sd": 0.05231748928818501
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.1112296309991505,
+      "median": 5.125369592002244,
+      "min": 5.050032857994665,
+      "max": 5.162249988003168,
+      "sd": 0.052149200891566015
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 3.108454386198077,
+    "signed_error_s": -3.108454386198077,
+    "planning_mae_s": 3.108454386198077,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_40",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 5.1525851198006425,
+      "median": 5.183019004005473,
+      "min": 4.884465684997849,
+      "max": 5.315626739000436,
+      "sd": 0.17389587984160917
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 5.1440412972006015,
+      "median": 5.1743794990034075,
+      "min": 4.876024283992592,
+      "max": 5.307060837003519,
+      "sd": 0.1738923072681371
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 8.228421340994187,
+      "median": 8.228421340994187,
+      "min": 8.228421340994187,
+      "max": 8.228421340994187,
+      "sd": 0.0
+    },
+    "mae_s": 3.0758362211935446,
+    "signed_error_s": -3.0758362211935446,
+    "planning_mae_s": 3.0758362211935446,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 1,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 5.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.6106545558053768,
+      "median": 0.622333832012373,
+      "min": 0.5586197079974227,
+      "max": 0.6773408800072502,
+      "sd": 0.047567829722259154
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.6025398584024515,
+      "median": 0.6142689340049401,
+      "min": 0.5505205109948292,
+      "max": 0.6695820890017785,
+      "sd": 0.047657809997268215
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.5928981118188964,
+    "signed_error_s": -0.5928981118188964,
+    "planning_mae_s": 0.5928981118188964,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 15.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.6450078594003571,
+      "median": 0.673218817988527,
+      "min": 0.552688190000481,
+      "max": 0.6969316939939745,
+      "sd": 0.05743878828678172
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.6369644639955367,
+      "median": 0.6654972249962157,
+      "min": 0.5447518969886005,
+      "max": 0.6890041979931993,
+      "sd": 0.05747904753128543
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.5585448082239161,
+    "signed_error_s": -0.5585448082239161,
+    "planning_mae_s": 0.5585448082239161,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "C3_offline",
+    "corpus": "ticket",
+    "case": "procedura_e42",
+    "variant": "fixed_5",
+    "epsilon": 4,
+    "delta_ptr": 0.0001,
+    "sla_s": 30.0,
+    "runs": 5,
+    "n_mean": 5,
+    "request_s": {
+      "count": 5,
+      "mean": 0.6681214696000097,
+      "median": 0.6847592809936032,
+      "min": 0.6228406970039941,
+      "max": 0.7048483590042451,
+      "sd": 0.038370382005302
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 0.6596544688014546,
+      "median": 0.676330878995941,
+      "min": 0.6144021979998797,
+      "max": 0.6963818569929572,
+      "sd": 0.03832104678563157
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "sd": 0.0
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 1.2035526676242732,
+      "median": 1.2035526676242732,
+      "min": 1.2035526676242732,
+      "max": 1.2035526676242732,
+      "sd": 0.0
+    },
+    "mae_s": 0.5354311980242634,
+    "signed_error_s": -0.5354311980242634,
+    "planning_mae_s": 0.5354311980242634,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 0,
+    "evaluable": 0,
+    "success": 0,
+    "success_within_sla": 0,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {},
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "D_cloud",
+    "corpus": "ticket",
+    "case": "dettaglio_condiviso",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 6.078728011404746,
+      "median": 5.817675132013392,
+      "min": 4.761125882010674,
+      "max": 8.070041840997874,
+      "sd": 1.275412939832884
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 2.342401514999801,
+      "median": 2.3462907310022274,
+      "min": 2.325321183001506,
+      "max": 2.3656809809908736,
+      "sd": 0.016536806090747147
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 3.725092131999554,
+      "median": 3.4542838229972403,
+      "min": 2.4237090829992667,
+      "max": 5.694482396997046,
+      "sd": 1.2650322305628847
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 3.8696692055972504,
+    "signed_error_s": -3.8696692055972504,
+    "planning_mae_s": 3.8696692055972504,
+    "planning_underestimates": 0,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 4,
+    "success_within_sla": 4,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "identifier_correct": 4,
+      "target_wrong": 1
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  },
+  {
+    "platform": "RTX",
+    "phase": "D_cloud",
+    "corpus": "ticket",
+    "case": "errore_assente",
+    "variant": "adaptive",
+    "epsilon": 8,
+    "delta_ptr": 0.01,
+    "sla_s": 60.0,
+    "runs": 5,
+    "n_mean": 40,
+    "request_s": {
+      "count": 5,
+      "mean": 9.422291849000612,
+      "median": 9.995403494991479,
+      "min": 6.928813838007045,
+      "max": 12.095531240003766,
+      "sd": 2.198669041751359
+    },
+    "edge_s": {
+      "count": 5,
+      "mean": 4.305948614800582,
+      "median": 4.384602549005649,
+      "min": 3.8538984379993053,
+      "max": 4.713824856997235,
+      "sd": 0.3423939851716829
+    },
+    "cloud_s": {
+      "count": 5,
+      "mean": 5.10646693239687,
+      "median": 5.271457169990754,
+      "min": 2.844471442003851,
+      "max": 7.701215732013225,
+      "sd": 1.9652825127999287
+    },
+    "expected_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "planning_s": {
+      "count": 5,
+      "mean": 9.948397217001997,
+      "median": 9.948397217001997,
+      "min": 9.948397217001997,
+      "max": 9.948397217001997,
+      "sd": 0.0
+    },
+    "mae_s": 1.6976386163958352,
+    "signed_error_s": -0.5261053680013845,
+    "planning_mae_s": 1.6976386163958352,
+    "planning_underestimates": 3,
+    "violations": 0,
+    "max_overrun_s": 0,
+    "release_count": 5,
+    "evaluable": 5,
+    "success": 3,
+    "success_within_sla": 3,
+    "e42_strict": 0,
+    "e42_no_material_extra": 0,
+    "review_codes": {
+      "negative_correct": 3,
+      "negative_unsupported": 2
+    },
+    "violation_wilson95_exploratory": [
+      0,
+      0.43448246478317476
+    ]
+  }
+]

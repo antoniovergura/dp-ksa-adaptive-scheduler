@@ -1,0 +1,4336 @@
+{
+  "synthetic_data": true,
+  "privacy_unit": "ticket",
+  "client_level_guarantee": false,
+  "real_local_inference": true,
+  "external_calls": false,
+  "documents": 80,
+  "distinct_customers": 71,
+  "max_tickets_per_customer": 10,
+  "corpus_manifest_sha256": "89bd0d1eabb3fc53805cdb73b414142450e7081f7b5be5cd47892b09b02a1dec",
+  "results": [
+    {
+      "case": {
+        "id": "procedura_e42",
+        "kind": "procedure",
+        "error": "E42",
+        "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+        "step_groups": {
+          "stop_service": [
+            [
+              "arrestare",
+              "arresta",
+              "fermare",
+              "ferma",
+              "stop",
+              "interrompere"
+            ]
+          ],
+          "clear_cache": [
+            [
+              "cache"
+            ],
+            [
+              "cancellare",
+              "cancella",
+              "svuotare",
+              "svuota",
+              "eliminare",
+              "elimina",
+              "pulire",
+              "pulisci"
+            ]
+          ],
+          "restart_service": [
+            [
+              "riavviare",
+              "riavvia",
+              "riavvio",
+              "restart"
+            ]
+          ]
+        },
+        "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+      },
+      "pipeline": {
+        "config": {
+          "epsilon": 4.0,
+          "delta": 0.0001,
+          "sla_ms": 30000,
+          "rtt_ms": 50.0,
+          "cloud_ms": 150.0,
+          "prefill_tps": 250.0,
+          "generation_tps": 50.0,
+          "prompt_token_budget": 1000,
+          "max_tokens": 30,
+          "candidates": 40,
+          "fixed_n": 40,
+          "r_min_k": 1,
+          "r_max_k": 10
+        },
+        "decision": {
+          "n_ensemble": 40,
+          "sigma": 2.2626648384914407,
+          "epsilon_find_best_k": 2.0,
+          "epsilon_top_k_ptr": 2.0,
+          "tempo_stimato_ms": 184200.0,
+          "ptr_pass_rate_attesa": 0.0002343470769712308,
+          "motivazione": "Baseline fissa N=40. SLA non fattibile secondo le stime configurate. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=184200.0 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+          "sla_fattibile": false,
+          "modalita": "ensemble"
+        },
+        "response": "[Cloud Simulato] Synthesized response using verified terms [arrestare, cache, cancellare, ferrosync, locale, riavviare, ricorrere, servizio, tecnico]. This simulation does not answer the question.",
+        "provider_error": null,
+        "cloud_simulated": true,
+        "released_keywords": [
+          "arrestare",
+          "cache",
+          "cancellare",
+          "ferrosync",
+          "locale",
+          "riavviare",
+          "ricorrere",
+          "servizio",
+          "tecnico"
+        ],
+        "ptr_passed": true,
+        "k_hat": 9,
+        "epsilon_consumed": 3.985896887661892,
+        "delta_consumed": 0.0002,
+        "request_ms": 24826.092000002973,
+        "model_setup_ms": 0.0,
+        "retrieval_ms": 2.4000000266823918,
+        "edge_ms": 24818.439750000834,
+        "privacy_ms": 5.0292499945499,
+        "cloud_call_ms": 0.0,
+        "prefill_estimated_ms": 19641.754154292645,
+        "sla_violated": false,
+        "prompt_text_bytes": 342,
+        "context_text_bytes": 37499,
+        "text_saving_percent": 99.08797567935144,
+        "local_diagnostics": {
+          "selected_document_ids": [
+            "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+            "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+            "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+            "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+            "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+            "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+            "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+            "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+            "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+            "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3",
+            "4443e4f841d7b307a1c6292a0f314436d16b59a54ed7b2129a62095fb53ee0c8",
+            "4b958a84cb280deb0c06112e3e41f1af33d26a7cfbae86f7c631c9b4d8332e26",
+            "54bf956cd5924dbd6c02310263cc4da34095f6967a86fc4069a31ef452d03548",
+            "55895d602c1d5b2a3dd89b540e265bd9fa1dc772defcd890eecafc9d2830fb11",
+            "574f25397e85128791a029d69d77e4e4ac724f0786f2c660138afb2bd4e1262a",
+            "577ffa9116cebe1c46b62b13a1a01f067283641fc764927688e82b0bdb46f5a9",
+            "59e987c95118531c2e3c26d7c4b4c4ba399b5424ab2a797a6444a3147417eb0b",
+            "5afa292ccba36c1f5cd4d5bd175c5dfa21dc4b6bcb9ed3e44011899bd62a9c78",
+            "5c3d64104db3e6f1c5eba7e7576bca60336e4e009684ace6aa30af28837324d0",
+            "60b5ed0c65b4584584c2ab7f024c46d1c37e073e53ee71a1358946e68732bf86",
+            "60e25628447d2c488883bab50a8654f62556e069b8306266631afb9a89b7725f",
+            "61a9244473c2f1783beacbec6ccc0ea6937f2c927837163abed27e597fafc9a2",
+            "6802c55bb6965aa28a765f3ce312db60070f10447e2044e0a6a7249757712747",
+            "6b9d89c1ff1281d669df30bff54cb309c1c748c13313b53ec4236ca0d0966ca2",
+            "6f54b8a9033592059b9b6a47f5c53e93cfb2ba5c7f8e8aaa28e00c4b09542bc4",
+            "7c371d843cc606de6336e441bde7fe5fa06113e173e53da388227c43e1a4e07d",
+            "83c26ef41c95dd926f940d2f102060fdf584a4ce7013c81ccebedbb0e3386852",
+            "8849619d8cc20c7013fcf2dabd33cd07f9437e664548528f7ba4153fd4e69f57",
+            "8994e4f9cd544691435300519365ddcb0d77afe2479bf09046b8ab35389b45aa",
+            "8a7fd5a6f5fd12b8307e9ebd4bbfd6e57faee6b444e9f390486f4b49ca1b5187",
+            "9248a097c6e4762992b2b1e89644a720d352339974cff3278af1b18e5d2668ba",
+            "93840fdb515d35b8775de4454a74a7c086cd47dc697462cdc9c215a10c25d1ef",
+            "94875d0add88bdb7aa0de63366bb696b4a52a8875709f1d28c81597fb246c79c",
+            "a292898e0a177e0b7f83f80842ab59c0ee51f5d61397b90bd73c745a7da17337",
+            "a34c724917642eea49a41c9be1027f02f958d9d9431c33a30dda6c079024fbb2",
+            "a3a77d9c0df6c9e15fa661959fc8d945a773b2c7f212b91e5a6cfffede12cd52",
+            "c0ea4eb2ee0953eeb3831ff2c77425a0ef73b0550e0a77a26840a92433cd0987",
+            "c16c5f0b6d7e5330d48d91471bc4ea4497541a697783aea97f6bdae32735e9fe",
+            "cbed35af987c83b518829fa9bf4278f95ff2b4602592bcee69ab2a4ce70a8441",
+            "cd45d796fca09debea142d3cc84614d91d95d220e9c0edc4dd663c7117679944"
+          ],
+          "actual_documents": 40
+        },
+        "trace_url": null,
+        "account_scope": "supplied_session"
+      },
+      "local_drafts": [
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6898024580150377,
+          "tempo_prefill_stimato_sec": 0.5490264461752341,
+          "token_al_secondo": 36.2422599535808
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 389,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6477769579796586,
+          "tempo_prefill_stimato_sec": 0.5153072324214463,
+          "token_al_secondo": 38.593530831927254
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6893449579947628,
+          "tempo_prefill_stimato_sec": 0.5271461443489363,
+          "token_al_secondo": 43.519575579789645
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync.",
+          "prompt_tokens": 390,
+          "completion_tokens": 12,
+          "durata_totale_sec": 0.4286597089958377,
+          "tempo_prefill_stimato_sec": 0.38168330253054045,
+          "token_al_secondo": 27.994233533426208
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.5933280840108637,
+          "tempo_prefill_stimato_sec": 0.47224071992701394,
+          "token_al_secondo": 42.13520423810287
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync.",
+          "prompt_tokens": 390,
+          "completion_tokens": 12,
+          "durata_totale_sec": 0.42166408299817704,
+          "tempo_prefill_stimato_sec": 0.3754543204778289,
+          "token_al_secondo": 28.458672397885685
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6215669169905595,
+          "tempo_prefill_stimato_sec": 0.49471652576799635,
+          "token_al_secondo": 40.22093087103557
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.5928471249935683,
+          "tempo_prefill_stimato_sec": 0.47574152005656717,
+          "token_al_secondo": 40.482611769873
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6883239999879152,
+          "tempo_prefill_stimato_sec": 0.5263654117554645,
+          "token_al_secondo": 43.584126080925124
+        },
+        {
+          "testo": "Riporta i passaggi della procedura generale in ordine: Arrestare il servizio FerroSync. Cancellare la cache",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6833602089900523,
+          "tempo_prefill_stimato_sec": 0.5225695715806282,
+          "token_al_secondo": 43.900712399303174
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.6135378330072854,
+          "tempo_prefill_stimato_sec": 0.49234517463547595,
+          "token_al_secondo": 39.11739212945164
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 389,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.6062062090204563,
+          "tempo_prefill_stimato_sec": 0.4862148769256856,
+          "token_al_secondo": 39.59048858767154
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync, cancellare la cache locale, arrestare il servizio FerroSync.",
+          "prompt_tokens": 390,
+          "completion_tokens": 27,
+          "durata_totale_sec": 0.652349417010555,
+          "tempo_prefill_stimato_sec": 0.5108760494660973,
+          "token_al_secondo": 41.38886200547204
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.611062750016572,
+          "tempo_prefill_stimato_sec": 0.49035899692687873,
+          "token_al_secondo": 39.275835418456
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.5901127499819268,
+          "tempo_prefill_stimato_sec": 0.4735472685040153,
+          "token_al_secondo": 40.67019395994247
+        },
+        {
+          "testo": "Riporta i passaggi della procedura generale in ordine: Arrestare il servizio FerroSync. Cancellare la cache",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6847163749916945,
+          "tempo_prefill_stimato_sec": 0.523606639699531,
+          "token_al_secondo": 43.81376157443861
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare cache locale, riavviare servizio Ferro",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.691035958006978,
+          "tempo_prefill_stimato_sec": 0.5284392620053361,
+          "token_al_secondo": 43.41308097269384
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6833791249955539,
+          "tempo_prefill_stimato_sec": 0.5225840367613058,
+          "token_al_secondo": 43.899497223002214
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 389,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.6160129579948261,
+          "tempo_prefill_stimato_sec": 0.49408049620615957,
+          "token_al_secondo": 38.96021940532227
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6929697919986211,
+          "tempo_prefill_stimato_sec": 0.5299180762342396,
+          "token_al_secondo": 43.29193039349643
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 389,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6182833749917336,
+          "tempo_prefill_stimato_sec": 0.491845056997514,
+          "token_al_secondo": 40.43453376105131
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6281077909807209,
+          "tempo_prefill_stimato_sec": 0.49992252751526767,
+          "token_al_secondo": 39.802085500269406
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.619102083001053,
+          "tempo_prefill_stimato_sec": 0.4968103135193635,
+          "token_al_secondo": 38.76582014336266
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6822832910111174,
+          "tempo_prefill_stimato_sec": 0.521746046067325,
+          "token_al_secondo": 43.9700054145268
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.626861500000814,
+          "tempo_prefill_stimato_sec": 0.4989305816333009,
+          "token_al_secondo": 39.8812177809094
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare il servizio FerroSync, cancellare la cache locale, riavviare il serv",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6852220419968944,
+          "tempo_prefill_stimato_sec": 0.5239933262329192,
+          "token_al_secondo": 43.781428735965804
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6793140420049895,
+          "tempo_prefill_stimato_sec": 0.5194754438861684,
+          "token_al_secondo": 44.1621961934649
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.618756707990542,
+          "tempo_prefill_stimato_sec": 0.496533160733151,
+          "token_al_secondo": 38.78745828540876
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6887403749860823,
+          "tempo_prefill_stimato_sec": 0.5266838161658276,
+          "token_al_secondo": 43.55777748706285
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 390,
+          "completion_tokens": 24,
+          "durata_totale_sec": 0.6078141669859178,
+          "tempo_prefill_stimato_sec": 0.48775210930968715,
+          "token_al_secondo": 39.48575288893529
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6235479580063839,
+          "tempo_prefill_stimato_sec": 0.49629327269895857,
+          "token_al_secondo": 40.09314709317683
+        },
+        {
+          "testo": "Ricorrere al tecnico locale per arrestare servizio FerroSync e cancellare la cache locale.",
+          "prompt_tokens": 389,
+          "completion_tokens": 23,
+          "durata_totale_sec": 0.5974108339869417,
+          "tempo_prefill_stimato_sec": 0.4831451443262377,
+          "token_al_secondo": 38.499469195268624
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6333204999973532,
+          "tempo_prefill_stimato_sec": 0.5040714183652403,
+          "token_al_secondo": 39.47448408839519
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync.",
+          "prompt_tokens": 389,
+          "completion_tokens": 12,
+          "durata_totale_sec": 0.4340041670075152,
+          "tempo_prefill_stimato_sec": 0.3863332287549735,
+          "token_al_secondo": 27.649504111310083
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync.",
+          "prompt_tokens": 390,
+          "completion_tokens": 12,
+          "durata_totale_sec": 0.43239933397853747,
+          "tempo_prefill_stimato_sec": 0.3850131055973279,
+          "token_al_secondo": 27.75212415242904
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6919020830246154,
+          "tempo_prefill_stimato_sec": 0.5291015929011764,
+          "token_al_secondo": 43.358736353063854
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6196728750073817,
+          "tempo_prefill_stimato_sec": 0.49320902296505886,
+          "token_al_secondo": 40.34386691478499
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+          "prompt_tokens": 390,
+          "completion_tokens": 25,
+          "durata_totale_sec": 0.6290542499918956,
+          "tempo_prefill_stimato_sec": 0.5006758316262027,
+          "token_al_secondo": 39.742200295637595
+        },
+        {
+          "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+          "prompt_tokens": 390,
+          "completion_tokens": 30,
+          "durata_totale_sec": 0.6880037499940954,
+          "tempo_prefill_stimato_sec": 0.526120514701367,
+          "token_al_secondo": 43.60441349375998
+        },
+        {
+          "testo": "Riavviare il servizio FerroSync.",
+          "prompt_tokens": 389,
+          "completion_tokens": 12,
+          "durata_totale_sec": 0.42899758397834376,
+          "tempo_prefill_stimato_sec": 0.3818765678891893,
+          "token_al_secondo": 27.972185504442777
+        }
+      ],
+      "selected_files": [
+        "documenti/TKT-E42-034.md",
+        "documenti/TKT-E42-006.md",
+        "documenti/TKT-E42-022.md",
+        "documenti/TKT-E42-017.md",
+        "documenti/TKT-E42-013.md",
+        "documenti/TKT-E42-037.md",
+        "documenti/TKT-E42-018.md",
+        "documenti/TKT-E42-035.md",
+        "documenti/TKT-E42-021.md",
+        "documenti/TKT-E42-038.md",
+        "documenti/TKT-E42-033.md",
+        "documenti/TKT-E42-009.md",
+        "documenti/TKT-E42-023.md",
+        "documenti/TKT-E42-016.md",
+        "documenti/TKT-E42-041.md",
+        "documenti/TKT-E42-012.md",
+        "documenti/TKT-E42-030.md",
+        "documenti/TKT-E42-040.md",
+        "documenti/TKT-E42-007.md",
+        "documenti/TKT-E42-045.md",
+        "documenti/TKT-E42-002.md",
+        "documenti/TKT-E42-046.md",
+        "documenti/TKT-E42-027.md",
+        "documenti/TKT-E42-024.md",
+        "documenti/TKT-E42-044.md",
+        "documenti/TKT-E42-029.md",
+        "documenti/TKT-E42-032.md",
+        "documenti/TKT-E42-047.md",
+        "documenti/TKT-E42-015.md",
+        "documenti/TKT-E42-010.md",
+        "documenti/TKT-E42-028.md",
+        "documenti/TKT-E42-008.md",
+        "documenti/TKT-E42-026.md",
+        "documenti/TKT-E42-003.md",
+        "documenti/TKT-E42-019.md",
+        "documenti/TKT-E42-039.md",
+        "documenti/TKT-E42-020.md",
+        "documenti/TKT-E42-014.md",
+        "documenti/TKT-E42-031.md",
+        "documenti/TKT-E42-005.md"
+      ],
+      "relevant_tickets": 40,
+      "histogram": {
+        "locale": 33,
+        "arrestare": 35,
+        "cancellare": 35,
+        "tecnico": 32,
+        "riavviare": 28,
+        "ricorrere": 32,
+        "cache": 35,
+        "servizio": 40,
+        "fer": 9,
+        "ferrosync": 29,
+        "ordine": 2,
+        "riporta": 2,
+        "passaggi": 2,
+        "procedura": 2,
+        "generale": 2,
+        "ferro": 1,
+        "serv": 1
+      },
+      "draft_metrics": [
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": false,
+            "clear_cache": false,
+            "restart_service": true
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": false,
+            "clear_cache": false,
+            "restart_service": true
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": false
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": false,
+            "clear_cache": false,
+            "restart_service": true
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": false,
+            "clear_cache": false,
+            "restart_service": true
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": true,
+            "clear_cache": true,
+            "restart_service": true
+          },
+          "all_step_terms_present": true,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {
+            "stop_service": false,
+            "clear_cache": false,
+            "restart_service": true
+          },
+          "all_step_terms_present": false,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        }
+      ],
+      "release_metrics": {
+        "step_matches": {
+          "stop_service": true,
+          "clear_cache": true,
+          "restart_service": true
+        },
+        "all_step_terms_present": true,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "local_keyword_synthesis": {
+        "text": "Riavviare servizio FerroSync dopo aggiornamento. Se non funziona, controllare se il servizio è att",
+        "inference_ms": 513.597542012576,
+        "input_keywords": [
+          "arrestare",
+          "cache",
+          "cancellare",
+          "ferrosync",
+          "locale",
+          "riavviare",
+          "ricorrere",
+          "servizio",
+          "tecnico"
+        ],
+        "provider": "real local model; keyword-only input"
+      },
+      "synthesis_metrics": {
+        "step_matches": {
+          "stop_service": false,
+          "clear_cache": false,
+          "restart_service": true
+        },
+        "all_step_terms_present": false,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "conditional_trials": [
+        {
+          "n": 5,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.136,
+          "all_step_terms_rate": 0.136,
+          "step_term_rates": {
+            "stop_service": 0.136,
+            "clear_cache": 0.136,
+            "restart_service": 0.136
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": 0.0,
+          "step_term_rates": {
+            "stop_service": 0.0,
+            "clear_cache": 0.0,
+            "restart_service": 0.0
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.514,
+          "all_step_terms_rate": 0.514,
+          "step_term_rates": {
+            "stop_service": 0.514,
+            "clear_cache": 0.514,
+            "restart_service": 0.514
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.998,
+          "all_step_terms_rate": 0.998,
+          "step_term_rates": {
+            "stop_service": 0.998,
+            "clear_cache": 0.998,
+            "restart_service": 0.998
+          },
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        }
+      ],
+      "cloud_answer_quality": null
+    },
+    {
+      "case": {
+        "id": "dettaglio_unico",
+        "kind": "unique_detail",
+        "error": "E42",
+        "query": "Qual è il codice privato della pratica nel ticket per errore E42 dopo aggiornamento di FerroSync? Riporta soltanto il codice.",
+        "step_groups": {},
+        "expected_answer": null
+      },
+      "pipeline": {
+        "config": {
+          "epsilon": 4.0,
+          "delta": 0.0001,
+          "sla_ms": 30000,
+          "rtt_ms": 50.0,
+          "cloud_ms": 150.0,
+          "prefill_tps": 250.0,
+          "generation_tps": 50.0,
+          "prompt_token_budget": 1000,
+          "max_tokens": 30,
+          "candidates": 40,
+          "fixed_n": 40,
+          "r_min_k": 1,
+          "r_max_k": 10
+        },
+        "decision": {
+          "n_ensemble": 40,
+          "sigma": 2.2626648384914407,
+          "epsilon_find_best_k": 2.0,
+          "epsilon_top_k_ptr": 2.0,
+          "tempo_stimato_ms": 184200.0,
+          "ptr_pass_rate_attesa": 0.0002343470769712308,
+          "motivazione": "Baseline fissa N=40. SLA non fattibile secondo le stime configurate. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=184200.0 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+          "sla_fattibile": false,
+          "modalita": "ensemble"
+        },
+        "response": "[Cloud Simulato] Synthesized response using verified terms []. This simulation does not answer the question.",
+        "provider_error": null,
+        "cloud_simulated": true,
+        "released_keywords": [],
+        "ptr_passed": false,
+        "k_hat": 9,
+        "epsilon_consumed": 6.948422622881986,
+        "delta_consumed": 0.00030000000000000003,
+        "request_ms": 14958.73537499574,
+        "model_setup_ms": 0.0,
+        "retrieval_ms": 2.2263749851845205,
+        "edge_ms": 14955.718708020868,
+        "privacy_ms": 0.6277089996729046,
+        "cloud_call_ms": 0.0,
+        "prefill_estimated_ms": 13747.137850271969,
+        "sla_violated": false,
+        "prompt_text_bytes": 186,
+        "context_text_bytes": 37499,
+        "text_saving_percent": 99.50398677298061,
+        "local_diagnostics": {
+          "selected_document_ids": [
+            "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+            "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+            "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+            "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+            "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+            "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+            "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+            "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+            "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+            "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3",
+            "4443e4f841d7b307a1c6292a0f314436d16b59a54ed7b2129a62095fb53ee0c8",
+            "4b958a84cb280deb0c06112e3e41f1af33d26a7cfbae86f7c631c9b4d8332e26",
+            "54bf956cd5924dbd6c02310263cc4da34095f6967a86fc4069a31ef452d03548",
+            "55895d602c1d5b2a3dd89b540e265bd9fa1dc772defcd890eecafc9d2830fb11",
+            "574f25397e85128791a029d69d77e4e4ac724f0786f2c660138afb2bd4e1262a",
+            "577ffa9116cebe1c46b62b13a1a01f067283641fc764927688e82b0bdb46f5a9",
+            "59e987c95118531c2e3c26d7c4b4c4ba399b5424ab2a797a6444a3147417eb0b",
+            "5afa292ccba36c1f5cd4d5bd175c5dfa21dc4b6bcb9ed3e44011899bd62a9c78",
+            "5c3d64104db3e6f1c5eba7e7576bca60336e4e009684ace6aa30af28837324d0",
+            "60b5ed0c65b4584584c2ab7f024c46d1c37e073e53ee71a1358946e68732bf86",
+            "60e25628447d2c488883bab50a8654f62556e069b8306266631afb9a89b7725f",
+            "61a9244473c2f1783beacbec6ccc0ea6937f2c927837163abed27e597fafc9a2",
+            "6802c55bb6965aa28a765f3ce312db60070f10447e2044e0a6a7249757712747",
+            "6b9d89c1ff1281d669df30bff54cb309c1c748c13313b53ec4236ca0d0966ca2",
+            "6f54b8a9033592059b9b6a47f5c53e93cfb2ba5c7f8e8aaa28e00c4b09542bc4",
+            "7c371d843cc606de6336e441bde7fe5fa06113e173e53da388227c43e1a4e07d",
+            "83c26ef41c95dd926f940d2f102060fdf584a4ce7013c81ccebedbb0e3386852",
+            "8849619d8cc20c7013fcf2dabd33cd07f9437e664548528f7ba4153fd4e69f57",
+            "8994e4f9cd544691435300519365ddcb0d77afe2479bf09046b8ab35389b45aa",
+            "8a7fd5a6f5fd12b8307e9ebd4bbfd6e57faee6b444e9f390486f4b49ca1b5187",
+            "9248a097c6e4762992b2b1e89644a720d352339974cff3278af1b18e5d2668ba",
+            "93840fdb515d35b8775de4454a74a7c086cd47dc697462cdc9c215a10c25d1ef",
+            "94875d0add88bdb7aa0de63366bb696b4a52a8875709f1d28c81597fb246c79c",
+            "a292898e0a177e0b7f83f80842ab59c0ee51f5d61397b90bd73c745a7da17337",
+            "a34c724917642eea49a41c9be1027f02f958d9d9431c33a30dda6c079024fbb2",
+            "a3a77d9c0df6c9e15fa661959fc8d945a773b2c7f212b91e5a6cfffede12cd52",
+            "c0ea4eb2ee0953eeb3831ff2c77425a0ef73b0550e0a77a26840a92433cd0987",
+            "c16c5f0b6d7e5330d48d91471bc4ea4497541a697783aea97f6bdae32735e9fe",
+            "cbed35af987c83b518829fa9bf4278f95ff2b4602592bcee69ab2a4ce70a8441",
+            "cd45d796fca09debea142d3cc84614d91d95d220e9c0edc4dd663c7117679944"
+          ],
+          "actual_documents": 40
+        },
+        "trace_url": null,
+        "account_scope": "supplied_session"
+      },
+      "local_drafts": [
+        {
+          "testo": "privatoe42034",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37829349999083206,
+          "tempo_prefill_stimato_sec": 0.3497430471613353,
+          "token_al_secondo": 21.14760100343749
+        },
+        {
+          "testo": "privatoe42006",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36894945800304413,
+          "tempo_prefill_stimato_sec": 0.3410383878940668,
+          "token_al_secondo": 21.683186752191933
+        },
+        {
+          "testo": "privatoe42022",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37089816699153744,
+          "tempo_prefill_stimato_sec": 0.3429058525016101,
+          "token_al_secondo": 21.56926270326521
+        },
+        {
+          "testo": "privatoe42017.example",
+          "prompt_tokens": 392,
+          "completion_tokens": 9,
+          "durata_totale_sec": 0.3881740419892594,
+          "tempo_prefill_stimato_sec": 0.3555238889247423,
+          "token_al_secondo": 23.185476169086613
+        },
+        {
+          "testo": "privatoe42013",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3728485830069985,
+          "tempo_prefill_stimato_sec": 0.34470906730835715,
+          "token_al_secondo": 21.45643128231987
+        },
+        {
+          "testo": "privatoe42037",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3728876250097528,
+          "tempo_prefill_stimato_sec": 0.34474516274486583,
+          "token_al_secondo": 21.454184755503114
+        },
+        {
+          "testo": "privatoe42018",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36962258399580605,
+          "tempo_prefill_stimato_sec": 0.3417265399206509,
+          "token_al_secondo": 21.64369913092424
+        },
+        {
+          "testo": "privatoe42035",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37174775000312366,
+          "tempo_prefill_stimato_sec": 0.34369131604062375,
+          "token_al_secondo": 21.519968849664266
+        },
+        {
+          "testo": "privatoe42021",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37343529201461934,
+          "tempo_prefill_stimato_sec": 0.3452514963908745,
+          "token_al_secondo": 21.422720806170656
+        },
+        {
+          "testo": "privatoe42038",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37006387501605786,
+          "tempo_prefill_stimato_sec": 0.3421345259582422,
+          "token_al_secondo": 21.61788961338867
+        },
+        {
+          "testo": "privatoe42033",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3711592909821775,
+          "tempo_prefill_stimato_sec": 0.3431472690212584,
+          "token_al_secondo": 21.55408794652576
+        },
+        {
+          "testo": "privatoe42009",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3663164589961525,
+          "tempo_prefill_stimato_sec": 0.3386045755732757,
+          "token_al_secondo": 21.83904054413243
+        },
+        {
+          "testo": "privatoe42023",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.366998124984093,
+          "tempo_prefill_stimato_sec": 0.33930015328718033,
+          "token_al_secondo": 21.79847649179883
+        },
+        {
+          "testo": "privatoe42016",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37875608398462646,
+          "tempo_prefill_stimato_sec": 0.35017071915559805,
+          "token_al_secondo": 21.12177292530228
+        },
+        {
+          "testo": "privatoe42041",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3718308329989668,
+          "tempo_prefill_stimato_sec": 0.34376812862168626,
+          "token_al_secondo": 21.515160363320998
+        },
+        {
+          "testo": "privatoe42012",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37220770897693,
+          "tempo_prefill_stimato_sec": 0.34411656112961453,
+          "token_al_secondo": 21.493375357509997
+        },
+        {
+          "testo": "privatoe42030",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36503079198882915,
+          "tempo_prefill_stimato_sec": 0.33748129825382317,
+          "token_al_secondo": 21.915959353491527
+        },
+        {
+          "testo": "privatoe42040",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3748558340012096,
+          "tempo_prefill_stimato_sec": 0.34656482766149566,
+          "token_al_secondo": 21.341537931017463
+        },
+        {
+          "testo": "privatoe42007",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3730210840003565,
+          "tempo_prefill_stimato_sec": 0.3448019949034028,
+          "token_al_secondo": 21.446508905626242
+        },
+        {
+          "testo": "privatoe42045",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3681199589918833,
+          "tempo_prefill_stimato_sec": 0.34033732057740157,
+          "token_al_secondo": 21.732046319651992
+        },
+        {
+          "testo": "privatoe42002",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36696158300037496,
+          "tempo_prefill_stimato_sec": 0.3392008958703229,
+          "token_al_secondo": 21.800647181075153
+        },
+        {
+          "testo": "privatoe42046",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3733025830006227,
+          "tempo_prefill_stimato_sec": 0.3451288031515191,
+          "token_al_secondo": 21.430336580303425
+        },
+        {
+          "testo": "privatoe42027",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37055858300300315,
+          "tempo_prefill_stimato_sec": 0.34259189749334257,
+          "token_al_secondo": 21.58902901443566
+        },
+        {
+          "testo": "privatoe42024",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3712314169970341,
+          "tempo_prefill_stimato_sec": 0.3432139515632957,
+          "token_al_secondo": 21.54990023396623
+        },
+        {
+          "testo": "privatoe42044",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37748387502506375,
+          "tempo_prefill_stimato_sec": 0.3489945259665684,
+          "token_al_secondo": 21.192958240848895
+        },
+        {
+          "testo": "privatoe42029",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37482545900275,
+          "tempo_prefill_stimato_sec": 0.34653674511575,
+          "token_al_secondo": 21.34326740047107
+        },
+        {
+          "testo": "privatoe42032",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3714690420019906,
+          "tempo_prefill_stimato_sec": 0.34343364260561393,
+          "token_al_secondo": 21.53611497982416
+        },
+        {
+          "testo": "privatoe42047",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3690873330051545,
+          "tempo_prefill_stimato_sec": 0.3412316852311806,
+          "token_al_secondo": 21.675086855089322
+        },
+        {
+          "testo": "privatoe42015",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36763129199971445,
+          "tempo_prefill_stimato_sec": 0.33988553411294353,
+          "token_al_secondo": 21.76093323417696
+        },
+        {
+          "testo": "privatoe42010",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3736331669788342,
+          "tempo_prefill_stimato_sec": 0.345434437395526,
+          "token_al_secondo": 21.411375399800065
+        },
+        {
+          "testo": "privatoe42028",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3690696670091711,
+          "tempo_prefill_stimato_sec": 0.3412153525179129,
+          "token_al_secondo": 21.676124361098488
+        },
+        {
+          "testo": "privatoe42008",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36792941598105244,
+          "tempo_prefill_stimato_sec": 0.3400955121716111,
+          "token_al_secondo": 21.743300895549982
+        },
+        {
+          "testo": "privatoe42026",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3688217919843737,
+          "tempo_prefill_stimato_sec": 0.34098618504215683,
+          "token_al_secondo": 21.690692290598015
+        },
+        {
+          "testo": "privatoe42003",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3709273750137072,
+          "tempo_prefill_stimato_sec": 0.3428666752490769,
+          "token_al_secondo": 21.56756426970204
+        },
+        {
+          "testo": "privatoe42019",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37079633297980763,
+          "tempo_prefill_stimato_sec": 0.3428117040756712,
+          "token_al_secondo": 21.57518639871677
+        },
+        {
+          "testo": "privatoe42039",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37075154099147767,
+          "tempo_prefill_stimato_sec": 0.3427702926147624,
+          "token_al_secondo": 21.57779298396468
+        },
+        {
+          "testo": "privatoe42020",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37379212499945424,
+          "tempo_prefill_stimato_sec": 0.3455813985844011,
+          "token_al_secondo": 21.402270045180007
+        },
+        {
+          "testo": "privatoe42014",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37455254199448973,
+          "tempo_prefill_stimato_sec": 0.34628442561754713,
+          "token_al_secondo": 21.358819132290638
+        },
+        {
+          "testo": "privatoe42031",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3685391249891836,
+          "tempo_prefill_stimato_sec": 0.3407248514050943,
+          "token_al_secondo": 21.70732890364027
+        },
+        {
+          "testo": "privatoe42005",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37689970899373293,
+          "tempo_prefill_stimato_sec": 0.348387201457564,
+          "token_al_secondo": 21.225805722585537
+        }
+      ],
+      "selected_files": [
+        "documenti/TKT-E42-034.md",
+        "documenti/TKT-E42-006.md",
+        "documenti/TKT-E42-022.md",
+        "documenti/TKT-E42-017.md",
+        "documenti/TKT-E42-013.md",
+        "documenti/TKT-E42-037.md",
+        "documenti/TKT-E42-018.md",
+        "documenti/TKT-E42-035.md",
+        "documenti/TKT-E42-021.md",
+        "documenti/TKT-E42-038.md",
+        "documenti/TKT-E42-033.md",
+        "documenti/TKT-E42-009.md",
+        "documenti/TKT-E42-023.md",
+        "documenti/TKT-E42-016.md",
+        "documenti/TKT-E42-041.md",
+        "documenti/TKT-E42-012.md",
+        "documenti/TKT-E42-030.md",
+        "documenti/TKT-E42-040.md",
+        "documenti/TKT-E42-007.md",
+        "documenti/TKT-E42-045.md",
+        "documenti/TKT-E42-002.md",
+        "documenti/TKT-E42-046.md",
+        "documenti/TKT-E42-027.md",
+        "documenti/TKT-E42-024.md",
+        "documenti/TKT-E42-044.md",
+        "documenti/TKT-E42-029.md",
+        "documenti/TKT-E42-032.md",
+        "documenti/TKT-E42-047.md",
+        "documenti/TKT-E42-015.md",
+        "documenti/TKT-E42-010.md",
+        "documenti/TKT-E42-028.md",
+        "documenti/TKT-E42-008.md",
+        "documenti/TKT-E42-026.md",
+        "documenti/TKT-E42-003.md",
+        "documenti/TKT-E42-019.md",
+        "documenti/TKT-E42-039.md",
+        "documenti/TKT-E42-020.md",
+        "documenti/TKT-E42-014.md",
+        "documenti/TKT-E42-031.md",
+        "documenti/TKT-E42-005.md"
+      ],
+      "relevant_tickets": 40,
+      "histogram": {
+        "privatoe42034": 1,
+        "privatoe42006": 1,
+        "privatoe42022": 1,
+        "privatoe42017": 1,
+        "example": 1,
+        "privatoe42013": 1,
+        "privatoe42037": 1,
+        "privatoe42018": 1,
+        "privatoe42035": 1,
+        "privatoe42021": 1,
+        "privatoe42038": 1,
+        "privatoe42033": 1,
+        "privatoe42009": 1,
+        "privatoe42023": 1,
+        "privatoe42016": 1,
+        "privatoe42041": 1,
+        "privatoe42012": 1,
+        "privatoe42030": 1,
+        "privatoe42040": 1,
+        "privatoe42007": 1,
+        "privatoe42045": 1,
+        "privatoe42002": 1,
+        "privatoe42046": 1,
+        "privatoe42027": 1,
+        "privatoe42024": 1,
+        "privatoe42044": 1,
+        "privatoe42029": 1,
+        "privatoe42032": 1,
+        "privatoe42047": 1,
+        "privatoe42015": 1,
+        "privatoe42010": 1,
+        "privatoe42028": 1,
+        "privatoe42008": 1,
+        "privatoe42026": 1,
+        "privatoe42003": 1,
+        "privatoe42019": 1,
+        "privatoe42039": 1,
+        "privatoe42020": 1,
+        "privatoe42014": 1,
+        "privatoe42031": 1,
+        "privatoe42005": 1
+      },
+      "draft_metrics": [
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42034"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42034"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42006"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42006"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42022"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42022"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "example",
+            "privatoe42017"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42017"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42013"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42013"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42037"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42037"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42018"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42018"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42035"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42035"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42021"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42021"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42038"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42038"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42033"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42033"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42009"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42009"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42023"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42023"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42016"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42016"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42041"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42041"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42012"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42012"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42030"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42030"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42040"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42040"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42007"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42007"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42045"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42045"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42002"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42002"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42046"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42046"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42027"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42027"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42024"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42024"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42044"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42044"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42029"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42029"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42032"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42032"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42047"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42047"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42015"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42015"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42010"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42010"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42028"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42028"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42008"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42008"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42026"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42026"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42003"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42003"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42019"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42019"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42039"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42039"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42020"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42020"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42014"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42014"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42031"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42031"
+          ],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "privatoe42005"
+          ],
+          "unique_identifier_tokens": [
+            "privatoe42005"
+          ],
+          "shared_identifier_present": false
+        }
+      ],
+      "release_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "local_keyword_synthesis": {
+        "text": "Informazioni insufficienti: nessuna keyword rilasciata.",
+        "inference_ms": 0.0,
+        "input_keywords": [],
+        "provider": "no inference"
+      },
+      "synthesis_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "conditional_trials": [
+        {
+          "n": 5,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.002,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.002,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {
+            "example": 1,
+            "privatoe42006": 1,
+            "privatoe42013": 1,
+            "privatoe42017": 1,
+            "privatoe42022": 1,
+            "privatoe42034": 1
+          }
+        },
+        {
+          "n": 5,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        }
+      ],
+      "cloud_answer_quality": null
+    },
+    {
+      "case": {
+        "id": "dettaglio_condiviso",
+        "kind": "shared_detail",
+        "error": "E42",
+        "query": "Qual è l’identificativo interno del cluster nei ticket per errore E42 dopo aggiornamento di FerroSync? Riporta soltanto l’identificativo.",
+        "step_groups": {},
+        "expected_answer": "clusterinternoaurora"
+      },
+      "pipeline": {
+        "config": {
+          "epsilon": 4.0,
+          "delta": 0.0001,
+          "sla_ms": 30000,
+          "rtt_ms": 50.0,
+          "cloud_ms": 150.0,
+          "prefill_tps": 250.0,
+          "generation_tps": 50.0,
+          "prompt_token_budget": 1000,
+          "max_tokens": 30,
+          "candidates": 40,
+          "fixed_n": 40,
+          "r_min_k": 1,
+          "r_max_k": 10
+        },
+        "decision": {
+          "n_ensemble": 40,
+          "sigma": 2.2626648384914407,
+          "epsilon_find_best_k": 2.0,
+          "epsilon_top_k_ptr": 2.0,
+          "tempo_stimato_ms": 184200.0,
+          "ptr_pass_rate_attesa": 0.0002343470769712308,
+          "motivazione": "Baseline fissa N=40. SLA non fattibile secondo le stime configurate. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=184200.0 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+          "sla_fattibile": false,
+          "modalita": "ensemble"
+        },
+        "response": "[Cloud Simulato] Synthesized response using verified terms [clusterinternoaurora]. This simulation does not answer the question.",
+        "provider_error": null,
+        "cloud_simulated": true,
+        "released_keywords": [
+          "clusterinternoaurora"
+        ],
+        "ptr_passed": true,
+        "k_hat": 1,
+        "epsilon_consumed": 9.672332367471604,
+        "delta_consumed": 0.0004,
+        "request_ms": 13105.395667022094,
+        "model_setup_ms": 0.0,
+        "retrieval_ms": 2.1929580252617598,
+        "edge_ms": 13101.859665999655,
+        "privacy_ms": 1.1233750265091658,
+        "cloud_call_ms": 0.0,
+        "prefill_estimated_ms": 12395.285053829737,
+        "sla_violated": false,
+        "prompt_text_bytes": 298,
+        "context_text_bytes": 37499,
+        "text_saving_percent": 99.2053121416571,
+        "local_diagnostics": {
+          "selected_document_ids": [
+            "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+            "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+            "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+            "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+            "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+            "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+            "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+            "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+            "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+            "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3",
+            "4443e4f841d7b307a1c6292a0f314436d16b59a54ed7b2129a62095fb53ee0c8",
+            "4b958a84cb280deb0c06112e3e41f1af33d26a7cfbae86f7c631c9b4d8332e26",
+            "54bf956cd5924dbd6c02310263cc4da34095f6967a86fc4069a31ef452d03548",
+            "55895d602c1d5b2a3dd89b540e265bd9fa1dc772defcd890eecafc9d2830fb11",
+            "574f25397e85128791a029d69d77e4e4ac724f0786f2c660138afb2bd4e1262a",
+            "577ffa9116cebe1c46b62b13a1a01f067283641fc764927688e82b0bdb46f5a9",
+            "59e987c95118531c2e3c26d7c4b4c4ba399b5424ab2a797a6444a3147417eb0b",
+            "5afa292ccba36c1f5cd4d5bd175c5dfa21dc4b6bcb9ed3e44011899bd62a9c78",
+            "5c3d64104db3e6f1c5eba7e7576bca60336e4e009684ace6aa30af28837324d0",
+            "60b5ed0c65b4584584c2ab7f024c46d1c37e073e53ee71a1358946e68732bf86",
+            "60e25628447d2c488883bab50a8654f62556e069b8306266631afb9a89b7725f",
+            "61a9244473c2f1783beacbec6ccc0ea6937f2c927837163abed27e597fafc9a2",
+            "6802c55bb6965aa28a765f3ce312db60070f10447e2044e0a6a7249757712747",
+            "6b9d89c1ff1281d669df30bff54cb309c1c748c13313b53ec4236ca0d0966ca2",
+            "6f54b8a9033592059b9b6a47f5c53e93cfb2ba5c7f8e8aaa28e00c4b09542bc4",
+            "7c371d843cc606de6336e441bde7fe5fa06113e173e53da388227c43e1a4e07d",
+            "83c26ef41c95dd926f940d2f102060fdf584a4ce7013c81ccebedbb0e3386852",
+            "8849619d8cc20c7013fcf2dabd33cd07f9437e664548528f7ba4153fd4e69f57",
+            "8994e4f9cd544691435300519365ddcb0d77afe2479bf09046b8ab35389b45aa",
+            "8a7fd5a6f5fd12b8307e9ebd4bbfd6e57faee6b444e9f390486f4b49ca1b5187",
+            "9248a097c6e4762992b2b1e89644a720d352339974cff3278af1b18e5d2668ba",
+            "93840fdb515d35b8775de4454a74a7c086cd47dc697462cdc9c215a10c25d1ef",
+            "94875d0add88bdb7aa0de63366bb696b4a52a8875709f1d28c81597fb246c79c",
+            "a292898e0a177e0b7f83f80842ab59c0ee51f5d61397b90bd73c745a7da17337",
+            "a34c724917642eea49a41c9be1027f02f958d9d9431c33a30dda6c079024fbb2",
+            "a3a77d9c0df6c9e15fa661959fc8d945a773b2c7f212b91e5a6cfffede12cd52",
+            "c0ea4eb2ee0953eeb3831ff2c77425a0ef73b0550e0a77a26840a92433cd0987",
+            "c16c5f0b6d7e5330d48d91471bc4ea4497541a697783aea97f6bdae32735e9fe",
+            "cbed35af987c83b518829fa9bf4278f95ff2b4602592bcee69ab2a4ce70a8441",
+            "cd45d796fca09debea142d3cc84614d91d95d220e9c0edc4dd663c7117679944"
+          ],
+          "actual_documents": 40
+        },
+        "trace_url": null,
+        "account_scope": "supplied_session"
+      },
+      "local_drafts": [
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32492304197512567,
+          "tempo_prefill_stimato_sec": 0.3092641001931919,
+          "token_al_secondo": 15.38825923088204
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.33011533398530446,
+          "tempo_prefill_stimato_sec": 0.3141677333096859,
+          "token_al_secondo": 15.146221593640306
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3246137920068577,
+          "tempo_prefill_stimato_sec": 0.30896975383785247,
+          "token_al_secondo": 15.402919170773778
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3254745419835672,
+          "tempo_prefill_stimato_sec": 0.3097890218879736,
+          "token_al_secondo": 15.362184610593735
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3285478749894537,
+          "tempo_prefill_stimato_sec": 0.3127142424598415,
+          "token_al_secondo": 15.218482238427196
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32688824998331256,
+          "tempo_prefill_stimato_sec": 0.3111345993817071,
+          "token_al_secondo": 15.295747094780086
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32648120800149627,
+          "tempo_prefill_stimato_sec": 0.3107471738809422,
+          "token_al_secondo": 15.314817139420425
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3252408750122413,
+          "tempo_prefill_stimato_sec": 0.3095666159755068,
+          "token_al_secondo": 15.373221461822139
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32461475001764484,
+          "tempo_prefill_stimato_sec": 0.3089706656794451,
+          "token_al_secondo": 15.402873713311607
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.33056516700889915,
+          "tempo_prefill_stimato_sec": 0.3146343155867835,
+          "token_al_secondo": 15.12561061784648
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3241951249947306,
+          "tempo_prefill_stimato_sec": 0.3085712635492014,
+          "token_al_secondo": 15.422810568423166
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32361570798093453,
+          "tempo_prefill_stimato_sec": 0.30798209889972994,
+          "token_al_secondo": 15.450424304788596
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3292900000233203,
+          "tempo_prefill_stimato_sec": 0.313420602431835,
+          "token_al_secondo": 15.184184152710074
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.33114958400256,
+          "tempo_prefill_stimato_sec": 0.3151905679060511,
+          "token_al_secondo": 15.09891674803175
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32274862501071766,
+          "tempo_prefill_stimato_sec": 0.3071944744077915,
+          "token_al_secondo": 15.491932769144912
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32770116699975915,
+          "tempo_prefill_stimato_sec": 0.3119083396744695,
+          "token_al_secondo": 15.25780346093084
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.33032908401219174,
+          "tempo_prefill_stimato_sec": 0.31440961008389334,
+          "token_al_secondo": 15.13642074524525
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3288678329845425,
+          "tempo_prefill_stimato_sec": 0.3130187807925163,
+          "token_al_secondo": 15.203676062277003
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3297443340125028,
+          "tempo_prefill_stimato_sec": 0.3138146560408843,
+          "token_al_secondo": 15.163262819886441
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3241694579774048,
+          "tempo_prefill_stimato_sec": 0.30854683349656603,
+          "token_al_secondo": 15.424031712291997
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3226329160097521,
+          "tempo_prefill_stimato_sec": 0.3070467848015515,
+          "token_al_secondo": 15.497488792646523
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32590083399554715,
+          "tempo_prefill_stimato_sec": 0.3101947697066051,
+          "token_al_secondo": 15.342090226342643
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3247676659957506,
+          "tempo_prefill_stimato_sec": 0.3091162122128228,
+          "token_al_secondo": 15.395621311837806
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3281689579889644,
+          "tempo_prefill_stimato_sec": 0.3123535865196167,
+          "token_al_secondo": 15.236054106519543
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32313658299972303,
+          "tempo_prefill_stimato_sec": 0.3075637356262424,
+          "token_al_secondo": 15.47333314471635
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3248356250114739,
+          "tempo_prefill_stimato_sec": 0.3091808960952583,
+          "token_al_secondo": 15.392400386575178
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3273040829808451,
+          "tempo_prefill_stimato_sec": 0.3115303922347803,
+          "token_al_secondo": 15.276314167741733
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32943962499848567,
+          "tempo_prefill_stimato_sec": 0.3135630165648237,
+          "token_al_secondo": 15.177287795974705
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3292601670254953,
+          "tempo_prefill_stimato_sec": 0.3133922071688449,
+          "token_al_secondo": 15.185559933257396
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.33048112501273863,
+          "tempo_prefill_stimato_sec": 0.3145543238073054,
+          "token_al_secondo": 15.129457090196215
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3222212909895461,
+          "tempo_prefill_stimato_sec": 0.3066925540743872,
+          "token_al_secondo": 15.517286224770963
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3292268749792129,
+          "tempo_prefill_stimato_sec": 0.31332219502852626,
+          "token_al_secondo": 15.187095525891365
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3205182910023723,
+          "tempo_prefill_stimato_sec": 0.3050716263757519,
+          "token_al_secondo": 15.599733744876959
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3217519159952644,
+          "tempo_prefill_stimato_sec": 0.3062083451742372,
+          "token_al_secondo": 15.539923001029123
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3123478339985013,
+          "tempo_prefill_stimato_sec": 0.2972949263359229,
+          "token_al_secondo": 16.007794694756843
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.31263783300528303,
+          "tempo_prefill_stimato_sec": 0.2975709494869561,
+          "token_al_secondo": 15.992946061379298
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.31771295799990185,
+          "tempo_prefill_stimato_sec": 0.30240149014448486,
+          "token_al_secondo": 15.73747583817952
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3230642499984242,
+          "tempo_prefill_stimato_sec": 0.307494888552717,
+          "token_al_secondo": 15.476797572075487
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 395,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.3299720830109436,
+          "tempo_prefill_stimato_sec": 0.31406981395017525,
+          "token_al_secondo": 15.152797031723965
+        },
+        {
+          "testo": "clusterinternoaurora",
+          "prompt_tokens": 394,
+          "completion_tokens": 5,
+          "durata_totale_sec": 0.32851729102549143,
+          "tempo_prefill_stimato_sec": 0.312646890492859,
+          "token_al_secondo": 15.219899032991913
+        }
+      ],
+      "selected_files": [
+        "documenti/TKT-E42-034.md",
+        "documenti/TKT-E42-006.md",
+        "documenti/TKT-E42-022.md",
+        "documenti/TKT-E42-017.md",
+        "documenti/TKT-E42-013.md",
+        "documenti/TKT-E42-037.md",
+        "documenti/TKT-E42-018.md",
+        "documenti/TKT-E42-035.md",
+        "documenti/TKT-E42-021.md",
+        "documenti/TKT-E42-038.md",
+        "documenti/TKT-E42-033.md",
+        "documenti/TKT-E42-009.md",
+        "documenti/TKT-E42-023.md",
+        "documenti/TKT-E42-016.md",
+        "documenti/TKT-E42-041.md",
+        "documenti/TKT-E42-012.md",
+        "documenti/TKT-E42-030.md",
+        "documenti/TKT-E42-040.md",
+        "documenti/TKT-E42-007.md",
+        "documenti/TKT-E42-045.md",
+        "documenti/TKT-E42-002.md",
+        "documenti/TKT-E42-046.md",
+        "documenti/TKT-E42-027.md",
+        "documenti/TKT-E42-024.md",
+        "documenti/TKT-E42-044.md",
+        "documenti/TKT-E42-029.md",
+        "documenti/TKT-E42-032.md",
+        "documenti/TKT-E42-047.md",
+        "documenti/TKT-E42-015.md",
+        "documenti/TKT-E42-010.md",
+        "documenti/TKT-E42-028.md",
+        "documenti/TKT-E42-008.md",
+        "documenti/TKT-E42-026.md",
+        "documenti/TKT-E42-003.md",
+        "documenti/TKT-E42-019.md",
+        "documenti/TKT-E42-039.md",
+        "documenti/TKT-E42-020.md",
+        "documenti/TKT-E42-014.md",
+        "documenti/TKT-E42-031.md",
+        "documenti/TKT-E42-005.md"
+      ],
+      "relevant_tickets": 40,
+      "histogram": {
+        "clusterinternoaurora": 40
+      },
+      "draft_metrics": [
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [
+            "clusterinternoaurora"
+          ],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": true
+        }
+      ],
+      "release_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [
+          "clusterinternoaurora"
+        ],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": true
+      },
+      "local_keyword_synthesis": {
+        "text": "E42, 1144000000",
+        "inference_ms": 261.1346250050701,
+        "input_keywords": [
+          "clusterinternoaurora"
+        ],
+        "provider": "real local model; keyword-only input"
+      },
+      "synthesis_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "conditional_trials": [
+        {
+          "n": 5,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.002,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.002,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 1
+          }
+        },
+        {
+          "n": 10,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.002,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.002,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 1
+          }
+        },
+        {
+          "n": 10,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.022,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.022,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 11
+          }
+        },
+        {
+          "n": 10,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.32,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.32,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 160
+          }
+        },
+        {
+          "n": 20,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.002,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.002,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 1
+          }
+        },
+        {
+          "n": 20,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.582,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.582,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 291
+          }
+        },
+        {
+          "n": 20,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 1.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 1.0,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 500
+          }
+        },
+        {
+          "n": 40,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.056,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.056,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 28
+          }
+        },
+        {
+          "n": 40,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 1.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 1.0,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 500
+          }
+        },
+        {
+          "n": 40,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 1.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 1.0,
+          "sensitive_fragment_hits": {
+            "clusterinternoaurora": 500
+          }
+        }
+      ],
+      "cloud_answer_quality": null
+    },
+    {
+      "case": {
+        "id": "errore_assente",
+        "kind": "unsupported",
+        "error": "E99",
+        "query": "Come si risolve l’errore E99 dopo aggiornamento di FerroSync? Se il ticket non descrive E99, rispondi non disponibile.",
+        "step_groups": {},
+        "expected_answer": "non disponibile"
+      },
+      "pipeline": {
+        "config": {
+          "epsilon": 4.0,
+          "delta": 0.0001,
+          "sla_ms": 30000,
+          "rtt_ms": 50.0,
+          "cloud_ms": 150.0,
+          "prefill_tps": 250.0,
+          "generation_tps": 50.0,
+          "prompt_token_budget": 1000,
+          "max_tokens": 30,
+          "candidates": 40,
+          "fixed_n": 40,
+          "r_min_k": 1,
+          "r_max_k": 10
+        },
+        "decision": {
+          "n_ensemble": 40,
+          "sigma": 2.2626648384914407,
+          "epsilon_find_best_k": 2.0,
+          "epsilon_top_k_ptr": 2.0,
+          "tempo_stimato_ms": 184200.0,
+          "ptr_pass_rate_attesa": 0.0002343470769712308,
+          "motivazione": "Baseline fissa N=40. SLA non fattibile secondo le stime configurate. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=184200.0 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+          "sla_fattibile": false,
+          "modalita": "ensemble"
+        },
+        "response": "[Cloud Simulato] Synthesized response using verified terms []. This simulation does not answer the question.",
+        "provider_error": null,
+        "cloud_simulated": true,
+        "released_keywords": [],
+        "ptr_passed": false,
+        "k_hat": 7,
+        "epsilon_consumed": 12.128914792297458,
+        "delta_consumed": 0.0005,
+        "request_ms": 24136.019958998077,
+        "model_setup_ms": 0.0,
+        "retrieval_ms": 2.376583986915648,
+        "edge_ms": 24132.002416998148,
+        "privacy_ms": 1.4691249816678464,
+        "cloud_call_ms": 0.0,
+        "prefill_estimated_ms": 19261.802734988025,
+        "sla_violated": false,
+        "prompt_text_bytes": 180,
+        "context_text_bytes": 37499,
+        "text_saving_percent": 99.51998719965866,
+        "local_diagnostics": {
+          "selected_document_ids": [
+            "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+            "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+            "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+            "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+            "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+            "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+            "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+            "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+            "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+            "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3",
+            "4443e4f841d7b307a1c6292a0f314436d16b59a54ed7b2129a62095fb53ee0c8",
+            "4b958a84cb280deb0c06112e3e41f1af33d26a7cfbae86f7c631c9b4d8332e26",
+            "54bf956cd5924dbd6c02310263cc4da34095f6967a86fc4069a31ef452d03548",
+            "55895d602c1d5b2a3dd89b540e265bd9fa1dc772defcd890eecafc9d2830fb11",
+            "574f25397e85128791a029d69d77e4e4ac724f0786f2c660138afb2bd4e1262a",
+            "577ffa9116cebe1c46b62b13a1a01f067283641fc764927688e82b0bdb46f5a9",
+            "59e987c95118531c2e3c26d7c4b4c4ba399b5424ab2a797a6444a3147417eb0b",
+            "5afa292ccba36c1f5cd4d5bd175c5dfa21dc4b6bcb9ed3e44011899bd62a9c78",
+            "5c3d64104db3e6f1c5eba7e7576bca60336e4e009684ace6aa30af28837324d0",
+            "60b5ed0c65b4584584c2ab7f024c46d1c37e073e53ee71a1358946e68732bf86",
+            "60e25628447d2c488883bab50a8654f62556e069b8306266631afb9a89b7725f",
+            "61a9244473c2f1783beacbec6ccc0ea6937f2c927837163abed27e597fafc9a2",
+            "6802c55bb6965aa28a765f3ce312db60070f10447e2044e0a6a7249757712747",
+            "6b9d89c1ff1281d669df30bff54cb309c1c748c13313b53ec4236ca0d0966ca2",
+            "6f54b8a9033592059b9b6a47f5c53e93cfb2ba5c7f8e8aaa28e00c4b09542bc4",
+            "7c371d843cc606de6336e441bde7fe5fa06113e173e53da388227c43e1a4e07d",
+            "83c26ef41c95dd926f940d2f102060fdf584a4ce7013c81ccebedbb0e3386852",
+            "8849619d8cc20c7013fcf2dabd33cd07f9437e664548528f7ba4153fd4e69f57",
+            "8994e4f9cd544691435300519365ddcb0d77afe2479bf09046b8ab35389b45aa",
+            "8a7fd5a6f5fd12b8307e9ebd4bbfd6e57faee6b444e9f390486f4b49ca1b5187",
+            "9248a097c6e4762992b2b1e89644a720d352339974cff3278af1b18e5d2668ba",
+            "93840fdb515d35b8775de4454a74a7c086cd47dc697462cdc9c215a10c25d1ef",
+            "94875d0add88bdb7aa0de63366bb696b4a52a8875709f1d28c81597fb246c79c",
+            "a292898e0a177e0b7f83f80842ab59c0ee51f5d61397b90bd73c745a7da17337",
+            "a34c724917642eea49a41c9be1027f02f958d9d9431c33a30dda6c079024fbb2",
+            "a3a77d9c0df6c9e15fa661959fc8d945a773b2c7f212b91e5a6cfffede12cd52",
+            "c0ea4eb2ee0953eeb3831ff2c77425a0ef73b0550e0a77a26840a92433cd0987",
+            "c16c5f0b6d7e5330d48d91471bc4ea4497541a697783aea97f6bdae32735e9fe",
+            "cbed35af987c83b518829fa9bf4278f95ff2b4602592bcee69ab2a4ce70a8441",
+            "cd45d796fca09debea142d3cc84614d91d95d220e9c0edc4dd663c7117679944"
+          ],
+          "actual_documents": 40
+        },
+        "trace_url": null,
+        "account_scope": "supplied_session"
+      },
+      "local_drafts": [
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7220631249947473,
+          "tempo_prefill_stimato_sec": 0.5571825688935845,
+          "token_al_secondo": 40.16269353210768
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 391,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6992450830002781,
+          "tempo_prefill_stimato_sec": 0.5392600147004117,
+          "token_al_secondo": 41.473298425737326
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6892058749799617,
+          "tempo_prefill_stimato_sec": 0.5318281554963483,
+          "token_al_secondo": 42.07741264661036
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3823137090075761,
+          "tempo_prefill_stimato_sec": 0.35345984417681564,
+          "token_al_secondo": 20.92522400195037
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3657803329988383,
+          "tempo_prefill_stimato_sec": 0.33817427013100143,
+          "token_al_secondo": 21.871050131132687
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.690399790997617,
+          "tempo_prefill_stimato_sec": 0.5327494450217831,
+          "token_al_secondo": 42.0046477101267
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7080691250157543,
+          "tempo_prefill_stimato_sec": 0.5463840492247553,
+          "token_al_secondo": 40.95645322673088
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37669441700563766,
+          "tempo_prefill_stimato_sec": 0.3482646496844575,
+          "token_al_secondo": 21.237373422182337
+        },
+        {
+          "testo": "Raccartare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7006809169834014,
+          "tempo_prefill_stimato_sec": 0.5406829123179002,
+          "token_al_secondo": 41.388311422625755
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.698595458001364,
+          "tempo_prefill_stimato_sec": 0.5390736605049895,
+          "token_al_secondo": 41.511864510208966
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.36938712501432747,
+          "tempo_prefill_stimato_sec": 0.3415088514283405,
+          "token_al_secondo": 21.657495506075644
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 391,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6944839999778196,
+          "tempo_prefill_stimato_sec": 0.5355882524483777,
+          "token_al_secondo": 41.75762148721382
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6974887500109617,
+          "tempo_prefill_stimato_sec": 0.5382196653627893,
+          "token_al_secondo": 41.577731539819446
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.710896333999699,
+          "tempo_prefill_stimato_sec": 0.5485656750548858,
+          "token_al_secondo": 40.79357089498267
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3794920409854967,
+          "tempo_prefill_stimato_sec": 0.3508511322318743,
+          "token_al_secondo": 21.0808110210294
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7040944999898784,
+          "tempo_prefill_stimato_sec": 0.5433170157402211,
+          "token_al_secondo": 41.18765307841048
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.692857540998375,
+          "tempo_prefill_stimato_sec": 0.5346459765184312,
+          "token_al_secondo": 41.85564605129702
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7022880419972353,
+          "tempo_prefill_stimato_sec": 0.5419230560293626,
+          "token_al_secondo": 41.29359787691525
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37351350000244565,
+          "tempo_prefill_stimato_sec": 0.3452571595767287,
+          "token_al_secondo": 21.4182352175962
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3764684160123579,
+          "tempo_prefill_stimato_sec": 0.3480557053699158,
+          "token_al_secondo": 21.250122612509923
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 391,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7017744999902789,
+          "tempo_prefill_stimato_sec": 0.5412107090654814,
+          "token_al_secondo": 41.32381555670905
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6978059170069173,
+          "tempo_prefill_stimato_sec": 0.5384644083990385,
+          "token_al_secondo": 41.55883361435086
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6936894590035081,
+          "tempo_prefill_stimato_sec": 0.535287928994833,
+          "token_al_secondo": 41.80545000879614
+        },
+        {
+          "testo": "Ricorrere al tecnico locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 9,
+          "durata_totale_sec": 0.3910137499915436,
+          "tempo_prefill_stimato_sec": 0.3581247429829091,
+          "token_al_secondo": 23.017093389157395
+        },
+        {
+          "testo": "Ricorrere al tecnico locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 9,
+          "durata_totale_sec": 0.39331266601220705,
+          "tempo_prefill_stimato_sec": 0.36023029223547937,
+          "token_al_secondo": 22.88255827418655
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7010669159935787,
+          "tempo_prefill_stimato_sec": 0.5409807698218166,
+          "token_al_secondo": 41.36552351625393
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6952401659800671,
+          "tempo_prefill_stimato_sec": 0.5364845375279258,
+          "token_al_secondo": 41.71220452880371
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3775993339950219,
+          "tempo_prefill_stimato_sec": 0.3491012710520014,
+          "token_al_secondo": 21.186478046344934
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6933816660020966,
+          "tempo_prefill_stimato_sec": 0.5350504194346887,
+          "token_al_secondo": 41.82400750110447
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7067466659937054,
+          "tempo_prefill_stimato_sec": 0.5453635690345128,
+          "token_al_secondo": 41.03309063258926
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6943217919906601,
+          "tempo_prefill_stimato_sec": 0.5357758709849189,
+          "token_al_secondo": 41.7673769346276
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 391,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7009362080134451,
+          "tempo_prefill_stimato_sec": 0.5405642156474498,
+          "token_al_secondo": 41.373237205408756
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 392,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.3790910000097938,
+          "tempo_prefill_stimato_sec": 0.35048035849962067,
+          "token_al_secondo": 21.103112444751577
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 391,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7009858749806881,
+          "tempo_prefill_stimato_sec": 0.5406025189693275,
+          "token_al_secondo": 41.37030578654518
+        },
+        {
+          "testo": "Raccolta del log è stata utilizzata per risolvere l'errore E99.",
+          "prompt_tokens": 392,
+          "completion_tokens": 23,
+          "durata_totale_sec": 0.6086026669945568,
+          "tempo_prefill_stimato_sec": 0.492917862524517,
+          "token_al_secondo": 37.79148736495055
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7028644169913605,
+          "tempo_prefill_stimato_sec": 0.542367817835853,
+          "token_al_secondo": 41.25973558902821
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.7052473750081845,
+          "tempo_prefill_stimato_sec": 0.5442066358330871,
+          "token_al_secondo": 41.12032320526319
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6911197500012349,
+          "tempo_prefill_stimato_sec": 0.5333050039379608,
+          "token_al_secondo": 41.96089027979331
+        },
+        {
+          "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+          "prompt_tokens": 392,
+          "completion_tokens": 29,
+          "durata_totale_sec": 0.6947999580006581,
+          "tempo_prefill_stimato_sec": 0.5361448494808227,
+          "token_al_secondo": 41.73863234455252
+        },
+        {
+          "testo": "Ricaricare la cache locale.",
+          "prompt_tokens": 391,
+          "completion_tokens": 8,
+          "durata_totale_sec": 0.37880341600975953,
+          "tempo_prefill_stimato_sec": 0.3501468928128037,
+          "token_al_secondo": 21.11913372975994
+        }
+      ],
+      "selected_files": [
+        "documenti/TKT-E42-034.md",
+        "documenti/TKT-E42-006.md",
+        "documenti/TKT-E42-022.md",
+        "documenti/TKT-E42-017.md",
+        "documenti/TKT-E42-013.md",
+        "documenti/TKT-E42-037.md",
+        "documenti/TKT-E42-018.md",
+        "documenti/TKT-E42-035.md",
+        "documenti/TKT-E42-021.md",
+        "documenti/TKT-E42-038.md",
+        "documenti/TKT-E42-033.md",
+        "documenti/TKT-E42-009.md",
+        "documenti/TKT-E42-023.md",
+        "documenti/TKT-E42-016.md",
+        "documenti/TKT-E42-041.md",
+        "documenti/TKT-E42-012.md",
+        "documenti/TKT-E42-030.md",
+        "documenti/TKT-E42-040.md",
+        "documenti/TKT-E42-007.md",
+        "documenti/TKT-E42-045.md",
+        "documenti/TKT-E42-002.md",
+        "documenti/TKT-E42-046.md",
+        "documenti/TKT-E42-027.md",
+        "documenti/TKT-E42-024.md",
+        "documenti/TKT-E42-044.md",
+        "documenti/TKT-E42-029.md",
+        "documenti/TKT-E42-032.md",
+        "documenti/TKT-E42-047.md",
+        "documenti/TKT-E42-015.md",
+        "documenti/TKT-E42-010.md",
+        "documenti/TKT-E42-028.md",
+        "documenti/TKT-E42-008.md",
+        "documenti/TKT-E42-026.md",
+        "documenti/TKT-E42-003.md",
+        "documenti/TKT-E42-019.md",
+        "documenti/TKT-E42-039.md",
+        "documenti/TKT-E42-020.md",
+        "documenti/TKT-E42-014.md",
+        "documenti/TKT-E42-031.md",
+        "documenti/TKT-E42-005.md"
+      ],
+      "relevant_tickets": 0,
+      "histogram": {
+        "locale": 39,
+        "raccettare": 26,
+        "servizio": 27,
+        "riavviare": 27,
+        "cache": 37,
+        "ferrosync": 27,
+        "cancellare": 27,
+        "ricaricare": 10,
+        "raccartare": 1,
+        "tecnico": 2,
+        "ricorrere": 2,
+        "stata": 1,
+        "e99": 1,
+        "errore": 1,
+        "utilizzata": 1,
+        "raccolta": 1,
+        "risolvere": 1,
+        "log": 1
+      },
+      "draft_metrics": [
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        },
+        {
+          "step_matches": {},
+          "all_step_terms_present": null,
+          "sensitive_fragments": [],
+          "unique_identifier_tokens": [],
+          "shared_identifier_present": false
+        }
+      ],
+      "release_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "local_keyword_synthesis": {
+        "text": "Informazioni insufficienti: nessuna keyword rilasciata.",
+        "inference_ms": 0.0,
+        "input_keywords": [],
+        "provider": "no inference"
+      },
+      "synthesis_metrics": {
+        "step_matches": {},
+        "all_step_terms_present": null,
+        "sensitive_fragments": [],
+        "unique_identifier_tokens": [],
+        "shared_identifier_present": false
+      },
+      "conditional_trials": [
+        {
+          "n": 5,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 5,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 10,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.0,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.006,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 20,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.032,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 1.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.002,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 4.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.23,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        },
+        {
+          "n": 40,
+          "epsilon": 8.0,
+          "delta_per_trial": 0.0002,
+          "trials": 500,
+          "release_rate": 0.982,
+          "all_step_terms_rate": null,
+          "step_term_rates": {},
+          "unique_identifier_rate": 0.0,
+          "shared_identifier_rate": 0.0,
+          "sensitive_fragment_hits": {}
+        }
+      ],
+      "cloud_answer_quality": null
+    }
+  ],
+  "pipeline_session_epsilon": 12.128914792297458,
+  "pipeline_session_delta": 0.0005,
+  "limits": "Conditional trials are seeded local diagnostics on public synthetic data. Word coverage does not check order, negation, technical validity or PII completeness. Keyword-only synthesis runs locally and is not a real cloud evaluation.",
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "model_setup_seconds": 0.6820611669973005,
+  "model_config": {
+    "filename": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/qwen2.5-0.5b-instruct-q4_k_m.gguf",
+    "n_ctx": 4096,
+    "n_gpu_layers": -1,
+    "verbose": false,
+    "max_tokens": 30,
+    "temperature": 0.2,
+    "stop": [
+      "<|im_end|>",
+      "\n\n"
+    ],
+    "prefill_generation_ratio": 4.0,
+    "system_prompt": "You are a precise and concise factual extractor. Answer using ONLY facts from the provided context in under 10 words."
+  },
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "total_experiment_seconds": 82.27648941701045
+}

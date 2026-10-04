@@ -1,0 +1,241 @@
+{
+  "config": {
+    "epsilon": 4,
+    "delta": 0.0001,
+    "sla_ms": 5000,
+    "rtt_ms": 50.0,
+    "cloud_ms": 150.0,
+    "prefill_tps": 1958.8754092359732,
+    "generation_tps": 489.71885230899323,
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "candidates": 40,
+    "fixed_n": 10,
+    "r_min_k": 1,
+    "r_max_k": 10,
+    "k_sforamento": 0.0,
+    "e2e_cloud_ms": null,
+    "riferimenti_ticket": [
+      {
+        "passaggi": [
+          "arrest",
+          "cache",
+          "riavvi"
+        ]
+      }
+    ],
+    "etichette_attive": true
+  },
+  "decision": {
+    "n_ensemble": 10,
+    "sigma": 2.2626648384914407,
+    "epsilon_find_best_k": 2.0,
+    "epsilon_top_k_ptr": 2.0,
+    "tempo_stimato_ms": 5917.566286856586,
+    "ptr_pass_rate_attesa": 0.0002343470769712308,
+    "motivazione": "Baseline fissa N=10. SLA non fattibile secondo le stime configurate. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=5917.6 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+    "sla_fattibile": false,
+    "modalita": "ensemble",
+    "sforamento_previsto_ms": 917.566286856586,
+    "sforamento_accettato": false,
+    "k_sforamento": 0.0,
+    "sforamento_piano_minimo_ms": 0.0,
+    "tolleranza_sforamento_ms": 0.0
+  },
+  "response": "[Cloud Simulato] Synthesized response using verified terms []. This simulation does not answer the question.",
+  "provider_error": null,
+  "cloud_simulated": true,
+  "released_keywords": [],
+  "ptr_passed": false,
+  "k_hat": 9,
+  "epsilon_consumed": 158.31322831163686,
+  "delta_consumed": 0.007300000000000001,
+  "request_ms": 6691.8547499954,
+  "model_setup_ms": 0.0,
+  "retrieval_ms": 7.291709000128321,
+  "edge_ms": 6683.639166993089,
+  "privacy_ms": 0.7356249989243224,
+  "cloud_call_ms": 0.0,
+  "prefill_estimated_ms": 5359.71491115001,
+  "prefill_real_ms": 2836.279998984537,
+  "sla_violated": true,
+  "prompt_text_bytes": 178,
+  "context_text_bytes": 9375,
+  "text_saving_percent": 98.10133333333333,
+  "local_diagnostics": {
+    "selected_document_ids": [
+      "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+      "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+      "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+      "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+      "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+      "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+      "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+      "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+      "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+      "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3"
+    ],
+    "actual_documents": 10
+  },
+  "trace_url": null,
+  "esito": {
+    "label": "insufficienti",
+    "motivazione": "filtro DP-KSA non ha rilasciato keyword",
+    "riferimenti_usati": true
+  },
+  "account_scope": "supplied_session",
+  "run_id": "run_142",
+  "phase": "C3_offline",
+  "corpus": "ticket",
+  "case": {
+    "id": "procedura_e42",
+    "kind": "procedure",
+    "error": "E42",
+    "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+    "step_groups": {
+      "stop_service": [
+        [
+          "arrestare",
+          "arresta",
+          "fermare",
+          "ferma",
+          "stop",
+          "interrompere"
+        ]
+      ],
+      "clear_cache": [
+        [
+          "cache"
+        ],
+        [
+          "cancellare",
+          "cancella",
+          "svuotare",
+          "svuota",
+          "eliminare",
+          "elimina",
+          "pulire",
+          "pulisci"
+        ]
+      ],
+      "restart_service": [
+        [
+          "riavviare",
+          "riavvia",
+          "riavvio",
+          "restart"
+        ]
+      ]
+    },
+    "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+  },
+  "repeat": 4,
+  "variant": "fixed_10",
+  "started_at": 1790410489.399075,
+  "ended_at": 1790410496.091079,
+  "local_outputs": [
+    {
+      "testo": "Riporta i passaggi della procedura generale in ordine: Arrestare servizio FerroSync. Cancellare la cache locale",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.7601398330007214,
+      "tempo_prefill_stimato_sec": 0.581283401706434,
+      "tempo_prefill_reale_sec": 0.27726475000963546,
+      "token_al_secondo": 39.46642275220897,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 389,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6819995830010157,
+      "tempo_prefill_stimato_sec": 0.5425313656183949,
+      "tempo_prefill_reale_sec": 0.28407624999817926,
+      "token_al_secondo": 36.65691390893822,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.7016796669922769,
+      "tempo_prefill_stimato_sec": 0.5584797349530367,
+      "tempo_prefill_reale_sec": 0.27817033299652394,
+      "token_al_secondo": 35.628793559262654,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale, cancellare la cache locale, riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6975946669990662,
+      "tempo_prefill_stimato_sec": 0.5552284084278283,
+      "tempo_prefill_reale_sec": 0.27941699999792036,
+      "token_al_secondo": 35.837429932693944,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.7639161249971949,
+      "tempo_prefill_stimato_sec": 0.5841711544096195,
+      "tempo_prefill_reale_sec": 0.28387374999874737,
+      "token_al_secondo": 39.271327071555355,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.488805750006577,
+      "tempo_prefill_stimato_sec": 0.4352379965811987,
+      "tempo_prefill_reale_sec": 0.2854598330013687,
+      "token_al_secondo": 24.549629376983674,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio",
+      "prompt_tokens": 390,
+      "completion_tokens": 24,
+      "durata_totale_sec": 0.6795065830083331,
+      "tempo_prefill_stimato_sec": 0.5452830604387858,
+      "tempo_prefill_reale_sec": 0.2832896250038175,
+      "token_al_secondo": 35.319746121879255,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.4907609170040814,
+      "tempo_prefill_stimato_sec": 0.4369788987022643,
+      "tempo_prefill_reale_sec": 0.292365332992631,
+      "token_al_secondo": 24.451824878915943,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+      "prompt_tokens": 390,
+      "completion_tokens": 24,
+      "durata_totale_sec": 0.6981365840038052,
+      "tempo_prefill_stimato_sec": 0.5602330612376214,
+      "tempo_prefill_reale_sec": 0.2856802919995971,
+      "token_al_secondo": 34.37722725023273,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.7039513749914477,
+      "tempo_prefill_stimato_sec": 0.5602878290748257,
+      "tempo_prefill_reale_sec": 0.2866828329861164,
+      "token_al_secondo": 35.513816561980185,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "driver_total_ms": 6692.004919052124,
+  "account_key": "('ticket', 4, 0.0001)",
+  "quality": null
+}

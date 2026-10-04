@@ -1,0 +1,562 @@
+{
+  "case": {
+    "id": "errore_assente",
+    "kind": "unsupported",
+    "error": "E99",
+    "query": "Come si risolve l’errore E99 dopo aggiornamento di FerroSync? Se il ticket non descrive E99, rispondi non disponibile.",
+    "step_groups": {},
+    "expected_answer": "non disponibile"
+  },
+  "corpus": "ticket",
+  "local_outputs": [
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6598945829900913,
+      "tempo_prefill_stimato_sec": 0.5092099931734563,
+      "tempo_prefill_reale_sec": 0.24203254200983793,
+      "token_al_secondo": 43.946413181020844,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6207197080075275,
+      "tempo_prefill_stimato_sec": 0.4787009976941682,
+      "tempo_prefill_reale_sec": 0.22836583299795166,
+      "token_al_secondo": 46.7199601138624,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.36309029202675447,
+      "tempo_prefill_stimato_sec": 0.33254998708992467,
+      "tempo_prefill_reale_sec": 0.23264762500184588,
+      "token_al_secondo": 24.787222896438198,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6499531249864958,
+      "tempo_prefill_stimato_sec": 0.5015386318793432,
+      "tempo_prefill_reale_sec": 0.22869112499756739,
+      "token_al_secondo": 44.618602303977745,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6473110420047306,
+      "tempo_prefill_stimato_sec": 0.4994998591847527,
+      "tempo_prefill_reale_sec": 0.23388066701591015,
+      "token_al_secondo": 44.80071884790754,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6491070409829263,
+      "tempo_prefill_stimato_sec": 0.5008857481600533,
+      "tempo_prefill_reale_sec": 0.22815995800192468,
+      "token_al_secondo": 44.67676079446934,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.3624044170137495,
+      "tempo_prefill_stimato_sec": 0.3319218024985743,
+      "tempo_prefill_reale_sec": 0.2286399999866262,
+      "token_al_secondo": 24.834134402005766,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6522529159847181,
+      "tempo_prefill_stimato_sec": 0.5033132737519872,
+      "tempo_prefill_reale_sec": 0.22901054099202156,
+      "token_al_secondo": 44.461280723012436,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.342428290983662,
+      "tempo_prefill_stimato_sec": 0.3165846463811215,
+      "tempo_prefill_reale_sec": 0.22718695798539557,
+      "token_al_secondo": 23.36255563761727,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6561073749908246,
+      "tempo_prefill_stimato_sec": 0.5062875807015812,
+      "tempo_prefill_reale_sec": 0.22886304097482935,
+      "token_al_secondo": 44.20008234232324,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.3451265420007985,
+      "tempo_prefill_stimato_sec": 0.319079255812059,
+      "tempo_prefill_reale_sec": 0.22747149999486282,
+      "token_al_secondo": 23.179903677131534,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6490498329803813,
+      "tempo_prefill_stimato_sec": 0.5005492794779667,
+      "tempo_prefill_reale_sec": 0.22638695797650144,
+      "token_al_secondo": 44.68069865580965,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6441487919946667,
+      "tempo_prefill_stimato_sec": 0.497059697759664,
+      "tempo_prefill_reale_sec": 0.22780300001613796,
+      "token_al_secondo": 45.020654172460375,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.35460354198585264,
+      "tempo_prefill_stimato_sec": 0.32784101051522224,
+      "tempo_prefill_reale_sec": 0.23262795800110325,
+      "token_al_secondo": 22.560406349012638,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6485092499933671,
+      "tempo_prefill_stimato_sec": 0.500424460624803,
+      "tempo_prefill_reale_sec": 0.22909254100522958,
+      "token_al_secondo": 44.71794349933576,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6468922089843545,
+      "tempo_prefill_stimato_sec": 0.4991766652005255,
+      "tempo_prefill_reale_sec": 0.2328297089843545,
+      "token_al_secondo": 44.829725257521815,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6527524999983143,
+      "tempo_prefill_stimato_sec": 0.5036987795262583,
+      "tempo_prefill_reale_sec": 0.2280561669904273,
+      "token_al_secondo": 44.4272522894587,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccartare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6383981250110082,
+      "tempo_prefill_stimato_sec": 0.4926221752053449,
+      "tempo_prefill_reale_sec": 0.22754254101892002,
+      "token_al_secondo": 45.42619858023539,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.648860874993261,
+      "tempo_prefill_stimato_sec": 0.5004035544819824,
+      "tempo_prefill_reale_sec": 0.23584354200283997,
+      "token_al_secondo": 44.69371034322449,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.3420590409950819,
+      "tempo_prefill_stimato_sec": 0.3162432643162078,
+      "tempo_prefill_reale_sec": 0.22747416602214798,
+      "token_al_secondo": 23.387775328865008,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccartare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6427362500107847,
+      "tempo_prefill_stimato_sec": 0.4956802243672916,
+      "tempo_prefill_reale_sec": 0.23416662501404062,
+      "token_al_secondo": 45.119596101065405,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6395602090051398,
+      "tempo_prefill_stimato_sec": 0.49351890143703697,
+      "tempo_prefill_reale_sec": 0.22886299999663606,
+      "token_al_secondo": 45.343658957630595,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.640881833009189,
+      "tempo_prefill_stimato_sec": 0.4945387372826813,
+      "tempo_prefill_reale_sec": 0.23396983300335705,
+      "token_al_secondo": 45.25015144185589,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6462230000179261,
+      "tempo_prefill_stimato_sec": 0.49866026773036815,
+      "tempo_prefill_reale_sec": 0.23445170902414247,
+      "token_al_secondo": 44.876149563224374,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.36047345798579045,
+      "tempo_prefill_stimato_sec": 0.33015326058511646,
+      "tempo_prefill_reale_sec": 0.22709729097550735,
+      "token_al_secondo": 24.967164157630634,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.3572803749993909,
+      "tempo_prefill_stimato_sec": 0.3303158183956633,
+      "tempo_prefill_reale_sec": 0.240938458009623,
+      "token_al_secondo": 22.39137819986233,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6391686660062987,
+      "tempo_prefill_stimato_sec": 0.4932167658946242,
+      "tempo_prefill_reale_sec": 0.23339441599091515,
+      "token_al_secondo": 45.37143565124987,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.3524934999877587,
+      "tempo_prefill_stimato_sec": 0.32589021696981463,
+      "tempo_prefill_reale_sec": 0.2361365830001887,
+      "token_al_secondo": 22.695453959513642,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6490598329983186,
+      "tempo_prefill_stimato_sec": 0.5008493199514584,
+      "tempo_prefill_reale_sec": 0.2337222080095671,
+      "token_al_secondo": 44.68001026351468,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6431052080006339,
+      "tempo_prefill_stimato_sec": 0.49625441247293006,
+      "tempo_prefill_reale_sec": 0.23058345800382085,
+      "token_al_secondo": 45.09371039018458,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.652941665990511,
+      "tempo_prefill_stimato_sec": 0.50384475013441,
+      "tempo_prefill_reale_sec": 0.2278234999976121,
+      "token_al_secondo": 44.41438111627793,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6411064589919988,
+      "tempo_prefill_stimato_sec": 0.4944233243902792,
+      "tempo_prefill_reale_sec": 0.23197500000242144,
+      "token_al_secondo": 45.23429703952168,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6531198340235278,
+      "tempo_prefill_stimato_sec": 0.5039822341283915,
+      "tempo_prefill_reale_sec": 0.228127417009091,
+      "token_al_secondo": 44.40226508104379,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 391,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6415735409827903,
+      "tempo_prefill_stimato_sec": 0.4947835394956036,
+      "tempo_prefill_reale_sec": 0.2266257499868516,
+      "token_al_secondo": 45.201365311257284,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6505095000029542,
+      "tempo_prefill_stimato_sec": 0.5019679606322008,
+      "tempo_prefill_reale_sec": 0.23823666598764248,
+      "token_al_secondo": 44.58044040843109,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccolta del log è stata raccolta dal tecnico locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 16,
+      "durata_totale_sec": 0.4629719170043245,
+      "tempo_prefill_stimato_sec": 0.3979934023370509,
+      "tempo_prefill_reale_sec": 0.23001137500978075,
+      "token_al_secondo": 34.559331597321375,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale.",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.3613060000061523,
+      "tempo_prefill_stimato_sec": 0.3309157757065694,
+      "tempo_prefill_reale_sec": 0.23154633300146088,
+      "token_al_secondo": 24.909633385127144,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6438835829903837,
+      "tempo_prefill_stimato_sec": 0.49685504829179217,
+      "tempo_prefill_reale_sec": 0.22717358299996704,
+      "token_al_secondo": 45.0391977153937,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Raccettare il servizio FerroSync. Cancellare la cache locale. Riavviare il servizio FerroSync.",
+      "prompt_tokens": 392,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6421613330021501,
+      "tempo_prefill_stimato_sec": 0.49552606798591103,
+      "tempo_prefill_reale_sec": 0.2314500409993343,
+      "token_al_secondo": 45.15999097052906,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricaricare la cache locale.",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.3527949580166023,
+      "tempo_prefill_stimato_sec": 0.32610597774111466,
+      "tempo_prefill_reale_sec": 0.22799137502443045,
+      "token_al_secondo": 22.67606103266228,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "generation_ms": 22517.33800000511,
+  "conditional_trials": [
+    {
+      "n": 5,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 5,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 5,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.006,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.012,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.208,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.474,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 1.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    }
+  ],
+  "scope": "Seeded conditional diagnostics on PUBLIC synthetic drafts; not session DP",
+  "cloud_answer_quality": null
+}

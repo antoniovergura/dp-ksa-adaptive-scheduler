@@ -1,0 +1,392 @@
+{
+  "config": {
+    "epsilon": 8,
+    "delta": 0.01,
+    "sla_ms": 30000,
+    "rtt_ms": 50.0,
+    "cloud_ms": 150.0,
+    "prefill_tps": 1958.8754092359732,
+    "generation_tps": 489.71885230899323,
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "candidates": 40,
+    "fixed_n": 20,
+    "r_min_k": 1,
+    "r_max_k": 10,
+    "k_sforamento": 0.0,
+    "e2e_cloud_ms": 3465.0009159959154,
+    "riferimenti_ticket": [
+      {
+        "passaggi": [
+          "arrest",
+          "cache",
+          "riavvi"
+        ]
+      }
+    ],
+    "etichette_attive": true
+  },
+  "decision": {
+    "n_ensemble": 20,
+    "sigma": 0.9367982664303164,
+    "epsilon_find_best_k": 4.0,
+    "epsilon_top_k_ptr": 4.0,
+    "tempo_stimato_ms": 14900.133489709087,
+    "ptr_pass_rate_attesa": 0.03651725046957166,
+    "motivazione": "Baseline fissa N=20. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=14900.1 ms. Budget epsilon partizionato 50%/50%: FindBestK=4.0000, TopKWithPTR=4.0000; P(PTR | gap pubblico di riferimento=3)=3.651725%; non è una previsione del rilascio sul corpus.",
+    "sla_fattibile": true,
+    "modalita": "ensemble",
+    "sforamento_previsto_ms": 0.0,
+    "sforamento_accettato": false,
+    "k_sforamento": 0.0,
+    "sforamento_piano_minimo_ms": 0.0,
+    "tolleranza_sforamento_ms": 0.0
+  },
+  "response": "Per risolvere l'errore E42 dopo l'aggiornamento di FerroSync, seguire i seguenti passaggi in ordine:\n\n1. **Arrestare** il servizio FerroSync.\n2. **Cancellare** la cache locale del sistema.\n3. **Riavviare** il servizio FerroSync.\n4. Se l'errore persiste, **ricorrere** all'assistenza di un **tecnico** specializzato.",
+  "provider_error": null,
+  "cloud_simulated": false,
+  "released_keywords": [
+    "arrestare",
+    "cache",
+    "cancellare",
+    "ferrosync",
+    "locale",
+    "riavviare",
+    "ricorrere",
+    "servizio",
+    "tecnico"
+  ],
+  "ptr_passed": true,
+  "k_hat": 9,
+  "epsilon_consumed": 142.88132852326328,
+  "delta_consumed": 0.28,
+  "request_ms": 28581.08775000437,
+  "model_setup_ms": 0.0,
+  "retrieval_ms": 6.945333007024601,
+  "edge_ms": 11604.74537499249,
+  "privacy_ms": 0.8163340098690242,
+  "cloud_call_ms": 16966.618082980858,
+  "prefill_estimated_ms": 9290.673376270863,
+  "prefill_real_ms": 4840.721165935975,
+  "sla_violated": false,
+  "prompt_text_bytes": 342,
+  "context_text_bytes": 18748,
+  "text_saving_percent": 98.17580541924472,
+  "local_diagnostics": {
+    "selected_document_ids": [
+      "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+      "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+      "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+      "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+      "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442",
+      "2f10d73ea8b0e4b88b5ece6a04624c70b9751f51517e4350cac14e3c8ce6a91a",
+      "340cbf73f45da35edd91dbcb26d5a0ded3cc854b4203f034c9f05da14088e8b1",
+      "37b8d0c6b3b5523a6d858bd912113a974707932764350d2c3b033b0d3a91c130",
+      "388a9b27ac40da89d9974829f92c48c6da9d237ef534d12c560fb2c2ad4955f3",
+      "39a1d92f1e386546ad1bbfdb827676c84bd81cecde0ab3a941735db2b59414f3",
+      "4443e4f841d7b307a1c6292a0f314436d16b59a54ed7b2129a62095fb53ee0c8",
+      "4b958a84cb280deb0c06112e3e41f1af33d26a7cfbae86f7c631c9b4d8332e26",
+      "54bf956cd5924dbd6c02310263cc4da34095f6967a86fc4069a31ef452d03548",
+      "55895d602c1d5b2a3dd89b540e265bd9fa1dc772defcd890eecafc9d2830fb11",
+      "574f25397e85128791a029d69d77e4e4ac724f0786f2c660138afb2bd4e1262a",
+      "577ffa9116cebe1c46b62b13a1a01f067283641fc764927688e82b0bdb46f5a9",
+      "59e987c95118531c2e3c26d7c4b4c4ba399b5424ab2a797a6444a3147417eb0b",
+      "5afa292ccba36c1f5cd4d5bd175c5dfa21dc4b6bcb9ed3e44011899bd62a9c78",
+      "5c3d64104db3e6f1c5eba7e7576bca60336e4e009684ace6aa30af28837324d0",
+      "60b5ed0c65b4584584c2ab7f024c46d1c37e073e53ee71a1358946e68732bf86"
+    ],
+    "actual_documents": 20
+  },
+  "trace_url": "https://cloud.langfuse.com/project/cmtq6zddz0w1rad0cdcbyxv49/traces/20edadf0175a0d9cfc5167b696d610b4",
+  "esito": {
+    "label": "completo",
+    "motivazione": "riferimento #1: 3 passaggi in ordine",
+    "riferimenti_usati": true
+  },
+  "account_scope": "supplied_session",
+  "run_id": "run_216",
+  "phase": "C3_high_cloud",
+  "corpus": "ticket",
+  "case": {
+    "id": "procedura_e42",
+    "kind": "procedure",
+    "error": "E42",
+    "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+    "step_groups": {
+      "stop_service": [
+        [
+          "arrestare",
+          "arresta",
+          "fermare",
+          "ferma",
+          "stop",
+          "interrompere"
+        ]
+      ],
+      "clear_cache": [
+        [
+          "cache"
+        ],
+        [
+          "cancellare",
+          "cancella",
+          "svuotare",
+          "svuota",
+          "eliminare",
+          "elimina",
+          "pulire",
+          "pulisci"
+        ]
+      ],
+      "restart_service": [
+        [
+          "riavviare",
+          "riavvia",
+          "riavvio",
+          "restart"
+        ]
+      ]
+    },
+    "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+  },
+  "repeat": 4,
+  "variant": "fixed_20",
+  "started_at": 1790412692.6664052,
+  "ended_at": 1790412721.331789,
+  "local_outputs": [
+    {
+      "testo": "Riporta i passaggi della procedura generale in ordine: 1. Arrestare il servizio FerroSync. 2",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.6706622499914374,
+      "tempo_prefill_stimato_sec": 0.512859367640511,
+      "tempo_prefill_reale_sec": 0.24871987497317605,
+      "token_al_secondo": 44.73190491992507,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 389,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.6652180409873836,
+      "tempo_prefill_stimato_sec": 0.5083886403616743,
+      "tempo_prefill_reale_sec": 0.2553991249878891,
+      "token_al_secondo": 45.09799517083298,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6145459580002353,
+      "tempo_prefill_stimato_sec": 0.4891284155512077,
+      "tempo_prefill_reale_sec": 0.23661974997958168,
+      "token_al_secondo": 40.6804400460973,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6053008339949884,
+      "tempo_prefill_stimato_sec": 0.48177005154703156,
+      "tempo_prefill_reale_sec": 0.23838116700062528,
+      "token_al_secondo": 41.301776894969535,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.615028500003973,
+      "tempo_prefill_stimato_sec": 0.48951247959499894,
+      "tempo_prefill_reale_sec": 0.24035037501016632,
+      "token_al_secondo": 40.64852279177063,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.41739995797979645,
+      "tempo_prefill_stimato_sec": 0.3716574968313256,
+      "tempo_prefill_reale_sec": 0.2404884999850765,
+      "token_al_secondo": 28.749403948384778,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6059396250057034,
+      "tempo_prefill_stimato_sec": 0.48227847704535576,
+      "tempo_prefill_reale_sec": 0.23919466600636952,
+      "token_al_secondo": 41.25823591709271,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.4162161659915,
+      "tempo_prefill_stimato_sec": 0.37060343547188357,
+      "tempo_prefill_reale_sec": 0.24075079098111019,
+      "token_al_secondo": 28.83117231021984,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+      "prompt_tokens": 390,
+      "completion_tokens": 24,
+      "durata_totale_sec": 0.60301133300527,
+      "tempo_prefill_stimato_sec": 0.48389798327583394,
+      "tempo_prefill_reale_sec": 0.24840554199181497,
+      "token_al_secondo": 39.80024700429677,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6039312919892836,
+      "tempo_prefill_stimato_sec": 0.480680007909838,
+      "tempo_prefill_reale_sec": 0.23856245799106546,
+      "token_al_secondo": 41.39543741416798,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.6728443340107333,
+      "tempo_prefill_stimato_sec": 0.5145280201258549,
+      "tempo_prefill_reale_sec": 0.24551825001253746,
+      "token_al_secondo": 44.58683603854415,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 389,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.6686363330227323,
+      "tempo_prefill_stimato_sec": 0.5110010482236599,
+      "tempo_prefill_reale_sec": 0.23908825000398792,
+      "token_al_secondo": 44.86743917187052,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.4231783750001341,
+      "tempo_prefill_stimato_sec": 0.3768026626713523,
+      "tempo_prefill_reale_sec": 0.24208387499675155,
+      "token_al_secondo": 28.356836523123842,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6106654579925817,
+      "tempo_prefill_stimato_sec": 0.4860398543206262,
+      "tempo_prefill_reale_sec": 0.24008566699922085,
+      "token_al_secondo": 40.93894565803933,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.4180688330088742,
+      "tempo_prefill_stimato_sec": 0.37225307048735373,
+      "tempo_prefill_reale_sec": 0.24007087500649504,
+      "token_al_secondo": 28.703407316051422,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6104930409928784,
+      "tempo_prefill_stimato_sec": 0.4859026244637195,
+      "tempo_prefill_reale_sec": 0.24406037500011735,
+      "token_al_secondo": 40.95050773935298,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare il servizio, cancellare la cache locale, riavviare il servizio.",
+      "prompt_tokens": 390,
+      "completion_tokens": 29,
+      "durata_totale_sec": 0.6638687080121599,
+      "tempo_prefill_stimato_sec": 0.5116774626971193,
+      "tempo_prefill_reale_sec": 0.2400727499916684,
+      "token_al_secondo": 43.683336253090594,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riporta i passaggi della procedura generale in ordine: Arrestare il servizio FerroSync. Cancellare la cache",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.661918958008755,
+      "tempo_prefill_stimato_sec": 0.5061733208302244,
+      "tempo_prefill_reale_sec": 0.24342362501192838,
+      "token_al_secondo": 45.32276895384404,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio, cancellare cache, riavviare servizio.",
+      "prompt_tokens": 389,
+      "completion_tokens": 25,
+      "durata_totale_sec": 0.6084641659981571,
+      "tempo_prefill_stimato_sec": 0.48403386620303296,
+      "tempo_prefill_reale_sec": 0.23836283301352523,
+      "token_al_secondo": 41.08705392533456,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.41720633298973553,
+      "tempo_prefill_stimato_sec": 0.37148509101825766,
+      "tempo_prefill_reale_sec": 0.24108241699286737,
+      "token_al_secondo": 28.762746514433267,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "driver_total_ms": 28665.384769439697,
+  "account_key": "('ticket', 8, 0.01)",
+  "quality": null,
+  "provider_calls": [
+    {
+      "started_at": 1790412704.2808661,
+      "max_tokens": 1024,
+      "model": "xiaomi/mimo-v2.5",
+      "usage": {
+        "completion_tokens": 277,
+        "prompt_tokens": 108,
+        "total_tokens": 385,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 169,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cache_creation_input_tokens": 0
+      },
+      "finish_reason": "stop",
+      "elapsed_ms": 16966.599941253662
+    }
+  ]
+}

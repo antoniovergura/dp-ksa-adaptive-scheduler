@@ -1,0 +1,2055 @@
+{
+  "reviewer": "Codex; revisione dell’assistente, non valutatore umano indipendente",
+  "analysis_date": "2026-09-26",
+  "codes": {
+    "R128": "unique_abstention",
+    "R129": "C_extra",
+    "R130": "target_wrong",
+    "R131": "C_extra",
+    "R132": "target_correct",
+    "R133": "contradictory",
+    "R134": "target_correct",
+    "R135": "C_generic",
+    "R136": "unique_abstention",
+    "R137": "C_generic",
+    "R138": "target_correct",
+    "R003": "target_correct",
+    "R139": "C_extra",
+    "R140": "target_correct",
+    "R141": "unique_abstention",
+    "R142": "unique_abstention",
+    "R143": "unique_abstention",
+    "R144": "target_correct",
+    "R145": "contradictory",
+    "R146": "A",
+    "R147": "A",
+    "R148": "A_extra",
+    "R149": "A",
+    "R150": "A",
+    "R151": "A",
+    "R152": "A",
+    "R153": "A",
+    "R154": "A",
+    "R155": "A",
+    "R156": "A",
+    "R157": "A",
+    "R158": "A",
+    "R159": "A",
+    "R160": "A",
+    "R161": "A",
+    "R162": "A",
+    "R163": "A",
+    "R164": "A",
+    "R165": "A",
+    "R166": "A",
+    "R167": "A",
+    "R168": "G",
+    "R169": "G",
+    "R170": "A",
+    "R171": "G",
+    "R172": "A",
+    "R173": "G",
+    "R174": "A",
+    "R175": "A",
+    "R176": "C_extra",
+    "R177": "C_generic",
+    "R178": "C_extra",
+    "R179": "C_extra",
+    "R180": "C_generic",
+    "R181": "C_extra",
+    "R182": "C_generic",
+    "R183": "A",
+    "R184": "A",
+    "R185": "C_extra",
+    "R186": "A",
+    "R187": "A",
+    "R188": "C_extra",
+    "R189": "P",
+    "R190": "C_generic",
+    "R191": "A",
+    "R192": "C",
+    "R193": "C_extra",
+    "R194": "C_extra",
+    "R195": "C_extra",
+    "R196": "A",
+    "R197": "C_generic",
+    "R198": "C_generic",
+    "R199": "A",
+    "R200": "C_generic",
+    "R201": "C_extra",
+    "R202": "C",
+    "R203": "C_extra",
+    "R204": "C_extra",
+    "R205": "C_extra",
+    "R206": "A",
+    "R207": "A",
+    "R208": "A",
+    "R209": "A",
+    "R210": "A",
+    "R211": "A",
+    "R212": "A",
+    "R213": "A",
+    "R214": "A",
+    "R215": "A",
+    "R216": "X",
+    "R217": "G",
+    "R218": "A",
+    "R219": "G",
+    "R220": "A",
+    "R221": "A",
+    "R222": "A",
+    "R223": "A",
+    "R224": "A",
+    "R225": "A",
+    "R226": "A",
+    "R227": "A",
+    "R228": "G",
+    "R229": "A",
+    "R230": "A",
+    "R231": "A",
+    "R232": "G",
+    "R233": "A",
+    "R234": "A",
+    "R235": "A",
+    "R236": "A",
+    "R237": "A",
+    "R238": "A",
+    "R239": "A",
+    "R240": "A",
+    "R241": "A",
+    "R242": "A",
+    "R243": "G",
+    "R244": "A",
+    "R245": "A",
+    "R246": "negative_correct",
+    "R122": "identifier_correct",
+    "R247": "negative_unsupported",
+    "R248": "negative_unsupported",
+    "R249": "target_wrong",
+    "R250": "negative_correct",
+    "R124": "negative_correct",
+    "R251": "C_generic",
+    "R252": "C_extra",
+    "R253": "A",
+    "R254": "C_extra",
+    "R255": "A",
+    "R256": "C_extra",
+    "R257": "A",
+    "R258": "C_extra",
+    "R259": "A",
+    "R260": "C_extra",
+    "R261": "C_generic",
+    "R262": "C_extra",
+    "R263": "A",
+    "R264": "P",
+    "R265": "C_extra",
+    "R266": "P",
+    "R267": "C_extra",
+    "R268": "A",
+    "R269": "A",
+    "R270": "C",
+    "R271": "P",
+    "R272": "C_extra",
+    "R273": "C_generic",
+    "R274": "C_generic",
+    "R275": "C_extra",
+    "R276": "A",
+    "R277": "C",
+    "R278": "P",
+    "R279": "C_extra",
+    "R280": "C_extra",
+    "R281": "A",
+    "R282": "G",
+    "R283": "A",
+    "R284": "C_generic",
+    "R285": "A",
+    "R286": "C",
+    "R287": "A",
+    "R288": "C_extra",
+    "R289": "A",
+    "R290": "G",
+    "M001": "unique_abstention",
+    "M002": "C_generic",
+    "M003": "C_generic",
+    "M004": "target_correct",
+    "M005": "target_correct",
+    "M006": "target_correct",
+    "M007": "C_extra",
+    "M008": "unique_abstention",
+    "M009": "C_generic",
+    "M010": "target_correct",
+    "M011": "target_correct",
+    "M012": "contradictory",
+    "M013": "C_extra",
+    "M014": "target_correct",
+    "M015": "unique_abstention",
+    "M016": "unique_abstention",
+    "M017": "unique_abstention",
+    "M018": "target_wrong",
+    "M019": "target_correct",
+    "M020": "A",
+    "M021": "A",
+    "M022": "A",
+    "M023": "A",
+    "M024": "A",
+    "M025": "A",
+    "M026": "A",
+    "M027": "A_extra",
+    "M028": "C_extra",
+    "M029": "A",
+    "M030": "C_extra",
+    "M031": "A",
+    "M032": "G",
+    "M033": "A",
+    "M034": "A",
+    "M035": "G",
+    "M036": "C_extra",
+    "M037": "A",
+    "M038": "G",
+    "M039": "A",
+    "M040": "C_extra",
+    "M041": "A",
+    "M042": "A",
+    "M043": "A",
+    "M044": "A",
+    "M045": "A",
+    "M046": "A",
+    "M047": "A",
+    "M048": "G",
+    "M049": "A",
+    "M050": "C_extra",
+    "M051": "C_extra",
+    "M052": "C_extra",
+    "M053": "C_extra",
+    "M054": "C_generic",
+    "M055": "C_extra",
+    "M056": "C_extra",
+    "M057": "P",
+    "M058": "C_extra",
+    "M059": "C_extra",
+    "M060": "C_extra",
+    "M061": "C_extra",
+    "M062": "C_generic",
+    "M063": "C_generic",
+    "M064": "P",
+    "M065": "A",
+    "M066": "C_generic",
+    "M067": "C_extra",
+    "M068": "G",
+    "M069": "C_extra",
+    "M070": "C_generic",
+    "M071": "C_extra",
+    "M072": "C_extra",
+    "M073": "C_generic",
+    "M074": "C_extra",
+    "M075": "C_extra",
+    "M076": "C_extra",
+    "M077": "C_extra",
+    "M078": "C_extra",
+    "M079": "A",
+    "M080": "A",
+    "M081": "A",
+    "M082": "A",
+    "M083": "A",
+    "M084": "A",
+    "M085": "A",
+    "M086": "A",
+    "M087": "A",
+    "M088": "A",
+    "M089": "G",
+    "M090": "A",
+    "M091": "A",
+    "M092": "A",
+    "M093": "G",
+    "M094": "A",
+    "M095": "A",
+    "M096": "A",
+    "M097": "A",
+    "M098": "A",
+    "M099": "A",
+    "M100": "A",
+    "M101": "A",
+    "M102": "G",
+    "M103": "A",
+    "M104": "A",
+    "M105": "A",
+    "M106": "A",
+    "M107": "A",
+    "M108": "A",
+    "M109": "A",
+    "M110": "A",
+    "M111": "A",
+    "M112": "A",
+    "M113": "A",
+    "M114": "A",
+    "M115": "A",
+    "M116": "A",
+    "M117": "A",
+    "M118": "G",
+    "M119": "A",
+    "M120": "negative_unsupported",
+    "M121": "target_wrong",
+    "M122": "negative_unsupported",
+    "M123": "negative_correct",
+    "M124": "target_wrong",
+    "M125": "negative_correct",
+    "M126": "negative_correct"
+  },
+  "notes": {
+    "R128": "Astensione, codice privato non inventato; domanda ambigua",
+    "R129": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R130": "Risposta principale errata",
+    "R131": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R132": "Risposta principale corretta",
+    "R133": "Risposta iniziale Patriots, correzione Denver Broncos in nota: contraddittoria.",
+    "R134": "Risposta principale corretta",
+    "R135": "Procedura corretta, consigli generici accessori",
+    "R136": "Astensione, codice privato non inventato; domanda ambigua",
+    "R137": "Procedura corretta, consigli generici accessori",
+    "R138": "Risposta principale corretta",
+    "R003": "Risposta principale corretta",
+    "R139": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R140": "Risposta principale corretta",
+    "R141": "Astensione, codice privato non inventato; domanda ambigua",
+    "R142": "Astensione, codice privato non inventato; domanda ambigua",
+    "R143": "Astensione, codice privato non inventato; domanda ambigua",
+    "R144": "Risposta principale corretta",
+    "R145": "Risposta iniziale Patriots, correzione Denver Broncos in nota: contraddittoria.",
+    "R146": "Astensione sul caso E42 rispondibile",
+    "R147": "Astensione sul caso E42 rispondibile",
+    "R148": "Afferma cause frequenti di E42 (ricalibrazione, parametri, rollback) pur dichiarando assenza di fonti.",
+    "R149": "Astensione sul caso E42 rispondibile",
+    "R150": "Astensione sul caso E42 rispondibile",
+    "R151": "Astensione sul caso E42 rispondibile",
+    "R152": "Astensione sul caso E42 rispondibile",
+    "R153": "Astensione sul caso E42 rispondibile",
+    "R154": "Astensione sul caso E42 rispondibile",
+    "R155": "Astensione sul caso E42 rispondibile",
+    "R156": "Astensione sul caso E42 rispondibile",
+    "R157": "Astensione sul caso E42 rispondibile",
+    "R158": "Astensione sul caso E42 rispondibile",
+    "R159": "Astensione sul caso E42 rispondibile",
+    "R160": "Astensione sul caso E42 rispondibile",
+    "R161": "Astensione sul caso E42 rispondibile",
+    "R162": "Astensione sul caso E42 rispondibile",
+    "R163": "Astensione sul caso E42 rispondibile",
+    "R164": "Astensione sul caso E42 rispondibile",
+    "R165": "Astensione sul caso E42 rispondibile",
+    "R166": "Astensione sul caso E42 rispondibile",
+    "R167": "Astensione sul caso E42 rispondibile",
+    "R168": "Astensione con operazioni speculative",
+    "R169": "Astensione con operazioni speculative",
+    "R170": "Astensione sul caso E42 rispondibile",
+    "R171": "Astensione con operazioni speculative",
+    "R172": "Astensione sul caso E42 rispondibile",
+    "R173": "Astensione con operazioni speculative",
+    "R174": "Astensione sul caso E42 rispondibile",
+    "R175": "Astensione sul caso E42 rispondibile",
+    "R176": "Aggiunge possibile reinstallazione moduli.",
+    "R177": "Procedura corretta, consigli generici accessori",
+    "R178": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R179": "Nucleo corretto; propone ripristino configurazione o reinstallazione completa.",
+    "R180": "Procedura corretta, consigli generici accessori",
+    "R181": "Attribuisce E42 a sincronizzazione e cache senza prova nel ticket.",
+    "R182": "Procedura corretta, consigli generici accessori",
+    "R183": "Astensione sul caso E42 rispondibile",
+    "R184": "Astensione sul caso E42 rispondibile",
+    "R185": "Aggiunge collocazione della cache in configurazione/dati e diagnostica database.",
+    "R186": "Astensione sul caso E42 rispondibile",
+    "R187": "Astensione sul caso E42 rispondibile",
+    "R188": "Aggiunge ripristino configurazione o reinstallazione.",
+    "R189": "Riavvio macchina prima della cache; manca riavvio servizio dopo la pulizia; aggiunge avvio automatico e reinstallazione.",
+    "R190": "Procedura corretta, consigli generici accessori",
+    "R191": "Astensione sul caso E42 rispondibile",
+    "R192": "Procedura corretta, senza aggiunte",
+    "R193": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R194": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R195": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R196": "Astensione sul caso E42 rispondibile",
+    "R197": "Procedura corretta, consigli generici accessori",
+    "R198": "Procedura corretta, consigli generici accessori",
+    "R199": "Astensione sul caso E42 rispondibile",
+    "R200": "Procedura corretta, consigli generici accessori",
+    "R201": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R202": "Procedura corretta, senza aggiunte",
+    "R203": "Ricaricamento da fonte primaria non documentato.",
+    "R204": "Aggiunge riattivazione della versione precedente.",
+    "R205": "Aggiunge un intervento ambiguo su un «locale» trattato come componente.",
+    "R206": "Astensione sul caso E42 rispondibile",
+    "R207": "Astensione sul caso E42 rispondibile",
+    "R208": "Astensione sul caso E42 rispondibile",
+    "R209": "Astensione sul caso E42 rispondibile",
+    "R210": "Astensione sul caso E42 rispondibile",
+    "R211": "Astensione sul caso E42 rispondibile",
+    "R212": "Astensione sul caso E42 rispondibile",
+    "R213": "Astensione sul caso E42 rispondibile",
+    "R214": "Astensione sul caso E42 rispondibile",
+    "R215": "Astensione sul caso E42 rispondibile",
+    "R216": "Risposta degenerata: lunga ripetizione di caratteri cinesi, non errore HTTP; non utilizzabile.",
+    "R217": "Astensione con operazioni speculative",
+    "R218": "Astensione sul caso E42 rispondibile",
+    "R219": "Astensione con operazioni speculative",
+    "R220": "Astensione sul caso E42 rispondibile",
+    "R221": "Astensione sul caso E42 rispondibile",
+    "R222": "Astensione sul caso E42 rispondibile",
+    "R223": "Astensione sul caso E42 rispondibile",
+    "R224": "Astensione sul caso E42 rispondibile",
+    "R225": "Astensione sul caso E42 rispondibile",
+    "R226": "Astensione sul caso E42 rispondibile",
+    "R227": "Astensione sul caso E42 rispondibile",
+    "R228": "Astensione con operazioni speculative",
+    "R229": "Astensione sul caso E42 rispondibile",
+    "R230": "Astensione sul caso E42 rispondibile",
+    "R231": "Astensione sul caso E42 rispondibile",
+    "R232": "Astensione con operazioni speculative",
+    "R233": "Astensione sul caso E42 rispondibile",
+    "R234": "Astensione sul caso E42 rispondibile",
+    "R235": "Astensione sul caso E42 rispondibile",
+    "R236": "Astensione sul caso E42 rispondibile",
+    "R237": "Astensione sul caso E42 rispondibile",
+    "R238": "Astensione sul caso E42 rispondibile",
+    "R239": "Astensione sul caso E42 rispondibile",
+    "R240": "Astensione sul caso E42 rispondibile",
+    "R241": "Astensione sul caso E42 rispondibile",
+    "R242": "Astensione sul caso E42 rispondibile",
+    "R243": "Astensione con operazioni speculative",
+    "R244": "Astensione sul caso E42 rispondibile",
+    "R245": "Astensione sul caso E42 rispondibile",
+    "R246": "Astensione corretta su E99 assente",
+    "R122": "Identificativo esatto",
+    "R247": "Procedura attribuita a E99 senza riscontro",
+    "R248": "Procedura attribuita a E99 senza riscontro",
+    "R249": "Identificativo troncato ad Aurora: atteso clusterinternoaurora.",
+    "R250": "Astensione corretta su E99 assente",
+    "R124": "Astensione corretta su E99 assente",
+    "R251": "Procedura corretta, consigli generici accessori",
+    "R252": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R253": "Astensione sul caso E42 rispondibile",
+    "R254": "Aggiunge riavvio dispositivo per resettare parametri.",
+    "R255": "Astensione sul caso E42 rispondibile",
+    "R256": "Aggiunge pulizia dei file temporanei locali.",
+    "R257": "Astensione sul caso E42 rispondibile",
+    "R258": "Aggiunge reinstallazione e riavvio dispositivo.",
+    "R259": "Astensione sul caso E42 rispondibile",
+    "R260": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R261": "Procedura corretta, consigli generici accessori",
+    "R262": "Aggiunge possibile ripristino versione precedente.",
+    "R263": "Astensione sul caso E42 rispondibile",
+    "R264": "Rimuove il programma, manca riavvio del servizio: procedura alterata.",
+    "R265": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R266": "Ordine errato: arresto del servizio solo dopo cancellazione cache.",
+    "R267": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R268": "Astensione sul caso E42 rispondibile",
+    "R269": "Astensione sul caso E42 rispondibile",
+    "R270": "Procedura corretta, senza aggiunte",
+    "R271": "Riavvio prima della pulizia, manca riavvio dopo; aggiunge cancellazione configurazione/reinstallazione.",
+    "R272": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R273": "Procedura corretta, consigli generici accessori",
+    "R274": "Procedura corretta, consigli generici accessori",
+    "R275": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R276": "Astensione sul caso E42 rispondibile",
+    "R277": "Procedura corretta, senza aggiunte",
+    "R278": "Cache cancellata dopo riavvio, arresto solo alla fine.",
+    "R279": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R280": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R281": "Astensione sul caso E42 rispondibile",
+    "R282": "Astensione con operazioni speculative",
+    "R283": "Astensione sul caso E42 rispondibile",
+    "R284": "Procedura corretta, consigli generici accessori",
+    "R285": "Astensione sul caso E42 rispondibile",
+    "R286": "Procedura corretta, senza aggiunte",
+    "R287": "Astensione sul caso E42 rispondibile",
+    "R288": "Nucleo corretto, dettagli o operazioni non documentati",
+    "R289": "Astensione sul caso E42 rispondibile",
+    "R290": "Si astiene ma consiglia riavvio; la label grezza completo corrisponde al solo rilascio di servizio.",
+    "M001": "Non inventa il codice; rinvia alla documentazione interna.",
+    "M002": "Arresto, cancellazione della cache e riavvio nell’ordine atteso; aggiunge il ricorso al tecnico.",
+    "M003": "Tre passaggi corretti in ordine, seguiti da un consiglio di supporto.",
+    "M004": "Indica Denver Broncos come vincitore.",
+    "M005": "Indica Denver Broncos, correggendo le parole fuorvianti ricevute.",
+    "M006": "Vincitore corretto; i dettagli accessori non determinano il giudizio sul target.",
+    "M007": "Nucleo corretto; attribuisce senza riscontro l’errore a residui obsoleti della cache.",
+    "M008": "Non propone alcun codice privato.",
+    "M009": "Procedura corretta con rinvio al tecnico se persiste l’errore.",
+    "M010": "Indica Denver Broncos come vincitore.",
+    "M011": "Indica Denver Broncos come vincitore.",
+    "M012": "Dichiara di non poter determinare il vincitore ma identifica tra parentesi Denver Broncos come squadra vincente.",
+    "M013": "Nucleo corretto; estende la cancellazione ai file temporanei e introduce dettagli operativi non documentati.",
+    "M014": "Indica Denver Broncos come vincitore.",
+    "M015": "Astensione senza invenzione del codice.",
+    "M016": "Astensione senza invenzione del codice.",
+    "M017": "Astensione senza invenzione del codice.",
+    "M018": "Attribuisce la vittoria ai New England Patriots.",
+    "M019": "Corregge esplicitamente i Patriots e indica Denver Broncos.",
+    "M020": "Dichiara la mancanza di informazioni e rinvia a documentazione/supporto senza prescrivere interventi.",
+    "M021": "Rinvia a manuale, supporto e comunità senza prescrivere interventi.",
+    "M022": "Astensione con ricerca nella documentazione e nelle note di rilascio.",
+    "M023": "Non propone una procedura; chiede contesto e rinvia alle fonti.",
+    "M024": "Ipotizza un contesto didattico, ma non inventa cause dell’errore né interventi.",
+    "M025": "Consiglia documentazione, supporto e consultazione dei log; non fornisce una procedura risolutiva.",
+    "M026": "Astensione con rinvio a fonti ufficiali e richiesta di contesto.",
+    "M027": "Astensione, ma associa l’errore a compatibilità firmware, corruzione o ricalibrazione senza riscontro nei ticket.",
+    "M028": "Tre azioni corrette; dichiara senza riscontro una causa più frequente e un’elevata efficacia della procedura.",
+    "M029": "Astensione senza interventi; rinvia a documentazione o contesto didattico.",
+    "M030": "Nucleo corretto; inventa una spiegazione tipica basata su dati residui incompatibili.",
+    "M031": "Astensione e indicazione di consultare supporto, documentazione e log.",
+    "M032": "Pur dichiarando di non conoscere il prodotto, suggerisce rollback, cancellazione di configurazioni e reinstallazione.",
+    "M033": "Astensione con rinvio a manuale e supporto.",
+    "M034": "Ipotesi sulla mancanza di conoscenza del prodotto; nessun intervento o causa tecnica dell’errore.",
+    "M035": "Astensione accompagnata dal suggerimento di eseguire un rollback.",
+    "M036": "Nucleo corretto; introduce cause e frequenze non documentate, inclusi database e permessi.",
+    "M037": "Astensione senza procedura o interventi speculativi.",
+    "M038": "Suggerisce un rollback, pur subordinandolo alla documentazione.",
+    "M039": "Astensione; consultazione delle fonti e dei log senza modifiche al sistema.",
+    "M040": "Nucleo corretto; aggiunge pannello di gestione e collocazione della cache non documentati, secondo il criterio storico usato per R010.",
+    "M041": "Astensione con consultazione dei log e delle fonti.",
+    "M042": "Astensione senza interventi speculativi.",
+    "M043": "Astensione e richiesta di contesto.",
+    "M044": "Astensione e rinvio al supporto; nessuna procedura inventata.",
+    "M045": "Astensione; suggerisce di cercare documentazione o patch ufficiali, senza prescrivere modifiche.",
+    "M046": "Astensione senza interventi speculativi.",
+    "M047": "Astensione senza interventi speculativi.",
+    "M048": "Introduce il possibile downgrade/rollback come rimedio temporaneo senza riscontro.",
+    "M049": "Astensione con verifiche generali dei prerequisiti, senza causa E42 affermata né modifica prescritta.",
+    "M050": "Nucleo corretto; aggiunge motivazioni su dati obsoleti e incompatibilità non documentate.",
+    "M051": "Nucleo corretto; introduce pannello di gestione e cartella temporanea del sistema, come nei casi storici C_extra.",
+    "M052": "Nucleo corretto; estende e spiega la cancellazione attraverso file temporanei e incompatibilità non documentate.",
+    "M053": "Dopo il nucleo corretto aggiunge un secondo riavvio del servizio.",
+    "M054": "Tre passaggi corretti e rinvio generico all’assistenza.",
+    "M055": "Nucleo corretto seguito dal riavvio dell’intero sistema, non previsto dal ticket.",
+    "M056": "Nucleo corretto; inventa cause tipiche, frequenza di risoluzione e controlli database/versione.",
+    "M057": "Riavvia il servizio prima della cancellazione della cache; il successivo riavvio riguarda l’intero sistema. Ordine richiesto non conservato.",
+    "M058": "Nucleo corretto, ma aggiunge l’ipotesi di residui incompatibili come spiegazione della cache.",
+    "M059": "Nucleo corretto; attribuisce la cache a file incompatibili dell’aggiornamento e descrive moduli ricaricati senza riscontro.",
+    "M060": "Nucleo corretto con supporto; specifica un’origine dei file di cache nell’aggiornamento non riportata nei concetti, coerentemente con la rubrica conservativa storica.",
+    "M061": "Nucleo corretto; ipotizza origine dei file e incompatibilità post aggiornamento non documentate.",
+    "M062": "Tre passaggi corretti e rinvio generico al tecnico.",
+    "M063": "Nucleo corretto; per i dettagli rimanda alla documentazione senza inventarli.",
+    "M064": "Non prescrive l’arresto prima della cancellazione: riavvia, cancella la cache e riavvia ancora.",
+    "M065": "Astensione e rinvio alle fonti senza interventi tecnici.",
+    "M066": "Arresto, cancellazione e riavvio corretti; supporto come consiglio accessorio.",
+    "M067": "Nucleo corretto; ipotizza conflitti e residui incompatibili e descrive una configurazione pulita non documentata.",
+    "M068": "Astensione accompagnata dall’ordine di ripristinare la versione precedente.",
+    "M069": "Nucleo corretto; attribuisce E42 a residui dell’aggiornamento non attestati dal corpus.",
+    "M070": "Nucleo ordinato con eventuale ricorso al tecnico.",
+    "M071": "Nucleo corretto; aggiunge gestione servizi, cause tipiche, controlli del database e frequenze di risoluzione non documentati.",
+    "M072": "Nucleo corretto; aggiunge l’ipotesi di dati temporanei corrotti o obsoleti.",
+    "M073": "Procedura corretta, verifica dell’esito e supporto generico.",
+    "M074": "Nucleo corretto; ipotizza dati corrotti dal precedente aggiornamento e ricostruzione della cache.",
+    "M075": "Nucleo corretto; estende la pulizia a file temporanei e dati obsoleti e descrive configurazione e file aggiornati senza fonte.",
+    "M076": "Nucleo corretto; aggiunge una spiegazione di residui incompatibili dell’aggiornamento.",
+    "M077": "Nucleo corretto; aggiunge pannello/comando di gestione e rimozione di dati temporanei non specificati.",
+    "M078": "Nucleo corretto; attribuisce E42 a un conflitto di compatibilità e ipotizza problemi più profondi.",
+    "M079": "Astensione con rinvio a manuale e supporto.",
+    "M080": "Astensione senza interventi o cause tecniche inventate.",
+    "M081": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M082": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M083": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M084": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M085": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M086": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M087": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M088": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M089": "Astensione con suggerimento di ricorrere al rollback come rimedio.",
+    "M090": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M091": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M092": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M093": "Astensione con prescrizione di ripristinare una versione precedente.",
+    "M094": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M095": "Astensione con controlli generali di compatibilità; nessun intervento di modifica prescritto.",
+    "M096": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M097": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M098": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M099": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M100": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M101": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M102": "Non conosce il prodotto ma propone riavvio, rollback e ripristino ai parametri di fabbrica.",
+    "M103": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M104": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M105": "Astensione: rinvia a documentazione, supporto o ulteriori informazioni senza fornire la procedura E42.",
+    "M106": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M107": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M108": "Astensione con verifica generale del completamento dell’aggiornamento; non prescrive modifiche.",
+    "M109": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M110": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M111": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M112": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M113": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M114": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M115": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M116": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M117": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M118": "Astensione con istruzioni speculative di spegnimento, scollegamento per 60 secondi e riaccensione.",
+    "M119": "Astensione: ricerca nelle fonti e nel supporto senza prescrivere la procedura E42.",
+    "M120": "Attribuisce a E99 la cancellazione della cache e il riavvio, pur non essendo E99 descritto nei ticket.",
+    "M121": "Restituisce solo aurora, non l’identificativo completo clusterinternoaurora.",
+    "M122": "Prescrive riavvio e cancellazione cache per E99 assente dal corpus.",
+    "M123": "Si astiene esplicitamente perché E99 non è descritto.",
+    "M124": "Inventa l’identificativo C-0A3F7E1B invece di copiare clusterinternoaurora.",
+    "M125": "Non disponibile: riconosce l’assenza di informazioni specifiche su E99.",
+    "M126": "Si astiene esplicitamente sull’errore E99 assente."
+  },
+  "origins": {
+    "R128": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R129": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R130": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R131": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R132": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R133": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R134": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R135": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R136": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R137": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R138": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R003": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R139": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R140": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R141": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R142": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R143": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R144": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R145": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R146": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R147": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R148": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R149": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R150": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R151": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R152": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R153": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R154": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R155": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R156": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R157": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R158": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R159": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R160": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R161": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R162": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R163": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R164": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R165": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R166": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R167": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R168": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R169": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R170": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R171": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R172": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R173": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R174": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R175": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R176": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R177": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R178": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R179": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R180": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R181": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R182": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R183": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R184": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R185": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R186": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R187": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R188": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R189": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R190": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R191": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R192": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R193": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R194": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R195": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R196": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R197": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R198": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R199": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R200": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R201": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R202": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R203": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R204": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R205": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R206": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R207": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R208": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R209": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R210": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R211": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R212": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R213": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R214": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R215": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R216": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R217": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R218": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R219": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R220": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R221": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R222": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R223": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R224": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R225": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R226": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R227": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R228": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R229": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R230": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R231": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R232": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R233": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R234": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R235": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R236": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R237": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R238": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R239": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R240": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R241": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R242": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R243": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R244": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R245": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R246": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R122": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R247": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R248": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R249": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R250": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R124": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R251": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R252": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R253": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R254": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R255": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R256": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R257": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R258": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R259": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R260": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R261": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R262": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R263": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R264": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R265": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R266": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R267": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R268": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R269": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R270": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R271": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R272": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R273": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R274": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R275": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R276": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R277": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R278": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R279": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R280": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R281": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R282": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R283": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R284": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R285": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R286": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R287": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R288": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R289": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "R290": {
+      "date": "2026-09-22",
+      "type": "giudizio_conservato_su_testo_identico",
+      "source": "../valutazione_mac_rtx_2026-09-22/valutazioni_risposte.json"
+    },
+    "M001": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M002": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M003": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M004": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M005": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M006": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M007": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M008": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M009": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M010": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M011": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M012": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M013": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M014": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M015": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M016": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M017": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M018": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M019": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../data/squad_real_benchmark.json"
+    },
+    "M020": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M021": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M022": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M023": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M024": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M025": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M026": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M027": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M028": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M029": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M030": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M031": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M032": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M033": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M034": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M035": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M036": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M037": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M038": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M039": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M040": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M041": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M042": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M043": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M044": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M045": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M046": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M047": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M048": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M049": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M050": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M051": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M052": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M053": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M054": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M055": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M056": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M057": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M058": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M059": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M060": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M061": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M062": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M063": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M064": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M065": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M066": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M067": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M068": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M069": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M070": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M071": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M072": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M073": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M074": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M075": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M076": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M077": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M078": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M079": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M080": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M081": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M082": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M083": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M084": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M085": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M086": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M087": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M088": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M089": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M090": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M091": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M092": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M093": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M094": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M095": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M096": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M097": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M098": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M099": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M100": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M101": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M102": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M103": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M104": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M105": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M106": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M107": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M108": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M109": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M110": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M111": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M112": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M113": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M114": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M115": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M116": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M117": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M118": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M119": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M120": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M121": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M122": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M123": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M124": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M125": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    },
+    "M126": {
+      "date": "2026-09-26",
+      "type": "lettura_semantica_nuova_replica",
+      "reference": "../../docs/ticket_demo/cases.json"
+    }
+  },
+  "rubric_clarification": "Stessa rubrica storica: pannelli, percorsi, cause o operazioni non documentati sono C_extra quando il nucleo è corretto; supporto e verifica generica dell’esito sono C_generic. Le categorie sono giudizi conservativi dell’assistente, non valutazioni umane indipendenti."
+}

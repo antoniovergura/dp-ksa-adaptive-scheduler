@@ -1,0 +1,156 @@
+{
+  "status": "complete",
+  "started_at": 1790019813.4785917,
+  "seed": 20260921,
+  "planned_runs": 40,
+  "completed_runs": 40,
+  "cloud_requested": true,
+  "case": {
+    "id": "procedura_e42",
+    "kind": "procedure",
+    "error": "E42",
+    "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+    "step_groups": {
+      "stop_service": [
+        [
+          "arrestare",
+          "arresta",
+          "fermare",
+          "ferma",
+          "stop",
+          "interrompere"
+        ]
+      ],
+      "clear_cache": [
+        [
+          "cache"
+        ],
+        [
+          "cancellare",
+          "cancella",
+          "svuotare",
+          "svuota",
+          "eliminare",
+          "elimina",
+          "pulire",
+          "pulisci"
+        ]
+      ],
+      "restart_service": [
+        [
+          "riavviare",
+          "riavvia",
+          "riavvio",
+          "restart"
+        ]
+      ]
+    },
+    "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+  },
+  "scope": "verified synthetic corpus; reports are NOT DP",
+  "source_hashes": {
+    "benchmark_latency.py": "20ff56c92f47d73b994a92fb060714e04ee24fb784de087a6f0dc794256b3c4c",
+    "__init__.py": "71cac84d0515ab127f0c51137c3f912e58055e7a0d5e986ab53bf2f74c7e637d",
+    "calibration.py": "fa19cfc00d0cea1c2e6b0569b82e0db711eb8aa558caf0dd8cffaf3f693c9719",
+    "cloud.py": "47b3ee75f2c56501aae8cee45383fef2089bb77ae089a8d2a9e43aa4597f05d2",
+    "dataset.py": "2828cbea850276e56a219f217c4c1fdbc8386a3616c06632ff4b293085d388d4",
+    "documents.py": "92cb5b43db4eeb1242a7c8f455cc91ca288e68665570d9c9e1ac8c6ac6114ca0",
+    "engine.py": "737f91332f369205310259ecf8185709aab6fd4bfdfbfb181ff1716d1a7ff9fb",
+    "etichette.py": "d715e2c394baf16b952259a9ff6849ec74da56b8c2d95606b1d045b87374a404",
+    "latency.py": "d2506e854a5d9fa967958eea973511f0c8bf80ebbfdf5d3468ee9a27efc93c94",
+    "model_config.py": "e530b28bd99a1dd604dceb90c2e2d3259b84eff02c6083ffb62d34cc6d423fc2",
+    "pipeline.py": "b7647da49d9c70d99130701d596bf9ed42533195e7868d88602567c038d6d070",
+    "privacy.py": "6486afb7c675d08e27a38cd353c62adbb773e0c20734762e263b28d85cdb4de9",
+    "scheduler.py": "9e4c9f4ba611a2afa44b07d7fd6b1f7982c4804f493fa0f5c3c308b6dfb39efc",
+    "telemetry.py": "febb7be8a8e9e6cee451e2e7c678e5d0436b21ea243525afe752050422b8ce4d",
+    "telemetry_hw.py": "00594c8467c10637204661027ad110004428223b1acc1cb94297dc1d3bf25ac2"
+  },
+  "legacy_calibration": {
+    "prefill_tps": 5598.557581899418,
+    "generation_tps": 1399.6393954748557,
+    "calibration_ms": 292.2535429970594,
+    "prove_eseguite": 3,
+    "dettagli": [
+      {
+        "target_tokens": 256,
+        "prompt_tokens": 190,
+        "completion_tokens": 3,
+        "prefill_tps": 1219.8006421161006,
+        "generation_tps": 304.9501605290249,
+        "durata_ms": 165.60083100921474
+      },
+      {
+        "target_tokens": 512,
+        "prompt_tokens": 337,
+        "completion_tokens": 3,
+        "prefill_tps": 7382.188884810793,
+        "generation_tps": 1845.5472212026943,
+        "durata_ms": 47.27595100121107
+      },
+      {
+        "target_tokens": 1024,
+        "prompt_tokens": 629,
+        "completion_tokens": 5,
+        "prefill_tps": 8193.68321877136,
+        "generation_tps": 2048.4208046928484,
+        "durata_ms": 79.20735799416434
+      }
+    ]
+  },
+  "direct_calibration": {
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "expected_ms": 218.41393533638134,
+    "planning_ms": 251.33569100580644,
+    "samples_ms": [
+      175.93269499775488,
+      251.33569100580644,
+      243.12306100910064,
+      148.60906000831164,
+      247.20182600140106,
+      244.28127899591345
+    ],
+    "prompt_tokens": [
+      978,
+      979,
+      979,
+      978,
+      979,
+      979
+    ],
+    "completion_tokens": [
+      1,
+      30,
+      30,
+      1,
+      30,
+      30
+    ],
+    "calibration_ms": 1313.2906560058473
+  },
+  "legacy_cloud": {
+    "e2e_cloud_ms": 2189.0813289937796,
+    "ttft_cloud_ms": null,
+    "simulato": false,
+    "cloud_probe_skipped": false,
+    "errore": null
+  },
+  "direct_cloud": {
+    "e2e_cloud_ms": 7064.244804001646,
+    "ttft_cloud_ms": null,
+    "simulato": false,
+    "cloud_probe_skipped": false,
+    "errore": null,
+    "expected_ms": 4999.851626998861,
+    "samples_ms": [
+      5298.156447999645,
+      2637.153628995293,
+      7064.244804001646
+    ],
+    "calibration_ms": 14999.846385006094
+  },
+  "output_cap_observed": true,
+  "cumulative_epsilon": 209.45873809306244,
+  "cumulative_delta": 0.41000000000000003,
+  "ended_at": 1790020336.0822809
+}

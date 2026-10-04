@@ -1,0 +1,568 @@
+{
+  "case": {
+    "id": "dettaglio_unico",
+    "kind": "unique_detail",
+    "error": "E42",
+    "query": "Qual è il codice privato della pratica nel ticket per errore E42 dopo aggiornamento di FerroSync? Riporta soltanto il codice.",
+    "step_groups": {},
+    "expected_answer": null
+  },
+  "corpus": "ticket",
+  "local_outputs": [
+    {
+      "testo": "privatoe42034.",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.09026225600973703,
+      "tempo_prefill_stimato_sec": 0.08267010363508626,
+      "tempo_prefill_reale_sec": 0.04438161599682644,
+      "token_al_secondo": 99.7094510802957,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42006",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.08217562601203099,
+      "tempo_prefill_stimato_sec": 0.07595903019078988,
+      "tempo_prefill_reale_sec": 0.04418121300113853,
+      "token_al_secondo": 97.35246797911529,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42022",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06891791100497358,
+      "tempo_prefill_stimato_sec": 0.06371655923101331,
+      "tempo_prefill_reale_sec": 0.03302523199818097,
+      "token_al_secondo": 116.08012900191747,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42017",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0664422720001312,
+      "tempo_prefill_stimato_sec": 0.06142776090578168,
+      "tempo_prefill_reale_sec": 0.032979932002490386,
+      "token_al_secondo": 120.40527452138005,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42013",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06738638599927071,
+      "tempo_prefill_stimato_sec": 0.06230062101819368,
+      "tempo_prefill_reale_sec": 0.033302135998383164,
+      "token_al_secondo": 118.71834171499536,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42037",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06538655399344862,
+      "tempo_prefill_stimato_sec": 0.06045171972979212,
+      "tempo_prefill_reale_sec": 0.032289919996401295,
+      "token_al_secondo": 122.34931360355154,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42018",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06475994401262142,
+      "tempo_prefill_stimato_sec": 0.05987240106827263,
+      "tempo_prefill_reale_sec": 0.032303920001140796,
+      "token_al_secondo": 123.53315188847039,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42035",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06460064199927729,
+      "tempo_prefill_stimato_sec": 0.059725121848388435,
+      "tempo_prefill_reale_sec": 0.03218361899780575,
+      "token_al_secondo": 123.83777857949924,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42021",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06504064801265486,
+      "tempo_prefill_stimato_sec": 0.060131919860756375,
+      "tempo_prefill_reale_sec": 0.032084517006296664,
+      "token_al_secondo": 123.00000452706826,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42038",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06552275599096902,
+      "tempo_prefill_stimato_sec": 0.060577642331273246,
+      "tempo_prefill_reale_sec": 0.032280519997584634,
+      "token_al_secondo": 122.09498637546073,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42033",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06482334500469733,
+      "tempo_prefill_stimato_sec": 0.05993101707981451,
+      "tempo_prefill_reale_sec": 0.032279821010888554,
+      "token_al_secondo": 123.4123292992716,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42009",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06557485699886456,
+      "tempo_prefill_stimato_sec": 0.060614111315735325,
+      "tempo_prefill_reale_sec": 0.03240802200161852,
+      "token_al_secondo": 121.99797858710575,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42023",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0650366479967488,
+      "tempo_prefill_stimato_sec": 0.060128221732843226,
+      "tempo_prefill_reale_sec": 0.032150218001334,
+      "token_al_secondo": 123.00756952295454,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42016",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06491134599491488,
+      "tempo_prefill_stimato_sec": 0.0600123764858647,
+      "tempo_prefill_reale_sec": 0.03242042199417483,
+      "token_al_secondo": 123.24501791453709,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42041",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06442173800314777,
+      "tempo_prefill_stimato_sec": 0.059559720040646046,
+      "tempo_prefill_reale_sec": 0.03184281299763825,
+      "token_al_secondo": 124.18168537472717,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42012",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06473494399688207,
+      "tempo_prefill_stimato_sec": 0.059849287846173986,
+      "tempo_prefill_reale_sec": 0.0319932160055032,
+      "token_al_secondo": 123.5808592092907,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42030",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06517965000239201,
+      "tempo_prefill_stimato_sec": 0.06026043113428695,
+      "tempo_prefill_reale_sec": 0.03229761999682523,
+      "token_al_secondo": 122.73769496624192,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42040",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06488144600007217,
+      "tempo_prefill_stimato_sec": 0.05998473309440635,
+      "tempo_prefill_reale_sec": 0.0322724199941149,
+      "token_al_secondo": 123.30181420418867,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42007",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0666303739999421,
+      "tempo_prefill_stimato_sec": 0.061589778330915744,
+      "tempo_prefill_reale_sec": 0.03205561598588247,
+      "token_al_secondo": 120.06536238273182,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42045",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06664567400002852,
+      "tempo_prefill_stimato_sec": 0.06161581181134712,
+      "tempo_prefill_reale_sec": 0.03240912199544255,
+      "token_al_secondo": 120.03779870238203,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42002",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06546235500718467,
+      "tempo_prefill_stimato_sec": 0.060510120113024125,
+      "tempo_prefill_reale_sec": 0.03244682301010471,
+      "token_al_secondo": 122.20764130960426,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42046",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06534215300052892,
+      "tempo_prefill_stimato_sec": 0.06041066975520599,
+      "tempo_prefill_reale_sec": 0.03214751799532678,
+      "token_al_secondo": 122.43245183450325,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42027",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06490234599914402,
+      "tempo_prefill_stimato_sec": 0.060004055735057675,
+      "tempo_prefill_reale_sec": 0.0322039189923089,
+      "token_al_secondo": 123.26210827734194,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42024",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06474304299626965,
+      "tempo_prefill_stimato_sec": 0.05985677560032477,
+      "tempo_prefill_reale_sec": 0.032175118001759984,
+      "token_al_secondo": 123.56539992197992,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42044",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06514695000078063,
+      "tempo_prefill_stimato_sec": 0.0602301990573255,
+      "tempo_prefill_reale_sec": 0.03193141400697641,
+      "token_al_secondo": 122.79930219149382,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42029",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06535965300281532,
+      "tempo_prefill_stimato_sec": 0.060426849002602846,
+      "tempo_prefill_reale_sec": 0.032292320000124164,
+      "token_al_secondo": 122.39967062945401,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42032",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06519755099725444,
+      "tempo_prefill_stimato_sec": 0.060276981110669196,
+      "tempo_prefill_reale_sec": 0.032434123000712134,
+      "token_al_secondo": 122.70399543591586,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42047",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06533515299088322,
+      "tempo_prefill_stimato_sec": 0.06040419804817505,
+      "tempo_prefill_reale_sec": 0.032002815991290845,
+      "token_al_secondo": 122.44556924993059,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42015",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06572015900746919,
+      "tempo_prefill_stimato_sec": 0.060760147006905484,
+      "tempo_prefill_reale_sec": 0.03217291799956001,
+      "token_al_secondo": 121.72825082621587,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42010",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0669373779965099,
+      "tempo_prefill_stimato_sec": 0.06188550041186764,
+      "tempo_prefill_reale_sec": 0.03386484499787912,
+      "token_al_secondo": 119.51469028884159,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42028",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06488814599288162,
+      "tempo_prefill_stimato_sec": 0.05999092742738112,
+      "tempo_prefill_reale_sec": 0.032070517001557164,
+      "token_al_secondo": 123.28908273750984,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42008",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06577416000072844,
+      "tempo_prefill_stimato_sec": 0.06079833702194993,
+      "tempo_prefill_reale_sec": 0.03229242000088561,
+      "token_al_secondo": 121.62831117738943,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42026",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06527825100056361,
+      "tempo_prefill_stimato_sec": 0.06035159054769089,
+      "tempo_prefill_reale_sec": 0.03241292199527379,
+      "token_al_secondo": 122.55230306233125,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42003",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0689982120093191,
+      "tempo_prefill_stimato_sec": 0.06377848911499709,
+      "tempo_prefill_reale_sec": 0.032545923997531645,
+      "token_al_secondo": 115.94503345854088,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42019.example",
+      "prompt_tokens": 392,
+      "completion_tokens": 9,
+      "durata_totale_sec": 0.06977052400179673,
+      "tempo_prefill_stimato_sec": 0.06390197525398206,
+      "tempo_prefill_reale_sec": 0.0324195220018737,
+      "token_al_secondo": 128.99430137242817,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42039",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.0658793619950302,
+      "tempo_prefill_stimato_sec": 0.06090733467465056,
+      "tempo_prefill_reale_sec": 0.03220191899163183,
+      "token_al_secondo": 121.43408432831367,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42020",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06519535099505447,
+      "tempo_prefill_stimato_sec": 0.06027494714637111,
+      "tempo_prefill_reale_sec": 0.03223621999495663,
+      "token_al_secondo": 122.70813605416215,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42014",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06569775899697561,
+      "tempo_prefill_stimato_sec": 0.0607394375632416,
+      "tempo_prefill_reale_sec": 0.03241532300307881,
+      "token_al_secondo": 121.76975473955328,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42031",
+      "prompt_tokens": 392,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06615686599980108,
+      "tempo_prefill_stimato_sec": 0.06116389498094817,
+      "tempo_prefill_reale_sec": 0.032457823006552644,
+      "token_al_secondo": 120.92471248598828,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "privatoe42005",
+      "prompt_tokens": 391,
+      "completion_tokens": 8,
+      "durata_totale_sec": 0.06509594900126103,
+      "tempo_prefill_stimato_sec": 0.06017143276475902,
+      "tempo_prefill_reale_sec": 0.032173718995181844,
+      "token_al_secondo": 122.89551228210875,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "generation_ms": 2749.340811991715,
+  "conditional_trials": [
+    {
+      "n": 5,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.002,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.002,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {
+        "privatoe42006": 1,
+        "privatoe42013": 1,
+        "privatoe42017": 1,
+        "privatoe42022": 1,
+        "privatoe42034": 1
+      }
+    },
+    {
+      "n": 5,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 5,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 10,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 20,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 40,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    }
+  ],
+  "scope": "Seeded conditional diagnostics on PUBLIC synthetic drafts; not session DP",
+  "cloud_answer_quality": null
+}

@@ -1,0 +1,98 @@
+{
+  "direct_refresh_15000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 2652.8041603179504,
+    "mae_ms": 3696.96339572353,
+    "sla_violations": 2,
+    "mean_overrun_ms": 1661.420657997951,
+    "planning_underestimates": 2,
+    "n_mean": 29.8,
+    "releases": 3,
+    "quality": "manual review required; release is not correctness"
+  },
+  "direct_refresh_30000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": -1722.6289527180288,
+    "mae_ms": 2244.951983739156,
+    "sla_violations": 0,
+    "mean_overrun_ms": 0,
+    "planning_underestimates": 0,
+    "n_mean": 40,
+    "releases": 5,
+    "quality": "manual review required; release is not correctness"
+  },
+  "direct_static_15000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 539.0928741694861,
+    "mae_ms": 1206.795783939015,
+    "sla_violations": 0,
+    "mean_overrun_ms": 0,
+    "planning_underestimates": 0,
+    "n_mean": 31,
+    "releases": 2,
+    "quality": "manual review required; release is not correctness"
+  },
+  "direct_static_30000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": -1806.126541453219,
+    "mae_ms": 1806.126541453219,
+    "sla_violations": 0,
+    "mean_overrun_ms": 0,
+    "planning_underestimates": 0,
+    "n_mean": 40,
+    "releases": 4,
+    "quality": "manual review required; release is not correctness"
+  },
+  "fixed_20_15000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 2420.256642276461,
+    "mae_ms": 2420.256642276461,
+    "sla_violations": 1,
+    "mean_overrun_ms": 39.29282480094116,
+    "planning_underestimates": 1,
+    "n_mean": 20,
+    "releases": 1,
+    "quality": "manual review required; release is not correctness"
+  },
+  "fixed_20_30000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 3688.8480658739973,
+    "mae_ms": 4281.665658962448,
+    "sla_violations": 0,
+    "mean_overrun_ms": 0,
+    "planning_underestimates": 3,
+    "n_mean": 20,
+    "releases": 2,
+    "quality": "manual review required; release is not correctness"
+  },
+  "legacy_15000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 2166.106364225856,
+    "mae_ms": 2166.106364225856,
+    "sla_violations": 1,
+    "mean_overrun_ms": 9.751178999431431,
+    "planning_underestimates": 5,
+    "n_mean": 40,
+    "releases": 4,
+    "quality": "manual review required; release is not correctness"
+  },
+  "legacy_30000ms": {
+    "runs": 5,
+    "provider_errors": 0,
+    "mean_error_ms": 1797.2870920220194,
+    "mae_ms": 2242.121774891743,
+    "sla_violations": 0,
+    "mean_overrun_ms": 0,
+    "planning_underestimates": 4,
+    "n_mean": 40,
+    "releases": 5,
+    "quality": "manual review required; release is not correctness"
+  }
+}

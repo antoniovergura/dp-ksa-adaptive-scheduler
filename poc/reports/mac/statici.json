@@ -1,0 +1,16 @@
+{
+  "modello": "qwen2.5-0.5b-instruct-q4_k_m.gguf",
+  "n_ctx": 4096,
+  "max_tokens": 30,
+  "N_MIN": 5,
+  "N_MAX": 40,
+  "DEFAULT_EPSILON_SPLIT": 0.5,
+  "DEFAULT_DELTA": 0.0001,
+  "DEFAULT_LATENZA_MASSIMA_MS": 1500.0,
+  "DEFAULT_RTT_MS": 50.0,
+  "DEFAULT_TEMPO_CLOUD_MS": 150.0,
+  "DEFAULT_SFORAMENTO_K": 0.0,
+  "MIN_EPSILON_REQUIRED": 1e-06,
+  "PTR_REPRESENTATIVE_GAP": 3.0,
+  "DP_KSA_signature": "(self, epsilon: 'float' = 1.0, delta: 'float' = 0.0001, sigma: 'float | None' = None, r_min_k: 'int' = 1, r_max_k: 'int' = 10, epsilon_find_best_k: 'float | None' = None, epsilon_top_k_ptr: 'float | None' = None, delta_conversion: 'float | None' = None, delta_budget: 'float | None' = None, rng: 'np.random.Generator | None' = None, strict_gap_guard: 'bool' = False) -> 'None'"
+}

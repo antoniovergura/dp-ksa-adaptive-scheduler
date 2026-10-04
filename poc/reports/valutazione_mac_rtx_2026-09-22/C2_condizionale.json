@@ -1,0 +1,3366 @@
+[
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.002,
+    "target_recovery_rate": 0.002,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "target_recovery_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.006,
+    "target_recovery_rate": 0.006,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.0020425962719602363,
+      0.01749025210405338
+    ],
+    "target_recovery_rate_wilson95": [
+      0.0020425962719602363,
+      0.01749025210405338
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.032,
+    "target_recovery_rate": 0.032,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.019791513626571118,
+      0.051344869045441784
+    ],
+    "target_recovery_rate_wilson95": [
+      0.019791513626571118,
+      0.051344869045441784
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.342,
+    "target_recovery_rate": 0.342,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.3017655066658599,
+      0.38464378491999074
+    ],
+    "target_recovery_rate_wilson95": [
+      0.3017655066658599,
+      0.38464378491999074
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.598,
+    "target_recovery_rate": 0.598,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.5544343695956807,
+      0.640071259673855
+    ],
+    "target_recovery_rate_wilson95": [
+      0.5544343695956807,
+      0.640071259673855
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 1.0,
+    "target_recovery_rate": 1.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "target_recovery_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.002,
+    "target_recovery_rate": 0.002,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "target_recovery_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.036,
+    "target_recovery_rate": 0.036,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.02289106098029272,
+      0.056184326968027755
+    ],
+    "target_recovery_rate_wilson95": [
+      0.02289106098029272,
+      0.056184326968027755
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.022,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.022,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 11
+    },
+    "release_rate_wilson95": [
+      0.012328008269927582,
+      0.03896086121131637
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.012328008269927582,
+      0.03896086121131637
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.32,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.32,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 160
+    },
+    "release_rate_wilson95": [
+      0.28061775068949024,
+      0.3621270118766686
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.28061775068949024,
+      0.3621270118766686
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.582,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.582,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 291
+    },
+    "release_rate_wilson95": [
+      0.5383026562362386,
+      0.6244469519280668
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.5383026562362386,
+      0.6244469519280668
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.056,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.056,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 28
+    },
+    "release_rate_wilson95": [
+      0.03902562068315149,
+      0.0797447936467069
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.03902562068315149,
+      0.0797447936467069
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.002,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {
+      "privatoe42006": 1,
+      "privatoe42013": 1,
+      "privatoe42017": 1,
+      "privatoe42022": 1,
+      "privatoe42034": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.006,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.0020425962719602363,
+      0.01749025210405338
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.038,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.024460118055830385,
+      0.05858477253064388
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.028,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.01675097472075645,
+      0.04644640267494888
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.478,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.43455096039387586,
+      0.5217845105864325
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": 0.002,
+    "step_term_rates": {
+      "stop_service": 0.002,
+      "clear_cache": 0.002,
+      "restart_service": 0.002
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.232,
+    "all_step_terms_rate": 0.232,
+    "step_term_rates": {
+      "stop_service": 0.232,
+      "clear_cache": 0.232,
+      "restart_service": 0.232
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.19712923845271468,
+      0.2709574080346774
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.19712923845271468,
+      0.2709574080346774
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.514,
+    "all_step_terms_rate": 0.514,
+    "step_term_rates": {
+      "stop_service": 0.514,
+      "clear_cache": 0.514,
+      "restart_service": 0.514
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.47025151158007206,
+      0.5575350068870044
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.47025151158007206,
+      0.5575350068870044
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "Mac",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.998,
+    "all_step_terms_rate": 0.998,
+    "step_term_rates": {
+      "stop_service": 0.998,
+      "clear_cache": 0.998,
+      "restart_service": 0.998
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.9887592932948532,
+      0.9996468636054407
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.9887592932948532,
+      0.9996468636054407
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.002,
+    "target_recovery_rate": 0.002,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "target_recovery_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 5,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.006,
+    "target_recovery_rate": 0.006,
+    "target_count_in_histogram": 5,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.0020425962719602363,
+      0.01749025210405338
+    ],
+    "target_recovery_rate_wilson95": [
+      0.0020425962719602363,
+      0.01749025210405338
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.032,
+    "target_recovery_rate": 0.032,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.019791513626571118,
+      0.051344869045441784
+    ],
+    "target_recovery_rate_wilson95": [
+      0.019791513626571118,
+      0.051344869045441784
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 10,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.342,
+    "target_recovery_rate": 0.342,
+    "target_count_in_histogram": 10,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.3017655066658599,
+      0.38464378491999074
+    ],
+    "target_recovery_rate_wilson95": [
+      0.3017655066658599,
+      0.38464378491999074
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.522,
+    "target_recovery_rate": 0.522,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.47821548941356756,
+      0.5654490396061242
+    ],
+    "target_recovery_rate_wilson95": [
+      0.47821548941356756,
+      0.5654490396061242
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 20,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 1.0,
+    "target_recovery_rate": 1.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "target_recovery_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 1.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 8.706564001923947,
+    "trials": 500,
+    "release_rate": 0.0,
+    "target_recovery_rate": 0.0,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "target_recovery_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 4.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 2.2626648384914407,
+    "trials": 500,
+    "release_rate": 0.002,
+    "target_recovery_rate": 0.002,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "target_recovery_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "base_a",
+    "corpus": "salary",
+    "n": 40,
+    "epsilon_per_trial": 8.0,
+    "delta_per_trial": 0.0002,
+    "sigma": 1.2136012032826828,
+    "trials": 500,
+    "release_rate": 0.024,
+    "target_recovery_rate": 0.024,
+    "target_count_in_histogram": 20,
+    "scope": "local conditional trials on cached public synthetic drafts",
+    "release_rate_wilson95": [
+      0.013781314655496986,
+      0.041477057463900756
+    ],
+    "target_recovery_rate_wilson95": [
+      0.013781314655496986,
+      0.041477057463900756
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.022,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.022,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 11
+    },
+    "release_rate_wilson95": [
+      0.012328008269927582,
+      0.03896086121131637
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.012328008269927582,
+      0.03896086121131637
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.32,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.32,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 160
+    },
+    "release_rate_wilson95": [
+      0.28061775068949024,
+      0.3621270118766686
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.28061775068949024,
+      0.3621270118766686
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.002,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.582,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.582,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 291
+    },
+    "release_rate_wilson95": [
+      0.5383026562362386,
+      0.6244469519280668
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.5383026562362386,
+      0.6244469519280668
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.056,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.056,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 28
+    },
+    "release_rate_wilson95": [
+      0.03902562068315149,
+      0.0797447936467069
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.03902562068315149,
+      0.0797447936467069
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_condiviso",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 1.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 1.0,
+    "sensitive_fragment_hits": {
+      "clusterinternoaurora": 500
+    },
+    "release_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      0.9923756595384479,
+      1
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.002,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {
+      "privatoe42006": 1,
+      "privatoe42013": 1,
+      "privatoe42017": 1,
+      "privatoe42022": 1,
+      "privatoe42034": 1
+    },
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "dettaglio_unico",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.002,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.00035313639455927456,
+      0.011240706705146758
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.014,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.00679778979084349,
+      0.02861306913778529
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.01,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.004278753896590496,
+      0.023193099755730702
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "errore_assente",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.33,
+    "all_step_terms_rate": null,
+    "step_term_rates": {},
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.2902178997291812,
+      0.3723743760277467
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 5,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 10,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 20,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.004,
+    "all_step_terms_rate": 0.004,
+    "step_term_rates": {
+      "stop_service": 0.004,
+      "clear_cache": 0.004,
+      "restart_service": 0.004
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.0010976305226827934,
+      0.014465715215177033
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.0010976305226827934,
+      0.014465715215177033
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 1.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.0,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.0,
+      "clear_cache": 0.0,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 4.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.024,
+    "all_step_terms_rate": 0.0,
+    "step_term_rates": {
+      "stop_service": 0.024,
+      "clear_cache": 0.024,
+      "restart_service": 0.0
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.013781314655496986,
+      0.041477057463900756
+    ],
+    "all_step_terms_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  },
+  {
+    "platform": "RTX",
+    "case": "procedura_e42",
+    "corpus": "ticket",
+    "n": 40,
+    "epsilon": 8.0,
+    "delta_per_trial": 0.0002,
+    "trials": 500,
+    "release_rate": 0.328,
+    "all_step_terms_rate": 0.01,
+    "step_term_rates": {
+      "stop_service": 0.328,
+      "clear_cache": 0.328,
+      "restart_service": 0.01
+    },
+    "unique_identifier_rate": 0.0,
+    "shared_identifier_rate": 0.0,
+    "sensitive_fragment_hits": {},
+    "release_rate_wilson95": [
+      0.28829618984058974,
+      0.3703265832781843
+    ],
+    "all_step_terms_rate_wilson95": [
+      0.004278753896590496,
+      0.023193099755730702
+    ],
+    "unique_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ],
+    "shared_identifier_rate_wilson95": [
+      4.336808689942018e-19,
+      0.007624340461552241
+    ]
+  }
+]

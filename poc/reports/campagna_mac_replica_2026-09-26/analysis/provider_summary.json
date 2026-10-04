@@ -1,0 +1,14 @@
+{
+  "calls_including_probe": 131,
+  "http_errors": {},
+  "returned_models": {
+    "xiaomi/mimo-v2.5": 131
+  },
+  "tokens": {
+    "prompt_tokens": 10432,
+    "completion_tokens": 56999,
+    "total_tokens": 67431
+  },
+  "usage_available_calls": 131,
+  "probe_ms": 3465.0009159959154
+}

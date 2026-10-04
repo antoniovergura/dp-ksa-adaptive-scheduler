@@ -1,0 +1,101 @@
+{
+  "samples": 357,
+  "sample_interval_s": 5,
+  "scope": "Whole-machine measurements, not model-only power; zero temperatures omitted",
+  "cpu_power": {
+    "n": 357,
+    "mean": 5.688795518207283,
+    "median": 4.7,
+    "min": 3.3,
+    "max": 10.7,
+    "sd": 1.7666663697490619
+  },
+  "gpu_power": {
+    "n": 357,
+    "mean": 58.88420168067227,
+    "median": 35.97,
+    "min": 4.25,
+    "max": 116.28,
+    "sd": 36.78448726901877
+  },
+  "sys_power": {
+    "n": 0
+  },
+  "gpu_freq_mhz": {
+    "n": 357,
+    "mean": 1361.4705882352941,
+    "median": 1140.0,
+    "min": 300.0,
+    "max": 1905.0,
+    "sd": 479.4876799543694
+  },
+  "cpu_active_ratio": {
+    "n": 357,
+    "mean": 0.03780952380952381,
+    "median": 0.013999999999999999,
+    "min": 0.0,
+    "max": 0.172,
+    "sd": 0.039575736225701645
+  },
+  "gpu_active_ratio": {
+    "n": 357,
+    "mean": 0.2572829131652661,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.75,
+    "sd": 0.33472135160227817
+  },
+  "cpu_scaled_ratio": {
+    "n": 0
+  },
+  "gpu_scaled_ratio": {
+    "n": 0
+  },
+  "cpu_temperature_c": {
+    "n": 357,
+    "mean": 58.04201680672269,
+    "median": 59.0,
+    "min": 45.0,
+    "max": 63.0,
+    "sd": 3.368880114286622
+  },
+  "cpu_temperature_first_last_c": [
+    45.0,
+    60.0
+  ],
+  "gpu_temperature_c": {
+    "n": 357,
+    "mean": 62.38655462184874,
+    "median": 63.0,
+    "min": 42.0,
+    "max": 74.0,
+    "sd": 6.407653311563717
+  },
+  "gpu_temperature_first_last_c": [
+    42.0,
+    66.0
+  ],
+  "ram_usage_gib": {
+    "n": 357,
+    "mean": 1.7670054288805366,
+    "median": 1.7676582336425781,
+    "min": 1.3052101135253906,
+    "max": 1.881805419921875,
+    "sd": 0.03392716244430229
+  },
+  "ram_total_gib": {
+    "n": 357,
+    "mean": 15.245952606201172,
+    "median": 15.245952606201172,
+    "min": 15.245952606201172,
+    "max": 15.245952606201172,
+    "sd": 0.0
+  },
+  "swap_usage_gib": {
+    "n": 0
+  },
+  "duration_s": 1911.6925601959229,
+  "sys_power_integral_wh": 0,
+  "cpu_power_integral_wh": 3.018259365270535,
+  "gpu_power_integral_wh": 31.265703055798674
+}

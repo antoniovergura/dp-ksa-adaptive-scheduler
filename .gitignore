@@ -1,0 +1,66 @@
+# Ambienti virtuali
+.venv/
+*/.venv/
+venv/
+env/
+
+# Modelli e file binari pesanti
+*.gguf
+*.bin
+*.pt
+*.safetensors
+poc/models/
+
+# Variabili d'ambiente e chiavi
+.env
+*.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+
+# File di sistema macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Documenti e risultati locali degli esperimenti
+poc/private_documents/
+# Nuovi esperimenti esclusi; conserva solo gli archivi pubblici/sintetici citati.
+poc/reports/*
+!poc/reports/valutazione_mac_rtx_2026-09-22/
+!poc/reports/valutazione_mac_rtx_2026-09-26/
+!poc/reports/campagna_mac_replica_2026-09-26/
+!poc/reports/replica_mac_2026-09-26_sorgenti/
+!poc/reports/mac/
+!poc/reports/linux/
+!poc/reports/campagna_rtx_2026-09-21/
+!poc/reports/confronto_rtx_2026-09-21/
+!poc/reports/LEGGIMI.md
+!poc/reports/latenza_cloud_mac.json
+!poc/reports/latenza_cloud_linux.json
+!poc/reports/ticket_demo.json
+.hermes/
+.coverage*
+
+# Handover notes for chat continuity (not part of the PoC)
+HANDOVER.md
+
+# Materiale redazionale locale; il repository pubblico contiene il prototipo.
+/Bozza_Tesi_Integrale/
+/CONTROLLO_FINALE.md
+/Indice approvato dal professore.txt
+/Differentially Private Retrieval-Augmented Generation.pdf
+/AGENTS.md
+/.agents/
+# Backup redazionali conservati localmente, separati dai dati pubblicati.
+poc/reports/replica_mac_2026-09-26_sorgenti/tesi_prima_replica.tar.gz
+poc/reports/replica_mac_2026-09-26_sorgenti/analisi_e_tesi.tar.gz
+poc/reports/replica_mac_2026-09-26_sorgenti/STATO_LAVORO.md
+poc/reports/replica_mac_2026-09-26_sorgenti/verifica_integrazione.json
+poc/reports/replica_mac_2026-09-26_sorgenti/ARCHIVIO.json

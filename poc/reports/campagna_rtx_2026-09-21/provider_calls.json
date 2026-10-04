@@ -1,0 +1,3932 @@
+[
+  {
+    "started_at": 1790017877.232959,
+    "max_tokens": 16,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 16,
+      "prompt_tokens": 257,
+      "total_tokens": 273,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 17,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 192,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "length",
+    "elapsed_ms": 1919.9597835540771
+  },
+  {
+    "started_at": 1790018187.6237497,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 442,
+      "prompt_tokens": 67,
+      "total_tokens": 509,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 337,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9289.729118347168
+  },
+  {
+    "started_at": 1790018202.3615818,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 372,
+      "prompt_tokens": 108,
+      "total_tokens": 480,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 197,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 6214.115619659424
+  },
+  {
+    "started_at": 1790018211.410774,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 144,
+      "prompt_tokens": 66,
+      "total_tokens": 210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 163,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3680.297613143921
+  },
+  {
+    "started_at": 1790018220.2915146,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 440,
+      "prompt_tokens": 108,
+      "total_tokens": 548,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 254,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8532.930850982666
+  },
+  {
+    "started_at": 1790018231.7819521,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 94,
+      "prompt_tokens": 38,
+      "total_tokens": 132,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 26,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 1809.9009990692139
+  },
+  {
+    "started_at": 1790018236.4440014,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 891,
+      "prompt_tokens": 66,
+      "total_tokens": 957,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 816,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12322.086334228516
+  },
+  {
+    "started_at": 1790018251.6290376,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 107,
+      "prompt_tokens": 38,
+      "total_tokens": 145,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 26,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 1975.0890731811523
+  },
+  {
+    "started_at": 1790018258.7305403,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 108,
+      "total_tokens": 384,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 4759.232521057129
+  },
+  {
+    "started_at": 1790018266.354491,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 201,
+      "prompt_tokens": 67,
+      "total_tokens": 268,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3690.5980110168457
+  },
+  {
+    "started_at": 1790018275.4247963,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 704,
+      "prompt_tokens": 108,
+      "total_tokens": 812,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 700,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11583.975791931152
+  },
+  {
+    "started_at": 1790018289.9635715,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 101,
+      "prompt_tokens": 38,
+      "total_tokens": 139,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 26,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 1844.9325561523438
+  },
+  {
+    "started_at": 1790018294.7364209,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 113,
+      "prompt_tokens": 38,
+      "total_tokens": 151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 33,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3421.2965965270996
+  },
+  {
+    "started_at": 1790018301.1117518,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 220,
+      "prompt_tokens": 66,
+      "total_tokens": 286,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 229,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 6246.743440628052
+  },
+  {
+    "started_at": 1790018312.578827,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 474,
+      "prompt_tokens": 108,
+      "total_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 304,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8725.693941116333
+  },
+  {
+    "started_at": 1790018324.1607556,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 147,
+      "prompt_tokens": 38,
+      "total_tokens": 185,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 42,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 2974.2274284362793
+  },
+  {
+    "started_at": 1790018330.038563,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 252,
+      "prompt_tokens": 67,
+      "total_tokens": 319,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5617.97571182251
+  },
+  {
+    "started_at": 1790018338.490601,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 276,
+      "prompt_tokens": 67,
+      "total_tokens": 343,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 195,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5157.348871231079
+  },
+  {
+    "started_at": 1790018346.4865499,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 258,
+      "prompt_tokens": 67,
+      "total_tokens": 325,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 4512.399435043335
+  },
+  {
+    "started_at": 1790018353.8503704,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 178,
+      "prompt_tokens": 66,
+      "total_tokens": 244,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 180,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3760.335683822632
+  },
+  {
+    "started_at": 1790018360.592846,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 288,
+      "prompt_tokens": 66,
+      "total_tokens": 354,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 216,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11947.151184082031
+  },
+  {
+    "started_at": 1790018377.836277,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 564,
+      "prompt_tokens": 65,
+      "total_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 272,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10323.15444946289
+  },
+  {
+    "started_at": 1790018390.7584352,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 574,
+      "prompt_tokens": 65,
+      "total_tokens": 639,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 307,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11935.362100601196
+  },
+  {
+    "started_at": 1790018405.463334,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 666,
+      "prompt_tokens": 65,
+      "total_tokens": 731,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 318,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11863.13009262085
+  },
+  {
+    "started_at": 1790018422.4895387,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 450,
+      "prompt_tokens": 65,
+      "total_tokens": 515,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 169,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8163.030624389648
+  },
+  {
+    "started_at": 1790018435.7807193,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 528,
+      "prompt_tokens": 65,
+      "total_tokens": 593,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 216,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9690.083265304565
+  },
+  {
+    "started_at": 1790018451.0220745,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 564,
+      "prompt_tokens": 65,
+      "total_tokens": 629,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 209,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11815.994024276733
+  },
+  {
+    "started_at": 1790018465.4961185,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 547,
+      "prompt_tokens": 65,
+      "total_tokens": 612,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9305.06157875061
+  },
+  {
+    "started_at": 1790018480.047634,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 449,
+      "prompt_tokens": 65,
+      "total_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 170,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9187.267780303955
+  },
+  {
+    "started_at": 1790018494.5381484,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 65,
+      "total_tokens": 470,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 121,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8753.501176834106
+  },
+  {
+    "started_at": 1790018508.4913986,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 726,
+      "prompt_tokens": 65,
+      "total_tokens": 791,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 395,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12490.651845932007
+  },
+  {
+    "started_at": 1790018526.2118356,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 366,
+      "prompt_tokens": 65,
+      "total_tokens": 431,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7766.699314117432
+  },
+  {
+    "started_at": 1790018538.9411116,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 626,
+      "prompt_tokens": 65,
+      "total_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 289,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12238.061666488647
+  },
+  {
+    "started_at": 1790018556.2655604,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 417,
+      "prompt_tokens": 65,
+      "total_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12285.359621047974
+  },
+  {
+    "started_at": 1790018573.9550455,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 401,
+      "prompt_tokens": 65,
+      "total_tokens": 466,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 17426.012754440308
+  },
+  {
+    "started_at": 1790018596.9610066,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 65,
+      "total_tokens": 494,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 166,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 15344.827890396118
+  },
+  {
+    "started_at": 1790018617.6958964,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 655,
+      "prompt_tokens": 65,
+      "total_tokens": 720,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 283,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9605.134010314941
+  },
+  {
+    "started_at": 1790018632.6775131,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 478,
+      "prompt_tokens": 65,
+      "total_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 192,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8548.314809799194
+  },
+  {
+    "started_at": 1790018646.4164114,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 452,
+      "prompt_tokens": 65,
+      "total_tokens": 517,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 174,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8283.62774848938
+  },
+  {
+    "started_at": 1790018657.3370252,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 560,
+      "prompt_tokens": 65,
+      "total_tokens": 625,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 296,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9840.469121932983
+  },
+  {
+    "started_at": 1790018672.3507378,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 568,
+      "prompt_tokens": 65,
+      "total_tokens": 633,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 259,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11730.637788772583
+  },
+  {
+    "started_at": 1790018689.3268378,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 494,
+      "prompt_tokens": 65,
+      "total_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 171,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11360.970258712769
+  },
+  {
+    "started_at": 1790018703.3480515,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 65,
+      "total_tokens": 594,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9497.665166854858
+  },
+  {
+    "started_at": 1790018715.6495318,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 525,
+      "prompt_tokens": 65,
+      "total_tokens": 590,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 205,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9045.898914337158
+  },
+  {
+    "started_at": 1790018729.9631248,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 421,
+      "prompt_tokens": 65,
+      "total_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 125,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8149.059295654297
+  },
+  {
+    "started_at": 1790018743.4798996,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 65,
+      "total_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 17267.87781715393
+  },
+  {
+    "started_at": 1790018763.4324186,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 864,
+      "prompt_tokens": 65,
+      "total_tokens": 929,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 539,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 20601.84097290039
+  },
+  {
+    "started_at": 1790018789.3388774,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 466,
+      "prompt_tokens": 65,
+      "total_tokens": 531,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 126,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10117.09189414978
+  },
+  {
+    "started_at": 1790018802.098072,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 509,
+      "prompt_tokens": 65,
+      "total_tokens": 574,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8470.597743988037
+  },
+  {
+    "started_at": 1790018813.4201462,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 562,
+      "prompt_tokens": 65,
+      "total_tokens": 627,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 169,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10180.408477783203
+  },
+  {
+    "started_at": 1790018826.4169436,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 505,
+      "prompt_tokens": 65,
+      "total_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 191,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9171.043634414673
+  },
+  {
+    "started_at": 1790018840.9139886,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 325,
+      "prompt_tokens": 94,
+      "total_tokens": 419,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 178,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5209.805250167847
+  },
+  {
+    "started_at": 1790018851.2719371,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 280,
+      "prompt_tokens": 108,
+      "total_tokens": 388,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 210,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 6712.63313293457
+  },
+  {
+    "started_at": 1790018863.177137,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 271,
+      "prompt_tokens": 94,
+      "total_tokens": 365,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5181.344985961914
+  },
+  {
+    "started_at": 1790018871.7284882,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 368,
+      "prompt_tokens": 108,
+      "total_tokens": 476,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 172,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 6791.979074478149
+  },
+  {
+    "started_at": 1790018883.723165,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 496,
+      "prompt_tokens": 108,
+      "total_tokens": 604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 301,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8027.270555496216
+  },
+  {
+    "started_at": 1790018896.9233143,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 384,
+      "prompt_tokens": 94,
+      "total_tokens": 478,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 160,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8351.664304733276
+  },
+  {
+    "started_at": 1790018910.5760334,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 314,
+      "prompt_tokens": 108,
+      "total_tokens": 422,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 4657.675743103027
+  },
+  {
+    "started_at": 1790018917.9302654,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 65,
+      "total_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8536.56816482544
+  },
+  {
+    "started_at": 1790018929.201512,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 581,
+      "prompt_tokens": 65,
+      "total_tokens": 646,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 302,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 25749.9840259552
+  },
+  {
+    "started_at": 1790018960.244937,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 428,
+      "prompt_tokens": 108,
+      "total_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 114,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7481.205224990845
+  },
+  {
+    "started_at": 1790018970.2750738,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 464,
+      "prompt_tokens": 65,
+      "total_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 160,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9899.84917640686
+  },
+  {
+    "started_at": 1790018982.796771,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 65,
+      "total_tokens": 525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9519.920349121094
+  },
+  {
+    "started_at": 1790018997.4999523,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 418,
+      "prompt_tokens": 108,
+      "total_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 181,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7561.359405517578
+  },
+  {
+    "started_at": 1790019010.3595812,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 409,
+      "prompt_tokens": 108,
+      "total_tokens": 517,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7729.337453842163
+  },
+  {
+    "started_at": 1790019023.4326,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 108,
+      "total_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10233.340501785278
+  },
+  {
+    "started_at": 1790019036.4681334,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 65,
+      "total_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 191,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 14675.198078155518
+  },
+  {
+    "started_at": 1790019053.816242,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 388,
+      "prompt_tokens": 94,
+      "total_tokens": 482,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 232,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7490.229368209839
+  },
+  {
+    "started_at": 1790019066.7633896,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 464,
+      "prompt_tokens": 108,
+      "total_tokens": 572,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 173,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8641.515970230103
+  },
+  {
+    "started_at": 1790019078.2775998,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 540,
+      "prompt_tokens": 108,
+      "total_tokens": 648,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 252,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7110.012054443359
+  },
+  {
+    "started_at": 1790019090.7765186,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 530,
+      "prompt_tokens": 108,
+      "total_tokens": 638,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 318,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9030.523538589478
+  },
+  {
+    "started_at": 1790019102.665351,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 656,
+      "prompt_tokens": 65,
+      "total_tokens": 721,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 383,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11621.39105796814
+  },
+  {
+    "started_at": 1790019119.4098911,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 465,
+      "prompt_tokens": 108,
+      "total_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 374,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7986.860513687134
+  },
+  {
+    "started_at": 1790019132.5616858,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 108,
+      "total_tokens": 447,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 198,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7143.375635147095
+  },
+  {
+    "started_at": 1790019142.4505053,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 594,
+      "prompt_tokens": 65,
+      "total_tokens": 659,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 261,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11939.678192138672
+  },
+  {
+    "started_at": 1790019159.7363517,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 108,
+      "total_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 339,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8827.959775924683
+  },
+  {
+    "started_at": 1790019173.7920868,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 411,
+      "prompt_tokens": 108,
+      "total_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 117,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 19579.864978790283
+  },
+  {
+    "started_at": 1790019198.6723742,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 245,
+      "prompt_tokens": 94,
+      "total_tokens": 339,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 120,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3990.1797771453857
+  },
+  {
+    "started_at": 1790019208.0599358,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 454,
+      "prompt_tokens": 108,
+      "total_tokens": 562,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7163.838863372803
+  },
+  {
+    "started_at": 1790019220.2430298,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 108,
+      "total_tokens": 554,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 374,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7269.332647323608
+  },
+  {
+    "started_at": 1790019232.7916493,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 503,
+      "prompt_tokens": 108,
+      "total_tokens": 611,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 280,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11425.78935623169
+  },
+  {
+    "started_at": 1790019245.0631306,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 460,
+      "prompt_tokens": 65,
+      "total_tokens": 525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 212,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 21068.228244781494
+  },
+  {
+    "started_at": 1790019266.895633,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 463,
+      "prompt_tokens": 65,
+      "total_tokens": 528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 180,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8898.282766342163
+  },
+  {
+    "started_at": 1790019275.8977776,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 498,
+      "prompt_tokens": 65,
+      "total_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 142,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10776.30066871643
+  },
+  {
+    "started_at": 1790019287.5264432,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 590,
+      "prompt_tokens": 65,
+      "total_tokens": 655,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 281,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12131.28113746643
+  },
+  {
+    "started_at": 1790019300.4985952,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 591,
+      "prompt_tokens": 65,
+      "total_tokens": 656,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 241,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10737.289190292358
+  },
+  {
+    "started_at": 1790019311.3197773,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 502,
+      "prompt_tokens": 65,
+      "total_tokens": 567,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 137,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11784.088134765625
+  },
+  {
+    "started_at": 1790019323.1936288,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 65,
+      "total_tokens": 511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 187,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9149.814367294312
+  },
+  {
+    "started_at": 1790019332.444256,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 448,
+      "prompt_tokens": 65,
+      "total_tokens": 513,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 161,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9672.709465026855
+  },
+  {
+    "started_at": 1790019342.9205987,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 412,
+      "prompt_tokens": 65,
+      "total_tokens": 477,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10734.264850616455
+  },
+  {
+    "started_at": 1790019354.4531927,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 663,
+      "prompt_tokens": 65,
+      "total_tokens": 728,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 398,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12252.40969657898
+  },
+  {
+    "started_at": 1790019366.861878,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 1024,
+      "prompt_tokens": 65,
+      "total_tokens": 1089,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "length",
+    "elapsed_ms": 11737.024784088135
+  },
+  {
+    "started_at": 1790019379.5712311,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 578,
+      "prompt_tokens": 65,
+      "total_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 234,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11069.3941116333
+  },
+  {
+    "started_at": 1790019390.7237968,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 596,
+      "prompt_tokens": 65,
+      "total_tokens": 661,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 328,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11113.136291503906
+  },
+  {
+    "started_at": 1790019401.9327137,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 642,
+      "prompt_tokens": 65,
+      "total_tokens": 707,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 324,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10528.284072875977
+  },
+  {
+    "started_at": 1790019412.6175704,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 686,
+      "prompt_tokens": 65,
+      "total_tokens": 751,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 375,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 13716.912031173706
+  },
+  {
+    "started_at": 1790019426.424822,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 462,
+      "prompt_tokens": 65,
+      "total_tokens": 527,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 187,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9211.971044540405
+  },
+  {
+    "started_at": 1790019435.7228196,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 364,
+      "prompt_tokens": 65,
+      "total_tokens": 429,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 164,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7282.173156738281
+  },
+  {
+    "started_at": 1790019443.095809,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 456,
+      "prompt_tokens": 65,
+      "total_tokens": 521,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 175,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9876.070261001587
+  },
+  {
+    "started_at": 1790019453.8213277,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 447,
+      "prompt_tokens": 65,
+      "total_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12469.626665115356
+  },
+  {
+    "started_at": 1790019467.1308942,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 479,
+      "prompt_tokens": 65,
+      "total_tokens": 544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 155,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11213.773488998413
+  },
+  {
+    "started_at": 1790019479.1342354,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 619,
+      "prompt_tokens": 65,
+      "total_tokens": 684,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 263,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12988.731145858765
+  },
+  {
+    "started_at": 1790019492.2268105,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 65,
+      "total_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 208,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10987.186193466187
+  },
+  {
+    "started_at": 1790019503.3148077,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 679,
+      "prompt_tokens": 65,
+      "total_tokens": 744,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 383,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 12191.164016723633
+  },
+  {
+    "started_at": 1790019515.5905988,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 65,
+      "total_tokens": 607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 213,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11144.212245941162
+  },
+  {
+    "started_at": 1790019526.8339238,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 476,
+      "prompt_tokens": 65,
+      "total_tokens": 541,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 190,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9260.352849960327
+  },
+  {
+    "started_at": 1790019536.9121037,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 628,
+      "prompt_tokens": 65,
+      "total_tokens": 693,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 266,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10909.310340881348
+  },
+  {
+    "started_at": 1790019547.9331348,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 566,
+      "prompt_tokens": 65,
+      "total_tokens": 631,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 262,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10374.447345733643
+  },
+  {
+    "started_at": 1790019559.2028694,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 478,
+      "prompt_tokens": 65,
+      "total_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 154,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8311.93733215332
+  },
+  {
+    "started_at": 1790019568.228745,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 494,
+      "prompt_tokens": 65,
+      "total_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 185,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9136.877536773682
+  },
+  {
+    "started_at": 1790019578.093266,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 397,
+      "prompt_tokens": 65,
+      "total_tokens": 462,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 130,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8205.307006835938
+  },
+  {
+    "started_at": 1790019587.0887513,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 534,
+      "prompt_tokens": 65,
+      "total_tokens": 599,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 211,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10207.910299301147
+  },
+  {
+    "started_at": 1790019597.3839655,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 352,
+      "prompt_tokens": 65,
+      "total_tokens": 417,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 107,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7489.029407501221
+  },
+  {
+    "started_at": 1790019605.6758013,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 439,
+      "prompt_tokens": 65,
+      "total_tokens": 504,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 150,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10323.399782180786
+  },
+  {
+    "started_at": 1790019616.70649,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 550,
+      "prompt_tokens": 65,
+      "total_tokens": 615,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 244,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 8582.146406173706
+  },
+  {
+    "started_at": 1790019626.0517223,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 559,
+      "prompt_tokens": 65,
+      "total_tokens": 624,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 253,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10350.844621658325
+  },
+  {
+    "started_at": 1790019637.2002847,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 535,
+      "prompt_tokens": 65,
+      "total_tokens": 600,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 210,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 10105.284452438354
+  },
+  {
+    "started_at": 1790019648.0737236,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 379,
+      "prompt_tokens": 65,
+      "total_tokens": 444,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7416.923761367798
+  },
+  {
+    "started_at": 1790019655.7399228,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 513,
+      "prompt_tokens": 65,
+      "total_tokens": 578,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 134,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 9121.561765670776
+  },
+  {
+    "started_at": 1790019664.9468222,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 410,
+      "prompt_tokens": 65,
+      "total_tokens": 475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 151,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7940.454959869385
+  },
+  {
+    "started_at": 1790019672.9758294,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 522,
+      "prompt_tokens": 65,
+      "total_tokens": 587,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 165,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 11453.478574752808
+  },
+  {
+    "started_at": 1790019689.2425137,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 291,
+      "prompt_tokens": 104,
+      "total_tokens": 395,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 193,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5271.443128585815
+  },
+  {
+    "started_at": 1790019696.987654,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 285,
+      "prompt_tokens": 89,
+      "total_tokens": 374,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 243,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 5694.4684982299805
+  },
+  {
+    "started_at": 1790019705.1073146,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 205,
+      "prompt_tokens": 89,
+      "total_tokens": 294,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 182,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 4108.251571655273
+  },
+  {
+    "started_at": 1790019711.660478,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 145,
+      "prompt_tokens": 89,
+      "total_tokens": 234,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 153,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 2944.714307785034
+  },
+  {
+    "started_at": 1790019717.036272,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 64,
+      "prompt_tokens": 89,
+      "total_tokens": 153,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 67,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 2423.6950874328613
+  },
+  {
+    "started_at": 1790019724.082067,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 382,
+      "prompt_tokens": 104,
+      "total_tokens": 486,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 232,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 6170.764207839966
+  },
+  {
+    "started_at": 1790019734.7334034,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 504,
+      "prompt_tokens": 104,
+      "total_tokens": 608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 259,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 7701.203346252441
+  },
+  {
+    "started_at": 1790019744.9028962,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 121,
+      "prompt_tokens": 89,
+      "total_tokens": 210,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 64,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3454.2739391326904
+  },
+  {
+    "started_at": 1790019752.326505,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 287,
+      "prompt_tokens": 84,
+      "total_tokens": 371,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 196,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 3544.398784637451
+  },
+  {
+    "started_at": 1790019760.0494082,
+    "max_tokens": 1024,
+    "model": "xiaomi/mimo-v2.5",
+    "usage": {
+      "completion_tokens": 137,
+      "prompt_tokens": 84,
+      "total_tokens": 221,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": null,
+        "reasoning_tokens": 138,
+        "rejected_prediction_tokens": null,
+        "text_tokens": null,
+        "reasoning_tokens_estimated": true,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cache_write_tokens": null,
+        "cached_tokens": 0,
+        "image_tokens": null,
+        "text_tokens": null,
+        "video_tokens": 0
+      },
+      "cache_creation_input_tokens": 0
+    },
+    "finish_reason": "stop",
+    "elapsed_ms": 2844.461679458618
+  }
+]

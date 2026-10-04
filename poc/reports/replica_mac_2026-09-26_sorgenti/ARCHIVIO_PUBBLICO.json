@@ -1,0 +1,15 @@
+{
+  "data": "2026-09-26",
+  "archivi": [
+    {
+      "file": "sorgenti_e_input.tar.gz",
+      "bytes": 231656,
+      "sha256": "9687133a1e41fcae62c4b7b8d184df9563f6e3646fa8ac9a9159f22fa414e69b"
+    },
+    {
+      "file": "grezzi_confronto_integrato.tar.gz",
+      "bytes": 1673610,
+      "sha256": "200e338cb26f853360e73dbcf7a3e7d5a8ca04a7fb7563b3172f3435de140370"
+    }
+  ]
+}

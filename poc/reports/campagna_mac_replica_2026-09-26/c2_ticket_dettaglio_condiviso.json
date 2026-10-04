@@ -1,0 +1,582 @@
+{
+  "case": {
+    "id": "dettaglio_condiviso",
+    "kind": "shared_detail",
+    "error": "E42",
+    "query": "Qual è l’identificativo interno del cluster nei ticket per errore E42 dopo aggiornamento di FerroSync? Riporta soltanto l’identificativo.",
+    "step_groups": {},
+    "expected_answer": "clusterinternoaurora"
+  },
+  "corpus": "ticket",
+  "local_outputs": [
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3153698749956675,
+      "tempo_prefill_stimato_sec": 0.3001713268031052,
+      "tempo_prefill_reale_sec": 0.2387779589917045,
+      "token_al_secondo": 15.854399536635164,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30349854202358983,
+      "tempo_prefill_stimato_sec": 0.28883677670844055,
+      "tempo_prefill_reale_sec": 0.2286685419967398,
+      "token_al_secondo": 16.474543721568747,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.304384334012866,
+      "tempo_prefill_stimato_sec": 0.2897152094821255,
+      "tempo_prefill_reale_sec": 0.22921416701865382,
+      "token_al_secondo": 16.426600981996184,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3176451659819577,
+      "tempo_prefill_stimato_sec": 0.30233696521174286,
+      "tempo_prefill_reale_sec": 0.24096191598800942,
+      "token_al_secondo": 15.740834539518858,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.2916930829815101,
+      "tempo_prefill_stimato_sec": 0.27763558500649754,
+      "tempo_prefill_reale_sec": 0.22789537499193102,
+      "token_al_secondo": 17.141304651084035,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.29925220800214447,
+      "tempo_prefill_stimato_sec": 0.2848304148454146,
+      "tempo_prefill_reale_sec": 0.2234638329828158,
+      "token_al_secondo": 16.70831447955154,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31687933299690485,
+      "tempo_prefill_stimato_sec": 0.3016080398404275,
+      "tempo_prefill_reale_sec": 0.2404025419964455,
+      "token_al_secondo": 15.778876939408471,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3019544160051737,
+      "tempo_prefill_stimato_sec": 0.28740239595673156,
+      "tempo_prefill_reale_sec": 0.2269564580055885,
+      "token_al_secondo": 16.55879078090492,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30200733299716376,
+      "tempo_prefill_stimato_sec": 0.2874527627322402,
+      "tempo_prefill_reale_sec": 0.2262445829983335,
+      "token_al_secondo": 16.555889389768414,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3077593329944648,
+      "tempo_prefill_stimato_sec": 0.29292755791039415,
+      "tempo_prefill_reale_sec": 0.22638008301146328,
+      "token_al_secondo": 16.246460997138723,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30328995900345035,
+      "tempo_prefill_stimato_sec": 0.288673575437019,
+      "tempo_prefill_reale_sec": 0.22856120899086818,
+      "token_al_secondo": 16.48587383647316,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30364837500383146,
+      "tempo_prefill_stimato_sec": 0.288979371380458,
+      "tempo_prefill_reale_sec": 0.22764220801764168,
+      "token_al_secondo": 16.466414483321078,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3026599579898175,
+      "tempo_prefill_stimato_sec": 0.28807393591801905,
+      "tempo_prefill_reale_sec": 0.22822654197807424,
+      "token_al_secondo": 16.520189962387484,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3145147080067545,
+      "tempo_prefill_stimato_sec": 0.2993573726811278,
+      "tempo_prefill_reale_sec": 0.2377055830147583,
+      "token_al_secondo": 15.897507724480153,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3017219159810338,
+      "tempo_prefill_stimato_sec": 0.28718110075303216,
+      "tempo_prefill_reale_sec": 0.22698974999366328,
+      "token_al_secondo": 16.57155060726281,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3059207499900367,
+      "tempo_prefill_stimato_sec": 0.29117758131581806,
+      "tempo_prefill_reale_sec": 0.228035624983022,
+      "token_al_secondo": 16.34410219039683,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31734533299459144,
+      "tempo_prefill_stimato_sec": 0.3020515820069003,
+      "tempo_prefill_reale_sec": 0.24180524999974295,
+      "token_al_secondo": 15.7557067337909,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30089300000690855,
+      "tempo_prefill_stimato_sec": 0.2863921325366961,
+      "tempo_prefill_reale_sec": 0.22696083399932832,
+      "token_al_secondo": 16.61720279263791,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30181170799187385,
+      "tempo_prefill_stimato_sec": 0.28723143224347414,
+      "tempo_prefill_reale_sec": 0.22741087499889545,
+      "token_al_secondo": 16.566620404714794,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31479316600598395,
+      "tempo_prefill_stimato_sec": 0.29962241101774373,
+      "tempo_prefill_reale_sec": 0.23400054100784473,
+      "token_al_secondo": 15.88344519494732,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3022470000141766,
+      "tempo_prefill_stimato_sec": 0.28764569566566567,
+      "tempo_prefill_reale_sec": 0.2282766250136774,
+      "token_al_secondo": 16.542761383125324,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.29726737501914613,
+      "tempo_prefill_stimato_sec": 0.28294123646400654,
+      "tempo_prefill_reale_sec": 0.22633562501869164,
+      "token_al_secondo": 16.8198746992601,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.301148208003724,
+      "tempo_prefill_stimato_sec": 0.2866350413529421,
+      "tempo_prefill_reale_sec": 0.22698229202069342,
+      "token_al_secondo": 16.603120547003787,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31413491698913276,
+      "tempo_prefill_stimato_sec": 0.29899588484507816,
+      "tempo_prefill_reale_sec": 0.23757599998498335,
+      "token_al_secondo": 15.916727907623752,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30248483302420937,
+      "tempo_prefill_stimato_sec": 0.2879072507097896,
+      "tempo_prefill_reale_sec": 0.22633333300473168,
+      "token_al_secondo": 16.529754401272164,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30069008297869004,
+      "tempo_prefill_stimato_sec": 0.28619899464236764,
+      "tempo_prefill_reale_sec": 0.22681699998793192,
+      "token_al_secondo": 16.628416708888768,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.314811499993084,
+      "tempo_prefill_stimato_sec": 0.2996398614392004,
+      "tempo_prefill_reale_sec": 0.23989975001313724,
+      "token_al_secondo": 15.88252017512017,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3010776250157505,
+      "tempo_prefill_stimato_sec": 0.2865678599547505,
+      "tempo_prefill_reale_sec": 0.22671099999570288,
+      "token_al_secondo": 16.607012891570506,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3031310000224039,
+      "tempo_prefill_stimato_sec": 0.2885222771297579,
+      "tempo_prefill_reale_sec": 0.22762754099676386,
+      "token_al_secondo": 16.494518870159958,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31213070801459253,
+      "tempo_prefill_stimato_sec": 0.29708826425485313,
+      "tempo_prefill_reale_sec": 0.237927917012712,
+      "token_al_secondo": 16.01893012002601,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3049675000074785,
+      "tempo_prefill_stimato_sec": 0.2902702710914554,
+      "tempo_prefill_reale_sec": 0.231938832992455,
+      "token_al_secondo": 16.395189650954244,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30308862499077804,
+      "tempo_prefill_stimato_sec": 0.28844666243083705,
+      "tempo_prefill_reale_sec": 0.22763416700763628,
+      "token_al_secondo": 16.496824980324263,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30840279199765064,
+      "tempo_prefill_stimato_sec": 0.29354000684113735,
+      "tempo_prefill_reale_sec": 0.2259882919897791,
+      "token_al_secondo": 16.21256399014082,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3054815839859657,
+      "tempo_prefill_stimato_sec": 0.29072401954219923,
+      "tempo_prefill_reale_sec": 0.23261445897514932,
+      "token_al_secondo": 16.367598775544216,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.2993394579971209,
+      "tempo_prefill_stimato_sec": 0.28491346002135604,
+      "tempo_prefill_reale_sec": 0.22537966698291712,
+      "token_al_secondo": 16.703444422111872,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.29986520900274627,
+      "tempo_prefill_stimato_sec": 0.2854138736291199,
+      "tempo_prefill_reale_sec": 0.2260406670102384,
+      "token_al_secondo": 16.674158421473322,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3081026670115534,
+      "tempo_prefill_stimato_sec": 0.2932543457097918,
+      "tempo_prefill_reale_sec": 0.23312225000699982,
+      "token_al_secondo": 16.228356763339885,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.3035681250039488,
+      "tempo_prefill_stimato_sec": 0.28893833584713197,
+      "tempo_prefill_reale_sec": 0.22777545801363885,
+      "token_al_secondo": 16.47076747578475,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.30480754098971374,
+      "tempo_prefill_stimato_sec": 0.29011802094201666,
+      "tempo_prefill_reale_sec": 0.22647983298520558,
+      "token_al_secondo": 16.40379363241782,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "clusterinternoaurora",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.31255041700205766,
+      "tempo_prefill_stimato_sec": 0.2974513630406056,
+      "tempo_prefill_reale_sec": 0.23752699999022298,
+      "token_al_secondo": 15.99741906588812,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "generation_ms": 12302.253415982705,
+  "conditional_trials": [
+    {
+      "n": 5,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 5,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.0,
+      "sensitive_fragment_hits": {}
+    },
+    {
+      "n": 5,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.002,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.002,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 1
+      }
+    },
+    {
+      "n": 10,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.002,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.002,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 1
+      }
+    },
+    {
+      "n": 10,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.022,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.022,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 11
+      }
+    },
+    {
+      "n": 10,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.32,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.32,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 160
+      }
+    },
+    {
+      "n": 20,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.002,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.002,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 1
+      }
+    },
+    {
+      "n": 20,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.582,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.582,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 291
+      }
+    },
+    {
+      "n": 20,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 1.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 1.0,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 500
+      }
+    },
+    {
+      "n": 40,
+      "epsilon": 1.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 0.056,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 0.056,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 28
+      }
+    },
+    {
+      "n": 40,
+      "epsilon": 4.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 1.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 1.0,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 500
+      }
+    },
+    {
+      "n": 40,
+      "epsilon": 8.0,
+      "delta_per_trial": 0.0002,
+      "trials": 500,
+      "release_rate": 1.0,
+      "all_step_terms_rate": null,
+      "step_term_rates": {},
+      "unique_identifier_rate": 0.0,
+      "shared_identifier_rate": 1.0,
+      "sensitive_fragment_hits": {
+        "clusterinternoaurora": 500
+      }
+    }
+  ],
+  "scope": "Seeded conditional diagnostics on PUBLIC synthetic drafts; not session DP",
+  "cloud_answer_quality": null
+}

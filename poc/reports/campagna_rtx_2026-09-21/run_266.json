@@ -1,0 +1,218 @@
+{
+  "config": {
+    "epsilon": 4,
+    "delta": 0.0001,
+    "sla_ms": 2539.5333684305224,
+    "rtt_ms": 50.0,
+    "cloud_ms": 150.0,
+    "prefill_tps": 5580.17549119467,
+    "generation_tps": 1395.0438727986668,
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "candidates": 40,
+    "fixed_n": null,
+    "r_min_k": 1,
+    "r_max_k": 10,
+    "k_sforamento": 0.25,
+    "e2e_cloud_ms": 1919.9758760078112,
+    "riferimenti_ticket": [
+      {
+        "passaggi": [
+          "arrest",
+          "cache",
+          "riavvi"
+        ]
+      }
+    ],
+    "etichette_attive": true
+  },
+  "decision": {
+    "n_ensemble": 5,
+    "sigma": 2.2626648384914407,
+    "epsilon_find_best_k": 2.0,
+    "epsilon_top_k_ptr": 2.0,
+    "tempo_stimato_ms": 2923.5285436320846,
+    "ptr_pass_rate_attesa": 0.0002343470769712308,
+    "motivazione": "SLA stimato incompatibile con 5 inferenze; sforamento previsto 384.0 ms entro la tolleranza k=0.25×E2E_cloud (480.0 ms); pianifico N_MIN=5. La tolleranza è una stima, non una scadenza garantita. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=2923.5 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+    "sla_fattibile": false,
+    "modalita": "ensemble",
+    "sforamento_previsto_ms": 383.99517520156223,
+    "sforamento_accettato": true,
+    "k_sforamento": 0.25,
+    "sforamento_piano_minimo_ms": 383.99517520156223,
+    "tolleranza_sforamento_ms": 479.9939690019528
+  },
+  "response": "## Riguardo a FerroSync ed errore E42\n\nNon dispongo di informazioni affidabili su un prodotto chiamato **FerroSync** né su un codice errore **E42** ad esso associato. Non mi risulta che FerroSync sia un software, un sistema o un dispositivo documentato nelle fonti a mia disposizione.\n\n### Cosa posso suggerirti:\n\n1. **Verifica il nome del prodotto**: è possibile che si tratti di un nome leggermente diverso da quello ricordato?\n2. **Consulta la documentazione ufficiale** o il sito del produttore.\n3. **Contatta il supporto tecnico** del produttore, fornendo il modello, la versione del firmware/software e il codice errore completo.\n4. **Cerca il forum utenti** o la knowledge base ufficiale di quel prodotto specifico.\n\nSe mi fornisci maggiori dettagli (produttore, tipo di dispositivo, contesto d'uso), posso aiutarti con un approccio più mirato. Non preferisco inventare passaggi che potrebbero essere errati o potenzialmente dannosi.",
+  "provider_error": null,
+  "cloud_simulated": false,
+  "released_keywords": [],
+  "ptr_passed": false,
+  "k_hat": 3,
+  "epsilon_consumed": 268.069520822776,
+  "delta_consumed": 0.0126,
+  "request_ms": 8094.717348998529,
+  "model_setup_ms": 0.0,
+  "retrieval_ms": 7.721531001152471,
+  "edge_ms": 667.9808200133266,
+  "privacy_ms": 0.3240060032112524,
+  "cloud_call_ms": 7416.932862004614,
+  "prefill_estimated_ms": 518.261778036675,
+  "prefill_real_ms": 172.5476240098942,
+  "sla_violated": true,
+  "prompt_text_bytes": 178,
+  "context_text_bytes": 4687,
+  "text_saving_percent": 96.20226157456796,
+  "local_diagnostics": {
+    "selected_document_ids": [
+      "0fb7d640d1114408245f7f48f8cab4c9528c9c05442925d909ed9e054b4ad26f",
+      "15124c6c6a9eb906237e152c55381551163774018f97f21dbeb412a7f9d9c41d",
+      "18a2c4d32524542c22b6908d63bd43de6d0257e832fe3c8bb6921fba2dc0091b",
+      "28064284aa62b26b0ccacc94f8c1defcd65287cb7d345f6071b46ac39ee9ef8a",
+      "2c371d40f7ca822a632c176525f021eef9c2727520a9309891c3cfd56b366442"
+    ],
+    "actual_documents": 5
+  },
+  "trace_url": "https://cloud.langfuse.com/project/cmtq6zddz0w1rad0cdcbyxv49/traces/3ca4ff51b831a1c5c23faf3e013c82eb",
+  "esito": {
+    "label": "insufficienti",
+    "motivazione": "filtro DP-KSA non ha rilasciato keyword",
+    "riferimenti_usati": true
+  },
+  "account_scope": "supplied_session",
+  "run_id": "run_266",
+  "phase": "B_cloud",
+  "corpus": "ticket",
+  "case": {
+    "id": "procedura_e42",
+    "kind": "procedure",
+    "error": "E42",
+    "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+    "step_groups": {
+      "stop_service": [
+        [
+          "arrestare",
+          "arresta",
+          "fermare",
+          "ferma",
+          "stop",
+          "interrompere"
+        ]
+      ],
+      "clear_cache": [
+        [
+          "cache"
+        ],
+        [
+          "cancellare",
+          "cancella",
+          "svuotare",
+          "svuota",
+          "eliminare",
+          "elimina",
+          "pulire",
+          "pulisci"
+        ]
+      ],
+      "restart_service": [
+        [
+          "riavviare",
+          "riavvia",
+          "riavvio",
+          "restart"
+        ]
+      ]
+    },
+    "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+  },
+  "repeat": 8,
+  "variant": "k_0.25",
+  "started_at": 1790019647.3959463,
+  "ended_at": 1790019655.7311003,
+  "local_outputs": [
+    {
+      "testo": "Riporta i passaggi della procedura generale in ordine: Arrestare il servizio FerroSync. Cancellare la cache",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.18237249099183828,
+      "tempo_prefill_stimato_sec": 0.13946131664081748,
+      "tempo_prefill_reale_sec": 0.04512436500226613,
+      "token_al_secondo": 164.49849336840276,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 389,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.14242181299778167,
+      "tempo_prefill_stimato_sec": 0.1088449612104854,
+      "tempo_prefill_reale_sec": 0.03229714700137265,
+      "token_al_secondo": 210.64189093328895,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale, arrestare servizio FerroSync, cancellare la cache locale, riavviare servizio Fer",
+      "prompt_tokens": 390,
+      "completion_tokens": 30,
+      "durata_totale_sec": 0.13666391599690542,
+      "tempo_prefill_stimato_sec": 0.10450770046822178,
+      "tempo_prefill_reale_sec": 0.03189284099789802,
+      "token_al_secondo": 219.51661330031925,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Ricorrere al tecnico locale per arrestare il servizio FerroSync e cancellare la cache locale.",
+      "prompt_tokens": 390,
+      "completion_tokens": 24,
+      "durata_totale_sec": 0.11960502700821962,
+      "tempo_prefill_stimato_sec": 0.09597934266091698,
+      "tempo_prefill_reale_sec": 0.0316285360022448,
+      "token_al_secondo": 200.66046219236793,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "Riavviare il servizio FerroSync.",
+      "prompt_tokens": 390,
+      "completion_tokens": 12,
+      "durata_totale_sec": 0.07801842100161593,
+      "tempo_prefill_stimato_sec": 0.06946845705623336,
+      "tempo_prefill_reale_sec": 0.031604735006112605,
+      "token_al_secondo": 153.80982908833099,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "driver_total_ms": 8335.155248641968,
+  "account_key": "('ticket', 4, 0.0001)",
+  "quality": null,
+  "provider_calls": [
+    {
+      "started_at": 1790019648.0737236,
+      "max_tokens": 1024,
+      "model": "xiaomi/mimo-v2.5",
+      "usage": {
+        "completion_tokens": 379,
+        "prompt_tokens": 65,
+        "total_tokens": 444,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 134,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "reasoning_tokens_estimated": true,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cache_creation_input_tokens": 0
+      },
+      "finish_reason": "stop",
+      "elapsed_ms": 7416.923761367798
+    }
+  ]
+}

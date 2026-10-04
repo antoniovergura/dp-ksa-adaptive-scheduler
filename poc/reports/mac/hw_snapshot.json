@@ -1,0 +1,14 @@
+{
+  "timestamp": 1790063619.489307,
+  "cpu_temp_c": 94.28316497802734,
+  "gpu_temp_c": null,
+  "soc_temp_c": null,
+  "cpu_util_pct": 0.3742348551750183,
+  "gpu_util_pct": 0.3470318019390106,
+  "ram_used_gb": 5.658599853515625,
+  "ram_total_gb": 8.0,
+  "vram_used_gb": null,
+  "cpu_watt": 2.350224494934082,
+  "gpu_watt": 1.2651170492172241,
+  "memory_pressure_pct": 57.0
+}

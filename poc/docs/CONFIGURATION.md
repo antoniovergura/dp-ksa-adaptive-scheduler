@@ -1,0 +1,179 @@
+# Configurazione ed esperimenti
+
+> Aggiornamento 21 settembre 2026: CLI e REPL usano di default la stima diretta
+> descritta in [STIMA_LATENZA.md](STIMA_LATENZA.md). Le descrizioni della
+> calibrazione per velocità e del probe da 16 token sotto si riferiscono alla
+> modalità `--stima-latenza legacy`, conservata nei benchmark storici.
+
+Eseguire i comandi dalla directory `poc/` con `.venv/bin/python`.
+
+## Conteggi e tempi dell'inferenza locale
+
+Dal 19 settembre 2026 la mancanza di `usage` nello stream non causa una
+seconda generazione. L'engine conta i token nel prompt e nel testo già
+prodotto tramite il tokenizer locale. `OutputInferenza.token_counts_source`
+vale `backend_usage` quando i conteggi provengono dal backend oppure
+`retokenized_text` nel secondo caso. Questi ultimi contano il testo visibile,
+possono avere una segmentazione diversa dai token generati e non includono
+token di arresto nascosti. Il tempo al primo testo non vuoto dello stream
+è diagnostica distinta dalla stima euristica del prefill. La calibrazione
+legacy usa la separazione euristica per ricavare le due velocità.
+
+## Documenti locali
+
+```bash
+.venv/bin/python run_pipeline.py --documents ./private_documents \
+  --query "Qual è la scadenza del progetto?" --dry-run
+
+.venv/bin/python run_pipeline.py --documents ./private_documents \
+  --query "Qual è la scadenza del progetto?" \
+  --max-latency-ms 60000 --prompt-token-budget 1000 \
+  --offline-cloud --no-telemetry --output reports/request.json
+```
+
+`--documents` accetta un file o una directory TXT, Markdown, PDF testuali.
+La query è obbligatoria. Sono letti soltanto i percorsi indicati; i contenuti
+restano sul computer. `--dry-run` valida corpus e piano senza modello, provider
+o trace. `--offline-cloud` forza la simulazione anche se `.env` contiene chiavi;
+l'inferenza locale, se pianificata, richiede comunque il modello GGUF.
+Con pochi documenti non vengono inventati voti: gli slot mancanti sono vuoti,
+e il filtro può spesso scegliere di non rilasciare keyword.
+
+Senza `--documents`, si usa il benchmark pubblico incluso, oppure il JSON
+indicato con `--dataset`. La query predefinita è pubblica e fissa:
+`Who won Super Bowl 50?`. `--seed` è mantenuto per compatibilità ma non cambia
+il retrieval deterministico. L'API di campionamento del dataset conserva
+invece il seed opzionale.
+
+## Parametri del piano
+
+| Opzione | Default | Interpretazione |
+| --- | ---: | --- |
+| `--ensemble-size` | 40 | Slot pubblici candidati, fra 5 e 40 |
+| `--prompt-token-budget` | 1000 | Cap del prompt completo, inclusi query e template |
+| `--max-tokens` | 30 | Massimo output per documento |
+| `--max-latency-ms` | 1500 | SLA confrontato con stima e tempo misurato della richiesta |
+| `--rtt-ms`, `--tempo-cloud-ms` | 50, 150 | Stime manuali di rete e cloud; con credenziali configurate la CLI esegue un probe E2E (A1) che le sostituisce per la tolleranza A2 |
+| `--epsilon` | 1 | Budget epsilon della singola richiesta |
+| `--delta` | 1e-4 | Delta PTR; default delta totale 2e-4 |
+| `--r-min-k`, `--r-max-k` | 1, 10 | Dominio pubblico per risposte brevi |
+| `--fixed-n` | assente | Baseline sperimentale che esegue N anche oltre lo SLA stimato |
+| `--sforamento-k` | 0 | Coefficiente di tolleranza sullo sforamento stimato dello SLA |
+| `--force-zero-shot` | disattivo | Forza N=0 senza consultare i documenti |
+| `--stima-latenza` | diretta | Probe pubblici completi; `legacy` usa throughput e probe cloud breve |
+| `--overhead-ms` | 0 | Riserva pubblica per costi accessori |
+| `--no-calibration` | disattivo | Usa throughput manuali e percorso cloud legacy |
+| `--no-etichette` | disattivo | Disattiva il calcolo delle etichette sperimentali (A3) |
+| `--tok-per-sec-prefill` | 250 | Throughput prefill manuale (usato solo con `--no-calibration`); il benchmark_scheduler e la REPL rispettano questo flag |
+| `--tok-per-sec-generazione` | 50 | Throughput generazione manuale (usato solo con `--no-calibration`) |
+| `--hw-metrics` | disattivo | Snapshot hardware istantanei prima/dopo ogni run (telemetria A5). Su macOS Apple Silicon consigliato `macmon` (`brew install macmon`) per temperatura e watt senza sudo; fallback a `powermetrics` con `POC_HW_SUDO=1` |
+| `--hw-sample-period` | 0 | Periodo in secondi del sampler continuo durante la run (0 = disattivato). Implica `--hw-metrics` |
+| `--dry-run` | disattivo | Valida corpus e piano senza eseguire inferenza locale né chiamate cloud |
+
+Con i throughput manuali predefiniti (o in dry-run), cinque prompt da 1000 token non entrano in 1,5 secondi:
+l'adattivo va in zero-shot. Aumentare lo SLA in modo coerente con l'hardware
+oppure misurare throughput migliori, senza inventare valori per ottenere N.
+La probabilità PTR per gap=3 è un riferimento analitico, non una previsione.
+
+### Tolleranza sullo sforamento (`--sforamento-k`)
+
+Quando il piano minimo non entra nello SLA stimato, lo scheduler confronta lo
+sforamento previsto con una tolleranza proporzionale al round trip cloud:
+
+```text
+E2E_cloud_ms              = probe_e2e_ms (A1) se disponibile,
+                            altrimenti rtt_ms + tempo_cloud_ms
+tolleranza_ms             = k · E2E_cloud_ms
+sforamento_piano_minimo   = (E2E_cloud_ms + tempo_locale_N_MIN) − max_latency_ms
+
+SE k > 0 E sforamento_piano_minimo <= tolleranza_ms:
+    N = N_MIN, sforamento_accettato = true
+ALTRIMENTI:
+    N = 0
+```
+
+Con `k = 0` (default) resta il comportamento prudente: SLA incompatibile con
+N_MIN produce N=0. Nel blocco B delle campagne conservate tutte le richieste
+sforano e non si osserva un beneficio di utilità: i risultati non motivano
+un aumento del default per ottenere rilasci. `sforamento_previsto_ms` descrive sempre il piano che verrà eseguito,
+quindi resta confrontabile con lo sforamento misurato; 
+`sforamento_piano_minimo_ms` è la quantità valutata dalla politica.
+
+La tolleranza è una stima: `sla_fattibile` resta `false` quando il piano sfora
+e il report dichiara lo sforamento previsto. Non è una scadenza garantita.
+`--fixed-n` non applica la politica (è una baseline di confronto) e
+`--force-zero-shot` resta l'unico percorso utente verso N=0 esplicito; l'altro
+è l'esaurimento del budget privacy.
+
+## Modello e provider
+
+`core.model_config` contiene prompt, `n_ctx`, stop, generazione e stima prefill.
+`--model-path` sceglie il GGUF locale; se manca viene scaricato da `--model-url`
+(default Qwen su Hugging Face). Usare un URL versionato per esperimenti
+ripetibili. Il download è atomico e verifica la lunghezza HTTP disponibile.
+
+Il provider riceve query e keyword alfabetiche. La scelta avviene con:
+
+| CLI | Ambiente |
+| --- | --- |
+| `--api-key` | `CLOUD_API_KEY`, poi `OPENAI_API_KEY` |
+| `--cloud-base-url` | `CLOUD_BASE_URL`, poi `OPENAI_BASE_URL` |
+| `--cloud-model` | `CLOUD_MODEL`, poi `OPENAI_MODEL` (default `gpt-4o-mini`) |
+
+Senza endpoint e chiavi il cloud è simulato. `--offline-cloud` prevale su tutti
+questi valori. Errori del provider producono un report con `provider_error` e
+codice di uscita 4. Le simulazioni sono identificate e non contengono una
+risposta fattuale da valutare.
+
+## Osservabilità degli esperimenti
+
+Il tracing è opzionale e richiede `LANGFUSE_PUBLIC_KEY` e `LANGFUSE_SECRET_KEY`.
+`LANGFUSE_HOST` può essere il servizio cloud o un endpoint locale. Il servizio cloud può
+essere usato per esperimenti con dati pubblici o sintetici autorizzati.
+Con documenti riservati, la telemetria deve restare nel perimetro fidato.
+
+La modalità predefinita è redatta. Per la diagnostica completa usare
+`LANGFUSE_CAPTURE_SENSITIVE=true` oppure `--langfuse-capture-sensitive`.
+Contiene informazioni non privatizzate: questo è dichiarato nei trace e non
+estende la garanzia DP alle misure sperimentali. `--no-telemetry` disabilita
+il tracer per la richiesta. Non versionare `.env` o i report riservati.
+
+## Confronto adattivo / fisso
+
+Preparare un JSON di casi pubblici con risposte attese:
+
+```json
+[{"query": "Who won Super Bowl 50?", "references": ["Denver Broncos"]}]
+```
+
+```bash
+.venv/bin/python benchmark_scheduler.py --documents ./private_documents \
+  --cases examples/evaluation.json --fixed-sizes 5 10 20 40 --repeats 3 \
+  --epsilon 1 --session-epsilon 10 --max-latency-ms 30000 \
+  --output reports/comparison.json
+```
+
+Il benchmark calibra automaticamente le velocità locali all'avvio
+(`core/calibration.py`) e usa i valori misurati per ogni run. Il report
+JSON include `prefill_tps`, `generation_tps` e `calibration_ms` per
+documentare i parametri usati. Con `--no-calibration` i throughput sono
+quelli passati a `--tok-per-sec-prefill`/`--tok-per-sec-generazione`
+(default 250/50), come in `run_pipeline.py`.
+
+Le query devono corrispondere ai documenti scelti. Il modello viene precaricato;
+il seed controlla l'ordine dei confronti per ridurre l'effetto dell'ordine di
+esecuzione. N, rilascio, tempi, violazioni dello SLA, errori ed exact match/F1
+normalizzati sono salvati per ogni prova. Il riepilogo riporta frequenza di
+rilascio, media e intervallo delle latenze, violazioni e F1 medio. La metrica
+F1 è lessicale, non una valutazione completa della qualità semantica.
+Con `--offline-cloud` la qualità vale `null`: non è una misura sul provider.
+
+Ogni variante usa la stessa calibrazione per richiesta; l'account cumulativo
+copre la sessione intera. Se il limite totale non basta, il report è parziale
+ed espone `stopped_budget`; non va confrontato come se fosse completo.
+Una sessione successiva sullo stesso corpus richiede composizione ulteriore.
+I report sono diagnostica locale, non artefatti pubblicabili con garanzia DP.
+
+`benchmark_tokens.py` resta uno studio su testo ripetuto artificialmente:
+riporta tempi totali reali e prefill stimato. Il rapporto fra ultimo e primo
+profilo è calcolato dalle misure; non è una conclusione generale sul TTFT.

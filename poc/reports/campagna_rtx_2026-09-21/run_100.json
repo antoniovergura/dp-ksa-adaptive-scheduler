@@ -1,0 +1,147 @@
+{
+  "config": {
+    "epsilon": 4,
+    "delta": 0.0001,
+    "sla_ms": 5000,
+    "rtt_ms": 50.0,
+    "cloud_ms": 150.0,
+    "prefill_tps": 5580.17549119467,
+    "generation_tps": 1395.0438727986668,
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "candidates": 40,
+    "fixed_n": 5,
+    "r_min_k": 1,
+    "r_max_k": 10,
+    "k_sforamento": 0.0,
+    "e2e_cloud_ms": null,
+    "riferimenti_ticket": [],
+    "etichette_attive": true
+  },
+  "decision": {
+    "n_ensemble": 5,
+    "sigma": 2.2626648384914407,
+    "epsilon_find_best_k": 2.0,
+    "epsilon_top_k_ptr": 2.0,
+    "tempo_stimato_ms": 1203.5526676242732,
+    "ptr_pass_rate_attesa": 0.0002343470769712308,
+    "motivazione": "Baseline fissa N=5. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=1203.6 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+    "sla_fattibile": true,
+    "modalita": "ensemble",
+    "sforamento_previsto_ms": 0.0,
+    "sforamento_accettato": false,
+    "k_sforamento": 0.0,
+    "sforamento_piano_minimo_ms": 0.0,
+    "tolleranza_sforamento_ms": 0.0
+  },
+  "response": "[Cloud Simulato] Synthesized response using verified terms []. This simulation does not answer the question.",
+  "provider_error": null,
+  "cloud_simulated": true,
+  "released_keywords": [],
+  "ptr_passed": false,
+  "k_hat": 1,
+  "epsilon_consumed": 114.82488599590249,
+  "delta_consumed": 0.005200000000000001,
+  "request_ms": 311.4026469993405,
+  "model_setup_ms": 0.0,
+  "retrieval_ms": 8.087797003099695,
+  "edge_ms": 302.9481450066669,
+  "privacy_ms": 0.19440198957454413,
+  "cloud_call_ms": 0.0,
+  "prefill_estimated_ms": 278.2799707109359,
+  "prefill_real_ms": 166.7610070144292,
+  "sla_violated": false,
+  "prompt_text_bytes": 231,
+  "context_text_bytes": 4611,
+  "text_saving_percent": 94.99024072869226,
+  "local_diagnostics": {
+    "selected_document_ids": [
+      "0552891e7b453f96a5a7c9057ed5878380dbec1fd95208298bcbfa96f15c44af",
+      "20b6c6668436538721d2ee24b2f3116b9bc6eec6fd1ba8d3c5c51a2b64215d11",
+      "471447d0235be85444ddebac5cb34b86d40ac4bd2aada66f6ffbbb8b29e9d1fb",
+      "5a9bfef84ada8e77caf9990b9930b89c5f51919104fd0755b01cd903fc5aca5e",
+      "7d05b92a79bb98c8b818f36e6c744b6dfcccb1c8c1a833d1b3b646ea1334ab96"
+    ],
+    "actual_documents": 5
+  },
+  "trace_url": null,
+  "esito": {
+    "label": "insufficienti",
+    "motivazione": "filtro DP-KSA non ha rilasciato keyword",
+    "riferimenti_usati": false
+  },
+  "account_scope": "supplied_session",
+  "run_id": "run_100",
+  "phase": "C3_offline",
+  "corpus": "salary",
+  "case": {
+    "id": "base_t",
+    "query": "Qual è la retribuzione annua lorda base del personale del reparto Tecnologia, livello T2, di Aurora Demo Srl? Scrivi soltanto l’importo intero in euro senza separatori.",
+    "references": [
+      "42000"
+    ],
+    "target_token": "42000",
+    "department": "Tecnologia",
+    "grade": "T2",
+    "relevant_documents": 40
+  },
+  "repeat": 0,
+  "variant": "fixed_5",
+  "started_at": 1790018095.500219,
+  "ended_at": 1790018095.811705,
+  "local_outputs": [
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05653498000174295,
+      "tempo_prefill_stimato_sec": 0.0537771760992189,
+      "tempo_prefill_reale_sec": 0.032996597001329064,
+      "token_al_secondo": 88.44082017621395,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 386,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055870572992716916,
+      "tempo_prefill_stimato_sec": 0.053118328017706225,
+      "tempo_prefill_reale_sec": 0.03252859199710656,
+      "token_al_secondo": 89.49254915734946,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 388,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.06067803000041749,
+      "tempo_prefill_stimato_sec": 0.05770361676510291,
+      "tempo_prefill_reale_sec": 0.032655393006280065,
+      "token_al_secondo": 82.40214786085834,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.06352976399648469,
+      "tempo_prefill_stimato_sec": 0.060430751118607386,
+      "tempo_prefill_reale_sec": 0.03601783300109673,
+      "token_al_secondo": 78.70326734216526,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05598087300313637,
+      "tempo_prefill_stimato_sec": 0.053250098710300446,
+      "tempo_prefill_reale_sec": 0.032562592008616775,
+      "token_al_secondo": 89.316220554829,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "driver_total_ms": 311.48648262023926,
+  "account_key": "('salary', 4, 0.0001)",
+  "quality": null
+}

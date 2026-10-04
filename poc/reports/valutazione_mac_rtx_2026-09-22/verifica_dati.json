@@ -1,0 +1,46 @@
+{
+  "campaigns": {
+    "Mac": {
+      "requests": 280,
+      "cloud": 130,
+      "offline": 150,
+      "C2_files": 5,
+      "conditional_trials": 30000,
+      "hardware_samples": 1631,
+      "provider_errors": 0,
+      "complete": true
+    },
+    "RTX": {
+      "requests": 280,
+      "cloud": 130,
+      "offline": 150,
+      "C2_files": 5,
+      "conditional_trials": 30000,
+      "hardware_samples": 357,
+      "provider_errors": 0,
+      "complete": true
+    },
+    "Confronto": {
+      "requests": 40,
+      "cloud": 40,
+      "offline": 0,
+      "C2_files": 0,
+      "conditional_trials": 0,
+      "hardware_samples": 0,
+      "provider_errors": 0,
+      "complete": true
+    }
+  },
+  "same_model_hash": true,
+  "same_model_config": true,
+  "same_corpora": true,
+  "same_order_seed": true,
+  "changed_source_hashes": [
+    "campaign_measurements.py",
+    "core/telemetry.py",
+    "core/telemetry_hw.py"
+  ],
+  "reviewed_cloud_responses": 300,
+  "unique_reviewed_texts": 290,
+  "reviewer": "Codex; revisione dell’assistente, non valutatore umano indipendente"
+}

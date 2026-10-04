@@ -1,0 +1,2 @@
+# Plotting dependency; numerical checks use the Python standard library.
+matplotlib>=3.8,<4

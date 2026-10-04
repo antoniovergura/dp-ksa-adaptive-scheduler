@@ -1,0 +1,553 @@
+{
+  "case": {
+    "id": "base_a",
+    "query": "Qual è la retribuzione annua lorda base del personale del reparto Amministrazione, livello A1, di Aurora Demo Srl? Scrivi soltanto l’importo intero in euro senza separatori.",
+    "references": [
+      "36000"
+    ],
+    "target_token": "36000",
+    "department": "Amministrazione",
+    "grade": "A1",
+    "relevant_documents": 20
+  },
+  "corpus": "salary",
+  "local_outputs": [
+    {
+      "testo": "36000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.0726213649904821,
+      "tempo_prefill_stimato_sec": 0.0690788593811903,
+      "tempo_prefill_reale_sec": 0.04484811899601482,
+      "token_al_secondo": 68.85026191197741,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 395,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.07224395900266245,
+      "tempo_prefill_stimato_sec": 0.06876232242422088,
+      "tempo_prefill_reale_sec": 0.04433751100441441,
+      "token_al_secondo": 69.20993905962064,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05890694499248639,
+      "tempo_prefill_stimato_sec": 0.05606119885758366,
+      "tempo_prefill_reale_sec": 0.0347774580004625,
+      "token_al_secondo": 84.87963517099304,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 391,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05814993300009519,
+      "tempo_prefill_stimato_sec": 0.055320252562134346,
+      "tempo_prefill_reale_sec": 0.03472185699502006,
+      "token_al_secondo": 85.98462185660325,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 391,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05758042300294619,
+      "tempo_prefill_stimato_sec": 0.05477845594684175,
+      "tempo_prefill_reale_sec": 0.03478385700145736,
+      "token_al_secondo": 86.83506892167442,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 391,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05605789901164826,
+      "tempo_prefill_stimato_sec": 0.05333002071424445,
+      "tempo_prefill_reale_sec": 0.03379354201024398,
+      "token_al_secondo": 89.1934961558415,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05455657499260269,
+      "tempo_prefill_stimato_sec": 0.05190819756577732,
+      "tempo_prefill_reale_sec": 0.03202301399142016,
+      "token_al_secondo": 91.64798194677633,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05569979299616534,
+      "tempo_prefill_stimato_sec": 0.05300246645882078,
+      "tempo_prefill_reale_sec": 0.032980328003759496,
+      "token_al_secondo": 89.76694043269111,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05594979699526448,
+      "tempo_prefill_stimato_sec": 0.053246908251531895,
+      "tempo_prefill_reale_sec": 0.033165831002406776,
+      "token_al_secondo": 89.36582916329783,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 391,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05538768800033722,
+      "tempo_prefill_stimato_sec": 0.05269242337744976,
+      "tempo_prefill_reale_sec": 0.03287692699814215,
+      "token_al_secondo": 90.27276964457441,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 391,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055235585998161696,
+      "tempo_prefill_stimato_sec": 0.05254772293255772,
+      "tempo_prefill_reale_sec": 0.03278242600208614,
+      "token_al_secondo": 90.52135339283639,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05564679199596867,
+      "tempo_prefill_stimato_sec": 0.05294549141364009,
+      "tempo_prefill_reale_sec": 0.03292322700144723,
+      "token_al_secondo": 89.85243929896669,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055487089994130656,
+      "tempo_prefill_stimato_sec": 0.05278040267734379,
+      "tempo_prefill_reale_sec": 0.0329823289939668,
+      "token_al_secondo": 90.11105106663356,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05488557899661828,
+      "tempo_prefill_stimato_sec": 0.052234101750404834,
+      "tempo_prefill_reale_sec": 0.0322972169960849,
+      "token_al_secondo": 91.09861080827935,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 389,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.0555394900002284,
+      "tempo_prefill_stimato_sec": 0.05282362251855464,
+      "tempo_prefill_reale_sec": 0.03270922400406562,
+      "token_al_secondo": 90.02603372806337,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055688993001240306,
+      "tempo_prefill_stimato_sec": 0.05299218946607129,
+      "tempo_prefill_reale_sec": 0.032971528999041766,
+      "token_al_secondo": 89.78434930379582,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055298885999945924,
+      "tempo_prefill_stimato_sec": 0.05260137936580222,
+      "tempo_prefill_reale_sec": 0.032720224000513554,
+      "token_al_secondo": 90.41773463582774,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05434487099410035,
+      "tempo_prefill_stimato_sec": 0.051713158113030115,
+      "tempo_prefill_reale_sec": 0.032119615003466606,
+      "token_al_secondo": 92.00500265319974,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000 euro",
+      "prompt_tokens": 392,
+      "completion_tokens": 6,
+      "durata_totale_sec": 0.058899743991787545,
+      "tempo_prefill_stimato_sec": 0.05550168183841519,
+      "tempo_prefill_reale_sec": 0.03257862199097872,
+      "token_al_secondo": 101.86801492442117,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "36000",
+      "prompt_tokens": 394,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05622080099419691,
+      "tempo_prefill_stimato_sec": 0.05350482026983957,
+      "tempo_prefill_reale_sec": 0.03324513300321996,
+      "token_al_secondo": 88.93505449195038,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.056735309000941925,
+      "tempo_prefill_stimato_sec": 0.05398116778730397,
+      "tempo_prefill_reale_sec": 0.03318313199270051,
+      "token_al_secondo": 88.12854090416586,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 388,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05700031400192529,
+      "tempo_prefill_stimato_sec": 0.05420618096261522,
+      "tempo_prefill_reale_sec": 0.03317473200149834,
+      "token_al_secondo": 87.71881501970526,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.0547170770005323,
+      "tempo_prefill_stimato_sec": 0.05204795129318926,
+      "tempo_prefill_reale_sec": 0.03236351899977308,
+      "token_al_secondo": 91.3791502413654,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055284585992922075,
+      "tempo_prefill_stimato_sec": 0.052600868226275375,
+      "tempo_prefill_reale_sec": 0.0325045209901873,
+      "token_al_secondo": 90.44112224409415,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05485607900482137,
+      "tempo_prefill_stimato_sec": 0.05218017271190325,
+      "tempo_prefill_reale_sec": 0.03251722099957988,
+      "token_al_secondo": 91.14760097163605,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05467767700611148,
+      "tempo_prefill_stimato_sec": 0.052029847611142405,
+      "tempo_prefill_reale_sec": 0.03246002100058831,
+      "token_al_secondo": 91.44499682093546,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05504338200262282,
+      "tempo_prefill_stimato_sec": 0.05237137316754405,
+      "tempo_prefill_reale_sec": 0.03274862500256859,
+      "token_al_secondo": 90.8374416339779,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05515188399294857,
+      "tempo_prefill_stimato_sec": 0.05247460807096078,
+      "tempo_prefill_reale_sec": 0.032499020991963334,
+      "token_al_secondo": 90.65873435328653,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05597209700499661,
+      "tempo_prefill_stimato_sec": 0.05325500491737542,
+      "tempo_prefill_reale_sec": 0.03332653400138952,
+      "token_al_secondo": 89.3302246573619,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 389,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05721061700023711,
+      "tempo_prefill_stimato_sec": 0.05441303181685143,
+      "tempo_prefill_reale_sec": 0.0341778480069479,
+      "token_al_secondo": 87.39636560779056,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.0547573779913364,
+      "tempo_prefill_stimato_sec": 0.05210568898449202,
+      "tempo_prefill_reale_sec": 0.032378518997575156,
+      "token_al_secondo": 91.31189592005464,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 392,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.054484572989167646,
+      "tempo_prefill_stimato_sec": 0.05183969080522747,
+      "tempo_prefill_reale_sec": 0.032242317000054754,
+      "token_al_secondo": 91.76909583184354,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 387,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05455407399858814,
+      "tempo_prefill_stimato_sec": 0.05187328412150764,
+      "tempo_prefill_reale_sec": 0.03189331101020798,
+      "token_al_secondo": 91.65218348549735,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 393,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.057063914005993865,
+      "tempo_prefill_stimato_sec": 0.05430052833984404,
+      "tempo_prefill_reale_sec": 0.03366633900441229,
+      "token_al_secondo": 87.62104890798082,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.056181599997216836,
+      "tempo_prefill_stimato_sec": 0.05344103414369406,
+      "tempo_prefill_reale_sec": 0.0331025299965404,
+      "token_al_secondo": 88.99710937829634,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05697781300114002,
+      "tempo_prefill_stimato_sec": 0.05419840748888929,
+      "tempo_prefill_reale_sec": 0.03314473100181203,
+      "token_al_secondo": 87.7534558916812,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.055786993994843215,
+      "tempo_prefill_stimato_sec": 0.053065677214606956,
+      "tempo_prefill_reale_sec": 0.032792124999105,
+      "token_al_secondo": 89.62662516754685,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 390,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.054756178011302836,
+      "tempo_prefill_stimato_sec": 0.05208514493758074,
+      "tempo_prefill_reale_sec": 0.03222471701155882,
+      "token_al_secondo": 91.31389701757296,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "42000",
+      "prompt_tokens": 389,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05552138900384307,
+      "tempo_prefill_stimato_sec": 0.05280640665646688,
+      "tempo_prefill_reale_sec": 0.032266716996673495,
+      "token_al_secondo": 90.0553838747426,
+      "token_counts_source": "retokenized_text"
+    },
+    {
+      "testo": "30000",
+      "prompt_tokens": 389,
+      "completion_tokens": 5,
+      "durata_totale_sec": 0.05586589500308037,
+      "tempo_prefill_stimato_sec": 0.05313406639657277,
+      "tempo_prefill_reale_sec": 0.032671324006514624,
+      "token_al_secondo": 89.50004291033567,
+      "token_counts_source": "retokenized_text"
+    }
+  ],
+  "generation_ms": 2351.4430909999646,
+  "conditional_trials": [
+    {
+      "n": 5,
+      "epsilon_per_trial": 1.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 8.706564001923947,
+      "trials": 500,
+      "release_rate": 0.0,
+      "target_recovery_rate": 0.0,
+      "target_count_in_histogram": 5,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 5,
+      "epsilon_per_trial": 4.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 2.2626648384914407,
+      "trials": 500,
+      "release_rate": 0.002,
+      "target_recovery_rate": 0.002,
+      "target_count_in_histogram": 5,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 5,
+      "epsilon_per_trial": 8.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 1.2136012032826828,
+      "trials": 500,
+      "release_rate": 0.006,
+      "target_recovery_rate": 0.006,
+      "target_count_in_histogram": 5,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 10,
+      "epsilon_per_trial": 1.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 8.706564001923947,
+      "trials": 500,
+      "release_rate": 0.0,
+      "target_recovery_rate": 0.0,
+      "target_count_in_histogram": 10,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 10,
+      "epsilon_per_trial": 4.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 2.2626648384914407,
+      "trials": 500,
+      "release_rate": 0.032,
+      "target_recovery_rate": 0.032,
+      "target_count_in_histogram": 10,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 10,
+      "epsilon_per_trial": 8.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 1.2136012032826828,
+      "trials": 500,
+      "release_rate": 0.342,
+      "target_recovery_rate": 0.342,
+      "target_count_in_histogram": 10,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 20,
+      "epsilon_per_trial": 1.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 8.706564001923947,
+      "trials": 500,
+      "release_rate": 0.0,
+      "target_recovery_rate": 0.0,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 20,
+      "epsilon_per_trial": 4.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 2.2626648384914407,
+      "trials": 500,
+      "release_rate": 0.522,
+      "target_recovery_rate": 0.522,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 20,
+      "epsilon_per_trial": 8.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 1.2136012032826828,
+      "trials": 500,
+      "release_rate": 1.0,
+      "target_recovery_rate": 1.0,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 40,
+      "epsilon_per_trial": 1.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 8.706564001923947,
+      "trials": 500,
+      "release_rate": 0.0,
+      "target_recovery_rate": 0.0,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 40,
+      "epsilon_per_trial": 4.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 2.2626648384914407,
+      "trials": 500,
+      "release_rate": 0.002,
+      "target_recovery_rate": 0.002,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    },
+    {
+      "n": 40,
+      "epsilon_per_trial": 8.0,
+      "delta_per_trial": 0.0002,
+      "sigma": 1.2136012032826828,
+      "trials": 500,
+      "release_rate": 0.024,
+      "target_recovery_rate": 0.024,
+      "target_count_in_histogram": 20,
+      "scope": "local conditional trials on cached public synthetic drafts"
+    }
+  ],
+  "scope": "Seeded conditional diagnostics on PUBLIC synthetic drafts; not session DP",
+  "cloud_answer_quality": null
+}

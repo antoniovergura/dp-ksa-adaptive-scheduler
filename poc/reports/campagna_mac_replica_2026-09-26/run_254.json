@@ -1,0 +1,160 @@
+{
+  "config": {
+    "epsilon": 4,
+    "delta": 0.0001,
+    "sla_ms": 5630.783876225025,
+    "rtt_ms": 50.0,
+    "cloud_ms": 150.0,
+    "prefill_tps": 1958.8754092359732,
+    "generation_tps": 489.71885230899323,
+    "prompt_token_budget": 1000,
+    "max_tokens": 30,
+    "candidates": 40,
+    "fixed_n": null,
+    "r_min_k": 1,
+    "r_max_k": 10,
+    "k_sforamento": 0.1,
+    "e2e_cloud_ms": 3465.0009159959154,
+    "riferimenti_ticket": [
+      {
+        "passaggi": [
+          "arrest",
+          "cache",
+          "riavvi"
+        ]
+      }
+    ],
+    "etichette_attive": true
+  },
+  "decision": {
+    "n_ensemble": 0,
+    "sigma": 2.2626648384914407,
+    "epsilon_find_best_k": 2.0,
+    "epsilon_top_k_ptr": 2.0,
+    "tempo_stimato_ms": 3465.0009159959154,
+    "ptr_pass_rate_attesa": 0.0002343470769712308,
+    "motivazione": "SLA stimato incompatibile con 5 inferenze; sforamento previsto 693.0 ms oltre la tolleranza k=0.10×E2E_cloud (346.5 ms); fallback zero-shot senza consultare i documenti. RTT=50.0 ms, cloud=150.0 ms, tempo stimato=3465.0 ms. Budget epsilon partizionato 50%/50%: FindBestK=2.0000, TopKWithPTR=2.0000; P(PTR | gap pubblico di riferimento=3)=0.023435%; non è una previsione del rilascio sul corpus.",
+    "sla_fattibile": true,
+    "modalita": "zero_shot",
+    "sforamento_previsto_ms": 0.0,
+    "sforamento_accettato": false,
+    "k_sforamento": 0.1,
+    "sforamento_piano_minimo_ms": 693.0001831991831,
+    "tolleranza_sforamento_ms": 346.50009159959154
+  },
+  "response": "Non dispongo di informazioni affidabili e specifiche su un prodotto chiamato **FerroSync** né su un codice errore **E42** associato ad esso. Non è possibile che questo sia un prodotto diffuso, o potrebbe essere un nome di prodotto di nicchia, aggiunto dopo il mio limite di conoscenza, o un nome generico/fittizio.\n\n**Consigli per ottenere la risposta corretta:**\n\n1. **Consulta la documentazione ufficiale** di FerroSync (manuale utente, sezione codici di errore).\n2. **Visita il sito del produttore** alla sezione Supporto / FAQ.\n3. **Contatta il supporto tecnico** del produttore di FerroSync, fornendo il codice errore E42 e la versione aggiornata del software.\n4. **Controlla i forum di assistenza** o community relative al prodotto.\n\nSe FerroSync è un prodotto interno alla tua azienda o organizzazione, verifica con il reparto IT o con il fornitore.\n\nPreferisco fornirti questa risposta trasparente piuttosto che inventare una procedura che potrebbe essere errata e causare ulteriori problemi.",
+  "provider_error": null,
+  "cloud_simulated": false,
+  "released_keywords": [],
+  "ptr_passed": false,
+  "k_hat": null,
+  "epsilon_consumed": 0.0,
+  "delta_consumed": 0.0,
+  "request_ms": 14995.598792011151,
+  "model_setup_ms": 0.0,
+  "retrieval_ms": 0.0,
+  "edge_ms": 0.0,
+  "privacy_ms": 0.0,
+  "cloud_call_ms": 14994.627040985506,
+  "prefill_estimated_ms": 0.0,
+  "prefill_real_ms": 0.0,
+  "sla_violated": true,
+  "prompt_text_bytes": 178,
+  "context_text_bytes": 0,
+  "text_saving_percent": 0.0,
+  "local_diagnostics": {
+    "selected_document_ids": [],
+    "actual_documents": 0
+  },
+  "trace_url": "https://cloud.langfuse.com/project/cmtq6zddz0w1rad0cdcbyxv49/traces/80179419dc1e06e08f1ad13f92a43062",
+  "esito": {
+    "label": "insufficienti",
+    "motivazione": "zero-shot: nessuna inferenza locale pianificata",
+    "riferimenti_usati": true
+  },
+  "account_scope": "supplied_session",
+  "run_id": "run_254",
+  "phase": "B_cloud",
+  "corpus": "ticket",
+  "case": {
+    "id": "procedura_e42",
+    "kind": "procedure",
+    "error": "E42",
+    "query": "Come si risolve l’errore E42 dopo aggiornamento di FerroSync? Riporta i passaggi della procedura generale in ordine.",
+    "step_groups": {
+      "stop_service": [
+        [
+          "arrestare",
+          "arresta",
+          "fermare",
+          "ferma",
+          "stop",
+          "interrompere"
+        ]
+      ],
+      "clear_cache": [
+        [
+          "cache"
+        ],
+        [
+          "cancellare",
+          "cancella",
+          "svuotare",
+          "svuota",
+          "eliminare",
+          "elimina",
+          "pulire",
+          "pulisci"
+        ]
+      ],
+      "restart_service": [
+        [
+          "riavviare",
+          "riavvia",
+          "riavvio",
+          "restart"
+        ]
+      ]
+    },
+    "expected_answer": "Arrestare FerroSync, cancellare la cache, riavviare FerroSync."
+  },
+  "repeat": 7,
+  "variant": "k_0.1",
+  "started_at": 1790413567.260629,
+  "ended_at": 1790413582.3341172,
+  "local_outputs": [],
+  "driver_total_ms": 15073.48895072937,
+  "account_key": "('ticket', 4, 0.0001)",
+  "quality": null,
+  "provider_calls": [
+    {
+      "started_at": 1790413567.261596,
+      "max_tokens": 1024,
+      "model": "xiaomi/mimo-v2.5",
+      "usage": {
+        "completion_tokens": 460,
+        "prompt_tokens": 65,
+        "total_tokens": 525,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": null,
+          "reasoning_tokens": 182,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": null,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cache_creation_input_tokens": 0
+      },
+      "finish_reason": "stop",
+      "elapsed_ms": 14995.068073272705
+    }
+  ]
+}

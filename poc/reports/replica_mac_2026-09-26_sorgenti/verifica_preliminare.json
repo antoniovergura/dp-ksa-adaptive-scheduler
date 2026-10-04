@@ -1,0 +1,1340 @@
+{
+  "verified_existing_files": 332,
+  "missing_original_mac_files": 291,
+  "verified": [
+    {
+      "path": "campagna_rtx_2026-09-21/run_000.json",
+      "sha256": "26b32c1355c21a859897f892c01be2a3249569cfe067b3e0dbb63899e461e552"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_001.json",
+      "sha256": "5ded79e14dfe67e03a5c15998d23293a050a0b78e82153688212ae3813fb14c6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_002.json",
+      "sha256": "95b46a0f4261ce07aae1b450682ea8b15148443251cbec40a7c3d9baa75cf3e9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_003.json",
+      "sha256": "3bc3b83e42607ec18dd109ede6a1737ec197bb9d944cf6ace8441fe4325a7d40"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_004.json",
+      "sha256": "0a36a13a053899dbd2fa4850a96cd92104beda7397fa1083333ab7fb45cc88a9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_005.json",
+      "sha256": "b4ac9eabd310fa0b22cb6add84bcb1d883d7f86a8814c80a0319905479e3cbed"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_006.json",
+      "sha256": "9273635d821fdeb51e525f770dc307834408165c03009d7eaaabc432d0b59fc6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_007.json",
+      "sha256": "e8a19f9b5c958e950f9d2d23b4a381429097f16979d8463cd3ba96d9c1238bbe"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_008.json",
+      "sha256": "c3eedf57bf815a969fa3d1cf4d84f7ac2a00ebbab3256883f27390f98259ab5b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_009.json",
+      "sha256": "bf700b8c5b511d48577c730a69b0b8e94dfd259684ef8872d8b46955f9324cb2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_010.json",
+      "sha256": "5facbef1fa07a57688e916682bd570053bb9b2dca3b9e553697990377e7527a9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_011.json",
+      "sha256": "7ed08a029ae08b78040e98dcaf9b114503b82fd67f1047dda96ceb35d7f0b0de"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_012.json",
+      "sha256": "c6a27d2cb6e2e99c03edd3d4a8301c82726ce09f2ced7f0692c30c7b25d89ab8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_013.json",
+      "sha256": "39fba10e8020b1dec26ce4e04ef92b3a0cfbe558ce4133fb08de4d6258e1ae9a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_014.json",
+      "sha256": "10dbf1163d93a993fa33e8312d76009eee8ad53514e1e227ef4a397cb7f46f14"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_015.json",
+      "sha256": "f16015323537353ecfcc8541fcdae411d42573ab546ba475d32bc1d34343dc68"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_016.json",
+      "sha256": "ae60a797a4ab2c3b31faef761ee2ff0e8856942be8eb0d73e6aac5d2d756252f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_017.json",
+      "sha256": "0b88e693ff249f8c40d934705ec7b449c3298257e8b75ab45d8ae8b7cf5c60dc"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_018.json",
+      "sha256": "33ab0a7a3343e7cfeea0715ec9b58abcb2f4c7a196843e8b3989d2083ac12dbb"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_019.json",
+      "sha256": "cdb8de306554ddd018f752902c6deaffb5ef2697c09bf227e52196b5c007c0d8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_020.json",
+      "sha256": "53a6833b668dd2661173be63cb29d87b7e0d4cfb56de0fe6a96d258e53db2c9e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_021.json",
+      "sha256": "56a903363e5de7d34b25fe4dde4a18e201dd52b7399d80bb804112004f4a2fd8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_022.json",
+      "sha256": "13388d5bdba7127cb0ad9321dd63cb169fe5b529769f674122f43478bf57cca8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_023.json",
+      "sha256": "47c49a733a980fa2bb571b424d69ee3fd1940e84864c6bad08998718f74b3aa0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_024.json",
+      "sha256": "8e242faa4571b54f942e0d8b5c22aa1ed54dd8304d3ab515b603e8c238d2c992"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_025.json",
+      "sha256": "fa1b6eb941648b16f228f259e6a8653a5a0e9a1e9934bbe16055c8d4db0a855f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_026.json",
+      "sha256": "afe0a3c1ab954c0a117fe476e80cf9ed4203df99c6172ff93189a9e73b8a4dcb"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_027.json",
+      "sha256": "b302159fc4b18f9150769e1a63c30795c9889a070bc29f97de6aa139f69ac254"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_028.json",
+      "sha256": "24e82be4843fdf26cf093d9a9ed6da7859cd3318b60549b4cc6bc0aa1fff63fa"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_029.json",
+      "sha256": "1fa59e511c685438474820dada3c3aa432a624f031495af5ddbd9fdc8d4ce87d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_030.json",
+      "sha256": "1fbaf4b357f5a2af6bcb90137427be946af62afbaf2390ad09fa75787b4ac85e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_031.json",
+      "sha256": "49ceb604fb620f98a936fe7d440ba913e21cdeb383c0548ae24584dd9481bfaa"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_032.json",
+      "sha256": "971f757ed9f930875adafa53008b2e7891346de81db2919126acb8c50029044f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_033.json",
+      "sha256": "8edbe25156193fecaaee0ec14fdb131360ebf967ef3aacd808545e50b1e19f8a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_034.json",
+      "sha256": "5e675dec443880c8b5043d7baa3643c8576939eeed1fcdb192683cab7e9bdec2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_035.json",
+      "sha256": "497f685c67d314472a6982e9277236818bb917d0981590fe20ee8bfb8f1969ee"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_036.json",
+      "sha256": "3bd82c1c566e912e348d7f7e0fa4c3e1565d7ae3c16d88ea7d31cdd00651e113"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_037.json",
+      "sha256": "8c8756b6eb6f56796aba76da34589795302a09f926ba25c26806424818b5ccbc"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_038.json",
+      "sha256": "201d67cc46f276d5af064fb75108e1ef299b1b8f8fb8917a93367f8190fe4b4b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_039.json",
+      "sha256": "769b5c54f92fe89a4e13c13ac132130769c739a9af98f5aaf8b8680d0e6cca02"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_040.json",
+      "sha256": "398bab8a083597452595a190005b89cdb5f6802b5c4f879d69710c3f3108954e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_041.json",
+      "sha256": "a8ef24fac19e3de66ebe45e0ab4ea042ce4373670b22e6c6eb196d87a6e31d88"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_042.json",
+      "sha256": "c7debb0de3dd4452390f314ecd602a7273254260383e13541a0b06308da44546"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_043.json",
+      "sha256": "6092dc5feb20a46c15e8e9d15095beba1d48dc6a696ae887a720be846fa2cf73"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_044.json",
+      "sha256": "b4d78112f68352396684946bd8913f91395ca7dd4b11a52226131d7227a02081"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_045.json",
+      "sha256": "47d911c68a66ee3ffeec100471a66e3c2554d4222fff21c4b2cb0c92510ab035"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_046.json",
+      "sha256": "d9eef7e78578c28f2e8ef65c81678ceb490a3be980cedf4e4dcb895335afc5a0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_047.json",
+      "sha256": "4b33e8dd61b0233fea19a19cd6390a32aea09af654a3b929f75e6ebb11918f47"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_048.json",
+      "sha256": "f912e94087a64ea613b778c2dc81cb8cb861ee45a7f37d993bfa0079e3f05772"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_049.json",
+      "sha256": "7e20764b2652f5b88941996b3699f71aeeaf53eaa3ad440336e8ae10435df5be"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_050.json",
+      "sha256": "44fd01bd01e6ce5f04d5b42366349a4fb905063d0c1c0899dbde4a0b13126673"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_051.json",
+      "sha256": "33ebdf2af5c46f5b85b756a91211d07d6e7baad496ecc6912d79a2e9fb60c6f1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_052.json",
+      "sha256": "feee5438d485e6ab1d993c9cd6622b6bfa7438343629aade68929d3d48b55526"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_053.json",
+      "sha256": "e8a8e797edd76aaf63c1f70db4b2143a256015076ba5624db5a072670467b212"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_054.json",
+      "sha256": "73346b25d8606e5492f15b50f3a5d077f04161381de040b7bd342e8d7cd9d549"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_055.json",
+      "sha256": "35a57984bb8effe7209cb207b626eebf72439c5f6df526edc7e525500b948416"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_056.json",
+      "sha256": "ea57d41645f472044558f5687f4a334914b517dcb4dd228a09fca6ef3433cbb1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_057.json",
+      "sha256": "60dbeec87cfcad46843d5636892b8455b3b0d7af67862f3d078441c4e4b1a34c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_058.json",
+      "sha256": "b3638660657f99493b0fc7650448ea578e398146bf743c2abcbc9ecf1036f1d9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_059.json",
+      "sha256": "249270efe6ce849905fc20658a15d907752898c08eed902d190e60ee6572eb30"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_060.json",
+      "sha256": "e26d4d1d8f0c20ab7e122042aa52e661cda56ba01732a699c4be1e6cebed90ae"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_061.json",
+      "sha256": "1d8c824a016e706862d22927f9301eb528c3e9a7146f11c5c4655ab2655d456c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_062.json",
+      "sha256": "da8800858ac334e821220a3c45bbcf03abb1cc881c67b016bf9fdf1c81fa4d36"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_063.json",
+      "sha256": "d2414b07b77aa26370e4aa076738d4d56a5fe3add90fb3f749bb9e72c8939eb8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_064.json",
+      "sha256": "165baa4da0c1b0a53ba3e007bc584485dc0847d596c2cb578bd114f299dd8da3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_065.json",
+      "sha256": "26287b2a67cc04ce316571cae1fb92f34be9cfd5ea6582d6c36effe27cc25d4a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_066.json",
+      "sha256": "1e7e6493a6a1e55ee66f2283b03cedb96f1daeddd4fe41af453dd9d28a4829e3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_067.json",
+      "sha256": "067f570a9ae7852a84b30532cb557654d412e712cfabd3f4a15e44554ec8bf7b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_068.json",
+      "sha256": "93c363abd6da80f2314d5da2bf2e91dac84837527ed9b83b3579ca2097bbf462"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_069.json",
+      "sha256": "90131f4cf062e25a0756a0b2f475e5843c73d77681b4ecc9dc8108c4cde991a2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_070.json",
+      "sha256": "253bcad42eec3ff9e83b1b787390bd041198d38eece1b31914d83e22b17b008e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_071.json",
+      "sha256": "38d6b5d0466f7ba55bc87cb56433bd6e5b8c2c351f144d80051c351d9e3beb54"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_072.json",
+      "sha256": "afbe2cb1af972fc3df8d324796bf7eb66d7f1682bd4a418d86eb9acfdf9e0001"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_073.json",
+      "sha256": "60f6393ee9ebc65e90d517146c46beaaf67e5c3f6ed58467c59325f7bb38984b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_074.json",
+      "sha256": "0442035ef4bcbcfac61e60cfcdd725765690e4493341841a130cac9c93ad9669"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_075.json",
+      "sha256": "c61362101cb64d6659a6cf520db9443a3bf1a44dc9285255b5a86b0522ff4fd0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_076.json",
+      "sha256": "7dab5977b80b507ebd2843734df0be66832dc7695b04f2192fce209137f2100d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_077.json",
+      "sha256": "a027752d570b296d9cadb94a7dc7fe6f36420695197a31a65e68312ed82d52a9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_078.json",
+      "sha256": "bc9c5def5cdc163483ff6d43c7012c404874de790cd0096b9abff34b2f984a6f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_079.json",
+      "sha256": "f6366ba2204dd0c38396df69ed4acf1e838470fe35b33c2b78a336fc809f4e4f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_080.json",
+      "sha256": "b3679f0174184572c62c90a9a53c3950bdf4c361182addba0425b08f7257bee6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_081.json",
+      "sha256": "33c462e9e8325022d4c274893344575c197dc4e71ed28059597aa2a993505ac4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_082.json",
+      "sha256": "564095576c8cf30bb0705c563853c0d748385e0b71a6ba140f41739ae224c47d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_083.json",
+      "sha256": "ca5df353ae62b9bea2e5df9eb7652c15e9b4f39dddd13682991e7b526abca02f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_084.json",
+      "sha256": "4a3e85edd8d9cebdbf6b2e36439fd41e93dad085478414573796cf35f536d857"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_085.json",
+      "sha256": "ef335667b54555d75bd8ff0e33c8a812a60b5bf652cc429a69d92472774e8d67"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_086.json",
+      "sha256": "b0d3aafa79496a60afc4d5ddccdb210ecb5e1137b9bc544d0430e49e95cad58d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_087.json",
+      "sha256": "06f7f8045ec88e4254e35d1c8ee81fdeab70e88ec2608d2372a4ca7fc1ffd097"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_088.json",
+      "sha256": "4a09d3cae6ea9b3297bfe1961e284eb4fff947c5d9af291f2d55f3343fe16c66"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_089.json",
+      "sha256": "1ab35b2833128946b44410647952ece365d0e5d953ac61356558984b09743d2f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_090.json",
+      "sha256": "ce64a50fc3010729752313d00f34817ba7e9447741cb29a257d5574ab1bce54d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_091.json",
+      "sha256": "3d4d2f9b59d295a91d346959b24ac1f94f51d029e5cc439345dc0e0413faeefd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_092.json",
+      "sha256": "2d22151a9dca0c1059124f385b32c2623a642f29cc46a8a5b775fa81495ec600"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_093.json",
+      "sha256": "ef3a649e6ebbd92de50c5e2cf271888c40ae6e00329edb8b5b9e95c54d2d7562"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_094.json",
+      "sha256": "7395d3783d0aeb88a4a45bc274613989a2833eff674c9f18bf918dff7115767c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_095.json",
+      "sha256": "38458ed1fc75ab0351fade418d891dd931beb190c6cdfab5755469a48305d58c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_096.json",
+      "sha256": "fdfd3e5edee7a3670d14f9a6f22492c603a2e93949ae0a289cab564c08e2d761"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_097.json",
+      "sha256": "14bd2f66a554cc9bcc3cddbf3d29a876756132c93ebc05e9bbb728e1a80107cd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_098.json",
+      "sha256": "d059f4bc9fce542e6e1bc1c799f42d3131d4b128cd89b3bfa27f12b3aa59318f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_099.json",
+      "sha256": "7fc5fc050606a463b23ed8f99053fb906a2957a178411519a4df1f0b493dd815"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_100.json",
+      "sha256": "765241c690a4d2234db958bb48ad2fb25ff53dcda6cf5bc443e147437c425eb0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_101.json",
+      "sha256": "da2b479d66d74b146287ec22ee9cedd886dd1ac1f48eaa0b36b94d12255c066d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_102.json",
+      "sha256": "5c02fbdc9737dcbddf49acc9f1082b98a1796723b576dc0722e03c96e423fbb9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_103.json",
+      "sha256": "1644ce2d90d9e4f0b2a4423263df993325dd9dabb03ac0c59d0ce671096936eb"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_104.json",
+      "sha256": "a747825c37f92b5b9a7b19e377850eaafd5418280b11c478e75723ba2ecd4c31"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_105.json",
+      "sha256": "a53ec0fb246904672eed4f876d203bed30fd464b16bcf05a69b58ece4f7f95a7"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_106.json",
+      "sha256": "ee18e134ddd1aecd5c69fd1fbf3f1e65055109bbc65aec67a47bdc40d035a434"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_107.json",
+      "sha256": "71b0c5a2ec11ab81700cfe120de3950ea4e33958375fd9bacc0714ff9372e685"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_108.json",
+      "sha256": "c23a668568ed3dd9b41d71f65ca36e71f798e36cbc887136cd7881864037ab18"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_109.json",
+      "sha256": "19213439f445800d8132eb8e68822ad2811e3ac803f8fa08342e29837eaae125"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_110.json",
+      "sha256": "c84f84a5c59661018d6f5e1efd74de02727205b13010a88cca40680d46a520e6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_111.json",
+      "sha256": "194f4a0aa9b078e8f0632b672f580a014bf2b3036b3d3ca6dcd2bf298f46362c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_112.json",
+      "sha256": "d0a2fb4c55ea7e4e2524bdb980ec0b8188abf705c83a6072324d84d5f6b9d77c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_113.json",
+      "sha256": "9c5a81024f12c89963617bfc66610ab0cb13a8d90005c1189fcd339aa75df294"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_114.json",
+      "sha256": "bb2ea2674509e3f360d117870d39c8fbad4c2ef6837d4cfbe631817048095a2e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_115.json",
+      "sha256": "a6b6bd53af86321941bc57caf5bbc11c73ebc073a300ad3afda16b5a69631df2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_116.json",
+      "sha256": "1d306f3ae22902165a59eff930101047901341da5b60ea309d88141bbcfc7795"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_117.json",
+      "sha256": "1c1c3df7ab7646481ce5952f66a4c9e771d22699794709f16fbf274afb376af5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_118.json",
+      "sha256": "781c520026daa1d23b1cd3e185811e42e180b180fcd5b05042b6722cfcba5b54"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_119.json",
+      "sha256": "7f634284325107a8ba8ef8e5c0f9f3103cdd7672309deedba66b8cb85025ff5d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_120.json",
+      "sha256": "8dbc8334bc1ab9d3e31682f92c80a1702e6e8247fd7371012d9338a692cdf2d2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_121.json",
+      "sha256": "31670e87cebc91cff7701f3c3c17f1a3bb6187382ecbdec457ae6c20ed46c71f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_122.json",
+      "sha256": "140ec1d00fa99807fd1d151c53ca7f98d54f17b72c952a5d1a36d1d2f8f9d6e0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_123.json",
+      "sha256": "714e18d950dd73907fd27230296924dce00994645a8ab920f5820ccca6fdf472"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_124.json",
+      "sha256": "1158eabe2ae0b108eaf6141cbfa92df382d6676939400784ea7c664417090da1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_125.json",
+      "sha256": "e8c6a333437fbfe24638672c7e2dbd69c30592a206ae54af58d95d05bcae8a62"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_126.json",
+      "sha256": "d6d922edbe1654420a875537b7c3deb259b47598b72884c5c7c8411bd7e4bfe4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_127.json",
+      "sha256": "9623899061522f52d7c02747bc64bd0e2b5b5ea46b7bc5b441f993590c6fdc3f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_128.json",
+      "sha256": "f75d54734dd4c18a86ecb5acee697e7c0b59f7dfd8040287f460b989585ab407"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_129.json",
+      "sha256": "1c88866fc36f2c84e4822576e04d287bee45e6d9710fd6814f87d5b1d4441921"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_130.json",
+      "sha256": "80d5cfa743dd6711f86aeb14166504a24a802408b59d82bac2a8bd896951002f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_131.json",
+      "sha256": "31a54b07bf8edb0b791e0b1b7ffd24dd3513689d144214a6a53a0524e243d506"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_132.json",
+      "sha256": "2177f2fc373d4ec26be277e652296e712e9ca30e35b51e03684930be6c7bd7e5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_133.json",
+      "sha256": "9123876cb7883c6505577f47506066ef3e10c518abd876181d57b3a37b8c3ddd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_134.json",
+      "sha256": "090770719911182f78da0a43bee2b24ced7b3eb8d112888d31784ba922d4a429"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_135.json",
+      "sha256": "972de4d9059a55f2d88a4aefd1b5e602e58af52aedcb59f7fcc0704958c8f2cd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_136.json",
+      "sha256": "1674b83cbc8d6393e27bc2064a90be7b74e5a6a71695b8eaadb3b544b1740f3d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_137.json",
+      "sha256": "aa778cb45f5223e669c0dde0e321a07398ecd0caabb68bf3f7fb543cb1f1a28b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_138.json",
+      "sha256": "55f2f09fa83bb3d67ce03da37591580a9d4090cd7fa65d5b290cf9834e0da5d2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_139.json",
+      "sha256": "a62c5694ddf36f9ed72413cf5cf284ccaa57e769ef63a270996d0274c530b9f6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_140.json",
+      "sha256": "654e9be0462191af0ca1ed37c81b65f2aaf71fbd46011e79d09e12436a39d0f8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_141.json",
+      "sha256": "7972934d15f4416d66d4e5e727af9e52e622bd0754d54ffb611e83c11f61ee8d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_142.json",
+      "sha256": "9b4cfc79e0cd64b4362cb452824253a5fc24f338c592f30a12c8f3c4bb2e85b3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_143.json",
+      "sha256": "e62e7f2f3d830d71350122b61c2e740b78120890fa8719d34a2b7250d7fa6f58"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_144.json",
+      "sha256": "7ac3cf3727c7031703747e16b259502eb3ca428b0e04c10dbcf5910461f7ccb5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_145.json",
+      "sha256": "ce7012db34b5bab96155175a381ef8433a8768b18f73c71ae53a8e383653635f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_146.json",
+      "sha256": "1953b5b17b3072f4159777952651d1d4e5f49209b40466bf3b8b8f88252e4dfa"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_147.json",
+      "sha256": "e05ca280e1de586247c9de32a508fddbace65e58a5632a1c1890b4da1d44c318"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_148.json",
+      "sha256": "3e6b31dbe32b45b9d5bd891d1f63f1a100f995e4b2d383e241b56881b5bb8e37"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_149.json",
+      "sha256": "33067bb5560f1b6e40204bf8eb996bd53064bf934fe3be91132af0d04b9ae7d6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_150.json",
+      "sha256": "74a23ccea6fd0cda14298fc6b2c2afbc9b23215ad82512a0703ba0aa0a298499"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_151.json",
+      "sha256": "b180bd014e9e51815f0595197a812c182f1e48db84084836e9c9da799c23baaa"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_152.json",
+      "sha256": "330205b099e29d9b00cbcf0a9268332ce54290f04b07b665e304d8a4cb73e4e9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_153.json",
+      "sha256": "4168531cc9b975853ea6502321c8554f851a8c58032b0513d7ca0eca990554e1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_154.json",
+      "sha256": "a185f6fb4996ac7b005b0168a238939a6089d78cd6ba91f061f929938bbed883"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_155.json",
+      "sha256": "71b39ac44d6e73bd63ae8fc4e65f9630b282080b59821895e5fba994b2bfd943"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_156.json",
+      "sha256": "5ef0415b60c474b73269a32b00cd99f1939f91948b6ba60d571b4d0f46dc2ab2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_157.json",
+      "sha256": "378854d7dffa1f5dee48346cec10f7a0c8bd5b0a189349a87677df067d00fb4a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_158.json",
+      "sha256": "47d00ae89321777d5887770ed47d62d2a1b3e8064cc9c156a308dfd805f83806"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_159.json",
+      "sha256": "fd07c2813d85cdf27caa31714ae3e705ec4a873f8828bbc58cd89ee4a0cc0ed5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_160.json",
+      "sha256": "095f4543e9d998ef1b871872f8f34218c93baf0bf0fdbf503093a11a62974096"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_161.json",
+      "sha256": "73619694875905dd3a7daa4ae9bb36feff782785427e6c03a2091f2e456b076e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_162.json",
+      "sha256": "92ee916c7e04d0b47a22bb83989aae15c1cd2c9ff759af7f53490e9b959c279a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_163.json",
+      "sha256": "dfd667cb4c1fb6de4215dafa2a271fc65a3a256d739e2da6e7602e6e07634522"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_164.json",
+      "sha256": "52206b6ec7acd090a0e3bb7f0e596b8c0012aa827ef15e9c0d4335332fcc2fd3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_165.json",
+      "sha256": "24bab567eceb88c76d264d48efe563e570deff01bb0be305c44542b0339a76b6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_166.json",
+      "sha256": "579ae8515eaa8396168d19ffad2e80344ac5c05751f81d3a0f6e440494bef4f0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_167.json",
+      "sha256": "aed5bb43947cec33f4d1ef9990203d71f750e99a66e84c578dc5a98daa755a59"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_168.json",
+      "sha256": "61ae6e60496b766a74184296e4c39777e0c5dff9160df58d5e04177228ea0add"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_169.json",
+      "sha256": "3a2679911a77a66a78a7d5d57cd518044424420fdc043965551a6ce449a1dcd3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_170.json",
+      "sha256": "09f873b9e4f2c006ddcda5f053ec17105d4c1ba651208bd08a38268e863fc365"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_171.json",
+      "sha256": "1aee86e5248bb8d38c7867f87acb8094df73f91b60a036ab4014a4f54af02b0a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_172.json",
+      "sha256": "b659cfb7b6486068c1e27e9e41ac3df8b1c9c3dedca9be967ecb9051e5d93946"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_173.json",
+      "sha256": "d81a31516dc5ec8e8dc8615b9b81eee120d8cbcf7540cde2e3f5168a5f754a83"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_174.json",
+      "sha256": "f06b79ac09f2a52da5a3efce9e07ab386aa1787b6f7b82cedcffb657f3cdcda5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_175.json",
+      "sha256": "663f353b2e846dd200544b4973ccd8a30735737619684f63b33193d33bbf8316"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_176.json",
+      "sha256": "e0f0d99c1822ef6292032d830f6ad21326f68bc3318ac47c787aecc621f1ab95"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_177.json",
+      "sha256": "73c871ada9390095c2e13f184e038a32812c363aca4bf4872663ef6606dd69bf"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_178.json",
+      "sha256": "b42d56c6dd96ca7e1591208850c9504af14b8e8959f04938929be7e974b4da4a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_179.json",
+      "sha256": "8cfa321d09a05182efb141206ba100c69ee17df3ee5e71cec5a90919cd8bfb7b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_180.json",
+      "sha256": "48fef84ea976401493fcd02ab9671782bc44bc59cebf95ef8099e0eacef1b09e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_181.json",
+      "sha256": "8ea6dee2272596d9e088f4a266ba1c311373f7879e7a6bf68ee19c8f7be552b2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_182.json",
+      "sha256": "4c6459c0d897e83d4f7fcab08574e08a5ee0d0d4015f33c484ee3a724b3bd8ce"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_183.json",
+      "sha256": "95d6b43bee2d1a1fdcd3e119fea16f6f07dd917ec73058a9d93b7582ecb9339f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_184.json",
+      "sha256": "05af25368a7a1012842e1b9ee25b0db56fb0782d673396dfd0959763591b1ae8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_185.json",
+      "sha256": "42df89dcd129a11b858ec3bf34b505fe2b6d81e7abdbe64a15a143f075ba6d8b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_186.json",
+      "sha256": "d0f010d45ca23193aabd0d2b0ad8dfb351d055a8f51bade318ece294248fd3f9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_187.json",
+      "sha256": "3a89acf4a679a30bd0d78229e6bf5b9598a065e105a429e96a5c85907cb78474"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_188.json",
+      "sha256": "574b6855c45d232813505f36ad3f6c40122cd5982c485a3c8d816905a4347c44"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_189.json",
+      "sha256": "10860a5651a20117552a03600309a6631e48875f245ca3cc7feba884c102de0d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_190.json",
+      "sha256": "0a34dab317a8f3aabb36a8f39480fc274a39ffb47a626b7750e0cc3cb646ab56"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_191.json",
+      "sha256": "ce99aaf39dc1e7f880fffa227b4baf671a3048a85aef3ef7f308035aaa2f5a0f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_192.json",
+      "sha256": "471205a74f248a88d2d99ba763006022b2a9743754eb3b8877dac9a7fc8a9cf5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_193.json",
+      "sha256": "905c0d39f5cb5661a9ab1ac5caa6abff7e32377e284f18b15321de18d4b10854"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_194.json",
+      "sha256": "a957647e770fdddc644e07acce646aca5fa81ab3bb08395571638c7baa3f02cd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_195.json",
+      "sha256": "3ff03d382598015af3cd2cd7585b1a79eb6a2b3175f08df7a8c7f3077c2da8b3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_196.json",
+      "sha256": "d2c36cb1cff1f523d8a12bf45332269a24f2e480c3afbb657041ef59097d7905"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_197.json",
+      "sha256": "840ab7df7752fdefbad74b0c5af6902afd70b7d22f17f170c9270f844b7ac20b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_198.json",
+      "sha256": "9e270f96c2b66254d9de70684864eae30aa5a479f07307e7385556a6f560d630"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_199.json",
+      "sha256": "1cb5708c844e116685cf7e5511179880d44bd17fd505931b88bb1f3b7ea4f3f6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_200.json",
+      "sha256": "383d1570e2ce8be041f7766485c6b2f994a07e42a6549135edd48182bd9791b5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_201.json",
+      "sha256": "37098a3257d1459a973abcb83e443ebe918ab435581a9d998b7209191737049a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_202.json",
+      "sha256": "e3b27e3f6f22f9159344993cfeb27815e79ecfd523d8efa144ffbfb9f1b01cc9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_203.json",
+      "sha256": "9a37c37914702d37f088c3f9c9f3302ed330c08ecfd4ed6916dd7ab304a9e0b6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_204.json",
+      "sha256": "5a0aef28e712a5ca15eca27edeca103f9124bc447ff8f677634f193defb5a0b5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_205.json",
+      "sha256": "a3271f7a3a631421bb5c5a7b9f07cf8bbae95752184128ffcfce121488736e00"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_206.json",
+      "sha256": "d48ed6321f240553c652140ed130578c569cf50396c42a9260598d6a6304e1c0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_207.json",
+      "sha256": "1c0fe709e6544973da54898e6952634f4cc3560b566ff61e8500ab19156cfafc"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_208.json",
+      "sha256": "2b557a488ea67e6e9300de709818207b59020c8b0175f618a7758778f33fb10d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_209.json",
+      "sha256": "0f52f59fac306412e938a219166d1974385a689cf55092fdbb8b63d0b276ce04"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_210.json",
+      "sha256": "dcf6fee7f1ca889ef3e14cf539dd43b36287c1f5bf21f311a7d7cf6815c054d4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_211.json",
+      "sha256": "f2a502f1e52feda9da505e2f875176ec099ad30860a04c52882e69b2a7aeedfe"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_212.json",
+      "sha256": "b208e6a1cd13030fe0483cd017d4801bc452fa2cdd3d43adc01344719232f808"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_213.json",
+      "sha256": "1fa902fa6938a76708c6bd1ed83255a848b94abd1093487610d00ed6b9841d15"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_214.json",
+      "sha256": "17a2a97bb762c78453a904975e5f6b7d1aa128dd3a4d474a63cbd0f6e4e3a44e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_215.json",
+      "sha256": "8f1c63385c657f531d240ff4ee6503d5a2bd38492d736a7b9ec82b4f2063b0f0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_216.json",
+      "sha256": "4f9d8754143de7b5d1fc062491d33c4d385eee4840b5cb86fb9d46a0486e668e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_217.json",
+      "sha256": "fb82f3468648b5051fb9da75d1c77d7b519cf1ddcc4e55d3086f48960a6117a3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_218.json",
+      "sha256": "d7d4c4bfb69c99957ec1b4bad3a8380bc6e6b3a90e70eb289d3e16c3166ff5a4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_219.json",
+      "sha256": "cfce383664b537763f52d6c989e01c1d4e44abdd8409705d20b0cb3cdad295ba"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_220.json",
+      "sha256": "f4c203069fcd531d3a410b1d3279fa3405ab7cc95acd9a9c571d1b5bc3da0363"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_221.json",
+      "sha256": "b02587ba5d4f543879675a82da64ec1707569e6a31c18cd2a00139d04abadc2e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_222.json",
+      "sha256": "0120b3254306794fe6700f34fac854626c1eef54c6fc2450a10b5c8ca84c4940"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_223.json",
+      "sha256": "ac5b9db289ee7647c3161d5ccaeee02950ed8842b53062a48cd4c442657659c0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_224.json",
+      "sha256": "b41677e98ca0d1b8a896de4aeaa43eccccc3c3205a10ca728786d96e0df8eb49"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_225.json",
+      "sha256": "826a1470a57fe614d2a245c4baf0cdc3574871ef0e95e87558511441e5fe57cb"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_226.json",
+      "sha256": "c89de993eee8ccc36f8e4c0d787162f8f425f5e9883c8b9af49a7ae83a6bf3b9"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_227.json",
+      "sha256": "bfefb7e227ed9f8bc5e782fac54325a6709744b46b308302e4cedf449c74c9b7"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_228.json",
+      "sha256": "5e6e3373bce2747c3799c37c3a26478c0440e16a2cc51db079a0fe87fe2f6a84"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_229.json",
+      "sha256": "aea2a03bbb550946baa81cae0a34b1a4f5254f4302faf89ec23f5337aefbbd9b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_230.json",
+      "sha256": "0c7b3991693924d92b24291a6c523dc7b330372d5d3d16522136806addab911e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_231.json",
+      "sha256": "5331220cedbed89b7829e273c436b1ff68e3dc66288ec630410c51e44ca451f1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_232.json",
+      "sha256": "2081a05992936fe8d03fa3b364fe133955f6d4550c008ba9bafece84bcec75b3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_233.json",
+      "sha256": "c7ab8632fbcd4ce8923f14a86d9f7c62e3c398a28b6b9c50adf225fec06df861"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_234.json",
+      "sha256": "ecf64964edeb67320fdca24e217b43d6de0201f10291ef31ad1a4c85bc1b5df1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_235.json",
+      "sha256": "57a5e0afcb708c64a0634ba191836695da6e6958b9bbc3bc2a829f0af634e020"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_236.json",
+      "sha256": "bc0bb79a03cb56d7753c6b6d87936a0b2a8626a6b1c4b480efcf5908753e1cd7"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_237.json",
+      "sha256": "8c55b664e352711ef40ed98b0b8f682be9454aa2ab58b5291fd68da41e24dcd5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_238.json",
+      "sha256": "36c20da81b1e5fbbebcbade3da15219594a646ea91f7067e86e6c4be34c6d85d"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_239.json",
+      "sha256": "ecdabed6904e525f9cc3853218ddc96db621e93737d50439ee59bdd7df0367a7"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_240.json",
+      "sha256": "026b195c231ad147bb894da0fd45ccc71beebb6e28023ebf5b27e16f40dd67b0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_241.json",
+      "sha256": "8e678fdcff9c4980bd40db4ea2ec19cce9558c2f9add1c5ef5689d6c556d5bac"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_242.json",
+      "sha256": "98d0223579cc57634500575091a4da0ecb1ac522662af52e2d3baaa834251d71"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_243.json",
+      "sha256": "bb2416fb32c28523bf3219d0bcc0b632c9eef19e1648e115b2787f8d2e4e4116"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_244.json",
+      "sha256": "5faba31c50b78f1665e58026c613aa20e6a6b8af8848f5338631a963e8004ee2"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_245.json",
+      "sha256": "4ec38207d1cdee592f33016e28055d19eb1f7795f79727369c6f802555ed5347"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_246.json",
+      "sha256": "a4f25a6cf420496bc833d2fe9eadfdcdffa5f2bcf91ef56f9c1af694048d9a80"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_247.json",
+      "sha256": "db29b9b984a5a34a89db723f1c1a82fb23351903218bb7126b842616293cb40b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_248.json",
+      "sha256": "848d65fc123000eeb928badee81ff1d6d2f3280c7d23d282e6ba02d19602f323"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_249.json",
+      "sha256": "87e7b8dcd345bcb65537c2f9393f4c2fccf4fb7851b16161c2d2e807e106960f"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_250.json",
+      "sha256": "8e48e0d95eeedb2c63fbc21e76ad7b4a89713d4a151349a66fddf4e6ad1d8fb4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_251.json",
+      "sha256": "cc8c44ae164563acf232bf33cbbfb5f423d8f3ec4b6e1d7c60ac6d4ee7de9d39"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_252.json",
+      "sha256": "acf8d5db4fd0e4d178210738c32661590e2bdca4a58e2c509daf4502fa9de963"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_253.json",
+      "sha256": "1b60c84c495baadc36aecbbc60e5f0cef7424643b74aec4bb1fb1ed52bea0655"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_254.json",
+      "sha256": "5e5bbdf3af6fdf9b6c0b6e9c1eb5521fb9adc03adba8d2cd69486ba54e6df704"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_255.json",
+      "sha256": "480a151a292d1b2ff61018636736284b1acb37b440ee80445b624fe58dcfae07"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_256.json",
+      "sha256": "617a8cc2a80744313616e4c5636632d8716693ad41fc9852634cee9c7f892c88"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_257.json",
+      "sha256": "0d84700fff4af5bf0f542912f3b79dbb3978c447cef7157194409530f278e80c"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_258.json",
+      "sha256": "4e673c03628101d9c2964560ef98fad0ef64b6f89d4d6a46403492ba5698f0b7"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_259.json",
+      "sha256": "a019f58e537bc41c9c7ad4b0c15b9b89111159f6838edba67bed63ea70ef2a52"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_260.json",
+      "sha256": "b47b86fd113b6d4196d5bf29feedaa4f3feab9d02a90008fd2ad996bc48736d5"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_261.json",
+      "sha256": "bee543a321bbd8f82d67b698dbe600d63f1abbfc0107f9dcc4f578516f315535"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_262.json",
+      "sha256": "732db0bba257478de59f1d4e6de0a60b572397f6c0e5b1e541b2c918fded869a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_263.json",
+      "sha256": "9ac354808554597e43d58491c56820df5d61576a134e51dd36b3b1486415fe33"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_264.json",
+      "sha256": "fcdf9a11ff4a4021246c805620f8a5058e1f8f741fa9b91dbed9aae35ee77e67"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_265.json",
+      "sha256": "8c5dc54c69088fa2f438e01bfe055f3d7f1a3cab0b23cef0d03eccab88c891a1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_266.json",
+      "sha256": "ec9937b06cfa201682ccfb1699ca5e886d0a69d66f5924386bfae8348ed02804"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_267.json",
+      "sha256": "cd2226e5b13e71602c1cec880c881df481d3d953e064337e2b4dc73a47782ca8"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_268.json",
+      "sha256": "eafce0a7f5f7af936dedc0dddbac18027d31382d729d7f4da4586ab5730ed85b"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_269.json",
+      "sha256": "0a748813ae7fa338316064f648b9be398e51baa4d1f83fc4091868bb1e514de0"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_270.json",
+      "sha256": "32e385da86a2880d03d61fa45080f274c6c9013378fe93aae42a7eff98ddc8bc"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_271.json",
+      "sha256": "4aa668ae4580325c9d44a9b1a920622c23d86e224001451a9dd960fb45bb193a"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_272.json",
+      "sha256": "99e0462a1a413eb78fc63e18cd3c24c8facddd6a6acdc2f2e620c076a67f79fd"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_273.json",
+      "sha256": "134a6561c0b8d280bdd3f33415efcae90465a70a60726e830035e92a0c16a5fa"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_274.json",
+      "sha256": "8e3076ad22671c410c59a6100dd59da8d1815add9b7fc8e076a19d84cb9aceaf"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_275.json",
+      "sha256": "4816dab6684fa49565f2dade501b41005ad5f22ea5775338ef1b6bff4bbfcf16"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_276.json",
+      "sha256": "4f657a04c52c044e1c2709fe82248ad7db4234fedfab92c4be3c383175057ee4"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_277.json",
+      "sha256": "198d9befa46a7d6af27fc1a6ee7087cc4ea668bdec7e45c974ed26de0b22243e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_278.json",
+      "sha256": "5ccd774b0afa83627ef29a48403caf17b533c331b726af3655ed09e4888768c6"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/run_279.json",
+      "sha256": "3ff043c2e161057b99ca7b38320ea040090486b93afd9d67eb93d9df0b0f6095"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/metadata.json",
+      "sha256": "b0112e8c044d534e57325979b30049f7592756436938421d8f7d9c70a65f87cb"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/analysis/thermal_drift.json",
+      "sha256": "f9f31b79fcc501c49c2ef87f7be0cfa228129425d9fb4bcc2a57da736f0baaca"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/analysis/conditional_summary.json",
+      "sha256": "7679e5e4981120c0ac98c707ab821a9a21f6f865c08cc140225ebddec812d082"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/hardware.jsonl",
+      "sha256": "7bafc4f7f969d7270b0c1a0fe3844e790fe9da6ad0d5e450d003e4ec230fa0c3"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/provider_calls.json",
+      "sha256": "62d680131a8d8a1ce2c5694902a1a870c5c1994fdaff6010f8829e8c62ff3454"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c4_decisions.json",
+      "sha256": "8fd460d38b8567e773b07cb87933b7446871203e1b8da178e9bbefba441edcb1"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c2_salary_base_a.json",
+      "sha256": "2e5317523b455ce41312c5f1f2090e420095362cd90ddb85338bc83f605bb984"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c2_ticket_dettaglio_condiviso.json",
+      "sha256": "aeed0ddf41e4333e8cb4d5c276d3846951d81fdfc8255c9c90d1e8ca3b05937e"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c2_ticket_dettaglio_unico.json",
+      "sha256": "1f2f91047f8340fd46f8588616646a18475747b0e619b93f8cd043c1ae3a7a05"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c2_ticket_errore_assente.json",
+      "sha256": "1771301a99d481542c0914a4ea6c3decf50b43c6146fec541bb90d8717fa7f03"
+    },
+    {
+      "path": "campagna_rtx_2026-09-21/c2_ticket_procedura_e42.json",
+      "sha256": "1c9f4229e9c3d7ba2bbff29ab0fc40774c942fcf22f3c7b9282ccc7d5ead74c4"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_001.json",
+      "sha256": "4cc799b5314290dee760dd83068e19e60900259bd77f5da299afc182a477dcbe"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_002.json",
+      "sha256": "7cc95566e81f5b7437413ed9e95dd261b7155ce1c769c432529d8947211b508a"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_003.json",
+      "sha256": "57b1a183f237d4f0a5e5b73750fdba52b3cb445b209432360249f19245381960"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_004.json",
+      "sha256": "037dd95c13cab703d409fc7e554ec1adfb9d9367d57c19bd9dddd2804ff654d5"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_005.json",
+      "sha256": "58e3899c05ce9dee541920293b9cf17311fc58c7108c70e7aa34a95df3cc42f7"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_006.json",
+      "sha256": "9e28dbb674757777c11d9bb13956ee49b293a07b02ce391e83d41d5453b9725a"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_007.json",
+      "sha256": "be9b05d7d57a3486fc68c763a8799a73b78d329f2441241787b2ebe8fcb2a704"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_008.json",
+      "sha256": "5daa404aa8ede60c87effec35c9c9e1c59c57dea0f46163925e6e4e40974e810"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_009.json",
+      "sha256": "0939b8babe93a93c21640557200918212c7c09a4edf6037155c05553e2e40259"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_010.json",
+      "sha256": "303b1127a2fa5fd968344ee1901a0b37385d81c886df89a36159abfa27dbce0b"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_011.json",
+      "sha256": "1ba6236c6f27d3a6d7e542687e690e7862bb6070ea279b6faeea48d07810b89e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_012.json",
+      "sha256": "73394d82f626b8d15bbaf659395b81c4b7fafc252db213271833bbd3c94f44ca"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_013.json",
+      "sha256": "552a6c8ae70bdcf3b7a5543d9cb764d8c288640e367e1769464e71eb011f93e8"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_014.json",
+      "sha256": "0477c9a68aa1712cc88f8bb20de01a35b691c9559336bac0fffc53e89d29dcb1"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_015.json",
+      "sha256": "37a245caf424799074bc9637c723182fc9318ebc9eef87fd15434f7a95301a14"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_016.json",
+      "sha256": "d5fb9132d3ce5c1b27095a248d3f520ba15068cf1b89aa72d7a37cda196f40fa"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_017.json",
+      "sha256": "f740813be02f3c7d1d51daac5fe09fb66ee9cd8ab1fdbaa7114dff2de35da8d4"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_018.json",
+      "sha256": "a5d08fb5e48c20c203c53d48beeda6808e7c646e3da81873e2a5b4cd9e8c122a"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_019.json",
+      "sha256": "76c0024aff11c8414c6ec532d19d4346ef56e4b7466d31f81eb9d004b1f67850"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_020.json",
+      "sha256": "16d5030b9b1a96fa357d151493cac83c48bd89949a3d6830cf6331c44f720513"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_021.json",
+      "sha256": "41b98af29296b639e474baba2b05b4907941fdd7b72d619f3f31baaa6761b37e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_022.json",
+      "sha256": "90fa556ed87df416740f765a881c83a7393bf3bf46fc7673c2f8e0ad4609c97f"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_023.json",
+      "sha256": "1000589ff06a7b5300efe61eefa3d3df4aee6207fa82b3f6caab02b3e2fa09e1"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_024.json",
+      "sha256": "2a0b24871473ab45091f53424657803371a7bbb5594cfa31989e9653188880d7"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_025.json",
+      "sha256": "ac593816940580eb12dbf204b77ee89e9fceab308d656cd4ccc1510c2321a6d9"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_026.json",
+      "sha256": "1c1d1c6da9c3cb857ab0451e599f1c828f7d6aac2ada3daf1e057d3625f1311e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_027.json",
+      "sha256": "134acba4165f4f57d7c5594868bd7211c79e7cb737af9e8d7346aa72ef394899"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_028.json",
+      "sha256": "45c8cf0db2244cb1999319964c0af2add0ee4ed5f186ff51ef4bc70f4833ce7e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_029.json",
+      "sha256": "5ce2d2cd3db19132396f3efc84865bc5f58861bca9da5745deeabda0c33c03e0"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_030.json",
+      "sha256": "a84024379fb28f841d07300ad22fac45ea3948f27df40e0ee315fe3fee30455e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_031.json",
+      "sha256": "8f7fd301a8e4a4d4fa41b474d65bfc0b5dabe8c955c02ae5d30078d1c9dca30e"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_032.json",
+      "sha256": "0b22217cc0e1e3e90948b8c5cb0676ecdb2e975413717141a8b06503787bf19c"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_033.json",
+      "sha256": "079177cd5e1f071acf671332a9afb711daef39468c01b2fe4e39c590419a6a82"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_034.json",
+      "sha256": "51794bf0dbba66d744f52222d3abb78335743394c1c3ea68a543d60519ab0529"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_035.json",
+      "sha256": "66f445e45adb3809a175217b43ee280cda420871546247bc4b38cc76dfd8d246"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_036.json",
+      "sha256": "2584768d46eba1bcac54c6276a58c9e5f6ae958643864681561770375d36c6af"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_037.json",
+      "sha256": "3b99224116a10eac54c9dd6db861ddc461fb37ae9616a00db6152a507d02f981"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_038.json",
+      "sha256": "9234e78a2a7089409f81e2ca916ce5f65d20ddcb6b13b23c057f91f0b3cc3c92"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_039.json",
+      "sha256": "77dfd2fd8a9c31c2c7d559864fc5c1e653a4a715e3f20115fa8ef00607797b8b"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/run_040.json",
+      "sha256": "f03c7a8fd29529caa3c267749c071df6efec302bc5272cf67695fe27848258c6"
+    },
+    {
+      "path": "confronto_rtx_2026-09-21/metadata.json",
+      "sha256": "060c4d2fab91811e8dace3454bbcda9c280c668856307fa6d84322c23b1f7a71"
+    }
+  ],
+  "baseline_tests": {
+    "passed": 186,
+    "failed": 0,
+    "seconds": 8.2,
+    "note": "Eseguiti con accesso ai sensori; primo controllo nel sandbox limitato: due test sensori falliti per valori indisponibili."
+  }
+}

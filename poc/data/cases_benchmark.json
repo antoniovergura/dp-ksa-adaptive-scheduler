@@ -1,0 +1,83 @@
+[
+  {
+    "query": "Which NFL team represented the AFC at Super Bowl 50?",
+    "references": [
+      "Denver Broncos",
+      "Denver Broncos",
+      "Denver Broncos"
+    ]
+  },
+  {
+    "query": "In what Super Bowl did Rivera play?",
+    "references": [
+      "Super Bowl XX",
+      "Super Bowl XX",
+      "XX"
+    ]
+  },
+  {
+    "query": "What BBC radio station will carry the game in the United Kingdom?",
+    "references": [
+      "BBC Radio 5",
+      "Radio 5 Live",
+      "BBC Radio 5 Live"
+    ]
+  },
+  {
+    "query": "What type of venue is the Teatr Wielki?",
+    "references": [
+      "musical",
+      "musical",
+      "musical"
+    ]
+  },
+  {
+    "query": "What campaign did the Communist regime initiate after WWII?",
+    "references": [
+      "\"Bricks for Warsaw\"",
+      "Bricks for Warsaw",
+      "Bricks for Warsaw"
+    ]
+  },
+  {
+    "query": "In what country is Normandy located?",
+    "references": [
+      "France",
+      "France",
+      "France",
+      "France"
+    ]
+  },
+  {
+    "query": "What was the Anglo-Norman language's final form?",
+    "references": [
+      "Modern English",
+      "Modern English",
+      "Modern English"
+    ]
+  },
+  {
+    "query": "What kind of needlework was used in the creation of the Bayeux Tapestry?",
+    "references": [
+      "embroidery",
+      "embroidery",
+      "embroidery"
+    ]
+  },
+  {
+    "query": "What did Tesla's investors do to him?",
+    "references": [
+      "forced Tesla out",
+      "forced Tesla out",
+      "forced Tesla out leaving him penniless"
+    ]
+  },
+  {
+    "query": "In what year did Tesla go to Colorado Springs?",
+    "references": [
+      "1899",
+      "1899",
+      "1899"
+    ]
+  }
+]

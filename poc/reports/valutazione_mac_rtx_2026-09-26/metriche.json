@@ -1,0 +1,2930 @@
+{
+  "fixed_n": [
+    {
+      "corpus": "ticket",
+      "n": 5,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 5,
+        "request_s": {
+          "count": 15,
+          "mean": 3.392873416666407,
+          "median": 3.266873124986887,
+          "min": 2.7679571250046138,
+          "max": 4.24187220800377,
+          "sd": 0.46424642953734857
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 3.3852189972657167,
+          "median": 3.2586249169980874,
+          "min": 2.7596274579991587,
+          "max": 4.2332355420076055,
+          "sd": 0.46446517841663615
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 3.058783143428293,
+          "median": 3.058783143428293,
+          "min": 3.058783143428293,
+          "max": 3.058783143428293,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 3.058783143428293,
+          "median": 3.058783143428293,
+          "min": 3.058783143428293,
+          "max": 3.058783143428293,
+          "sd": 0.0
+        },
+        "mae_s": 0.4359452027423873,
+        "signed_error_s": 0.3340902732381143,
+        "planning_mae_s": 0.4359452027423873,
+        "planning_underestimates": 12,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 5,
+        "request_s": {
+          "count": 15,
+          "mean": 0.6412612949352479,
+          "median": 0.6310610229993472,
+          "min": 0.552688190000481,
+          "max": 0.7048483590042451,
+          "sd": 0.05105892058667761
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 0.6330529303998144,
+          "median": 0.6226696250087116,
+          "min": 0.5447518969886005,
+          "max": 0.6963818569929572,
+          "sd": 0.05102127641480806
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 1.2035526676242732,
+          "median": 1.2035526676242732,
+          "min": 1.2035526676242732,
+          "max": 1.2035526676242732,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 1.2035526676242732,
+          "median": 1.2035526676242732,
+          "min": 1.2035526676242732,
+          "max": 1.2035526676242732,
+          "sd": 0.0
+        },
+        "mae_s": 0.5622913726890253,
+        "signed_error_s": -0.5622913726890253,
+        "planning_mae_s": 0.5622913726890253,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 5.347450165229832
+    },
+    {
+      "corpus": "ticket",
+      "n": 10,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 10,
+        "request_s": {
+          "count": 15,
+          "mean": 6.373135369397157,
+          "median": 6.368730249989312,
+          "min": 5.406286874989746,
+          "max": 7.47203662499669,
+          "sd": 0.5858067929790114
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 6.3651563359317755,
+          "median": 6.360966499996721,
+          "min": 5.398153208006988,
+          "max": 7.464315332996193,
+          "sd": 0.5860132081662406
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 5.917566286856586,
+          "median": 5.917566286856586,
+          "min": 5.917566286856586,
+          "max": 5.917566286856586,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 5.917566286856586,
+          "median": 5.917566286856586,
+          "min": 5.917566286856586,
+          "max": 5.917566286856586,
+          "sd": 0.0
+        },
+        "mae_s": 0.5936648632655331,
+        "signed_error_s": 0.4555690825405702,
+        "planning_mae_s": 0.5936648632655331,
+        "planning_underestimates": 11,
+        "violations": 5,
+        "max_overrun_s": 2.47203662499669,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.1517632443971473,
+          0.5828645226148023
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 10,
+        "request_s": {
+          "count": 15,
+          "mean": 1.2676103781326673,
+          "median": 1.2707013139879564,
+          "min": 1.0967343970114598,
+          "max": 1.3577961200062418,
+          "sd": 0.06494955828097339
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 1.2595117682649288,
+          "median": 1.2628228189860238,
+          "min": 1.0888002010033233,
+          "max": 1.3497769249952398,
+          "sd": 0.06493004459949943
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 2.2071053352485466,
+          "median": 2.2071053352485466,
+          "min": 2.2071053352485466,
+          "max": 2.2071053352485466,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 2.2071053352485466,
+          "median": 2.2071053352485466,
+          "min": 2.2071053352485466,
+          "max": 2.2071053352485466,
+          "sd": 0.0
+        },
+        "mae_s": 0.9394949571158792,
+        "signed_error_s": -0.9394949571158792,
+        "planning_mae_s": 0.9394949571158792,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 5.053669601436319
+    },
+    {
+      "corpus": "ticket",
+      "n": 20,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 20,
+        "request_s": {
+          "count": 15,
+          "mean": 12.967286397331433,
+          "median": 12.969983041999512,
+          "min": 10.906887457997072,
+          "max": 14.956018083990784,
+          "sd": 1.0972276101407308
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 12.959209227667694,
+          "median": 12.962013041003956,
+          "min": 10.898829957994167,
+          "max": 14.947652582995943,
+          "sd": 1.0970132694131236
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 11.635132573713172,
+          "median": 11.635132573713172,
+          "min": 11.635132573713172,
+          "max": 11.635132573713172,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 11.635132573713172,
+          "median": 11.635132573713172,
+          "min": 11.635132573713172,
+          "max": 11.635132573713172,
+          "sd": 0.0
+        },
+        "mae_s": 1.459338419770916,
+        "signed_error_s": 1.3321538236182613,
+        "planning_mae_s": 1.459338419770916,
+        "planning_underestimates": 12,
+        "violations": 5,
+        "max_overrun_s": 9.304976207989966,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.1517632443971473,
+          0.5828645226148023
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 20,
+        "request_s": {
+          "count": 15,
+          "mean": 2.5583169096003986,
+          "median": 2.561568694000016,
+          "min": 2.4012157389952336,
+          "max": 2.734968474993366,
+          "sd": 0.09829887512574431
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 2.549690493266098,
+          "median": 2.5517705759993987,
+          "min": 2.393174444005126,
+          "max": 2.7266902749979636,
+          "sd": 0.09839878543181774
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 4.214210670497093,
+          "median": 4.214210670497093,
+          "min": 4.214210670497093,
+          "max": 4.214210670497093,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 4.214210670497093,
+          "median": 4.214210670497093,
+          "min": 4.214210670497093,
+          "max": 4.214210670497093,
+          "sd": 0.0
+        },
+        "mae_s": 1.6558937608966944,
+        "signed_error_s": -1.6558937608966944,
+        "planning_mae_s": 1.6558937608966944,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 5.082659743170328
+    },
+    {
+      "corpus": "ticket",
+      "n": 40,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 40,
+        "request_s": {
+          "count": 15,
+          "mean": 26.48109819740348,
+          "median": 26.16153170799953,
+          "min": 22.727106000005733,
+          "max": 30.92997954200837,
+          "sd": 2.2894725642303784
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 26.470185025135287,
+          "median": 26.15235758300696,
+          "min": 22.717869792002602,
+          "max": 30.921035375009524,
+          "sd": 2.2880467329072838
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 23.070265147426344,
+          "median": 23.070265147426344,
+          "min": 23.070265147426344,
+          "max": 23.070265147426344,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 23.070265147426344,
+          "median": 23.070265147426344,
+          "min": 23.070265147426344,
+          "max": 23.070265147426344,
+          "sd": 0.0
+        },
+        "mae_s": 3.456587602966551,
+        "signed_error_s": 3.4108330499771364,
+        "planning_mae_s": 3.456587602966551,
+        "planning_underestimates": 14,
+        "violations": 11,
+        "max_overrun_s": 24.65438816700771,
+        "release_count": 4,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.4804956594401943,
+          0.8910254667430761
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 40,
+        "request_s": {
+          "count": 15,
+          "mean": 5.123902224268144,
+          "median": 5.103442592997453,
+          "min": 4.884465684997849,
+          "max": 5.315626739000436,
+          "sd": 0.11174776773237943
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 5.115189687066595,
+          "median": 5.094844491002732,
+          "min": 4.876024283992592,
+          "max": 5.307060837003519,
+          "sd": 0.11177734204639576
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 8.228421340994187,
+          "median": 8.228421340994187,
+          "min": 8.228421340994187,
+          "max": 8.228421340994187,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 8.228421340994187,
+          "median": 8.228421340994187,
+          "min": 8.228421340994187,
+          "max": 8.228421340994187,
+          "sd": 0.0
+        },
+        "mae_s": 3.1045191167260433,
+        "signed_error_s": -3.1045191167260433,
+        "planning_mae_s": 3.1045191167260433,
+        "planning_underestimates": 0,
+        "violations": 5,
+        "max_overrun_s": 0.2563605410105083,
+        "release_count": 2,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.1517632443971473,
+          0.5828645226148023
+        ]
+      },
+      "speedup_edge_ratio_means": 5.17481982966601
+    },
+    {
+      "corpus": "salary",
+      "n": 5,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 5,
+        "request_s": {
+          "count": 15,
+          "mean": 1.7442665499984287,
+          "median": 1.7343490409984952,
+          "min": 1.50978441699408,
+          "max": 2.0119065000035334,
+          "sd": 0.14913048376658666
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 1.7366542888009766,
+          "median": 1.7304198750061914,
+          "min": 1.5008574170060456,
+          "max": 2.006217000001925,
+          "sd": 0.14999854541714322
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 3.058783143428293,
+          "median": 3.058783143428293,
+          "min": 3.058783143428293,
+          "max": 3.058783143428293,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 3.058783143428293,
+          "median": 3.058783143428293,
+          "min": 3.058783143428293,
+          "max": 3.058783143428293,
+          "sd": 0.0
+        },
+        "mae_s": 1.3145165934298642,
+        "signed_error_s": -1.3145165934298642,
+        "planning_mae_s": 1.3145165934298642,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 5,
+        "request_s": {
+          "count": 15,
+          "mean": 0.29448506293507914,
+          "median": 0.29332095000427216,
+          "min": 0.29024950800521765,
+          "max": 0.3114026469993405,
+          "sd": 0.0050374454652819395
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 0.2857893525341448,
+          "median": 0.28485824799281545,
+          "min": 0.28167400699749123,
+          "max": 0.3029481450066669,
+          "sd": 0.005057088964318977
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 1.2035526676242732,
+          "median": 1.2035526676242732,
+          "min": 1.2035526676242732,
+          "max": 1.2035526676242732,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 1.2035526676242732,
+          "median": 1.2035526676242732,
+          "min": 1.2035526676242732,
+          "max": 1.2035526676242732,
+          "sd": 0.0
+        },
+        "mae_s": 0.909067604689194,
+        "signed_error_s": -0.909067604689194,
+        "planning_mae_s": 0.909067604689194,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 6.076693457617492
+    },
+    {
+      "corpus": "salary",
+      "n": 10,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 10,
+        "request_s": {
+          "count": 15,
+          "mean": 3.75102667506823,
+          "median": 3.732221375001245,
+          "min": 3.4438105419976637,
+          "max": 4.375346458997228,
+          "sd": 0.270757938718494
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 3.7431342415996673,
+          "median": 3.724707125002169,
+          "min": 3.4356964170001447,
+          "max": 4.370402832995751,
+          "sd": 0.271907540919533
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 5.917566286856586,
+          "median": 5.917566286856586,
+          "min": 5.917566286856586,
+          "max": 5.917566286856586,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 5.917566286856586,
+          "median": 5.917566286856586,
+          "min": 5.917566286856586,
+          "max": 5.917566286856586,
+          "sd": 0.0
+        },
+        "mae_s": 2.166539611788356,
+        "signed_error_s": -2.166539611788356,
+        "planning_mae_s": 2.166539611788356,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 1,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 10,
+        "request_s": {
+          "count": 15,
+          "mean": 0.5804753568023443,
+          "median": 0.5798606600001222,
+          "min": 0.5778020620055031,
+          "max": 0.5864572110003792,
+          "sd": 0.002393838497282037
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 0.5717598919999243,
+          "median": 0.5712030560098356,
+          "min": 0.5693165609991411,
+          "max": 0.5772453990066424,
+          "sd": 0.002199211539310933
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 2.2071053352485466,
+          "median": 2.2071053352485466,
+          "min": 2.2071053352485466,
+          "max": 2.2071053352485466,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 2.2071053352485466,
+          "median": 2.2071053352485466,
+          "min": 2.2071053352485466,
+          "max": 2.2071053352485466,
+          "sd": 0.0
+        },
+        "mae_s": 1.6266299784462022,
+        "signed_error_s": -1.6266299784462022,
+        "planning_mae_s": 1.6266299784462022,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 0,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 6.546689080457856
+    },
+    {
+      "corpus": "salary",
+      "n": 20,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 20,
+        "request_s": {
+          "count": 15,
+          "mean": 7.204341172134931,
+          "median": 7.228611875005299,
+          "min": 6.003476666999632,
+          "max": 8.916678791996674,
+          "sd": 0.673190027399359
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 7.196522011199462,
+          "median": 7.220324750000145,
+          "min": 5.994502874993486,
+          "max": 8.908098542000516,
+          "sd": 0.6729146426531578
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 11.635132573713172,
+          "median": 11.635132573713172,
+          "min": 11.635132573713172,
+          "max": 11.635132573713172,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 11.635132573713172,
+          "median": 11.635132573713172,
+          "min": 11.635132573713172,
+          "max": 11.635132573713172,
+          "sd": 0.0
+        },
+        "mae_s": 4.430791401578241,
+        "signed_error_s": -4.430791401578241,
+        "planning_mae_s": 4.430791401578241,
+        "planning_underestimates": 0,
+        "violations": 5,
+        "max_overrun_s": 2.252379750003456,
+        "release_count": 10,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.1517632443971473,
+          0.5828645226148023
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 20,
+        "request_s": {
+          "count": 15,
+          "mean": 1.152596725867867,
+          "median": 1.153239400999155,
+          "min": 1.142946491992916,
+          "max": 1.1623010420007631,
+          "sd": 0.005418949965748539
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 1.1437646670645336,
+          "median": 1.1446536979929078,
+          "min": 1.133540880997316,
+          "max": 1.1538658429926727,
+          "sd": 0.005560206274106723
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 4.214210670497093,
+          "median": 4.214210670497093,
+          "min": 4.214210670497093,
+          "max": 4.214210670497093,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 4.214210670497093,
+          "median": 4.214210670497093,
+          "min": 4.214210670497093,
+          "max": 4.214210670497093,
+          "sd": 0.0
+        },
+        "mae_s": 3.061613944629226,
+        "signed_error_s": -3.061613944629226,
+        "planning_mae_s": 3.061613944629226,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 8,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 6.291960416708185
+    },
+    {
+      "corpus": "salary",
+      "n": 40,
+      "Mac": {
+        "runs": 15,
+        "n_mean": 40,
+        "request_s": {
+          "count": 15,
+          "mean": 14.55514621400216,
+          "median": 14.46933295900817,
+          "min": 12.56434487500519,
+          "max": 17.824414250004338,
+          "sd": 1.4073009542056554
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 14.545777827868005,
+          "median": 14.460498583997833,
+          "min": 12.548297875007847,
+          "max": 17.81548454199219,
+          "sd": 1.4081028730700784
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 23.070265147426344,
+          "median": 23.070265147426344,
+          "min": 23.070265147426344,
+          "max": 23.070265147426344,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 23.070265147426344,
+          "median": 23.070265147426344,
+          "min": 23.070265147426344,
+          "max": 23.070265147426344,
+          "sd": 0.0
+        },
+        "mae_s": 8.515118933424183,
+        "signed_error_s": -8.515118933424183,
+        "planning_mae_s": 8.515118933424183,
+        "planning_underestimates": 0,
+        "violations": 6,
+        "max_overrun_s": 12.824414250004338,
+        "release_count": 15,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0.1982449614134158,
+          0.6425316987937539
+        ]
+      },
+      "RTX": {
+        "runs": 15,
+        "n_mean": 40,
+        "request_s": {
+          "count": 15,
+          "mean": 2.2999500965990594,
+          "median": 2.301749317004578,
+          "min": 2.275723516999278,
+          "max": 2.3159928870009026,
+          "sd": 0.011580081747722607
+        },
+        "edge_s": {
+          "count": 15,
+          "mean": 2.2910327768011483,
+          "median": 2.2918887980049476,
+          "min": 2.2663737069960916,
+          "max": 2.3068717760033906,
+          "sd": 0.011659458421170367
+        },
+        "cloud_s": {
+          "count": 15,
+          "mean": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "max": 0.0,
+          "sd": 0.0
+        },
+        "expected_s": {
+          "count": 15,
+          "mean": 8.228421340994187,
+          "median": 8.228421340994187,
+          "min": 8.228421340994187,
+          "max": 8.228421340994187,
+          "sd": 0.0
+        },
+        "planning_s": {
+          "count": 15,
+          "mean": 8.228421340994187,
+          "median": 8.228421340994187,
+          "min": 8.228421340994187,
+          "max": 8.228421340994187,
+          "sd": 0.0
+        },
+        "mae_s": 5.928471244395127,
+        "signed_error_s": -5.928471244395127,
+        "planning_mae_s": 5.928471244395127,
+        "planning_underestimates": 0,
+        "violations": 0,
+        "max_overrun_s": 0,
+        "release_count": 15,
+        "evaluable": 0,
+        "success": 0,
+        "success_within_sla": 0,
+        "e42_strict": 0,
+        "e42_no_material_extra": 0,
+        "review_codes": {},
+        "violation_wilson95_exploratory": [
+          0,
+          0.20388330103584862
+        ]
+      },
+      "speedup_edge_ratio_means": 6.349004682585785
+    }
+  ],
+  "quality": [
+    {
+      "platform": "Mac",
+      "case": "dettaglio_condiviso",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 17.655270599998765,
+        "median": 16.957537000009324,
+        "min": 15.31627725000726,
+        "max": 20.486616291978862,
+        "sd": 1.9728459089935884
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 12.292054149799515,
+        "median": 12.296309583005495,
+        "min": 12.256737082992913,
+        "max": 12.341303458000766,
+        "sd": 0.03544322004447375
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 5.353886758396402,
+        "median": 4.691593499999726,
+        "min": 2.9659967919869814,
+        "max": 8.218670416012174,
+        "sd": 1.994948050484316
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "mae_s": 8.679995463423493,
+      "signed_error_s": -8.679995463423493,
+      "planning_mae_s": 8.679995463423493,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "target_wrong": 2,
+        "identifier_correct": 3
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Mac",
+      "case": "dettaglio_unico",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 24.564457008201863,
+        "median": 23.38589116699586,
+        "min": 22.042958750011167,
+        "max": 29.149723374997848,
+        "sd": 2.9038321866832058
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 15.810254866603646,
+        "median": 15.971034582995344,
+        "min": 14.477782000001753,
+        "max": 18.018311500010896,
+        "sd": 1.4553986906891905
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 8.744135983398882,
+        "median": 8.123133291999693,
+        "min": 7.290691709000384,
+        "max": 11.118096332997084,
+        "sd": 1.6138819310191843
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "mae_s": 2.8965919798506334,
+      "signed_error_s": -1.7708090552203983,
+      "planning_mae_s": 2.8965919798506334,
+      "planning_underestimates": 1,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 0,
+      "evaluable": 0,
+      "success": 0,
+      "success_within_sla": 0,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "unique_abstention": 5
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Mac",
+      "case": "errore_assente",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 33.61506788320257,
+        "median": 34.517254500009585,
+        "min": 30.51560008301749,
+        "max": 37.50288395798998,
+        "sd": 2.941431489801695
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 21.562996175006266,
+        "median": 21.516759709018515,
+        "min": 20.797347790998174,
+        "max": 22.351194749993738,
+        "sd": 0.6493345971940135
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 12.041571983398171,
+        "median": 12.44409037497826,
+        "min": 9.708317250013351,
+        "max": 15.141281958000036,
+        "sd": 2.3427781242398296
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "mae_s": 7.279801819780313,
+      "signed_error_s": 7.279801819780313,
+      "planning_mae_s": 7.279801819780313,
+      "planning_underestimates": 5,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "negative_unsupported": 2,
+        "negative_correct": 3
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Mac",
+      "case": "procedura_e42",
+      "runs": 105,
+      "n_mean": 20,
+      "request_s": {
+        "count": 105,
+        "mean": 28.096039453162977,
+        "median": 27.333254457989824,
+        "min": 11.41422454197891,
+        "max": 51.10648316598963,
+        "sd": 10.170459659334163
+      },
+      "edge_s": {
+        "count": 105,
+        "mean": 12.362926615437997,
+        "median": 11.7829551659961,
+        "min": 0.0,
+        "max": 37.40432629198767,
+        "sd": 10.12104295589225
+      },
+      "cloud_s": {
+        "count": 105,
+        "mean": 15.724676640894835,
+        "median": 15.527479167009005,
+        "min": 7.808337291993666,
+        "max": 26.889836749993265,
+        "sd": 3.740419139437568
+      },
+      "expected_s": {
+        "count": 105,
+        "mean": 14.900133489709088,
+        "median": 14.900133489709088,
+        "min": 3.4650009159959154,
+        "max": 26.33526606342226,
+        "sd": 9.126777764031855
+      },
+      "planning_s": {
+        "count": 105,
+        "mean": 14.900133489709088,
+        "median": 14.900133489709088,
+        "min": 3.4650009159959154,
+        "max": 26.33526606342226,
+        "sd": 9.126777764031855
+      },
+      "mae_s": 13.19590596345389,
+      "signed_error_s": 13.19590596345389,
+      "planning_mae_s": 13.19590596345389,
+      "planning_underestimates": 105,
+      "violations": 93,
+      "max_overrun_s": 35.92712404199119,
+      "release_count": 36,
+      "evaluable": 105,
+      "success": 34,
+      "success_within_sla": 7,
+      "e42_strict": 0,
+      "e42_no_material_extra": 9,
+      "review_codes": {
+        "C_generic": 9,
+        "C_extra": 25,
+        "A": 59,
+        "A_extra": 1,
+        "G": 9,
+        "P": 2
+      },
+      "violation_wilson95_exploratory": [
+        0.8107987321190485,
+        0.9334029799642095
+      ]
+    },
+    {
+      "platform": "Mac",
+      "case": "super_bowl",
+      "runs": 10,
+      "n_mean": 40,
+      "request_s": {
+        "count": 10,
+        "mean": 20.342491450002125,
+        "median": 20.41031662500609,
+        "min": 16.580740249992232,
+        "max": 25.003887875005603,
+        "sd": 3.3182959164960923
+      },
+      "edge_s": {
+        "count": 10,
+        "mean": 13.101028679097363,
+        "median": 13.003763936998439,
+        "min": 11.966823875001865,
+        "max": 14.155283583997516,
+        "sd": 0.6342791639313066
+      },
+      "cloud_s": {
+        "count": 10,
+        "mean": 7.229114878999826,
+        "median": 7.000535499500984,
+        "min": 3.130951917002676,
+        "max": 12.014585333003197,
+        "sd": 3.2319042220446157
+      },
+      "expected_s": {
+        "count": 10,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 10,
+        "mean": 26.33526606342226,
+        "median": 26.33526606342226,
+        "min": 26.33526606342226,
+        "max": 26.33526606342226,
+        "sd": 0.0
+      },
+      "mae_s": 5.992774613420134,
+      "signed_error_s": -5.992774613420134,
+      "planning_mae_s": 5.992774613420134,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 10,
+      "success": 8,
+      "success_within_sla": 8,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "target_correct": 8,
+        "contradictory": 1,
+        "target_wrong": 1
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "platform": "RTX",
+      "case": "dettaglio_condiviso",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 6.078728011404746,
+        "median": 5.817675132013392,
+        "min": 4.761125882010674,
+        "max": 8.070041840997874,
+        "sd": 1.275412939832884
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 2.342401514999801,
+        "median": 2.3462907310022274,
+        "min": 2.325321183001506,
+        "max": 2.3656809809908736,
+        "sd": 0.016536806090747147
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 3.725092131999554,
+        "median": 3.4542838229972403,
+        "min": 2.4237090829992667,
+        "max": 5.694482396997046,
+        "sd": 1.2650322305628847
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "mae_s": 3.8696692055972504,
+      "signed_error_s": -3.8696692055972504,
+      "planning_mae_s": 3.8696692055972504,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 4,
+      "success_within_sla": 4,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "identifier_correct": 4,
+        "target_wrong": 1
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "RTX",
+      "case": "dettaglio_unico",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 8.41587944299972,
+        "median": 7.901857826000196,
+        "min": 6.465176325000357,
+        "max": 12.018526971005485,
+        "sd": 2.143157658774336
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 2.744416634598747,
+        "median": 2.743188159991405,
+        "min": 2.7158073500031605,
+        "max": 2.787422567998874,
+        "sd": 0.02774155681149087
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 5.653623130603227,
+        "median": 5.157358866999857,
+        "min": 3.69060685900331,
+        "max": 9.289747763003106,
+        "sd": 2.1578196717725193
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "mae_s": 2.3605696756036707,
+      "signed_error_s": -1.5325177740022753,
+      "planning_mae_s": 2.3605696756036707,
+      "planning_underestimates": 1,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 0,
+      "evaluable": 0,
+      "success": 0,
+      "success_within_sla": 0,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "unique_abstention": 5
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "RTX",
+      "case": "errore_assente",
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 9.422291849000612,
+        "median": 9.995403494991479,
+        "min": 6.928813838007045,
+        "max": 12.095531240003766,
+        "sd": 2.198669041751359
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 4.305948614800582,
+        "median": 4.384602549005649,
+        "min": 3.8538984379993053,
+        "max": 4.713824856997235,
+        "sd": 0.3423939851716829
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 5.10646693239687,
+        "median": 5.271457169990754,
+        "min": 2.844471442003851,
+        "max": 7.701215732013225,
+        "sd": 1.9652825127999287
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "mae_s": 1.6976386163958352,
+      "signed_error_s": -0.5261053680013845,
+      "planning_mae_s": 1.6976386163958352,
+      "planning_underestimates": 3,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "negative_correct": 3,
+        "negative_unsupported": 2
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "RTX",
+      "case": "procedura_e42",
+      "runs": 105,
+      "n_mean": 21.904761904761905,
+      "request_s": {
+        "count": 105,
+        "mean": 13.020544582409396,
+        "median": 12.2268648629979,
+        "min": 7.283010094994097,
+        "max": 28.393147880997276,
+        "sd": 3.6898000595276366
+      },
+      "edge_s": {
+        "count": 105,
+        "mean": 2.8417091805051315,
+        "median": 2.6258523559954483,
+        "min": 0.0,
+        "max": 5.4817894630105,
+        "sd": 2.186551076236628
+      },
+      "cloud_s": {
+        "count": 105,
+        "mean": 10.168945861333105,
+        "median": 9.67272792001313,
+        "min": 3.9901896869996563,
+        "max": 25.749996867991285,
+        "sd": 3.3193705600028296
+      },
+      "expected_s": {
+        "count": 105,
+        "mean": 6.316492324647484,
+        "median": 5.934186546504904,
+        "min": 1.9199758760078112,
+        "max": 9.948397217001997,
+        "sd": 3.4156559059109086
+      },
+      "planning_s": {
+        "count": 105,
+        "mean": 6.316492324647484,
+        "median": 5.934186546504904,
+        "min": 1.9199758760078112,
+        "max": 9.948397217001997,
+        "sd": 3.4156559059109086
+      },
+      "mae_s": 6.722575864162053,
+      "signed_error_s": 6.704052257761912,
+      "planning_mae_s": 6.722575864162053,
+      "planning_underestimates": 102,
+      "violations": 47,
+      "max_overrun_s": 19.220994582572065,
+      "release_count": 28,
+      "evaluable": 105,
+      "success": 27,
+      "success_within_sla": 25,
+      "e42_strict": 2,
+      "e42_no_material_extra": 11,
+      "review_codes": {
+        "C_extra": 16,
+        "C_generic": 9,
+        "A": 66,
+        "A_extra": 1,
+        "G": 9,
+        "P": 1,
+        "C": 2,
+        "X": 1
+      },
+      "violation_wilson95_exploratory": [
+        0.3560327891916607,
+        0.5429027807723413
+      ]
+    },
+    {
+      "platform": "RTX",
+      "case": "super_bowl",
+      "runs": 10,
+      "n_mean": 40,
+      "request_s": {
+        "count": 10,
+        "mean": 7.808202610300214,
+        "median": 6.348515263998706,
+        "min": 4.670381104006083,
+        "max": 15.093071909999708,
+        "sd": 3.994746237343785
+      },
+      "edge_s": {
+        "count": 10,
+        "mean": 2.7949744066019777,
+        "median": 2.7900354490047903,
+        "min": 2.7260632370016538,
+        "max": 2.8699837449967163,
+        "sd": 0.054514938301490866
+      },
+      "cloud_s": {
+        "count": 10,
+        "mean": 4.998217850198853,
+        "median": 3.5508115504999296,
+        "min": 1.8099105400033295,
+        "max": 12.322095461000572,
+        "sd": 3.980310042821701
+      },
+      "expected_s": {
+        "count": 10,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 10,
+        "mean": 9.948397217001997,
+        "median": 9.948397217001997,
+        "min": 9.948397217001997,
+        "max": 9.948397217001997,
+        "sd": 0.0
+      },
+      "mae_s": 4.148322833699837,
+      "signed_error_s": -2.140194606701783,
+      "planning_mae_s": 4.148322833699837,
+      "planning_underestimates": 2,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 10,
+      "success": 7,
+      "success_within_sla": 7,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "target_wrong": 1,
+        "target_correct": 7,
+        "contradictory": 2
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "case": "procedura_e42",
+      "runs": 40,
+      "n_mean": 32.6,
+      "request_s": {
+        "count": 40,
+        "mean": 12.514819956174687,
+        "median": 12.037421845001518,
+        "min": 7.8860863510053605,
+        "max": 19.677435747988056,
+        "sd": 2.538632581133687
+      },
+      "edge_s": {
+        "count": 40,
+        "mean": 4.211438630825432,
+        "median": 4.570461978997628,
+        "min": 2.4778534659999423,
+        "max": 5.405860229002428,
+        "sd": 1.0925909248824897
+      },
+      "cloud_s": {
+        "count": 40,
+        "mean": 8.292990665775141,
+        "median": 7.7265359529992566,
+        "min": 4.039120026005548,
+        "max": 16.298469643996214,
+        "sd": 2.868114764742766
+      },
+      "expected_s": {
+        "count": 40,
+        "mean": 11.297864993085373,
+        "median": 10.980913039800699,
+        "min": 9.368130333726487,
+        "max": 14.349924920121945,
+        "sd": 1.7390507360599377
+      },
+      "planning_s": {
+        "count": 40,
+        "mean": 13.605949185472417,
+        "median": 13.47330492464971,
+        "min": 10.191142457174715,
+        "max": 17.882159643719206,
+        "sd": 2.7306563180558094
+      },
+      "mae_s": 2.5081235181514288,
+      "signed_error_s": 1.2169549630893155,
+      "planning_mae_s": 3.2849373780148605,
+      "planning_underestimates": 15,
+      "violations": 4,
+      "max_overrun_s": 4.677435747988056,
+      "release_count": 26,
+      "evaluable": 40,
+      "success": 21,
+      "success_within_sla": 21,
+      "e42_strict": 3,
+      "e42_no_material_extra": 8,
+      "review_codes": {
+        "C_generic": 5,
+        "C_extra": 13,
+        "A": 13,
+        "P": 4,
+        "C": 3,
+        "G": 2
+      },
+      "violation_wilson95_exploratory": [
+        0.03957952868260638,
+        0.23051775227522298
+      ]
+    }
+  ],
+  "drift": {
+    "Mac": [
+      {
+        "corpus": "ticket",
+        "window": "first_five",
+        "run_ids": [
+          "run_004",
+          "run_009",
+          "run_028",
+          "run_039",
+          "run_043"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 24172.527942000306,
+          "median": 24348.344084006385,
+          "min": 22717.869792002602,
+          "max": 25186.36287499976,
+          "sd": 1090.4241663652465
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 1031.2,
+          "median": 1027,
+          "min": 998,
+          "max": 1077,
+          "sd": 32.15120526512187
+        },
+        "gpu_frequency_mhz": {
+          "n": 25,
+          "mean": 1272.84,
+          "median": 1277,
+          "min": 1246,
+          "max": 1277,
+          "sd": 8.335066486437485
+        },
+        "cpu_temperature_c": {
+          "n": 25,
+          "mean": 81.81534851074218,
+          "median": 88.5999526977539,
+          "min": 60.3974723815918,
+          "max": 95.27752685546875,
+          "sd": 13.811450463195612
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "ticket",
+        "window": "last_five",
+        "run_ids": [
+          "run_083",
+          "run_098",
+          "run_106",
+          "run_139",
+          "run_143"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 28858.353250203072,
+          "median": 28396.596459002467,
+          "min": 27630.03454200225,
+          "max": 30921.035375009524,
+          "sd": 1409.1508612480973
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 1043.4,
+          "median": 1042,
+          "min": 1012,
+          "max": 1069,
+          "sd": 21.858636736997116
+        },
+        "gpu_frequency_mhz": {
+          "n": 30,
+          "mean": 1028.7,
+          "median": 1028.5,
+          "min": 786,
+          "max": 1174,
+          "sd": 89.53641139512595
+        },
+        "cpu_temperature_c": {
+          "n": 30,
+          "mean": 90.53723958333333,
+          "median": 89.44471740722656,
+          "min": 86.68020629882812,
+          "max": 98.0937728881836,
+          "sd": 3.347886757194458
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "salary",
+        "window": "first_five",
+        "run_ids": [
+          "run_020",
+          "run_030",
+          "run_032",
+          "run_047",
+          "run_053"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 13126.91708340426,
+          "median": 12740.402167008142,
+          "min": 12548.297875007847,
+          "max": 13835.987833997933,
+          "sd": 635.063512454334
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 200,
+          "median": 200,
+          "min": 200,
+          "max": 200,
+          "sd": 0.0
+        },
+        "gpu_frequency_mhz": {
+          "n": 13,
+          "mean": 1242.4615384615386,
+          "median": 1274,
+          "min": 1180,
+          "max": 1277,
+          "sd": 40.353883300568455
+        },
+        "cpu_temperature_c": {
+          "n": 13,
+          "mean": 91.53846975473257,
+          "median": 93.63214874267578,
+          "min": 78.08092498779297,
+          "max": 95.98153686523438,
+          "sd": 6.142400449073201
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "salary",
+        "window": "last_five",
+        "run_ids": [
+          "run_099",
+          "run_103",
+          "run_120",
+          "run_126",
+          "run_134"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 15991.46624180139,
+          "median": 15724.302333997912,
+          "min": 15007.42987501144,
+          "max": 17815.48454199219,
+          "sd": 1158.59587821835
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 200.2,
+          "median": 200,
+          "min": 200,
+          "max": 201,
+          "sd": 0.4472135954999579
+        },
+        "gpu_frequency_mhz": {
+          "n": 16,
+          "mean": 974.875,
+          "median": 988.5,
+          "min": 844,
+          "max": 1066,
+          "sd": 58.646824295949735
+        },
+        "cpu_temperature_c": {
+          "n": 16,
+          "mean": 89.89285802841187,
+          "median": 89.50997543334961,
+          "min": 86.98821258544922,
+          "max": 93.73406982421875,
+          "sd": 1.9439416837595287
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      }
+    ],
+    "RTX": [
+      {
+        "corpus": "ticket",
+        "window": "first_five",
+        "run_ids": [
+          "run_004",
+          "run_009",
+          "run_028",
+          "run_039",
+          "run_043"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 5060.4612387978705,
+          "median": 5062.760002998402,
+          "min": 5019.3562189961085,
+          "max": 5094.844491002732,
+          "sd": 28.31267269596781
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 1023.4,
+          "median": 1033,
+          "min": 998,
+          "max": 1035,
+          "sd": 16.009372255026115
+        },
+        "gpu_frequency_mhz": {
+          "n": 5,
+          "mean": 1848.0,
+          "median": 1845.0,
+          "min": 1845.0,
+          "max": 1860.0,
+          "sd": 6.708203932499369
+        },
+        "cpu_temperature_c": {
+          "n": 5,
+          "mean": 54.2,
+          "median": 55.0,
+          "min": 49.0,
+          "max": 59.0,
+          "sd": 5.019960159204453
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "ticket",
+        "window": "last_five",
+        "run_ids": [
+          "run_083",
+          "run_098",
+          "run_106",
+          "run_139",
+          "run_143"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 5232.62347280106,
+          "median": 5247.518233998562,
+          "min": 5155.735713997274,
+          "max": 5307.060837003519,
+          "sd": 65.50661618867365
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 1059.2,
+          "median": 1067,
+          "min": 1033,
+          "max": 1080,
+          "sd": 19.84187491140895
+        },
+        "gpu_frequency_mhz": {
+          "n": 5,
+          "mean": 1812.0,
+          "median": 1830.0,
+          "min": 1770.0,
+          "max": 1830.0,
+          "sd": 26.832815729997478
+        },
+        "cpu_temperature_c": {
+          "n": 5,
+          "mean": 60.0,
+          "median": 60.0,
+          "min": 59.0,
+          "max": 62.0,
+          "sd": 1.224744871391589
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "salary",
+        "window": "first_five",
+        "run_ids": [
+          "run_020",
+          "run_030",
+          "run_032",
+          "run_047",
+          "run_053"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 2288.670360200922,
+          "median": 2290.0574049999705,
+          "min": 2266.3737069960916,
+          "max": 2302.778021010454,
+          "sd": 13.875178280985233
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 200.4,
+          "median": 200,
+          "min": 200,
+          "max": 201,
+          "sd": 0.5477225575051661
+        },
+        "gpu_frequency_mhz": {
+          "n": 4,
+          "mean": 1777.5,
+          "median": 1777.5,
+          "min": 1725.0,
+          "max": 1830.0,
+          "sd": 46.636895265444075
+        },
+        "cpu_temperature_c": {
+          "n": 4,
+          "mean": 58.5,
+          "median": 59.5,
+          "min": 53.0,
+          "max": 62.0,
+          "sd": 3.872983346207417
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      },
+      {
+        "corpus": "salary",
+        "window": "last_five",
+        "run_ids": [
+          "run_099",
+          "run_103",
+          "run_120",
+          "run_126",
+          "run_134"
+        ],
+        "edge_ms": {
+          "n": 5,
+          "mean": 2296.5786510001635,
+          "median": 2295.3867159958463,
+          "min": 2290.3677519934718,
+          "max": 2306.8717760033906,
+          "sd": 6.541741785970847
+        },
+        "completion_tokens_visible": {
+          "n": 5,
+          "mean": 200.2,
+          "median": 200,
+          "min": 200,
+          "max": 201,
+          "sd": 0.4472135954999579
+        },
+        "gpu_frequency_mhz": {
+          "n": 3,
+          "mean": 1785.0,
+          "median": 1785.0,
+          "min": 1755.0,
+          "max": 1815.0,
+          "sd": 30.0
+        },
+        "cpu_temperature_c": {
+          "n": 3,
+          "mean": 59.666666666666664,
+          "median": 60.0,
+          "min": 59.0,
+          "max": 60.0,
+          "sd": 0.5773502691896257
+        },
+        "scope": "Same corpus/query/fixed N=40; observational association, not causality"
+      }
+    ]
+  },
+  "comparator": [
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "direct_refresh",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 15.0,
+      "runs": 5,
+      "n_mean": 29.8,
+      "request_s": {
+        "count": 5,
+        "mean": 14.42827046799648,
+        "median": 12.754396284988616,
+        "min": 9.168256675999146,
+        "max": 19.677435747988056,
+        "sd": 4.527933394843164
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 3.8261135161999844,
+        "median": 3.7477771670091897,
+        "min": 3.668973460997222,
+        "max": 3.9962702990014805,
+        "sd": 0.15181170881688566
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 10.593773247799254,
+        "median": 8.749761254992336,
+        "min": 5.423677323007723,
+        "max": 16.00031917200249,
+        "sd": 4.6049481468168105
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 11.775466307678531,
+        "median": 11.778654764513096,
+        "min": 11.770683622426683,
+        "max": 11.778654764513096,
+        "sd": 0.004365974329807332
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 14.886600327750784,
+        "median": 14.907233062796877,
+        "min": 14.855651225181646,
+        "max": 14.907233062796877,
+        "sd": 0.028252536019430532
+      },
+      "mae_s": 3.69696339572353,
+      "signed_error_s": 2.65280416031795,
+      "planning_mae_s": 3.855384725512704,
+      "planning_underestimates": 2,
+      "violations": 2,
+      "max_overrun_s": 4.677435747988056,
+      "release_count": 3,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 0,
+      "e42_no_material_extra": 1,
+      "review_codes": {
+        "C_extra": 2,
+        "C_generic": 1,
+        "A": 2
+      },
+      "violation_wilson95_exploratory": [
+        0.11762077423264783,
+        0.769275718723987
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "direct_refresh",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 30.0,
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 12.259186439603218,
+        "median": 12.076580353997997,
+        "min": 10.782789253004012,
+        "max": 15.042216618006933,
+        "sd": 1.6662059364546395
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 5.241633893401013,
+        "median": 5.2070730780105805,
+        "min": 5.124918546993285,
+        "max": 5.405860229002428,
+        "sd": 0.11972144088789037
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 7.004831377998926,
+        "median": 6.780770329001825,
+        "min": 5.4510668919974705,
+        "max": 9.909086350002326,
+        "sd": 1.7299251918512366
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 13.981815392321247,
+        "median": 13.736409040454115,
+        "min": 13.736409040454115,
+        "max": 14.349924920121945,
+        "sd": 0.33603648668169545
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 17.423467324028024,
+        "median": 17.117672444233904,
+        "min": 17.117672444233904,
+        "max": 17.882159643719206,
+        "sd": 0.4187268840820517
+      },
+      "mae_s": 2.244951983739156,
+      "signed_error_s": -1.7226289527180287,
+      "planning_mae_s": 5.164280884424807,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 5,
+      "success_within_sla": 5,
+      "e42_strict": 0,
+      "e42_no_material_extra": 3,
+      "review_codes": {
+        "C_generic": 3,
+        "C_extra": 2
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "direct_static",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 15.0,
+      "runs": 5,
+      "n_mean": 31,
+      "request_s": {
+        "count": 5,
+        "mean": 12.309776496596168,
+        "median": 12.61584420100553,
+        "min": 10.10142634800286,
+        "max": 13.292001111985883,
+        "sd": 1.2852893592009162
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 3.995195830799639,
+        "median": 4.014738916011993,
+        "min": 3.867126114986604,
+        "max": 4.109086954005761,
+        "sd": 0.09545811645726071
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 8.305844016402261,
+        "median": 8.498479827001574,
+        "min": 6.0403034949995345,
+        "max": 9.269025180008612,
+        "sd": 1.3240490567314995
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 11.770683622426683,
+        "median": 11.770683622426683,
+        "min": 11.770683622426683,
+        "max": 11.770683622426683,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 14.855651225181646,
+        "median": 14.855651225181646,
+        "min": 14.855651225181646,
+        "max": 14.855651225181646,
+        "sd": 0.0
+      },
+      "mae_s": 1.206795783939015,
+      "signed_error_s": 0.539092874169486,
+      "planning_mae_s": 2.545874728585477,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 2,
+      "evaluable": 5,
+      "success": 2,
+      "success_within_sla": 2,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "A": 3,
+        "C_extra": 2
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "direct_static",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 30.0,
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 11.930282499000896,
+        "median": 11.915194973989855,
+        "min": 10.427239370997995,
+        "max": 13.469126005002181,
+        "sd": 1.1793517298277199
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 5.160915357802878,
+        "median": 5.1633369350020075,
+        "min": 5.072359354002401,
+        "max": 5.303026966998004,
+        "sd": 0.09079701940551821
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 6.760959776400705,
+        "median": 6.8348610020038905,
+        "min": 5.115583278995473,
+        "max": 8.287070247999509,
+        "sd": 1.2326598354128364
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 13.736409040454115,
+        "median": 13.736409040454115,
+        "min": 13.736409040454115,
+        "max": 13.736409040454115,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 17.117672444233904,
+        "median": 17.117672444233904,
+        "min": 17.117672444233904,
+        "max": 17.117672444233904,
+        "sd": 0.0
+      },
+      "mae_s": 1.806126541453219,
+      "signed_error_s": -1.806126541453219,
+      "planning_mae_s": 5.187389945233008,
+      "planning_underestimates": 0,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 4,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 1,
+      "e42_no_material_extra": 1,
+      "review_codes": {
+        "C_extra": 2,
+        "A": 1,
+        "P": 1,
+        "C": 1
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "fixed_20",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 15.0,
+      "runs": 5,
+      "n_mean": 20,
+      "request_s": {
+        "count": 5,
+        "mean": 11.788386976002949,
+        "median": 10.992412690000492,
+        "min": 10.469717487998423,
+        "max": 15.196464124004706,
+        "sd": 1.9552452800896118
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 2.5500844510039316,
+        "median": 2.5384412959974725,
+        "min": 2.4778534659999423,
+        "max": 2.6181578620016808,
+        "sd": 0.052163803083101264
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 9.226796833996195,
+        "median": 8.406746663997183,
+        "min": 7.9709767080057645,
+        "max": 12.567346899988479,
+        "sd": 1.9156288706631484
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 9.368130333726487,
+        "median": 9.368130333726487,
+        "min": 9.368130333726487,
+        "max": 9.368130333726487,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 12.090958624117775,
+        "median": 12.090958624117775,
+        "min": 12.090958624117775,
+        "max": 12.090958624117775,
+        "sd": 0.0
+      },
+      "mae_s": 2.420256642276461,
+      "signed_error_s": 2.420256642276461,
+      "planning_mae_s": 1.544773848069599,
+      "planning_underestimates": 1,
+      "violations": 1,
+      "max_overrun_s": 0.1964641240047058,
+      "release_count": 1,
+      "evaluable": 5,
+      "success": 0,
+      "success_within_sla": 0,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "A": 3,
+        "P": 1,
+        "G": 1
+      },
+      "violation_wilson95_exploratory": [
+        0.03622410863243014,
+        0.6244653702374747
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "fixed_20",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 30.0,
+      "runs": 5,
+      "n_mean": 20,
+      "request_s": {
+        "count": 5,
+        "mean": 13.056978399600485,
+        "median": 13.221623300007195,
+        "min": 7.8860863510053605,
+        "max": 18.784889143993496,
+        "sd": 4.384000846806733
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 2.613084035803331,
+        "median": 2.638263522996567,
+        "min": 2.478402785010985,
+        "max": 2.703999838005984,
+        "sd": 0.08462463492592984
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 10.43241727160057,
+        "median": 10.562694765001652,
+        "min": 5.2812366069993,
+        "max": 16.298469643996214,
+        "sd": 4.417693389247688
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 9.368130333726487,
+        "median": 9.368130333726487,
+        "min": 9.368130333726487,
+        "max": 9.368130333726487,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 12.090958624117775,
+        "median": 12.090958624117775,
+        "min": 12.090958624117775,
+        "max": 12.090958624117775,
+        "sd": 0.0
+      },
+      "mae_s": 4.2816656589624476,
+      "signed_error_s": 3.688848065873997,
+      "planning_mae_s": 3.5735667531756916,
+      "planning_underestimates": 3,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 2,
+      "evaluable": 5,
+      "success": 2,
+      "success_within_sla": 2,
+      "e42_strict": 0,
+      "e42_no_material_extra": 0,
+      "review_codes": {
+        "C_extra": 2,
+        "A": 3
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "legacy",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 15.0,
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 12.357248821400571,
+        "median": 11.738734223006759,
+        "min": 10.820459137001308,
+        "max": 15.048755894997157,
+        "sd": 1.628763657185404
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 5.147602098996868,
+        "median": 5.101062718007597,
+        "min": 5.0369208679912845,
+        "max": 5.314503230998525,
+        "sd": 0.11510770011368449
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 7.198467276000883,
+        "median": 6.521648242007359,
+        "min": 5.583940551005071,
+        "max": 9.939501350992941,
+        "sd": 1.680942942724556
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 10.191142457174715,
+        "median": 10.191142457174715,
+        "min": 10.191142457174715,
+        "max": 10.191142457174715,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 10.191142457174715,
+        "median": 10.191142457174715,
+        "min": 10.191142457174715,
+        "max": 10.191142457174715,
+        "sd": 0.0
+      },
+      "mae_s": 2.1661063642258567,
+      "signed_error_s": 2.1661063642258567,
+      "planning_mae_s": 2.1661063642258567,
+      "planning_underestimates": 5,
+      "violations": 1,
+      "max_overrun_s": 0.048755894997157156,
+      "release_count": 4,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 1,
+      "e42_no_material_extra": 2,
+      "review_codes": {
+        "A": 1,
+        "C_generic": 1,
+        "C_extra": 1,
+        "C": 1,
+        "G": 1
+      },
+      "violation_wilson95_exploratory": [
+        0.03622410863243014,
+        0.6244653702374747
+      ]
+    },
+    {
+      "platform": "Confronto",
+      "phase": "confronto",
+      "corpus": "ticket",
+      "case": "procedura_e42",
+      "variant": "legacy",
+      "epsilon": 8,
+      "delta_ptr": 0.01,
+      "sla_s": 30.0,
+      "runs": 5,
+      "n_mean": 40,
+      "request_s": {
+        "count": 5,
+        "mean": 11.988429549196734,
+        "median": 11.998263336005039,
+        "min": 9.079055750000407,
+        "max": 14.906021602000692,
+        "sd": 2.06794671466114
+      },
+      "edge_s": {
+        "count": 5,
+        "mean": 5.156879862595815,
+        "median": 5.14960241499648,
+        "min": 5.031837003989494,
+        "max": 5.267132995999418,
+        "sd": 0.08553217384583708
+      },
+      "cloud_s": {
+        "count": 5,
+        "mean": 6.820835526002338,
+        "median": 6.797567229004926,
+        "min": 4.039120026005548,
+        "max": 9.736006168997847,
+        "sd": 2.0196753020827405
+      },
+      "expected_s": {
+        "count": 5,
+        "mean": 10.191142457174715,
+        "median": 10.191142457174715,
+        "min": 10.191142457174715,
+        "max": 10.191142457174715,
+        "sd": 0.0
+      },
+      "planning_s": {
+        "count": 5,
+        "mean": 10.191142457174715,
+        "median": 10.191142457174715,
+        "min": 10.191142457174715,
+        "max": 10.191142457174715,
+        "sd": 0.0
+      },
+      "mae_s": 2.2421217748917432,
+      "signed_error_s": 1.7972870920220199,
+      "planning_mae_s": 2.2421217748917432,
+      "planning_underestimates": 4,
+      "violations": 0,
+      "max_overrun_s": 0,
+      "release_count": 5,
+      "evaluable": 5,
+      "success": 3,
+      "success_within_sla": 3,
+      "e42_strict": 1,
+      "e42_no_material_extra": 1,
+      "review_codes": {
+        "C_extra": 2,
+        "P": 2,
+        "C": 1
+      },
+      "violation_wilson95_exploratory": [
+        0,
+        0.43448246478317476
+      ]
+    }
+  ],
+  "cloud_overall": {
+    "Mac": {
+      "runs": 130,
+      "n_mean": 23.846153846153847,
+      "request_s": {
+        "count": 130,
+        "mean": 27.174484881070384,
+        "median": 25.966296145503293,
+        "min": 11.41422454197891,
+        "max": 51.10648316598963,
+        "sd": 9.721334804810327
+      },
+      "edge_s": {
+        "count": 130,
+        "mean": 12.90341621053085,
+        "median": 12.255111082995427,
+        "min": 0.0,
+        "max": 37.40432629198767,
+        "sd": 9.283310540667022
+      },
+      "cloud_s": {
+        "count": 130,
+        "mean": 14.262155151614794,
+        "median": 14.90873320850369,
+        "min": 2.9659967919869814,
+        "max": 26.889836749993265,
+        "sd": 4.733394190556498
+      },
+      "expected_s": {
+        "count": 130,
+        "mean": 17.09919744619239,
+        "median": 14.900133489709088,
+        "min": 3.4650009159959154,
+        "max": 26.33526606342226,
+        "sd": 9.360725826669142
+      },
+      "planning_s": {
+        "count": 130,
+        "mean": 17.09919744619239,
+        "median": 14.900133489709088,
+        "min": 3.4650009159959154,
+        "max": 26.33526606342226,
+        "sd": 9.360725826669142
+      },
+      "mae_s": 11.844460143170247,
+      "signed_error_s": 10.075287434877994,
+      "planning_mae_s": 11.844460143170247,
+      "planning_underestimates": 111,
+      "violations": 93,
+      "max_overrun_s": 35.92712404199119,
+      "release_count": 51,
+      "evaluable": 125,
+      "success": 48,
+      "success_within_sla": 21,
+      "e42_strict": 0,
+      "e42_no_material_extra": 9,
+      "review_codes": {
+        "unique_abstention": 5,
+        "C_generic": 9,
+        "target_correct": 8,
+        "C_extra": 25,
+        "contradictory": 1,
+        "target_wrong": 3,
+        "A": 59,
+        "A_extra": 1,
+        "G": 9,
+        "P": 2,
+        "negative_unsupported": 2,
+        "identifier_correct": 3,
+        "negative_correct": 3
+      },
+      "violation_wilson95_exploratory": [
+        0.6325077267145672,
+        0.7858977546170623
+      ]
+    },
+    "RTX": {
+      "runs": 130,
+      "n_mean": 25.384615384615383,
+      "request_s": {
+        "count": 130,
+        "mean": 12.037105413638571,
+        "median": 11.828980723497807,
+        "min": 4.670381104006083,
+        "max": 28.393147880997276,
+        "sd": 4.093301271100892
+      },
+      "edge_s": {
+        "count": 130,
+        "mean": 2.8714849372388787,
+        "median": 2.726156789001834,
+        "min": 0.0,
+        "max": 5.4817894630105,
+        "sd": 1.9876457121240212
+      },
+      "cloud_s": {
+        "count": 130,
+        "mean": 9.15498003782279,
+        "median": 9.143356740001764,
+        "min": 1.8099105400033295,
+        "max": 25.749996867991285,
+        "sd": 3.8381644570840647
+      },
+      "expected_s": {
+        "count": 130,
+        "mean": 7.0149355731771985,
+        "median": 9.948397217001997,
+        "min": 1.9199758760078112,
+        "max": 9.948397217001997,
+        "sd": 3.3868060120065095
+      },
+      "planning_s": {
+        "count": 130,
+        "mean": 7.0149355731771985,
+        "median": 9.948397217001997,
+        "min": 1.9199758760078112,
+        "max": 9.948397217001997,
+        "sd": 3.3868060120065095
+      },
+      "mae_s": 6.053792935092289,
+      "signed_error_s": 5.022169840461372,
+      "planning_mae_s": 6.053792935092289,
+      "planning_underestimates": 108,
+      "violations": 47,
+      "max_overrun_s": 19.220994582572065,
+      "release_count": 43,
+      "evaluable": 125,
+      "success": 41,
+      "success_within_sla": 39,
+      "e42_strict": 2,
+      "e42_no_material_extra": 11,
+      "review_codes": {
+        "unique_abstention": 5,
+        "C_extra": 16,
+        "target_wrong": 2,
+        "target_correct": 7,
+        "contradictory": 2,
+        "C_generic": 9,
+        "A": 66,
+        "A_extra": 1,
+        "G": 9,
+        "P": 1,
+        "C": 2,
+        "X": 1,
+        "negative_correct": 3,
+        "identifier_correct": 4,
+        "negative_unsupported": 2
+      },
+      "violation_wilson95_exploratory": [
+        0.2840206304739772,
+        0.44700441724140383
+      ]
+    },
+    "Confronto": {
+      "runs": 40,
+      "n_mean": 32.6,
+      "request_s": {
+        "count": 40,
+        "mean": 12.514819956174687,
+        "median": 12.037421845001518,
+        "min": 7.8860863510053605,
+        "max": 19.677435747988056,
+        "sd": 2.538632581133687
+      },
+      "edge_s": {
+        "count": 40,
+        "mean": 4.211438630825432,
+        "median": 4.570461978997628,
+        "min": 2.4778534659999423,
+        "max": 5.405860229002428,
+        "sd": 1.0925909248824897
+      },
+      "cloud_s": {
+        "count": 40,
+        "mean": 8.292990665775141,
+        "median": 7.7265359529992566,
+        "min": 4.039120026005548,
+        "max": 16.298469643996214,
+        "sd": 2.868114764742766
+      },
+      "expected_s": {
+        "count": 40,
+        "mean": 11.297864993085373,
+        "median": 10.980913039800699,
+        "min": 9.368130333726487,
+        "max": 14.349924920121945,
+        "sd": 1.7390507360599377
+      },
+      "planning_s": {
+        "count": 40,
+        "mean": 13.605949185472417,
+        "median": 13.47330492464971,
+        "min": 10.191142457174715,
+        "max": 17.882159643719206,
+        "sd": 2.7306563180558094
+      },
+      "mae_s": 2.5081235181514288,
+      "signed_error_s": 1.2169549630893155,
+      "planning_mae_s": 3.2849373780148605,
+      "planning_underestimates": 15,
+      "violations": 4,
+      "max_overrun_s": 4.677435747988056,
+      "release_count": 26,
+      "evaluable": 40,
+      "success": 21,
+      "success_within_sla": 21,
+      "e42_strict": 3,
+      "e42_no_material_extra": 8,
+      "review_codes": {
+        "C_generic": 5,
+        "C_extra": 13,
+        "A": 13,
+        "P": 4,
+        "C": 3,
+        "G": 2
+      },
+      "violation_wilson95_exploratory": [
+        0.03957952868260638,
+        0.23051775227522298
+      ]
+    }
+  },
+  "conditional_scope": "60000 trials conditional on cached local drafts, not independent end-to-end requests",
+  "refresh_count": 1
+}
